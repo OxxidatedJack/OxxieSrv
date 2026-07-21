@@ -1,0 +1,55 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:stick": 8,
+      "minecraft:oak_planks": 8,
+      "minecraft:crafting_table": 1,
+      "minecraft:iron_axe": 1
+    },
+    "minecraft:used": {
+      "minecraft:iron_axe": 23,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 0,
+      "minecraft:walk_one_cm": 5429,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 2,
+      "minecraft:damage_taken": 90,
+      "minecraft:damage_dealt": 400,
+      "minecraft:play_time": 2909,
+      "minecraft:jump": 41,
+      "minecraft:time_since_death": 0,
+      "minecraft:sprint_one_cm": 6123,
+      "minecraft:fall_one_cm": 883,
+      "minecraft:total_world_time": 2909,
+      "minecraft:fly_one_cm": 7663,
+      "minecraft:walk_on_water_one_cm": 535,
+      "minecraft:crouch_one_cm": 1,
+      "minecraft:sneak_time": 20,
+      "minecraft:deaths": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:tipped_arrow": 1,
+      "minecraft:spruce_log": 11,
+      "minecraft:oak_log": 2,
+      "minecraft:baked_potato": 14,
+      "minecraft:crafting_table": 1,
+      "minecraft:bone": 4,
+      "minecraft:arrow": 2,
+      "minecraft:iron_ingot": 24
+    },
+    "minecraft:killed": {
+      "minecraft:stray": 2
+    },
+    "minecraft:mined": {
+      "minecraft:oak_leaves": 3,
+      "minecraft:spruce_log": 12,
+      "minecraft:crafting_table": 1,
+      "minecraft:oak_log": 2,
+      "minecraft:spruce_leaves": 2
+    }
+  },
+  "DataVersion": 4790
+}

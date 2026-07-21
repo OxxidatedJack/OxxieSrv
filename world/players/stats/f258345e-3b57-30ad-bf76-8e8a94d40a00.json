@@ -1,0 +1,63 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:talked_to_villager": 1,
+      "minecraft:time_since_rest": 8047,
+      "minecraft:walk_one_cm": 7944,
+      "minecraft:leave_game": 2,
+      "minecraft:damage_taken": 48,
+      "minecraft:damage_dealt": 7,
+      "minecraft:play_time": 8047,
+      "minecraft:jump": 233,
+      "minecraft:time_since_death": 8047,
+      "minecraft:drop": 1,
+      "minecraft:open_enderchest": 1,
+      "minecraft:interact_with_brewingstand": 2,
+      "minecraft:interact_with_furnace": 6,
+      "minecraft:sprint_one_cm": 41721,
+      "minecraft:open_chest": 4,
+      "minecraft:interact_with_smithing_table": 3,
+      "minecraft:fall_one_cm": 9339,
+      "minecraft:total_world_time": 8047,
+      "minecraft:fly_one_cm": 51420,
+      "minecraft:walk_on_water_one_cm": 453,
+      "minecraft:crouch_one_cm": 3,
+      "minecraft:sneak_time": 11
+    },
+    "minecraft:used": {
+      "minecraft:sand": 1,
+      "minecraft:diamond_helmet": 1,
+      "minecraft:beetroot": 1,
+      "minecraft:diamond_leggings": 1,
+      "minecraft:melon_slice": 5,
+      "minecraft:diamond_boots": 1,
+      "minecraft:diamond_chestplate": 1
+    },
+    "minecraft:mined": {
+      "minecraft:beetroots": 1,
+      "minecraft:melon": 1,
+      "minecraft:sand": 1,
+      "minecraft:short_dry_grass": 2,
+      "minecraft:dead_bush": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:diamond_sword": 1,
+      "minecraft:stick": 1,
+      "minecraft:diamond_helmet": 1,
+      "minecraft:diamond_boots": 1,
+      "minecraft:beetroot_seeds": 3,
+      "minecraft:diamond_chestplate": 1,
+      "minecraft:melon_slice": 5,
+      "minecraft:emerald_block": 22,
+      "minecraft:sand": 1,
+      "minecraft:netherite_ingot": 5,
+      "minecraft:netherite_upgrade_smithing_template": 2,
+      "minecraft:diamond_leggings": 1,
+      "minecraft:beetroot": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:beetroot_seeds": 3
+    }
+  },
+  "DataVersion": 4790
+}

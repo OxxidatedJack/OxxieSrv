@@ -1,0 +1,1903 @@
+[15:03:43] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[15:03:43] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) for Minecraft 26.1.2
+[15:03:44] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:03:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[15:03:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - ItemEdit (3.7.10), LoginSecurity (3.2.0), OpenInv (5.3.3), SkinsRestorer (15.12.4), ViaBackwards (5.11.0), ViaVersion (5.11.0)
+[15:03:49] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
+[15:03:49] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
+[15:03:49] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[15:03:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[15:03:52] [ServerMain/INFO]: Loaded 1515 recipes
+[15:03:52] [ServerMain/INFO]: Loaded 1617 advancements
+[15:03:52] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[15:03:52] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 374.8ms
+[15:03:52] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[15:03:52] [Server thread/INFO]: Loading properties
+[15:03:52] [Server thread/INFO]: This server is running Paper version 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) (Implementing API version 26.1.2.build.74-stable)
+[15:03:52] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:03:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:03:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:03:53] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[15:03:53] [Server thread/INFO]: Default game type: SURVIVAL
+[15:03:53] [Server thread/INFO]: Generating keypair
+[15:03:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:03:53] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:03:53] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loading 1 libraries... please wait
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loaded library /workspaces/minecraftserver/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/adventure-api/5.1.1/adventure-api-5.1.1.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/adventure-key/5.1.1/adventure-key-5.1.1.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/org/jetbrains/annotations/26.1.0/annotations-26.1.0.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/adventure-platform-bukkit/4.4.1/adventure-platform-bukkit-4.4.1.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/adventure-platform-api/4.4.1/adventure-platform-api-4.4.1.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/adventure-text-serializer-bungeecord/4.4.1/adventure-text-serializer-bungeecord-4.4.1.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/adventure-nbt/4.21.0/adventure-nbt-4.21.0.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.21.0/adventure-text-serializer-gson-legacy-impl-4.21.0.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/adventure-text-serializer-json-legacy-impl/4.21.0/adventure-text-serializer-json-legacy-impl-4.21.0.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/adventure-platform-facet/4.4.1/adventure-platform-facet-4.4.1.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/adventure-platform-viaversion/4.4.1/adventure-platform-viaversion-4.4.1.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/adventure-text-minimessage/5.1.1/adventure-text-minimessage-5.1.1.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/adventure-text-serializer-gson/5.1.1/adventure-text-serializer-gson-5.1.1.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/adventure-text-serializer-json/5.1.1/adventure-text-serializer-json-5.1.1.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/adventure-text-serializer-commons/5.1.1/adventure-text-serializer-commons-5.1.1.jar
+[15:03:54] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/minecraftserver/libraries/net/kyori/adventure-text-serializer-legacy/5.1.1/adventure-text-serializer-legacy-5.1.1.jar
+[15:03:54] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[15:03:54] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[15:03:55] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[15:03:55] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[15:03:55] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[15:03:55] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.4
+[15:03:55] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.3.3
+[15:03:55] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.10
+[15:03:55] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
+[15:03:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:03:55] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.4
+[15:03:56] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.1.2.
+[15:03:57] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[15:03:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:03:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:03:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:03:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:03:57] [Server thread/INFO]: Preparing level "world"
+[15:03:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:03:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[15:03:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[15:03:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[15:03:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[15:03:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[15:03:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:03:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.4
+[15:03:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: a5b2c20
+[15:03:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[15:03:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:03:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[15:03:57] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[15:03:57] [Server thread/INFO]: Loading 36 persistent chunks for level 'minecraft:overworld'...
+[15:03:57] [Server thread/INFO]: Preparing spawn area: 21%
+[15:03:58] [Server thread/INFO]: Prepared spawn area in 476 ms
+[15:03:58] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[15:03:58] [Server thread/INFO]: Prepared spawn area in 0 ms
+[15:03:58] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[15:03:58] [Server thread/INFO]: Prepared spawn area in 0 ms
+[15:03:58] [Server thread/INFO]: Done preparing level "world" (1.233s)
+[15:03:58] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[15:03:58] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
+[15:03:58] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[15:03:58] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.3.3
+[15:03:58] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.10
+[15:03:59] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[15:03:59] [Server thread/INFO]: [ItemEdit] Unable to hook into Vault
+[15:03:59] [Server thread/INFO]: [ItemEdit] # Enabled (took 393 ms)
+[15:03:59] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[15:03:59] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[15:03:59] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[15:03:59] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[15:03:59] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[15:03:59] [Server thread/WARN]: [LoginSecurity] "LoginSecurity v3.2.0" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "public void com.lenis0012.bukkit.loginsecurity.modules.general.PlayerListener.onPlayerSpawn(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [lenis0012].
+[15:03:59] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[15:03:59] [Server thread/INFO]: [spark] Starting background profiler...
+[15:04:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:04:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:04:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:04:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:04:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:04:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:04:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:04:00] [Server thread/INFO]: Running delayed init tasks
+[15:04:00] [Server thread/INFO]: Done (18.941s)! For help, type "help"
+[15:04:00] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[15:13:00] [User Authenticator #0/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[15:13:00] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LoginSecurity]
+[15:13:08] [Server thread/INFO]: Xautral joined the game
+[15:13:08] [Server thread/INFO]: Xautral[/127.9.216.32:34713] logged in with entity id 1 at ([minecraft:the_nether]-451.5, 74.0, 578.2718985172451)
+[15:13:53] [Server thread/INFO]: Xautral issued server command: /kill
+[15:13:53] [Server thread/INFO]: Xautral was killed
+[15:13:53] [Server thread/INFO]: [Xautral: Killed Xautral]
+[15:13:53] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[15:13:53] [Server thread/INFO]: Xautral left the game
+[15:13:56] [User Authenticator #1/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[15:13:58] [Server thread/INFO]: Xautral joined the game
+[15:13:58] [Server thread/INFO]: Xautral[/127.9.216.32:60611] logged in with entity id 77 at ([minecraft:the_nether]-388.3454453230515, 80.62975477077578, 596.8262246673826)
+[15:15:43] [User Authenticator #2/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[15:15:44] [Server thread/INFO]: Lazic (f72fed07-8c3b-3951-9764-96b624f229a5) lost connection: Disconnected
+[15:15:54] [User Authenticator #3/INFO]: UUID of player itz_gan is ca1bc987-e6c9-3259-9306-9c250204f71d
+[15:15:56] [User Authenticator #4/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[15:15:57] [Server thread/INFO]: [Westhelm] Lazic joined the game
+[15:15:57] [Server thread/INFO]: Lazic[/127.227.82.132:37175] logged in with entity id 325 at ([minecraft:overworld]-480.0821323484304, 70.0, 8.565225234740542)
+[15:16:01] [Server thread/INFO]: [Flame Horde] itz_gan joined the game
+[15:16:01] [Server thread/INFO]: itz_gan[/127.100.58.49:54779] logged in with entity id 301 at ([minecraft:the_nether]743.2259505963777, 47.31988133571041, 576.819715890997)
+[15:16:38] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> can u give us nightvision or do i have to use fullbright
+[15:16:47] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> hi
+[15:16:48] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> hola
+[15:16:52] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[15:16:52] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[15:16:55] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> tpp
+[15:17:03] [Server thread/INFO]: Xautral issued server command: /tp itz_gan Xautral
+[15:17:03] [Server thread/INFO]: [Xautral: Teleported [Flame Horde] itz_gan to Xautral]
+[15:17:04] [Server thread/INFO]: Xautral issued server command: /tp itz_gan Xautralt
+[15:17:06] [Server thread/INFO]: Xautral issued server command: /tp itz_gan Xautralt
+[15:17:08] [Server thread/INFO]: Xautral issued server command: /tp itz_gan Xautral
+[15:17:08] [Server thread/INFO]: [Xautral: Teleported [Flame Horde] itz_gan to Xautral]
+[15:17:15] [Server thread/INFO]: Xautral issued server command: /setblock ~ ~ ~ wa
+[15:17:15] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> gracias wao
+[15:17:18] [Server thread/INFO]: Xautral issued server command: /setblock ~ ~ ~ water
+[15:17:18] [Server thread/INFO]: [Xautral: Changed the block at 741, 39, 622]
+[15:17:36] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> hey xautral can u give nightvision i forgot to get fullbright mod
+[15:17:38] [Server thread/INFO]: itz_gan lost connection: Disconnected
+[15:17:38] [Server thread/INFO]: [Flame Horde] itz_gan left the game
+[15:17:47] [Server thread/INFO]: Xautral issued server command: /effect give Lazic minecraft:night_vision infinite 25 true
+[15:17:47] [Server thread/INFO]: [Xautral: Applied effect Night Vision to [Westhelm] Lazic]
+[15:17:54] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> thanks
+[15:18:01] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> hey
+[15:18:01] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[15:18:03] [User Authenticator #5/INFO]: UUID of player zekrompeak is b9da48f8-6c41-3713-af55-ca39a6226374
+[15:18:03] [Server thread/INFO]: zekrompeak (b9da48f8-6c41-3713-af55-ca39a6226374) lost connection: Disconnected
+[15:18:06] [User Authenticator #6/INFO]: UUID of player zekrompeak is b9da48f8-6c41-3713-af55-ca39a6226374
+[15:18:07] [Server thread/INFO]: Xautral issued server command: /tp Lazic
+[15:18:07] [Server thread/INFO]: [Xautral: Teleported Xautral to [Westhelm] Lazic]
+[15:18:07] [Server thread/INFO]: [Westhelm] zekrompeak joined the game
+[15:18:07] [Server thread/INFO]: zekrompeak[/127.215.133.35:41185] logged in with entity id 958 at ([minecraft:overworld]-272.8276170357457, 71.0, 87.00858581262297)
+[15:18:33] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> xautral
+[15:18:37] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> can u tp me and lazic
+[15:18:38] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> what happen
+[15:18:41] [Server thread/INFO]: Xautral issued server command: /tp zekrompeak Lazic
+[15:18:41] [Server thread/INFO]: [Xautral: Teleported [Westhelm] zekrompeak to [Westhelm] Lazic]
+[15:18:43] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> to eachother
+[15:18:50] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> take
+[15:18:52] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> i lost my starter kit
+[15:18:58] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> ty
+[15:19:10] [Server thread/INFO]: [Westhelm] zekrompeak has made the advancement [Getting an Upgrade]
+[15:19:15] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> my leggings?
+[15:19:24] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> in your inv
+[15:19:29] [Server thread/INFO]: Xautral issued server command: /tp Lazic
+[15:19:29] [Server thread/INFO]: [Xautral: Teleported Xautral to [Westhelm] Lazic]
+[15:19:33] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> ty
+[15:19:38] [Server thread/INFO]: Xautral issued server command: /tp zekrompeak Lazic
+[15:19:38] [Server thread/INFO]: [Xautral: Teleported [Westhelm] zekrompeak to [Westhelm] Lazic]
+[15:19:42] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> does lazic have it
+[15:19:43] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> well ur are still being newbies
+[15:19:51] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> soyou can revive anyways
+[15:19:58] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> thanks
+[15:20:01] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> diamonds
+[15:20:05] [Server thread/INFO]: Xautral issued server command: /gamerule keep_inventory true
+[15:20:05] [Server thread/INFO]: [Xautral: Gamerule keep_inventory is now set to: true]
+[15:20:09] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> the keepinventory is now set to true
+[15:20:12] [Server thread/INFO]: [Westhelm] zekrompeak has made the advancement [Stone Age]
+[15:20:13] [User Authenticator #7/INFO]: UUID of player itz_gan is ca1bc987-e6c9-3259-9306-9c250204f71d
+[15:20:14] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> yay
+[15:20:16] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> more later i disabled it
+[15:20:18] [Server thread/INFO]: [Flame Horde] itz_gan joined the game
+[15:20:18] [Server thread/INFO]: itz_gan[/127.100.58.49:53423] logged in with entity id 1413 at ([minecraft:the_nether]738.5022160562817, 33.0, 611.7097232639792)
+[15:20:20] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> more later i disabling it
+[15:20:22] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[15:20:22] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[15:20:29] [Server thread/INFO]: Xautral issued server command: /gamerule keep_inventory true
+[15:20:29] [Server thread/INFO]: [Xautral: Gamerule keep_inventory is now set to: true]
+[15:20:34] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> oye cabron estúpido
+[15:20:36] [Server thread/INFO]: [Westhelm] Lazic has made the advancement [Acquire Hardware]
+[15:20:54] [Server thread/INFO]: Xautral issued server command: /tps
+[15:21:06] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> q querés
+[15:21:09] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[15:21:15] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> pene
+[15:21:18] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> jaja no te creas
+[15:21:23] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> yo también
+[15:21:27] [Server thread/INFO]: [Westhelm] Lazic has made the advancement [Isn't It Iron Pick]
+[15:21:28] [Server thread/INFO]: Xautral experienced kinetic energy
+[15:21:28] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> digo digo
+[15:21:28] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[15:21:28] [Server thread/INFO]: Xautral left the game
+[15:21:30] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> mine
+[15:21:30] [User Authenticator #8/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[15:21:31] [Server thread/INFO]: Xautral joined the game
+[15:21:31] [Server thread/INFO]: Xautral[/127.9.216.32:55785] logged in with entity id 1728 at ([minecraft:the_nether]691.3000000119209, 45.666941336743925, 627.6999999880791)
+[15:21:33] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> hhahahah
+[15:21:37] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> mine it
+[15:21:40] [Server thread/INFO]: [Westhelm] Lazic has made the advancement [Diamonds!]
+[15:21:42] [Server thread/INFO]: Xautral issued server command: /give Xautral minecraft:wooden_spear
+[15:21:42] [Server thread/INFO]: [Xautral: Gave 1 [Wooden Spear] to Xautral]
+[15:21:44] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[15:21:44] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[15:21:46] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> xa
+[15:21:53] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> de donde son esos
+[15:21:54] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> que
+[15:21:57] [Async Chat Thread - #1/INFO]: [Not Secure] <zekrompeak> gimmie
+[15:22:05] [Async Chat Thread - #1/INFO]: [Not Secure] <zekrompeak> give mme iron pick
+[15:22:17] [Server thread/INFO]: [Westhelm] zekrompeak has made the advancement [Isn't It Iron Pick]
+[15:22:21] [Server thread/INFO]: Xautral issued server command: /give Xautral minecraft:enchanted_golden_apple 128
+[15:22:21] [Server thread/INFO]: [Xautral: Gave 128 [Enchanted Golden Apple] to Xautral]
+[15:22:39] [Async Chat Thread - #1/INFO]: [Not Secure] <zekrompeak> give me ur iron pick
+[15:22:40] [Async Chat Thread - #1/INFO]: [Not Secure] <zekrompeak> lazic
+[15:22:44] [Async Chat Thread - #1/INFO]: [Not Secure] <Lazic> i did
+[15:22:59] [Server thread/INFO]: [Westhelm] zekrompeak has made the advancement [Not Today, Thank You]
+[15:22:59] [Server thread/INFO]: [Westhelm] Lazic has made the advancement [Take Aim]
+[15:23:03] [Server thread/INFO]: [Westhelm] zekrompeak has made the advancement [Monster Hunter]
+[15:23:12] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[15:23:16] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[15:23:22] [User Authenticator #9/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[15:23:23] [Server thread/INFO]: [Kawesar Tribe] PlechStyles joined the game
+[15:23:23] [Server thread/INFO]: PlechStyles[/127.229.163.226:54831] logged in with entity id 2231 at ([minecraft:overworld]-200.28459351322982, 50.0877353367485, 720.7341188092789)
+[15:23:28] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> y low cofres
+[15:23:32] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> behind yo
+[15:23:33] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> son imnprobables
+[15:23:34] [Async Chat Thread - #0/INFO]: [Not Secure] <PlechStyles> holas
+[15:23:40] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> esew
+[15:23:41] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> ahí no hay
+[15:23:42] [Server thread/INFO]: Lazic issued server command: /msg zekrompeak behnd you
+[15:23:46] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> creo
+[15:23:48] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> ay cerca?
+[15:24:16] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> ayua
+[15:24:19] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> xau*
+[15:24:47] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> oye we
+[15:24:48] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> no tienes algun pugin q diga qn saco cosas de una shulker?
+[15:24:50] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> me dieron en mi madre we
+[15:24:52] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> q
+[15:24:55] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> por fel
+[15:24:55] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> ¿¿¿???
+[15:25:05] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> osea pq me robaron mis esmes
+[15:25:08] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> que pedo con las ideas de itz_gan
+[15:25:11] [Server thread/INFO]: Xautral issued server command: /tp PlechStyles
+[15:25:11] [Server thread/INFO]: [Xautral: Teleported Xautral to [Kawesar Tribe] PlechStyles]
+[15:25:13] [Server thread/INFO]: [Westhelm] zekrompeak has made the advancement [Diamonds!]
+[15:25:15] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> PlechStyles
+[15:25:17] [Async Chat Thread - #0/INFO]: [Not Secure] <PlechStyles> hola Xautral
+[15:25:18] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> si te contamos sobre la economía?
+[15:25:25] [Async Chat Thread - #0/INFO]: [Not Secure] <PlechStyles> q paso ahora?
+[15:25:27] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> nada
+[15:25:28] [Server thread/INFO]: Lazic issued server command: /msg zekrompeak we have to do voice chat too bad you dont have a mic
+[15:25:29] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> a si cambio plech
+[15:25:33] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> es sobre poder distribuir y vender armas
+[15:25:39] [Server thread/INFO]: [Westhelm] Lazic has made the advancement [Ol' Betsy]
+[15:25:39] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> mejorando su aclidad o enchants
+[15:25:43] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> y etiquetarlos a estandar de calidad
+[15:25:53] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> todo chikito
+[15:25:53] [Async Chat Thread - #0/INFO]: [Not Secure] <PlechStyles> ah si el slimer ayer me puso algo asi bn op por 79 emes
+[15:26:02] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> piensas distribuirlo?
+[15:26:04] [Server thread/INFO]: Xautral issued server command: /inv PlechStyles
+[15:26:11] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> yporierot como que llooting 10
+[15:26:13] [Server thread/INFO]: Xautral issued server command: /inv PlechStyles
+[15:26:18] [Server thread/INFO]: Xautral issued server command: /ie enchant looting 5
+[15:26:20] [Server thread/INFO]: Xautral issued server command: /inv PlechStyles
+[15:26:22] [Async Chat Thread - #0/INFO]: [Not Secure] <PlechStyles> ora mi espada
+[15:26:26] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> Xautral tengo un idea
+[15:26:26] [User Authenticator #10/INFO]: UUID of player volcon2 is 9c42fa87-f091-3883-9bf4-db229d9050dc
+[15:26:27] [Server thread/INFO]: [Volcanos] volcon2 joined the game
+[15:26:27] [Server thread/INFO]: volcon2[/127.125.214.129:44135] logged in with entity id 3672 at ([minecraft:the_nether]109.75799104183861, 31.68254847544268, -17.01813692015691)
+[15:26:29] [Async Chat Thread - #0/INFO]: [Not Secure] <PlechStyles> como q 5
+[15:26:30] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> que
+[15:26:37] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> volcon2 di bye bye de nuevo
+[15:26:41] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> PlechStyles multiplique su maximo enchant por la cantidad de esmes y no se que
+[15:26:43] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[15:26:43] [Server thread/INFO]: [Xautral: Teleported Xautral to [Volcanos] volcon2]
+[15:26:50] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> VOLCON
+[15:26:52] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> ESPEARTE ACBRON
+[15:26:58] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> Xautral quiero crear una espada sharpness 7 fire aspec 4
+[15:27:00] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> el server ya tiene economía definida
+[15:27:05] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> cual es
+[15:27:07] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> espera deja calculo eso
+[15:27:07] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[15:27:19] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> volcon2 te recomiendo ahora si urgenetenmente invitar a alguie na tu nación
+[15:27:31] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> bro realmente no tengo nada
+[15:27:33] [Async Chat Thread - #1/INFO]: [Not Secure] <zekrompeak> brb
+[15:27:37] [Async Chat Thread - #1/INFO]: [Not Secure] <Lazic> K
+[15:27:39] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> si se murió
+[15:27:40] [Server thread/INFO]: zekrompeak lost connection: Disconnected
+[15:27:40] [Server thread/INFO]: [Westhelm] zekrompeak left the game
+[15:28:04] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[15:28:10] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> bueno
+[15:28:11] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> volcon2
+[15:28:17] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> puedes elegir la economái det u nación
+[15:28:21] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> y puedes distribuir armas
+[15:28:27] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> mejoranmdoles la durabilidad
+[15:28:29] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> los enchants
+[15:28:30] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> etc
+[15:28:33] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> seguramente seran diamantes o netherite
+[15:28:37] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> a niveles mayores
+[15:28:56] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> y de dónde sacaras tantos diamantes y netherite?
+[15:29:02] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> minando
+[15:29:02] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> se distribuyen
+[15:29:03] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> tejemplo]:
+[15:29:05] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> lsea esa sera tu moneda?
+[15:29:10] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> si
+[15:29:13] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> uf
+[15:29:16] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> tese cabro empeieza fuerte
+[15:29:19] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> otra moneda no podrss usar
+[15:29:20] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> esperemos que no se quede en bancarota
+[15:29:25] [Server thread/INFO]: Xautral issued server command: /clear
+[15:29:25] [Server thread/INFO]: [Xautral: Removed 241 item(s) from player Xautral]
+[15:29:25] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[15:29:27] [Server thread/INFO]: PlechStyles issued server command: /msg Xautral mira q barato me salio silk touch
+[15:29:28] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[15:29:30] [Server thread/INFO]: Xautral issued server command: /tp PlechStyles
+[15:29:30] [Server thread/INFO]: [Xautral: Teleported Xautral to [Kawesar Tribe] PlechStyles]
+[15:29:32] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[15:29:36] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> vtlv
+[15:29:37] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[15:29:39] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[15:29:39] [Server thread/INFO]: [Xautral: Teleported Xautral to 0.500000, 0.000000, 0.500000]
+[15:29:42] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[15:29:52] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> vendo elytras
+[15:29:55] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[15:29:57] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> it
+[15:29:59] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> itz_gan
+[15:30:03] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> dime
+[15:30:07] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> puedes invertir esmeraldas en su durabilidad y distribuirlas en mas end citys
+[15:30:10] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[15:30:10] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[15:30:25] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> negros por doquie
+[15:30:26] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> negros por doquier
+[15:30:26] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> tu moneda es la esmeralda?
+[15:30:33] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> es la mas básica volcon2
+[15:30:36] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> lista de monedas:
+[15:30:39] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> ya vi
+[15:30:41] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> volcon2: Diamante
+[15:30:42] [Server thread/INFO]: [Westhelm] Lazic has made the advancement [Cover Me with Diamonds]
+[15:30:47] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> PlechStyles: Esmeralda
+[15:30:47] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> volcon2 si
+[15:30:52] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> itz_gan: ESmeralda
+[15:31:06] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> GG_Sandwich & mrsmartypants [Yugoslavia]: ORo
+[15:31:09] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> GG_Sandwich & mrsmartypants [Yugoslavia]: Oro
+[15:31:10] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> hey Lazic
+[15:31:22] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> what its the currency of you actual nation of "Westhelm"?
+[15:31:25] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> no le tengo miedo al exito se lo que puedo hacer
+[15:31:28] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[15:31:31] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> what
+[15:31:33] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> sorry
+[15:31:34] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> yeah
+[15:31:38] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> tif you trade with ther natiosn
+[15:31:47] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> what was the "currency" or mineral what do you want
+[15:31:56] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> volcon2 agamos un trade
+[15:32:00] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> wdym
+[15:32:03] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> ¿¿?'
+[15:32:10] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> deja farmeo y ya me diras
+[15:32:12] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> what its the currency of you actual nation of "Westhelm"?
+[15:32:15] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> te doy 2 stacks de lingotes de netherite por esmes
+[15:32:16] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> tif you trade with ther natiosn
+[15:32:19] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> idk
+[15:32:30] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> standard trade?
+[15:32:43] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> like what are the options
+[15:32:50] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> copper, iron, lapis, diamond, emerald, gold
+[15:32:55] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> ohhhh
+[15:33:00] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> thats its the currencys
+[15:33:04] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> tthe minerals
+[15:33:17] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> redstone :v
+[15:33:18] [User Authenticator #11/INFO]: UUID of player zekrompeak is b9da48f8-6c41-3713-af55-ca39a6226374
+[15:33:19] [Server thread/INFO]: [Westhelm] zekrompeak joined the game
+[15:33:19] [Server thread/INFO]: zekrompeak[/127.215.133.35:52419] logged in with entity id 7347 at ([minecraft:overworld]-386.0909087578334, -3.0, 94.68995691026495)
+[15:33:22] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> mandalo alavrg
+[15:33:23] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> iron diamond and emerald and ancient debris if it counts
+[15:33:28] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> just one
+[15:33:41] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> ts general for all you trade, and makes you the trades more quickly
+[15:33:43] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> just necessary stuff i think (ask zekrompeak too)
+[15:33:52] [Server thread/INFO]: [Kawesar Tribe] PlechStyles was slain by Iron Golem
+[15:33:52] [Server thread/INFO]: PlechStyles lost connection: You are banned from this server
+[15:33:52] [Server thread/INFO]: PlechStyles left the game
+[15:33:57] [Server thread/INFO]: Xautral issued server command: /pardon PlechStyles
+[15:33:57] [Server thread/INFO]: [Xautral: Unbanned PlechStyles]
+[15:33:57] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> xautral cuarzo?
+[15:34:00] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> es un ore
+[15:34:00] [User Authenticator #12/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[15:34:02] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> si itz_gan
+[15:34:03] [Server thread/INFO]: [Kawesar Tribe] PlechStyles joined the game
+[15:34:03] [Server thread/INFO]: PlechStyles[/127.229.163.226:51819] logged in with entity id 7705 at ([minecraft:overworld]-199.24189448945535, 55.0, 707.5583630256506)
+[15:34:05] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> mineral
+[15:34:10] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> quieres cambiar tu moneda a cuarzo?
+[15:34:11] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> carbon?
+[15:34:14] [Server thread/INFO]: [Westhelm] Lazic has made the advancement [Suit Up]
+[15:34:14] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> noni o
+[15:34:14] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> se puede
+[15:34:24] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> none for me
+[15:34:25] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> i see
+[15:34:27] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> Lazic iron its
+[15:34:27] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> solo preguntaba
+[15:34:38] [Server thread/INFO]: [Westhelm] zekrompeak has made the advancement [Acquire Hardware]
+[15:34:44] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> the economy of your nation "Westhelm" is now in iron
+[15:34:47] [Server thread/INFO]: [Westhelm] zekrompeak has made the advancement [Suit Up]
+[15:34:55] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> what??
+[15:34:58] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[15:35:01] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> cant i choose multiple
+[15:35:04] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> ok nvm he left
+[15:35:08] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> no
+[15:35:08] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[15:35:12] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> u cannot choose multiple
+[15:35:20] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> hmm
+[15:35:25] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> then go with iron
+[15:35:27] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[15:35:28] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> what do u mean choose
+[15:35:29] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> okey
+[15:35:32] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> xau
+[15:35:33] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> out currency
+[15:35:37] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> oh
+[15:35:38] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> la economía de westhelm es el hierro
+[15:35:39] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> our*
+[15:35:42] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> que pasó itz_gan
+[15:35:44] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[15:35:44] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[15:35:46] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> ima go back to minnig here
+[15:35:50] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> me haces rtp en end:D
+[15:35:54] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> ya
+[15:36:02] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> theres nothin here
+[15:36:03] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> itz_gan pero para distrubiru tus elytras solo me las das y le hago copias
+[15:36:10] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> which whay should i mine
+[15:36:12] [Server thread/INFO]: Xautral issued server command: /tp PlechStyles
+[15:36:12] [Server thread/INFO]: [Xautral: Teleported Xautral to [Kawesar Tribe] PlechStyles]
+[15:36:13] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> ohh
+[15:36:13] [Server thread/INFO]: Xautral issued server command: /kill
+[15:36:13] [Server thread/INFO]: Xautral was killed
+[15:36:13] [Server thread/INFO]: [Xautral: Killed Xautral]
+[15:36:13] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[15:36:13] [Server thread/INFO]: Xautral left the game
+[15:36:17] [User Authenticator #13/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[15:36:18] [Server thread/INFO]: Xautral joined the game
+[15:36:18] [Server thread/INFO]: Xautral[/127.9.216.32:52201] logged in with entity id 8861 at ([minecraft:overworld]-197.31493014045944, 55.0, 704.3963989971999)
+[15:36:21] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[15:36:21] [Server thread/INFO]: [Xautral: Teleported Xautral to 0.500000, 0.000000, 0.500000]
+[15:36:21] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[15:36:28] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> I HATE WHEN THAT SOUND PLAYS
+[15:36:30] [Server thread/INFO]: Xautral issued server command: /setblock ~ ~ ~ minecraft:end_portal
+[15:36:30] [Server thread/INFO]: [Xautral: Changed the block at 0, -6, 0]
+[15:36:34] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> ¿
+[15:36:36] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> bro got banned from his own game
+[15:36:36] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> tp xau
+[15:36:37] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> ¿?
+[15:36:40] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[15:36:40] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[15:37:00] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> que pasa itz_gan
+[15:37:07] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> sufr un atraco o robo amis espaldas y tendo poco presupuesto
+[15:37:15] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> ¿¿?'
+[15:37:18] [Server thread/INFO]: Xautral issued server command: /oe itz_gan
+[15:37:22] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> tola
+[15:37:24] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> no lo sé
+[15:37:25] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> toma
+[15:37:39] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> vtlv
+[15:37:46] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> cada esmeralda es un +´32 de durabilidad
+[15:38:04] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> toma
+[15:38:36] [Server thread/INFO]: [Westhelm] zekrompeak has made the advancement [Take Aim]
+[15:38:42] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> 688 de durabilidad
+[15:38:45] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> baja calidad
+[15:38:51] [Server thread/INFO]: Xautral issued server command: /ie maxdurability 688
+[15:38:55] [Server thread/INFO]: Xautral issued server command: /ie durability 0
+[15:38:58] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> si te doy las
+[15:39:01] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> mas*
+[15:39:03] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> sube?
+[15:39:04] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> si
+[15:39:23] [Server thread/INFO]: zekrompeak issued server command: /
+[15:39:38] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> calidad media
+[15:39:43] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> digo
+[15:39:45] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> calidad media buena
+[15:39:45] [Server thread/INFO]: Lazic issued server command: /msg zekrompeak spawner
+[15:39:50] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> 1136
+[15:40:20] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> 1584
+[15:40:21] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> i need 5 dims
+[15:40:22] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> calidad buena
+[15:40:37] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> i gave u 2
+[15:40:59] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> 2032, Calidad Alta
+[15:41:04] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> bueno
+[15:41:07] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> asta ay
+[15:41:11] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> hasta ay*
+[15:41:13] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> come
+[15:41:13] [Server thread/INFO]: Xautral issued server command: /ie maxdurability 2032
+[15:41:25] [Server thread/INFO]: Xautral issued server command: /ie lore add &eHigh Quality
+[15:41:34] [Server thread/INFO]: Xautral issued server command: /ie lore remove 1
+[15:41:40] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> ahora q ago?
+[15:41:45] [Server thread/INFO]: Xautral issued server command: /ie lore add &aHigh Quality
+[15:41:52] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> dime la marca de tus elytras?
+[15:41:57] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> que marca le pongo
+[15:42:00] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> gucci
+[15:42:03] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> sea serio
+[15:42:12] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> aver
+[15:42:30] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> itz
+[15:42:33] [Async Chat Thread - #1/INFO]: [Not Secure] <zekrompeak> come
+[15:42:43] [Async Chat Thread - #1/INFO]: [Not Secure] <Lazic> i was telling you to come but ok
+[15:42:48] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> mi marca sera itz
+[15:42:52] [Server thread/INFO]: Xautral issued server command: /ie lore add &9Mark ITZ
+[15:42:54] [Async Chat Thread - #1/INFO]: [Not Secure] <zekrompeak> ok les go
+[15:43:05] [Server thread/INFO]: Xautral issued server command: /ie lore add &8Made in Flame Horde
+[15:43:11] [Async Chat Thread - #1/INFO]: [Not Secure] <zekrompeak> where
+[15:43:13] [Async Chat Thread - #1/INFO]: [Not Secure] <Lazic> wait
+[15:43:19] [Server thread/INFO]: Xautral issued server command: /ie lore replace
+[15:43:31] [Server thread/INFO]: Xautral issued server command: /ie lore replace 2 &fMarca ITZ
+[15:43:37] [Async Chat Thread - #1/INFO]: [Not Secure] <zekrompeak> this cave had a shit ton of diamond
+[15:43:38] [Server thread/INFO]: Xautral issued server command: /ie lore remove 2
+[15:43:42] [Async Chat Thread - #1/INFO]: [Not Secure] <Lazic> fr
+[15:43:50] [Server thread/INFO]: Xautral issued server command: /ie lore add &f&iMarca ITZ
+[15:43:51] [Async Chat Thread - #1/INFO]: [Not Secure] <zekrompeak> les get out
+[15:43:51] [Async Chat Thread - #1/INFO]: [Not Secure] <Lazic> follow
+[15:43:57] [Server thread/INFO]: Xautral issued server command: /ie lore remove last
+[15:44:00] [Server thread/INFO]: Xautral issued server command: /ie lore add &f&nMarca ITZ
+[15:44:01] [Async Chat Thread - #1/INFO]: [Not Secure] <zekrompeak> i almest fell
+[15:44:06] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> listo papit
+[15:44:09] [Async Chat Thread - #1/INFO]: [Not Secure] <Lazic> i was 2 hearts last time
+[15:44:13] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> ahora en que estructuras lo distribuyo?
+[15:44:26] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> end citys
+[15:44:32] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> listo
+[15:44:34] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[15:44:34] [Server thread/INFO]: [Xautral: Teleported Xautral to 0.500000, 0.000000, 0.500000]
+[15:44:36] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> pro
+[15:44:36] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[15:44:38] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> pero
+[15:44:41] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> w gani yo?
+[15:44:44] [Server thread/INFO]: Xautral issued server command: /tp zekrompeak
+[15:44:44] [Server thread/INFO]: [Xautral: Teleported Xautral to [Westhelm] zekrompeak]
+[15:44:47] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> q ganl o?*
+[15:44:50] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> cada persona que lo tenga te daré la mitad de tu inversión
+[15:44:53] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> q gano yo*
+[15:44:57] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> cada persona que lo tenga te daré la mitad de tu inversión
+[15:45:00] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[15:45:00] [Server thread/INFO]: [Xautral: Teleported Xautral to 0.500000, 0.000000, 0.500000]
+[15:45:01] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[15:45:03] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> ohh
+[15:45:16] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> y ere el único que lo puede vender
+[15:45:19] [Async Chat Thread - #1/INFO]: [Not Secure] <zekrompeak> diamond
+[15:45:24] [Async Chat Thread - #1/INFO]: [Not Secure] <zekrompeak> no way
+[15:45:26] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> tienes el permiso de matar al que lo distribuya sin tu consentimient
+[15:45:30] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> aunque no puedo banearlos
+[15:45:31] [Async Chat Thread - #1/INFO]: [Not Secure] <zekrompeak> how is it not deepslate
+[15:45:33] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> okay
+[15:45:34] [Server thread/INFO]: Xautral issued server command: /locate structure minecraft:end_city
+[15:45:34] [Server thread/INFO]: Locating element minecraft:end_city took 584 ms
+[15:45:36] [Server thread/INFO]: Xautral issued server command: /tp @s 736 ~ 720
+[15:45:36] [Server thread/INFO]: [Xautral: Teleported Xautral to 736.500000, 75.106958, 720.500000]
+[15:45:38] [Async Chat Thread - #1/INFO]: [Not Secure] <Lazic> just a bit rare
+[15:45:40] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> o demandarlo:v
+[15:45:52] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> lol
+[15:46:04] [Async Chat Thread - #2/INFO]: [Not Secure] <Lazic> -_-
+[15:46:32] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> Vendo elytras unbreaking 3 mending
+[15:46:48] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> lazic
+[15:46:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Lazic> ?
+[15:46:58] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> i only play here cus u play w me
+[15:47:06] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> I am selling elytras mending and unbreaking 3
+[15:47:17] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[15:47:24] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[15:47:24] [Async Chat Thread - #2/INFO]: [Not Secure] <Lazic> for how much itz gan
+[15:47:28] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> elts go up
+[15:47:31] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> q dijo?
+[15:47:36] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> itz_gan te piden cuanto
+[15:47:38] [Async Chat Thread - #0/INFO]: [Not Secure] <PlechStyles> a cuanto dic
+[15:47:40] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> ellos tienen de economía el hierro
+[15:47:41] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[15:47:43] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[15:47:52] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> lo que tep aguen te lo transfiero
+[15:47:56] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> el hierro telo puedo cambiar ati por esmes?
+[15:47:59] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> en total 1 de hierro para ellos sería 4 de esme para ti
+[15:48:00] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> okay
+[15:48:02] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> si itz_gan
+[15:48:16] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> contestales cabron
+[15:48:22] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> dicen que cuanto pides por las elytras
+[15:48:24] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> How much iron would they give me?
+[15:48:39] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> to start negotiating
+[15:48:45] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[15:48:47] [Server thread/INFO]: [Westhelm] zekrompeak has reached the goal [Postmortal]
+[15:48:53] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> rtp end pls
+[15:49:00] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[15:49:03] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[15:49:17] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> sorry
+[15:49:18] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> ya voy itz_gan
+[15:49:20] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> 3 fucking totems
+[15:49:21] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[15:49:21] [Server thread/INFO]: [Xautral: Teleported Xautral to 0.500000, 0.000000, 0.500000]
+[15:49:24] [Async Chat Thread - #0/INFO]: [Not Secure] <Lazic> NO WAY
+[15:49:25] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> its ok
+[15:49:32] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> q dijo
+[15:49:33] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> what
+[15:49:36] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> nada itz_gan
+[15:49:39] [Server thread/INFO]: Xautral issued server command: /tp itz_gan Xautral
+[15:49:39] [Server thread/INFO]: [Flame Horde] itz_gan has made the advancement [The End?]
+[15:49:39] [Server thread/INFO]: [Xautral: Teleported [Flame Horde] itz_gan to Xautral]
+[15:49:45] [Async Chat Thread - #2/INFO]: [Not Secure] <Lazic> this cave has nothing let's exit
+[15:49:49] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> ok
+[15:49:52] [Async Chat Thread - #2/INFO]: [Not Secure] <Lazic> we litteraly milked
+[15:49:53] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> come back yp
+[15:49:54] [Async Chat Thread - #2/INFO]: [Not Secure] <Lazic> it
+[15:49:57] [Server thread/INFO]: Xautral issued server command: /msg Lazic Itz_gan says for the elytras what iron you offer?
+[15:50:02] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> bro
+[15:50:05] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> broo
+[15:50:06] [Server thread/INFO]: Xautral issued server command: /msg Lazic Itz_gan says for the elytras what ammount of iron you offer?
+[15:50:10] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> u fuckingleft me
+[15:50:22] [Server thread/INFO]: Xautral issued server command: /skins
+[15:50:24] [Server thread/INFO]: Lazic issued server command: /msg Xautral hmm idk a stack or 2 tell him what does he want
+[15:50:32] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> itz_gan lazic ofrece 2 stacks de hierro
+[15:50:36] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> básicamente para ti son como...
+[15:50:51] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> calajo
+[15:50:53] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> 512 esmeraldas
+[15:51:07] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> aceptas?
+[15:51:14] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> por 3 stafks si
+[15:51:16] [Server thread/INFO]: Lazic issued server command: /msg zekrompeak get as much iron we're gonna get an elytra
+[15:51:27] [Server thread/INFO]: Xautral issued server command: /msg Lazic itz_Gan demands 3 stacks of iron
+[15:51:43] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> I accept 3 stacks of iron
+[15:51:47] [Server thread/INFO]: Lazic issued server command: /msg Xautral when does he want the iron to arrive
+[15:51:48] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> xautral se supone que me vendes cosas x diamantes o netherite no?
+[15:51:54] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> si volcon2
+[15:51:57] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> y lo mismo con todo
+[15:52:02] [Server thread/INFO]: Xautral issued server command: /tell Lazic how?
+[15:52:06] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> pero si o si era con 1 no?
+[15:52:07] [Server thread/INFO]: Xautral issued server command: /tell Lazic i dont understand
+[15:52:10] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> cuanto por un pico fortuna IV
+[15:52:22] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> 58 de diamante
+[15:52:26] [Server thread/INFO]: Lazic issued server command: /msg Xautral can he wait like a day or 2
+[15:52:27] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> xau
+[15:52:28] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> + la fortuna serían 32
+[15:52:29] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> ok ya mero
+[15:52:32] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> eh
+[15:52:36] [Server thread/INFO]: Lazic issued server command: /msg Xautral so we get all iron ready
+[15:52:36] [Server thread/INFO]: Xautral issued server command: /tell Lazic the trade can be now
+[15:52:37] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> cuanto por poner filo 7 en mi espada
+[15:52:39] [Server thread/INFO]: PlechStyles issued server command: /msg Xautral cuanto por q le pongas fortuna 5 a mi pico
+[15:52:46] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> osea un pico de diamante me sale 58 diamantes? JAJAJA
+[15:52:51] [Server thread/INFO]: Lazic issued server command: /msg Xautral i dont have it ready now
+[15:52:52] [Server thread/INFO]: Xautral issued server command: /tell Lazic oh... you want paying the iron so long?
+[15:52:55] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> tkene fortuna 4
+[15:52:56] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> it
+[15:52:59] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> itz_gan
+[15:53:03] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> dime
+[15:53:05] [Server thread/INFO]: [Flame Horde] itz_gan has made the advancement [Remote Getaway]
+[15:53:05] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> 8
+[15:53:11] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> dicen que le haránc omo en el coppel
+[15:53:16] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> sacar la elytra a pagos
+[15:53:17] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> gan xautral me dijo que por el pico 58 diamantes y si quiero la fortuna 4 32
+[15:53:22] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> no no es cierto
+[15:53:25] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> entocnes
+[15:53:28] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> pero dicen que en un rato te lo consiguen
+[15:53:31] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> no tienen 3 stacks
+[15:53:33] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> we dont need elytra
+[15:53:33] [Server thread/INFO]: PlechStyles issued server command: /msg Xautral cuanto por q le pongas fortuna 5 a mi pico
+[15:53:38] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> okay
+[15:53:41] [Server thread/INFO]: Xautral issued server command: /tell PlechStyles 64 esmeralda
+[15:53:41] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> cuanto necesito entonces
+[15:53:43] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> tf are we fonna do with
+[15:53:44] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> por un fortuna 4
+[15:53:46] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> 1 elytra
+[15:53:51] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> volcon2 un fortuna 4 solo te sale en 48 diamantes
+[15:53:56] [Server thread/INFO]: PlechStyles issued server command: /msg Xautral ya las tengo w
+[15:53:59] [Server thread/INFO]: Xautral issued server command: /tp PlechStyles
+[15:53:59] [Server thread/INFO]: [Xautral: Teleported Xautral to [Kawesar Tribe] PlechStyles]
+[15:53:59] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[15:54:10] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> damelo
+[15:54:12] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> ya los tengo
+[15:54:15] [Server thread/INFO]: Xautral issued server command: /ie enchant fortune 5
+[15:54:18] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> te compro cohetes xau
+[15:54:26] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> aguanta
+[15:54:27] [Server thread/INFO]: Xautral issued server command: /tp zekrompeak
+[15:54:27] [Server thread/INFO]: [Xautral: Teleported Xautral to [Westhelm] zekrompeak]
+[15:54:43] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> ty
+[15:55:01] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> zekrompeak if someone buys a thisn by a admin, the item payed reparts to all the server
+[15:55:07] [Server thread/INFO]: Xautral issued server command: /tp Lazic
+[15:55:07] [Server thread/INFO]: [Xautral: Teleported Xautral to [Westhelm] Lazic]
+[15:55:09] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> ok
+[15:55:17] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[15:55:17] [Server thread/INFO]: [Xautral: Teleported Xautral to [Volcanos] volcon2]
+[15:55:35] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> JAJAJAJ+
+[15:55:37] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> volcon2 lo de la venta de plechy
+[15:55:41] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[15:55:41] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[15:55:47] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> oye
+[15:55:49] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> tque
+[15:55:56] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> te compro el pico
+[15:56:01] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> de fortuna 4?
+[15:56:03] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> 10 cohetes por 1besme
+[15:56:04] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> si
+[15:56:10] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> itz_gan no te mames
+[15:56:11] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[15:56:11] [Server thread/INFO]: [Xautral: Teleported Xautral to [Volcanos] volcon2]
+[15:56:13] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> esme*
+[15:56:17] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> dame los 48 diamantes
+[15:56:20] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> son level 1 we
+[15:56:21] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> y el pico si quieres
+[15:56:30] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> itz_gan te doy 32 x 32 de nivel 5
+[15:56:32] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> marca XOrg
+[15:56:34] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> marca Xorg
+[15:56:38] [Async Chat Thread - #0/INFO]: [Not Secure] <itz_gan> va
+[15:56:40] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> aguant
+[15:56:42] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> si
+[15:56:47] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:fortune 5
+[15:56:47] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:fortune
+[15:56:47] [Server thread/INFO]: [Xautral: Applied enchantment Fortune I to Xautral's item]
+[15:56:49] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:fortune 4
+[15:56:54] [Server thread/INFO]: Xautral issued server command: /ie enchant fortune 4
+[15:56:57] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> gracias
+[15:56:59] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> por ierto gente
+[15:57:03] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> el nivel máximo de fortuna ilegit es 5
+[15:57:07] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> osea que pueden tradear
+[15:57:10] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> lo mismo con el looting
+[15:57:15] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> ya que generan mucho lag
+[15:57:15] [Server thread/INFO]: [Westhelm] zekrompeak has made the advancement [Cover Me with Diamonds]
+[15:57:19] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> Xautral y el sharpness?
+[15:57:21] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> cuantos + y me aumentas este pico de 4 a 5?
+[15:57:25] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> sharpness sería el 7
+[15:57:30] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> volcon2 otros 48
+[15:57:34] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> okk
+[15:57:34] [Async Chat Thread - #2/INFO]: [Not Secure] <Lazic> brb
+[15:57:35] [Server thread/INFO]: Lazic lost connection: Disconnected
+[15:57:35] [Server thread/INFO]: [Westhelm] Lazic left the game
+[15:57:39] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> por que sería el máximo, no uno más
+[15:57:43] [Server thread/INFO]: Xautral issued server command: /tp zekrompeak
+[15:57:43] [Server thread/INFO]: [Xautral: Teleported Xautral to [Westhelm] zekrompeak]
+[15:57:43] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> pero
+[15:57:47] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> zekrompeak
+[15:57:48] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> no puedes contar
+[15:57:52] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> que le subiste el nivel y ya
+[15:57:54] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> tp xau
+[15:57:56] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> yes?
+[15:58:00] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> search a village :Vvvvv
+[15:58:02] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> plss
+[15:58:02] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> yo no sabia que habia fortuna 5
+[15:58:04] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> to i dk
+[15:58:07] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> ok i will try
+[15:58:09] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> do sommething
+[15:58:19] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> sorry i dont know how says "te recomiendo" in englis
+[15:58:20] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> sorry i dont know how says "te recomiendo" in english
+[15:58:24] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[15:58:24] [Server thread/INFO]: [Xautral: Teleported Xautral to [Volcanos] volcon2]
+[15:58:28] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> ni existe
+[15:58:28] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> ok
+[15:58:31] [User Authenticator #14/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[15:58:32] [Server thread/INFO]: [Westhelm] Lazic joined the game
+[15:58:32] [Server thread/INFO]: Lazic[/127.227.82.132:50517] logged in with entity id 20569 at ([minecraft:overworld]-565.0460651718456, -10.0, 61.5776248277096)
+[15:58:36] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[15:58:36] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[15:58:38] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> ahora si
+[15:58:44] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> 32 esmes por 32 cohetes marca Xor
+[15:58:45] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> 32 esmes por 32 cohetes marca Xorg
+[15:58:52] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> ACME te voy a dar w
+[15:59:03] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> xaut
+[15:59:06] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> wat?
+[15:59:13] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> if i find a village u give me 1 stack of iron
+[15:59:14] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> ok?
+[15:59:17] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> yea
+[15:59:27] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> xau cuanto por ponerme ami espada sharpness 7
+[15:59:31] [Server thread/INFO]: Xautral issued server command: /ie fireworkpower 5
+[15:59:45] [Server thread/INFO]: Xautral issued server command: /ie lore set &8Made in End
+[15:59:50] [Server thread/INFO]: Xautral issued server command: /ie lore add &8Made in End
+[16:00:02] [Server thread/INFO]: Xautral issued server command: /ie lore add &9Marca &e&lXorg
+[16:00:03] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> xaut
+[16:00:10] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> do u need ruine dportalw
+[16:00:14] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> ruined portal
+[16:00:16] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[16:00:19] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> ¿?
+[16:00:20] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> what
+[16:00:22] [Server thread/INFO]: Xautral issued server command: /tp zekrompeak
+[16:00:22] [Server thread/INFO]: [Xautral: Teleported Xautral to [Westhelm] zekrompeak]
+[16:00:29] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> ruined portal for 15 iron?
+[16:00:31] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> no
+[16:00:40] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> xau cuanto por una sharpness 7!!!!!!
+[16:00:49] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> bro realmente queria ir al portal del end con 15 de hierro
+[16:00:52] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> estos gringos
+[16:00:52] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> aw
+[16:00:55] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> 5 iron?
+[16:00:58] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> bruh
+[16:00:59] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> itz_gan ya sería 32 bloques de esme
+[16:01:01] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> muy op
+[16:01:08] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> vete alavrg
+[16:01:15] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> el sharpness es muyu fuerte
+[16:01:33] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:01:36] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> pero tampoco pa esos precios
+[16:01:44] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:01:54] [Server thread/INFO]: Xautral issued server command: /give Xautral minecraft:wooden_spear
+[16:01:54] [Server thread/INFO]: [Xautral: Gave 1 [Wooden Spear] to Xautral]
+[16:01:57] [Server thread/INFO]: Xautral issued server command: /ie enchant lunge 10
+[16:02:03] [Server thread/INFO]: Xautral issued server command: /give Xautral minecraft:golden_carrot 128
+[16:02:03] [Server thread/INFO]: [Xautral: Gave 128 [Golden Carrot] to Xautral]
+[16:02:06] [Server thread/INFO]: Xautral issued server command: /tp @¶
+[16:02:08] [Server thread/INFO]: Xautral issued server command: /tp @
+[16:02:09] [Server thread/INFO]: Xautral issued server command: /tp @r
+[16:02:09] [Server thread/INFO]: [Xautral: Teleported Xautral to [Westhelm] zekrompeak]
+[16:02:12] [Server thread/INFO]: Xautral issued server command: /tp @r
+[16:02:12] [Server thread/INFO]: [Xautral: Teleported Xautral to Xautral]
+[16:02:12] [Server thread/INFO]: Xautral issued server command: /tp @r
+[16:02:12] [Server thread/INFO]: [Xautral: Teleported Xautral to Xautral]
+[16:02:13] [Server thread/INFO]: Xautral issued server command: /tp @r
+[16:02:13] [Server thread/INFO]: [Xautral: Teleported Xautral to [Volcanos] volcon2]
+[16:02:17] [Server thread/INFO]: Xautral issued server command: /tp PlechStyles
+[16:02:17] [Server thread/INFO]: [Xautral: Teleported Xautral to [Kawesar Tribe] PlechStyles]
+[16:02:36] [Server thread/INFO]: Xautral experienced kinetic energy
+[16:02:36] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[16:02:36] [Server thread/INFO]: Xautral left the game
+[16:02:37] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> bro realmente
+[16:02:39] [User Authenticator #15/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[16:02:40] [Server thread/INFO]: Xautral joined the game
+[16:02:40] [Server thread/INFO]: Xautral[/127.9.216.32:58963] logged in with entity id 24779 at ([minecraft:overworld]-196.30000001192093, 56.76476444212163, 701.6856335562462)
+[16:02:47] [Server thread/INFO]: Xautral issued server command: /tp PlechStyles
+[16:02:47] [Server thread/INFO]: [Xautral: Teleported Xautral to [Kawesar Tribe] PlechStyles]
+[16:02:50] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> PlechStyles que putada
+[16:03:02] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> ese plech se merece una muerte
+[16:03:04] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> gente ahora si (excepto a los nuevos) si mueren YA NO LOS REVIVO
+[16:03:17] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> yo soy nuevo xau
+[16:03:20] [Async Chat Thread - #3/INFO]: [Not Secure] <PlechStyles> xd con el volvon
+[16:03:22] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> pue ssi
+[16:03:22] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> me mori
+[16:03:27] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> volcon técnicamente es nuevo
+[16:03:37] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> volcon2 loq aras de nuevo
+[16:03:46] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> eh?
+[16:03:53] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> moriras de nuevo
+[16:04:04] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[16:04:04] [Server thread/INFO]: [Xautral: Teleported Xautral to [Volcanos] volcon2]
+[16:04:09] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[16:04:09] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[16:04:25] [Server thread/INFO]: [Westhelm] Lazic has reached the goal [Postmortal]
+[16:04:29] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> village village
+[16:04:30] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> ese lazic
+[16:04:31] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> BRUH
+[16:04:44] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> xaut i found village
+[16:04:45] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> XAU
+[16:04:49] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> que
+[16:04:50] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> me das un puto infarto
+[16:04:50] [Server thread/INFO]: Xautral issued server command: /inv itz_gan
+[16:04:51] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> give me 1 stack of iron
+[16:04:55] [Server thread/INFO]: Xautral issued server command: /tp zekrompeak
+[16:04:55] [Server thread/INFO]: [Xautral: Teleported Xautral to [Westhelm] zekrompeak]
+[16:04:59] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:05:01] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> wait
+[16:05:04] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> 1 stack iron
+[16:05:17] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> ye
+[16:05:20] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> yea
+[16:05:23] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> colonize him
+[16:05:24] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> idk
+[16:05:25] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> ok give
+[16:05:28] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> put him sign ings
+[16:05:30] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> u said u would give
+[16:05:31] [Server thread/INFO]: Xautral issued server command: /give zekrompeak minecraft:iron_ingot 64
+[16:05:31] [Server thread/INFO]: [Xautral: Gave 64 [Iron Ingot] to [Westhelm] zekrompeak]
+[16:05:32] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> yea
+[16:05:33] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> me 1 stack
+[16:05:34] [Async Chat Thread - #3/INFO]: [Not Secure] <zekrompeak> ty
+[16:05:35] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> too
+[16:05:41] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> setup your base there
+[16:05:45] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> idk
+[16:05:46] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> pls
+[16:05:47] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> :sob:
+[16:05:54] [Async Chat Thread - #3/INFO]: [Not Secure] <zekrompeak> tyty
+[16:05:58] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> gente como se dice "te recomiendo" en inglés?
+[16:05:59] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:06:00] [Async Chat Thread - #3/INFO]: [Not Secure] <Lazic> XAUTRAL I GOT THE IRON
+[16:06:01] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> this village urs now
+[16:06:04] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> cuantas esmeraldas tienes gan
+[16:06:06] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> yea Lazic?
+[16:06:08] [Server thread/INFO]: Xautral issued server command: /tp Lazic
+[16:06:08] [Server thread/INFO]: [Xautral: Teleported Xautral to [Westhelm] Lazic]
+[16:06:10] [Async Chat Thread - #3/INFO]: [Not Secure] <Lazic> TP ME TO zekrompeak PLS
+[16:06:13] [Server thread/INFO]: Xautral issued server command: /tp Lazic zekrompeak
+[16:06:13] [Server thread/INFO]: [Xautral: Teleported [Westhelm] Lazic to [Westhelm] zekrompeak]
+[16:06:15] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[16:06:15] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[16:06:15] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> 15 bloques
+[16:06:23] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> me robaron
+[16:06:30] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:06:33] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:06:34] [Async Chat Thread - #3/INFO]: [Not Secure] <Lazic> where did you get the extra iron zekrompeak
+[16:06:43] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> creo que tendre mejor economia que tu gan
+[16:06:50] [Async Chat Thread - #3/INFO]: [Not Secure] <zekrompeak> xautrol told me if i find village he gives me 1 stack
+[16:06:51] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> no bro
+[16:06:55] [Async Chat Thread - #3/INFO]: [Not Secure] <Lazic> oh
+[16:07:00] [Async Chat Thread - #3/INFO]: [Not Secure] <Lazic> well now we have extra
+[16:07:09] [Async Chat Thread - #3/INFO]: [Not Secure] <zekrompeak> have fun with ur elytra
+[16:07:11] [Async Chat Thread - #3/INFO]: [Not Secure] <Lazic> ill summon him
+[16:07:12] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> cuantos diamantes tienes
+[16:07:15] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> ando farmeando mucho diamante
+[16:07:15] [Server thread/INFO]: Xautral experienced kinetic energy
+[16:07:15] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[16:07:15] [Server thread/INFO]: Xautral left the game
+[16:07:18] [User Authenticator #16/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[16:07:18] [Server thread/INFO]: Xautral joined the game
+[16:07:18] [Server thread/INFO]: Xautral[/127.9.216.32:41401] logged in with entity id 30721 at ([minecraft:the_end]638.9372411995421, 58.84237209163154, -3350.4089779331593)
+[16:07:20] [Async Chat Thread - #3/INFO]: [Not Secure] <Lazic> bruh
+[16:07:23] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[16:07:23] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[16:07:35] [Async Chat Thread - #3/INFO]: [Not Secure] <Lazic> xautral can you come i got the iron
+[16:07:43] [Server thread/INFO]: Xautral issued server command: /tp Lazic
+[16:07:43] [Server thread/INFO]: [Xautral: Teleported Xautral to [Westhelm] Lazic]
+[16:07:44] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> si tuviera una chambeadora conmigo fuera millonario
+[16:07:45] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> for the elytras?
+[16:07:52] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> tf is raw
+[16:07:54] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:07:56] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> yep
+[16:08:00] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> well
+[16:08:00] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> well i was mining sorry
+[16:08:02] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[16:08:02] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[16:08:04] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> itz_gan
+[16:08:04] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> vendo 2 stacks de netherite
+[16:08:05] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> tom
+[16:08:07] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> dime
+[16:08:10] [Async Chat Thread - #3/INFO]: [Not Secure] <zekrompeak> is he gonna give 2 elytras
+[16:08:14] [Async Chat Thread - #3/INFO]: [Not Secure] <Lazic> idk
+[16:08:17] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> si son 4
+[16:08:19] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> gan
+[16:08:21] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> entonces...
+[16:08:22] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> dime
+[16:08:23] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> tienes 135 esmeraldas?
+[16:08:23] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> if he does we split fireworks
+[16:08:25] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> he litteraly just vanished
+[16:08:30] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> si
+[16:08:34] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> yeah
+[16:08:44] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> son 768
+[16:08:50] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> q cosa?
+[16:08:50] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> nunca me vas a ganar en economia
+[16:08:52] [Server thread/INFO]: Xautral issued server command: /give itz_gan minecraft:emerald 768
+[16:08:52] [Server thread/INFO]: [Xautral: Gave 768 [Emerald] to [Flame Horde] itz_gan]
+[16:08:54] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> ya
+[16:08:55] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> ahí está
+[16:08:58] [Server thread/INFO]: Xautral issued server command: /inv itz_gan
+[16:09:02] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> ya las 768 esmeraldas
+[16:09:04] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> ahora las elytras
+[16:09:06] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> uhh
+[16:09:18] [Server thread/INFO]: Xautral issued server command: /kill @e[type=enderman]
+[16:09:18] [Server thread/INFO]: [Xautral: Killed 76 entities]
+[16:09:19] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> aunque vi algo que te da un 50 porciento
+[16:09:21] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> did bro scam us or i just dont know spanish and he's gonna get it?
+[16:09:23] [Server thread/INFO]: Xautral issued server command: /ie durability 0
+[16:09:24] [Server thread/INFO]: Xautral issued server command: /tp Lazic
+[16:09:24] [Server thread/INFO]: [Xautral: Teleported Xautral to [Westhelm] Lazic]
+[16:09:27] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> no Lazic
+[16:09:30] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> got it
+[16:09:31] [Server thread/INFO]: [Westhelm] Lazic has reached the goal [Sky's the Limit]
+[16:09:33] [Server thread/INFO]: Xautral issued server command: /inv Lazic
+[16:09:34] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> THANK YOU
+[16:09:38] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:09:38] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> ese lazic
+[16:09:41] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> volcon2
+[16:09:44] [Server thread/INFO]: Xautral issued server command: /ie durability 0
+[16:09:44] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> para que quiere elitras si ni netherite tiene
+[16:09:48] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> say thanks to itz_gan
+[16:09:49] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[16:09:49] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[16:09:49] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> estos gringos
+[16:09:50] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> con loq tu farmearad en horas
+[16:09:51] [Server thread/INFO]: Xautral experienced kinetic energy
+[16:09:51] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[16:09:51] [Server thread/INFO]: Xautral left the game
+[16:09:54] [User Authenticator #17/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[16:09:55] [Server thread/INFO]: Xautral joined the game
+[16:09:55] [Server thread/INFO]: Xautral[/127.9.216.32:49063] logged in with entity id 32375 at ([minecraft:the_end]140.4635393774939, 64.14761957675431, -3570.3614339802234)
+[16:09:58] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[16:09:58] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[16:09:59] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> con una simple granja q me are
+[16:10:03] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> cuantos diamantes crees que tenga
+[16:10:04] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> tendre en triple
+[16:10:11] [User Authenticator #18/INFO]: Disconnecting PlechStyles (/127.229.163.226:43949): [LoginSecurity] This player is already online!
+[16:10:11] [User Authenticator #18/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:10:11] [Server thread/INFO]: PlechStyles (/127.229.163.226:43949) lost connection: [LoginSecurity] This player is already online!
+[16:10:14] [Server thread/INFO]: Xautral issued server command: /effect give Xautral minecraft:saturation infinite 2 true
+[16:10:14] [Server thread/INFO]: [Xautral: Applied effect Saturation to Xautral]
+[16:10:15] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> menos de 2 stacks
+[16:10:16] [User Authenticator #19/INFO]: Disconnecting PlechStyles (/127.229.163.226:48997): [LoginSecurity] This player is already online!
+[16:10:16] [User Authenticator #19/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:10:16] [Server thread/INFO]: PlechStyles (/127.229.163.226:48997) lost connection: [LoginSecurity] This player is already online!
+[16:10:17] [Server thread/INFO]: PlechStyles lost connection: Timed out
+[16:10:18] [Server thread/INFO]: [Kawesar Tribe] PlechStyles left the game
+[16:10:22] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> oh ya
+[16:10:23] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> xau te compro comida
+[16:10:27] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> a cuan
+[16:10:38] [User Authenticator #20/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:10:38] [Server thread/INFO]: [Westhelm] zekrompeak has reached the goal [Sky's the Limit]
+[16:10:39] [Server thread/INFO]: [Kawesar Tribe] PlechStyles joined the game
+[16:10:39] [Server thread/INFO]: PlechStyles[/127.229.163.226:40137] logged in with entity id 32786 at ([minecraft:overworld]-199.1370771744677, 50.0, 749.6999999880791)
+[16:10:40] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> 5 zanahorias 1 esme
+[16:10:50] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> este we
+[16:10:52] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> im fliyn
+[16:10:56] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> 1 zanahoria x 1 esmeralda
+[16:10:57] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> que pasó
+[16:11:00] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> 90 bloques de esmeralde saque
+[16:11:04] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> 4 zanahorias por esme
+[16:11:06] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> u wanna keep it?
+[16:11:07] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> 2 zanahorias por esme
+[16:11:09] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> nah
+[16:11:13] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> 4 xau
+[16:11:20] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> BRO
+[16:11:25] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> Y MI SHULKER
+[16:11:28] [Server thread/INFO]: Xautral experienced kinetic energy while trying to escape Enderman
+[16:11:28] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[16:11:28] [Server thread/INFO]: Xautral left the game
+[16:11:30] [User Authenticator #21/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[16:11:30] [Server thread/INFO]: Xautral joined the game
+[16:11:30] [Server thread/INFO]: Xautral[/127.9.216.32:50345] logged in with entity id 33482 at ([minecraft:the_end]119.63327208630895, 62.93719910671321, -3580.5307338228117)
+[16:11:31] [Server thread/INFO]: Lazic issued server command: /msg zekrompeak let's make a base idk if here or we'll get griefed
+[16:11:33] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> xautral con esta economia a los flojos les quitas lo tan facil que es sacar 4 zanahorias3
+[16:11:34] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> XAUTRAL
+[16:11:35] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[16:11:35] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[16:11:41] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> que
+[16:11:44] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> no entedi nada volcon2
+[16:11:48] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> NO ESTA MI SHULKER
+[16:11:49] [Server thread/INFO]: [Westhelm] zekrompeak fell from a high place
+[16:11:49] [Server thread/INFO]: zekrompeak lost connection: You are banned from this server
+[16:11:49] [Server thread/INFO]: zekrompeak left the game
+[16:11:50] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> osea toma
+[16:11:52] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> y luego
+[16:11:54] [User Authenticator #22/INFO]: UUID of player zekrompeak is b9da48f8-6c41-3713-af55-ca39a6226374
+[16:11:54] [Server thread/INFO]: Disconnecting zekrompeak (/127.215.133.35:33763): You are banned from this server.
+Reason: ¡You have perished!
+[16:11:54] [Server thread/INFO]: zekrompeak (/127.215.133.35:33763) lost connection: You are banned from this server.
+Reason: ¡You have perished!
+[16:11:54] [Server thread/INFO]: Xautral issued server command: /pardon zekrompeak
+[16:11:54] [Server thread/INFO]: [Xautral: Unbanned zekrompeak]
+[16:11:58] [User Authenticator #23/INFO]: UUID of player zekrompeak is b9da48f8-6c41-3713-af55-ca39a6226374
+[16:11:58] [Server thread/INFO]: [Westhelm] zekrompeak joined the game
+[16:11:58] [Server thread/INFO]: zekrompeak[/127.215.133.35:37079] logged in with entity id 33831 at ([minecraft:overworld]-1315.6382565735394, 66.0, 587.7157454941815)
+[16:12:01] [Server thread/INFO]: Xautral was slain by [Flame Horde] itz_gan
+[16:12:01] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[16:12:01] [Server thread/INFO]: Xautral left the game
+[16:12:03] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> lol
+[16:12:03] [User Authenticator #24/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[16:12:04] [Server thread/INFO]: Xautral joined the game
+[16:12:04] [Server thread/INFO]: Xautral[/127.9.216.32:56987] logged in with entity id 33952 at ([minecraft:the_end]134.45028403530628, 63.0, -3570.999855306992)
+[16:12:05] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> holy
+[16:12:08] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[16:12:08] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[16:12:09] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> i died
+[16:12:15] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> eso qu
+[16:12:16] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> No tiene nada
+[16:12:18] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> y luego
+[16:12:20] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> xautral
+[16:12:20] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> is there keep inventory or should i look for loot
+[16:12:23] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> tp me to lazic
+[16:12:24] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> yo no revisé tu inventario
+[16:12:27] [Server thread/INFO]: Xautral issued server command: /tp Lazic
+[16:12:27] [Server thread/INFO]: [Xautral: Teleported Xautral to [Westhelm] Lazic]
+[16:12:31] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[16:12:31] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[16:12:32] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> nmms
+[16:12:34] [Server thread/INFO]: Xautral issued server command: /tp zekrompeak Lazic
+[16:12:34] [Server thread/INFO]: [Xautral: Teleported [Westhelm] zekrompeak to [Westhelm] Lazic]
+[16:12:34] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:12:38] [Server thread/INFO]: Xautral issued server command: /kill @e[type=minecraft:enderman}
+[16:12:39] [Server thread/INFO]: Xautral issued server command: /kill @e[type=minecraft:enderman]
+[16:12:39] [Server thread/INFO]: [Xautral: Killed 78 entities]
+[16:12:41] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> if u die u get banned
+[16:12:45] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:!b}
+[16:12:45] [Async Chat Thread - #3/INFO]: [Not Secure] <Lazic> ik
+[16:12:47] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[16:12:47] [Server thread/INFO]: [Xautral: Summoned new Iron Golem]
+[16:12:47] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:13:04] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> na
+[16:13:06] [Server thread/INFO]: Xautral issued server command: /effect give Xautral minecraft:saturation infinite 2 true
+[16:13:06] [Server thread/INFO]: [Xautral: Applied effect Saturation to Xautral]
+[16:13:10] [Server thread/INFO]: [Westhelm] Lazic has made the advancement [Hot Stuff]
+[16:13:13] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> 33 nochts ala basura
+[16:13:24] [Async Chat Thread - #3/INFO]: [Not Secure] <zekrompeak> mb
+[16:13:36] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> NO LO MATES W
+[16:13:44] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> pq?
+[16:13:47] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[16:13:47] [Server thread/INFO]: [Xautral: Summoned new Iron Golem]
+[16:13:49] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> estoyp racticandos
+[16:13:52] [Server thread/INFO]: Xautral was slain by [Flame Horde] itz_gan
+[16:13:52] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[16:13:52] [Server thread/INFO]: Xautral left the game
+[16:13:54] [Async Chat Thread - #3/INFO]: [Not Secure] <Lazic> ta daa
+[16:13:55] [User Authenticator #25/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[16:13:55] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> XD
+[16:13:55] [Server thread/INFO]: Xautral joined the game
+[16:13:55] [Server thread/INFO]: Xautral[/127.9.216.32:35479] logged in with entity id 35096 at ([minecraft:the_end]135.7823471405144, 64.0, -3577.662843296971)
+[16:13:56] [Async Chat Thread - #3/INFO]: [Not Secure] <zekrompeak> we dont have flint and steel
+[16:14:00] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> pense q tenia creativo
+[16:14:01] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b
+[16:14:02] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[16:14:02] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[16:14:18] [Server thread/INFO]: Xautral issued server command: /effect give Xautral minecraft:saturation infinite 2 true
+[16:14:18] [Server thread/INFO]: [Xautral: Applied effect Saturation to Xautral]
+[16:14:20] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> xau
+[16:14:23] [Server thread/INFO]: Xautral issued server command: /kill @e[type=minecraft:enderman]
+[16:14:23] [Server thread/INFO]: [Xautral: Killed 75 entities]
+[16:14:24] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> que
+[16:14:28] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> creo q ya se q paso con la shulker
+[16:14:29] [Server thread/INFO]: Xautral experienced kinetic energy
+[16:14:29] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[16:14:29] [Server thread/INFO]: Xautral left the game
+[16:14:32] [User Authenticator #26/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[16:14:33] [Server thread/INFO]: Xautral joined the game
+[16:14:33] [Server thread/INFO]: Xautral[/127.9.216.32:49353] logged in with entity id 35616 at ([minecraft:the_end]143.11849791279198, 71.85849359194745, -3582.193315038307)
+[16:14:36] [Server thread/INFO]: Xautral issued server command: /kill @e[type=minecraft:enderman]
+[16:14:36] [Server thread/INFO]: [Xautral: Killed 70 entities]
+[16:14:37] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> bro keeps dying
+[16:14:39] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[16:14:39] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[16:14:42] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> xau creo q la shulker la agarraste tu
+[16:14:45] [Server thread/INFO]: [Westhelm] Lazic has made the advancement [Sweet Dreams]
+[16:14:51] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> moriste y se callo al vacio
+[16:14:51] [Server thread/INFO]: Xautral issued server command: /effect give Xautral minecraft:saturation infinite 2 true
+[16:14:51] [Server thread/INFO]: [Xautral: Applied effect Saturation to Xautral]
+[16:14:54] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> ¿¿??
+[16:14:55] [Server thread/INFO]: PlechStyles issued server command: /msg Xautral mira ya hice la de whithers
+[16:14:56] [Server thread/INFO]: Xautral experienced kinetic energy
+[16:14:56] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[16:14:56] [Server thread/INFO]: Xautral left the game
+[16:14:59] [User Authenticator #27/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[16:14:59] [Server thread/INFO]: Xautral joined the game
+[16:14:59] [Server thread/INFO]: Xautral[/127.9.216.32:42707] logged in with entity id 35999 at ([minecraft:the_end]166.23396006735624, 61.45710332950636, -3581.9685137477077)
+[16:15:01] [Server thread/INFO]: PlechStyles issued server command: /msg Xautral mira ya hice la de whithers
+[16:15:03] [Server thread/INFO]: Xautral issued server command: /effect give Xautral minecraft:saturation infinite 2 true
+[16:15:03] [Server thread/INFO]: [Xautral: Applied effect Saturation to Xautral]
+[16:15:05] [Server thread/INFO]: Xautral issued server command: /tell PlechStyles
+[16:15:08] [Server thread/INFO]: Xautral issued server command: /tp PlechStyles
+[16:15:08] [Server thread/INFO]: [Xautral: Teleported Xautral to [Kawesar Tribe] PlechStyles]
+[16:15:14] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> my plan failed
+[16:15:21] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[16:15:21] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[16:15:34] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> i tried to burn the wood and connect it to the portsl
+[16:15:35] [Server thread/INFO]: Lazic issued server command: /msg zekrompeak let's make a base my mom is kinda homeless
+[16:15:37] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> xau dale 4 zanahorias por esme
+[16:15:41] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> cuanto por un sharpness 7?
+[16:15:42] [Server thread/INFO]: Xautral experienced kinetic energy
+[16:15:42] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[16:15:42] [Server thread/INFO]: Xautral left the game
+[16:15:44] [User Authenticator #28/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[16:15:44] [Server thread/INFO]: Xautral joined the game
+[16:15:44] [Server thread/INFO]: Xautral[/127.9.216.32:44297] logged in with entity id 36535 at ([minecraft:the_end]141.9268682158423, 70.17928980554102, -3576.968469277446)
+[16:15:49] [Server thread/INFO]: Xautral issued server command: /effect give Xautral minecraft:saturation infinite 2 true
+[16:15:49] [Server thread/INFO]: [Xautral: Applied effect Saturation to Xautral]
+[16:15:49] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> cuanto por un sharpness 7 xau
+[16:15:53] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[16:15:53] [Server thread/INFO]: [Xautral: Summoned new Iron Golem]
+[16:16:00] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> 32 bloques de diamante
+[16:16:01] [Server thread/INFO]: Xautral fell from a high place
+[16:16:01] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[16:16:01] [Server thread/INFO]: Xautral left the game
+[16:16:04] [User Authenticator #29/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[16:16:05] [Server thread/INFO]: Xautral joined the game
+[16:16:05] [Server thread/INFO]: Xautral[/127.9.216.32:34077] logged in with entity id 36828 at ([minecraft:overworld]-184.2961181021895, 77.0, 273.16668521968455)
+[16:16:05] [User Authenticator #30/INFO]: Disconnecting zekrompeak (/127.215.133.35:35955): [LoginSecurity] This player is already online!
+[16:16:05] [User Authenticator #30/INFO]: UUID of player zekrompeak is b9da48f8-6c41-3713-af55-ca39a6226374
+[16:16:05] [Server thread/INFO]: zekrompeak (/127.215.133.35:35955) lost connection: [LoginSecurity] This player is already online!
+[16:16:08] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> es igual PARA TODOS
+[16:16:10] [User Authenticator #31/INFO]: Disconnecting zekrompeak (/127.215.133.35:35415): [LoginSecurity] This player is already online!
+[16:16:10] [User Authenticator #31/INFO]: UUID of player zekrompeak is b9da48f8-6c41-3713-af55-ca39a6226374
+[16:16:10] [Server thread/INFO]: zekrompeak (/127.215.133.35:35415) lost connection: [LoginSecurity] This player is already online!
+[16:16:10] [Server thread/INFO]: zekrompeak lost connection: Timed out
+[16:16:10] [Server thread/INFO]: [Westhelm] zekrompeak left the game
+[16:16:14] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> esta muy op
+[16:16:16] [Server thread/INFO]: Xautral fell from a high place
+[16:16:16] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[16:16:16] [Server thread/INFO]: Xautral left the game
+[16:16:18] [User Authenticator #32/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[16:16:19] [Server thread/INFO]: Xautral joined the game
+[16:16:19] [Server thread/INFO]: Xautral[/127.9.216.32:59319] logged in with entity id 37086 at ([minecraft:overworld]-203.3860603630865, 71.0, 292.5913199799951)
+[16:16:21] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> la verdad no se cuantos bloques tenga
+[16:16:22] [Server thread/INFO]: Xautral issued server command: /effect give Xautral minecraft:saturation infinite 2 true
+[16:16:22] [Server thread/INFO]: [Xautral: Applied effect Saturation to Xautral]
+[16:16:25] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> pero para los gringos queda muy easy
+[16:16:27] [Server thread/INFO]: Xautral issued server command: /effect give Xautral minecraft:resistance infinite 25 true
+[16:16:27] [Server thread/INFO]: [Xautral: Applied effect Resistance to Xautral]
+[16:16:28] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> skull
+[16:16:34] [User Authenticator #33/INFO]: UUID of player zekrompeak is b9da48f8-6c41-3713-af55-ca39a6226374
+[16:16:35] [Server thread/INFO]: [Westhelm] zekrompeak joined the game
+[16:16:35] [Server thread/INFO]: zekrompeak[/127.215.133.35:40911] logged in with entity id 37341 at ([minecraft:overworld]-1341.679293658602, 68.0, 624.1972969279717)
+[16:16:38] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> su eco es iron
+[16:16:41] [Server thread/INFO]: Xautral issued server command: /ie durability 0
+[16:16:46] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> no
+[16:16:46] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> xau tpppppñppppp
+[16:16:54] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> para ellos son 5 stacks de bloques por ahora
+[16:16:55] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[16:16:55] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[16:16:57] [Async Chat Thread - #3/INFO]: [Not Secure] <zekrompeak> do u have steel
+[16:16:59] [User Authenticator #34/INFO]: Disconnecting PlechStyles (/127.229.163.226:49523): [LoginSecurity] This player is already online!
+[16:16:59] [User Authenticator #34/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:16:59] [Server thread/INFO]: PlechStyles (/127.229.163.226:49523) lost connection: [LoginSecurity] This player is already online!
+[16:17:01] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> esos gringossssssssss
+[16:17:03] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> toma
+[16:17:03] [User Authenticator #35/INFO]: Disconnecting PlechStyles (/127.229.163.226:34181): [LoginSecurity] This player is already online!
+[16:17:03] [User Authenticator #35/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:17:03] [Server thread/INFO]: PlechStyles (/127.229.163.226:34181) lost connection: [LoginSecurity] This player is already online!
+[16:17:05] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> calajo
+[16:17:05] [User Authenticator #36/INFO]: Disconnecting PlechStyles (/127.229.163.226:59811): [LoginSecurity] This player is already online!
+[16:17:05] [User Authenticator #36/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:17:05] [Server thread/INFO]: PlechStyles (/127.229.163.226:59811) lost connection: [LoginSecurity] This player is already online!
+[16:17:10] [User Authenticator #37/INFO]: Disconnecting PlechStyles (/127.229.163.226:35143): [LoginSecurity] This player is already online!
+[16:17:10] [User Authenticator #37/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:17:10] [Server thread/INFO]: PlechStyles (/127.229.163.226:35143) lost connection: [LoginSecurity] This player is already online!
+[16:17:12] [User Authenticator #38/INFO]: Disconnecting PlechStyles (/127.229.163.226:52485): [LoginSecurity] This player is already online!
+[16:17:12] [User Authenticator #38/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:17:13] [Server thread/INFO]: PlechStyles (/127.229.163.226:52485) lost connection: [LoginSecurity] This player is already online!
+[16:17:13] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> esto que o qu
+[16:17:16] [User Authenticator #39/INFO]: Disconnecting PlechStyles (/127.229.163.226:59025): [LoginSecurity] This player is already online!
+[16:17:16] [User Authenticator #39/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:17:16] [Server thread/INFO]: PlechStyles (/127.229.163.226:59025) lost connection: [LoginSecurity] This player is already online!
+[16:17:17] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> pues que wey
+[16:17:19] [User Authenticator #40/INFO]: Disconnecting PlechStyles (/127.229.163.226:43561): [LoginSecurity] This player is already online!
+[16:17:19] [User Authenticator #40/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:17:19] [Server thread/INFO]: PlechStyles (/127.229.163.226:43561) lost connection: [LoginSecurity] This player is already online!
+[16:17:19] [Server thread/INFO]: PlechStyles lost connection: Timed out
+[16:17:19] [Server thread/INFO]: [Kawesar Tribe] PlechStyles left the game
+[16:17:20] [Async Chat Thread - #3/INFO]: [Not Secure] <zekrompeak> let it flow
+[16:17:22] [Async Chat Thread - #3/INFO]: [Not Secure] <zekrompeak> dumass
+[16:17:23] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> x zanahoras doradas
+[16:17:26] [Server thread/INFO]: Xautral issued server command: /save-all
+[16:17:27] [Server thread/INFO]: [Xautral: Saved the game]
+[16:17:27] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:17:41] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[16:17:41] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[16:17:42] [Server thread/INFO]: Xautral issued server command: /kill
+[16:17:42] [Server thread/INFO]: Xautral was killed
+[16:17:42] [Server thread/INFO]: [Xautral: Killed Xautral]
+[16:17:42] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[16:17:42] [Server thread/INFO]: Xautral left the game
+[16:17:45] [User Authenticator #41/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[16:17:46] [Server thread/INFO]: Xautral joined the game
+[16:17:46] [Server thread/INFO]: Xautral[/127.9.216.32:36291] logged in with entity id 37765 at ([minecraft:the_end]135.3556458386743, 62.0, -3566.699999988079)
+[16:17:47] [User Authenticator #42/INFO]: UUID of player OPlechStyles is 9c5026b5-1602-34df-9cd4-1dd4d84122b4
+[16:17:48] [Server thread/INFO]: OPlechStyles joined the game
+[16:17:48] [Server thread/INFO]: OPlechStyles[/127.229.163.226:37025] logged in with entity id 37773 at ([minecraft:overworld]-410.37038523218644, 70.74553617464791, 205.44568871869726)
+[16:17:49] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> cuantos bloques de esmeralda tienes
+[16:17:50] [Async Chat Thread - #3/INFO]: [Not Secure] <zekrompeak> put wood here
+[16:17:51] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:17:55] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> 3
+[16:18:01] [Server thread/INFO]: Xautral issued server command: /msg OPlechStyles le has estado robando a itz_Gan de su ender?
+[16:18:05] [User Authenticator #43/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:18:06] [Server thread/INFO]: [Kawesar Tribe] PlechStyles joined the game
+[16:18:06] [Server thread/INFO]: PlechStyles[/127.229.163.226:42641] logged in with entity id 38053 at ([minecraft:overworld]-197.28296223977722, 55.0, 703.6827016270095)
+[16:18:09] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> en mano?
+[16:18:09] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> gan por cada 3 bloques de esmeralda que te consiga me das 6?
+[16:18:11] [Server thread/INFO]: Xautral issued server command: /effect give Xautral minecraft:saturation infinite 2 true
+[16:18:11] [Server thread/INFO]: [Xautral: Applied effect Saturation to Xautral]
+[16:18:12] [Server thread/INFO]: Xautral issued server command: /effect give Xautral minecraft:resistance infinite 25 true
+[16:18:12] [Server thread/INFO]: [Xautral: Applied effect Resistance to Xautral]
+[16:18:13] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> ´por ejemplo
+[16:18:18] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> el doble
+[16:18:19] [Server thread/INFO]: Lazic issued server command: /msg zekrompeak LETS DO A BAAAAAAAAAAAAAAAASEEEEE'
+[16:18:20] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> basicamente
+[16:18:27] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> de blqoues de esme?
+[16:18:28] [Async Chat Thread - #3/INFO]: [Not Secure] <zekrompeak> we can make base later
+[16:18:31] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> sisi
+[16:18:32] [Async Chat Thread - #3/INFO]: [Not Secure] <Lazic> k
+[16:18:33] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> osea te doy 3
+[16:18:33] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> no
+[16:18:36] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> y tu me das 6 de diamante
+[16:18:39] [Async Chat Thread - #3/INFO]: [Not Secure] <Lazic> ill get some flint
+[16:18:40] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> aya
+[16:18:43] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> mmm
+[16:18:43] [Async Chat Thread - #3/INFO]: [Not Secure] <zekrompeak> put lava here
+[16:18:44] [Server thread/INFO]: Xautral issued server command: /summon minecraft:iron_golem ~ ~ ~ {NoAI:1b}
+[16:18:44] [Server thread/INFO]: [Xautral: Summoned new Iron Golem]
+[16:18:50] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> pero el diamante vale mas q la esme
+[16:18:56] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> es la misma economia
+[16:18:59] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> no
+[16:19:03] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> solo que la esmeralda da mas hueva conseguirla
+[16:19:09] [Async Chat Thread - #3/INFO]: [Not Secure] <zekrompeak> i gtg 5 min
+[16:19:12] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> Xautral
+[16:19:19] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> cual vale mas diamantes o esmes?
+[16:19:22] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> 550 de daño
+[16:19:29] [Server thread/INFO]: Xautral issued server command: /give Xautral minecraft:netherite_spear
+[16:19:29] [Server thread/INFO]: [Xautral: Gave 1 [Netherite Spear] to Xautral]
+[16:19:34] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> vale mas el 550 de daño
+[16:19:35] [Server thread/INFO]: [Westhelm] Lazic has made the advancement [We Need to Go Deeper]
+[16:19:41] [Server thread/INFO]: Xautral issued server command: /ie durability 0
+[16:19:49] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> xau tp
+[16:19:49] [Server thread/INFO]: Xautral issued server command: /ie enchant lunge 15
+[16:19:52] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> que
+[16:19:55] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> que quieres w
+[16:19:59] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> mending
+[16:20:04] [User Authenticator #44/INFO]: Disconnecting PlechStyles (/127.229.163.226:45741): [LoginSecurity] This player is already online!
+[16:20:04] [User Authenticator #44/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:20:04] [Server thread/INFO]: PlechStyles (/127.229.163.226:45741) lost connection: [LoginSecurity] This player is already online!
+[16:20:09] [User Authenticator #45/INFO]: Disconnecting OPlechStyles (/127.229.163.226:48371): [LoginSecurity] This player is already online!
+[16:20:09] [User Authenticator #45/INFO]: UUID of player OPlechStyles is 9c5026b5-1602-34df-9cd4-1dd4d84122b4
+[16:20:09] [Server thread/INFO]: OPlechStyles (/127.229.163.226:48371) lost connection: [LoginSecurity] This player is already online!
+[16:20:14] [User Authenticator #46/INFO]: Disconnecting OPlechStyles (/127.229.163.226:48329): [LoginSecurity] This player is already online!
+[16:20:14] [User Authenticator #46/INFO]: UUID of player OPlechStyles is 9c5026b5-1602-34df-9cd4-1dd4d84122b4
+[16:20:14] [Server thread/INFO]: OPlechStyles (/127.229.163.226:48329) lost connection: [LoginSecurity] This player is already online!
+[16:20:14] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> 4 bloquies de esme
+[16:20:15] [Server thread/INFO]: OPlechStyles lost connection: Timed out
+[16:20:15] [Server thread/INFO]: OPlechStyles left the game
+[16:20:15] [Server thread/INFO]: PlechStyles was kicked due to keepalive timeout!
+[16:20:15] [Server thread/INFO]: PlechStyles lost connection: Timed out
+[16:20:15] [Server thread/INFO]: PlechStyles left the game
+[16:20:17] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> cuantos bloques de diamante crees que tenga gan
+[16:20:17] [User Authenticator #47/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:20:18] [Async Chat Thread - #3/INFO]: [Not Secure] <zekrompeak> back
+[16:20:18] [Server thread/INFO]: [Kawesar Tribe] PlechStyles joined the game
+[16:20:18] [Server thread/INFO]: PlechStyles[/127.229.163.226:47041] logged in with entity id 40356 at ([minecraft:overworld]-200.17169000245707, 50.0, 720.1194851559109)
+[16:20:27] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> ns
+[16:20:29] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> lazic
+[16:20:30] [Server thread/WARN]: Xautral moved wrongly!
+[16:20:32] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> portal is lit
+[16:20:34] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> ?
+[16:20:37] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> i
+[16:20:39] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> ik
+[16:20:40] [Server thread/INFO]: [Westhelm] zekrompeak has made the advancement [We Need to Go Deeper]
+[16:20:46] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> nmms que pendejo
+[16:20:57] [Server thread/INFO]: itz_gan issued server command: /msg Xautral es legal una granja de esmes automatica?
+[16:21:00] [Async Chat Thread - #3/INFO]: [Not Secure] <Lazic> DONT
+[16:21:01] [Server thread/INFO]: Xautral issued server command: /tell itz_gan no
+[16:21:03] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> why
+[16:21:07] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> xau na
+[16:21:12] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> you'll die
+[16:21:14] [Server thread/WARN]: Xautral moved wrongly!
+[16:21:17] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> entonces la de hierro es ilegal we
+[16:21:23] [Async Chat Thread - #4/INFO]: [Not Secure] <zekrompeak> give me blocks
+[16:21:25] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> no lo se
+[16:21:26] [Server thread/INFO]: Lazic issued server command: /msg zekrompeak ill get beds so we xray
+[16:21:26] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> ya gan
+[16:21:27] [User Authenticator #48/INFO]: Disconnecting PlechStyles (/127.229.163.226:38501): [LoginSecurity] This player is already online!
+[16:21:27] [User Authenticator #48/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:21:27] [Server thread/INFO]: PlechStyles (/127.229.163.226:38501) lost connection: [LoginSecurity] This player is already online!
+[16:21:28] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> solo farmea
+[16:21:29] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> ni se a que te refieres
+[16:21:29] [User Authenticator #49/INFO]: UUID of player OPlechStyles is 9c5026b5-1602-34df-9cd4-1dd4d84122b4
+[16:21:30] [Server thread/INFO]: OPlechStyles joined the game
+[16:21:30] [Server thread/INFO]: OPlechStyles[/127.229.163.226:35495] logged in with entity id 41968 at ([minecraft:overworld]-410.37038523218644, 78.61486790770114, 205.44568871869726)
+[16:21:32] [Async Chat Thread - #4/INFO]: [Not Secure] <Lazic> i dont have
+[16:21:32] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> haz rganjas pero no lagees
+[16:21:35] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> si es ilegal una de esmes la de hierrk tamb
+[16:21:39] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> okay
+[16:21:40] [Server thread/INFO]: OPlechStyles issued server command: /kick PlechStyles
+[16:21:40] [Server thread/INFO]: [OPlechStyles: Kicked [Kawesar Tribe] PlechStyles: Kicked by an operator]
+[16:21:40] [Server thread/INFO]: PlechStyles lost connection: Kicked by an operator
+[16:21:40] [Server thread/INFO]: PlechStyles left the game
+[16:21:44] [User Authenticator #50/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:21:46] [Server thread/INFO]: [Kawesar Tribe] PlechStyles joined the game
+[16:21:46] [Server thread/INFO]: PlechStyles[/127.229.163.226:37447] logged in with entity id 42100 at ([minecraft:overworld]-199.69999998807907, 55.0, 709.9682965856086)
+[16:21:57] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> plech
+[16:21:58] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> te gusta xau?
+[16:21:59] [Server thread/INFO]: Lazic issued server command: /msg zekrompeak imaging xautral belives it
+[16:22:07] [Server thread/INFO]: Xautral issued server command: /summon minecraft:warden ~ ~ ~ {NoAI:1b}
+[16:22:07] [Server thread/INFO]: [Xautral: Summoned new Warden]
+[16:22:08] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> me gusta que?
+[16:22:17] [Async Chat Thread - #3/INFO]: [Not Secure] <PlechStyles> q mierda de preguntas son esas viejo
+[16:22:21] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> xau quien es el mejor con economia
+[16:22:24] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> en el servidor
+[16:22:26] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> hoy por hoyt
+[16:22:27] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> PlechStyles
+[16:22:28] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> 2026
+[16:22:32] [Async Chat Thread - #4/INFO]: [Not Secure] <PlechStyles> xau?
+[16:22:35] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> que
+[16:22:36] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> ese plech
+[16:22:39] [Async Chat Thread - #4/INFO]: [Not Secure] <PlechStyles> so
+[16:22:42] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:22:43] [Async Chat Thread - #4/INFO]: [Not Secure] <PlechStyles> rra el volcon2
+[16:22:46] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:22:57] [Server thread/INFO]: [Flame Horde] itz_gan has made the advancement [The City at the End of the Game]
+[16:23:29] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> que dan x 200 bloques de diamante
+[16:24:31] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:sharpness 5
+[16:24:31] [Server thread/INFO]: [Xautral: Applied enchantment Sharpness V to Xautral's item]
+[16:24:36] [Server thread/INFO]: Xautral issued server command: /summon minecraft:warden ~ ~ ~ {NoAI:1b}
+[16:24:36] [Server thread/INFO]: [Xautral: Summoned new Warden]
+[16:24:39] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> cuanto x sharpness 10
+[16:24:44] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> no hay
+[16:24:45] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> es ilegal
+[16:24:51] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> 9?
+[16:24:54] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> no
+[16:24:56] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> 8
+[16:24:56] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> max 7
+[16:25:00] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> cuanto por 76
+[16:25:01] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> 7
+[16:25:04] [Server thread/INFO]: Xautral issued server command: /effect give @e[type=minecraft:warden] minecraft:glowing infinite 255 true
+[16:25:04] [Server thread/INFO]: [Xautral: Applied effect Glowing to 2 targets]
+[16:25:09] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> wtf
+[16:25:14] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> que
+[16:25:16] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> nada
+[16:25:20] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> cuanto x sharpness 7
+[16:25:22] [Server thread/WARN]: Xautral moved wrongly!
+[16:25:49] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> no tengo ni armadura de diamante y ya quiero sharpness 7 gan
+[16:26:05] [Server thread/INFO]: Villager Villager['Villager'/38081, uuid='20b27e24-bc3e-4ada-af38-36c7c995e814', l='ServerLevel[world]', x=-198.80, y=61.00, z=709.69, cpos=[-13, 44], tl=9586, v=true] died, message: 'Villager was slain by [Kawesar Tribe] PlechStyles'
+[16:26:09] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:26:13] [Async Chat Thread - #5/INFO]: [Not Secure] <zekrompeak> afkl
+[16:26:15] [Server thread/INFO]: Xautral has made the advancement [Sneak 100]
+[16:26:16] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> cuantas esmes das por
+[16:26:23] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> dejame surmar los bloques
+[16:26:43] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:26:44] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> 538 bloques de diamobd
+[16:26:47] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:26:48] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> diamond
+[16:26:51] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> mm
+[16:26:58] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> 358
+[16:26:58] [User Authenticator #51/INFO]: Disconnecting OPlechStyles (/127.229.163.226:38253): [LoginSecurity] This player is already online!
+[16:26:58] [User Authenticator #51/INFO]: UUID of player OPlechStyles is 9c5026b5-1602-34df-9cd4-1dd4d84122b4
+[16:26:59] [Server thread/INFO]: OPlechStyles (/127.229.163.226:38253) lost connection: [LoginSecurity] This player is already online!
+[16:27:02] [Server thread/INFO]: Xautral issued server command: /setblock ~ ~ ~ minecraft:dirt
+[16:27:02] [Server thread/INFO]: [Xautral: Changed the block at -278, 68, 288]
+[16:27:03] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:27:05] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:27:08] [User Authenticator #52/INFO]: Disconnecting PlechStyles (/127.229.163.226:35801): [LoginSecurity] This player is already online!
+[16:27:08] [User Authenticator #52/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:27:08] [Server thread/INFO]: PlechStyles (/127.229.163.226:35801) lost connection: [LoginSecurity] This player is already online!
+[16:27:09] [User Authenticator #53/INFO]: Disconnecting Lazic (/127.227.82.132:48785): [LoginSecurity] This player is already online!
+[16:27:09] [User Authenticator #53/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:27:09] [Server thread/INFO]: Lazic (/127.227.82.132:48785) lost connection: [LoginSecurity] This player is already online!
+[16:27:09] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:27:10] [User Authenticator #54/INFO]: Disconnecting Lazic (/127.227.82.132:38651): [LoginSecurity] This player is already online!
+[16:27:10] [User Authenticator #54/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:27:10] [Server thread/INFO]: Lazic (/127.227.82.132:38651) lost connection: [LoginSecurity] This player is already online!
+[16:27:12] [Server thread/INFO]: Lazic lost connection: Timed out
+[16:27:12] [Server thread/INFO]: [Westhelm] Lazic left the game
+[16:27:12] [User Authenticator #55/INFO]: Disconnecting OPlechStyles (/127.229.163.226:39837): [LoginSecurity] This player is already online!
+[16:27:12] [User Authenticator #55/INFO]: UUID of player OPlechStyles is 9c5026b5-1602-34df-9cd4-1dd4d84122b4
+[16:27:12] [Server thread/INFO]: OPlechStyles (/127.229.163.226:39837) lost connection: [LoginSecurity] This player is already online!
+[16:27:13] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> mejor nada
+[16:27:14] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:27:15] [Server thread/INFO]: OPlechStyles was kicked due to keepalive timeout!
+[16:27:15] [Server thread/INFO]: OPlechStyles lost connection: Timed out
+[16:27:15] [Server thread/INFO]: OPlechStyles left the game
+[16:27:15] [Server thread/INFO]: PlechStyles lost connection: Timed out
+[16:27:15] [Server thread/INFO]: [Kawesar Tribe] PlechStyles left the game
+[16:27:16] [User Authenticator #56/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:27:17] [Server thread/INFO]: [Kawesar Tribe] PlechStyles joined the game
+[16:27:17] [Server thread/INFO]: PlechStyles[/127.229.163.226:43059] logged in with entity id 50867 at ([minecraft:overworld]-201.8328400827379, 50.0, 747.7575161954436)
+[16:27:18] [User Authenticator #57/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:27:19] [Server thread/INFO]: [Westhelm] Lazic joined the game
+[16:27:19] [Server thread/INFO]: Lazic[/127.227.82.132:46415] logged in with entity id 51056 at ([minecraft:overworld]-1347.4841519931426, 64.0, 675.449702152734)
+[16:27:30] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> el diamante no vale nada gan
+[16:27:31] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:27:37] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:27:40] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> segun?
+[16:27:43] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:27:46] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:27:51] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> segun que
+[16:27:54] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:27:55] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> te estoy diciendo
+[16:27:59] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> segun qn
+[16:28:04] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:28:12] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> bro es facil farmearlo
+[16:28:14] [Async Chat Thread - #5/INFO]: [Not Secure] <Lazic> WAHT
+[16:28:16] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:28:24] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:28:26] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> las esmes tamb
+[16:28:29] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> xau
+[16:28:29] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:28:30] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> con lo que estoy haciendo la economia del diamante habra bajado a valer casi nada
+[16:28:33] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:28:38] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> bro
+[16:28:39] [Async Chat Thread - #6/INFO]: [Not Secure] <zekrompeak> give me shovel
+[16:28:41] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:28:44] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:28:46] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> q farmees no implica q baje
+[16:28:49] [Async Chat Thread - #6/INFO]: [Not Secure] <Lazic> i dont have
+[16:28:50] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:28:55] [Async Chat Thread - #6/INFO]: [Not Secure] <zekrompeak> make a shovel
+[16:28:55] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:29:03] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> ay mas de 19 granja de esmeraldas automáticas
+[16:29:05] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> bro si alguien tiene 1000 bloques y a cada miembro le da 200 la economia del diamante se desploma
+[16:29:18] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> PlechStyles
+[16:29:21] [Async Chat Thread - #6/INFO]: [Not Secure] <PlechStyles> si?
+[16:29:28] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> tiene nose cuántos cofres dobles con esmes
+[16:29:31] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:29:33] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:29:33] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> y no baje bro
+[16:29:36] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:29:37] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> bajo*
+[16:29:40] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:29:41] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> por que no hara algo
+[16:29:47] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> si le das 200 bloques a cada miembro
+[16:29:49] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:29:50] [Async Chat Thread - #6/INFO]: [Not Secure] <PlechStyles> bajo de q o q?
+[16:29:51] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> la economia se desploma
+[16:29:52] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:29:57] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:29:57] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> y el diamante no vale nada
+[16:29:58] [Async Chat Thread - #6/INFO]: [Not Secure] <zekrompeak> also get shears
+[16:30:01] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> por que nadie lo necesita
+[16:30:01] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:30:03] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> ni lo quiere ya
+[16:30:05] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> plech esq me quiere estafar
+[16:30:12] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:30:16] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:30:17] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> y la esme es muy util?
+[16:30:19] [Async Chat Thread - #6/INFO]: [Not Secure] <Lazic> come
+[16:30:21] [Server thread/INFO]: Lazic lost connection: Disconnected
+[16:30:21] [Server thread/INFO]: [Westhelm] Lazic left the game
+[16:30:23] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:30:24] [Server thread/INFO]: Lazic (/127.227.82.132:49423) lost connection: Disconnected
+[16:30:24] [User Authenticator #58/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:30:24] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> en tu economia si
+[16:30:27] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:30:32] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:30:36] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:30:37] [User Authenticator #59/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:30:38] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> te gusto xautral?
+[16:30:38] [Server thread/INFO]: [Westhelm] Lazic joined the game
+[16:30:38] [Server thread/INFO]: Lazic[/127.227.82.132:34383] logged in with entity id 53704 at ([minecraft:overworld]-1318.0145286737686, 69.0, 678.6991144065499)
+[16:30:42] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> que pas
+[16:30:48] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> estoy probando el lunge 15
+[16:30:49] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> nno jodas
+[16:30:50] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:30:52] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> este wey
+[16:30:54] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:30:59] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:31:07] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:31:10] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:31:13] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> mejor as el trix xau
+[16:31:15] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:31:21] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:31:22] [Async Chat Thread - #5/INFO]: [Not Secure] <zekrompeak> give me axe
+[16:31:23] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> cuantos diamantitos tienes gan
+[16:31:24] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:31:25] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> diamantitos
+[16:31:27] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:31:31] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> 530 bloques dije
+[16:31:33] [Async Chat Thread - #5/INFO]: [Not Secure] <Lazic> bro you lost you're items
+[16:31:34] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:31:39] [Async Chat Thread - #5/INFO]: [Not Secure] <zekrompeak> i didnt
+[16:31:40] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> Xautral
+[16:31:40] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:31:42] [Async Chat Thread - #6/INFO]: [Not Secure] <zekrompeak> i never had a xe
+[16:31:43] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> por que no escojiste de economia tu diamante
+[16:31:45] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> te compro cohetes
+[16:31:58] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> volcon2 no ay granjas de diamante
+[16:32:02] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> y que tiene
+[16:32:05] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> los farmeas rapido
+[16:32:09] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> ya tienes 530 bloques
+[16:32:11] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> para q farmear?
+[16:32:12] [Async Chat Thread - #6/INFO]: [Not Secure] <zekrompeak> make a shovel
+[16:32:18] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:18] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:19] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> si tienes una granja te quedas afk y ya
+[16:32:20] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> t
+[16:32:20] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> t
+[16:32:20] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> t
+[16:32:21] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> t
+[16:32:21] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> t
+[16:32:22] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:22] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:22] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:22] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:22] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:22] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:22] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:22] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:23] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequint
+[16:32:23] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequint
+[16:32:23] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequint
+[16:32:24] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequint
+[16:32:24] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequint
+[16:32:25] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:25] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:27] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> 530 bloques puedes comprar todo
+[16:32:34] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:34] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:34] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:34] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:35] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:35] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:35] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:35] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:35] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:35] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:36] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:36] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:36] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:36] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:36] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:36] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:37] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:37] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:37] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> ademas si esa granja da lag te la van a borrar
+[16:32:42] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:42] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:43] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:43] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:43] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:43] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:43] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:43] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:44] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[16:32:44] [Server thread/INFO]: [Xautral: Summoned new Mannequin]
+[16:32:44] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> t
+[16:32:44] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> t
+[16:32:44] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> t
+[16:32:45] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> t
+[16:32:45] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> t
+[16:32:46] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> no hace lag
+[16:32:54] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> ya la pobre
+[16:32:59] [Server thread/INFO]: Xautral issued server command: /kill @e[type=minecraft:warden]
+[16:32:59] [Server thread/INFO]: [Xautral: Killed 2 entities]
+[16:33:00] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> probe*
+[16:33:01] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> bro say wallahi
+[16:33:03] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> etapa 2: clasismo
+[16:33:06] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[16:33:06] [Server thread/INFO]: [Xautral: Teleported Xautral to [Volcanos] volcon2]
+[16:33:13] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> sis soy xautral
+[16:33:14] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> ya carnal pero deja el xray
+[16:33:19] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> que xray
+[16:33:22] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[16:33:22] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> si ando picando pa arribas
+[16:33:23] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:33:24] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[16:33:37] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> y de pronto se te ocurrieron los huevetes de cambiar a escalera arriba
+[16:33:37] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> XAU
+[16:33:42] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> tp
+[16:33:43] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> bro...
+[16:33:44] [Server thread/INFO]: Xautral issued server command: /tp itz_gan
+[16:33:44] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] itz_gan]
+[16:33:46] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:33:46] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> mira mis otras
+[16:33:48] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> dsp lo baneas
+[16:33:55] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> que pasa w
+[16:33:59] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> vendeme cohetes
+[16:34:06] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[16:34:10] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> 64 por 64
+[16:34:10] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:34:13] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> no.
+[16:34:17] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> del le el 5 no
+[16:34:20] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> son unard
+[16:34:22] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> entonces 1 esme por 1 cohete
+[16:34:26] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> esew
+[16:34:27] [Server thread/INFO]: Villager Villager['Leatherworker'/42483, uuid='573f602c-8046-42bd-863f-b1ed2c4dde04', l='ServerLevel[world]', x=-1285.67, y=64.00, z=568.09, cpos=[-81, 35], tl=14799, v=true] died, message: 'Leatherworker suffocated in a wall'
+[16:34:30] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> quiero level 1
+[16:34:37] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> pores
+[16:34:41] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> bro
+[16:34:49] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> ns qn es mas rata tu o slime
+[16:35:36] [Server thread/INFO]: Xautral issued server command: /kill @e[type=enderman]
+[16:35:36] [Server thread/INFO]: [Xautral: Killed 84 entities]
+[16:35:39] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> no somos ratas
+[16:35:44] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> el problema es que eres bien tacaño
+[16:35:44] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> si sos
+[16:35:48] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> xau
+[16:35:49] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> HJAJAJAJM
+[16:35:50] [Async Chat Thread - #6/INFO]: [Not Secure] <Lazic> can we put our items here cuz i feel like we're gonna get ambushed any second
+[16:36:00] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> 2 stacks de bloques de esme
+[16:36:04] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> por un mazo
+[16:36:11] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> y lo comprarn a 10 bloques...
+[16:36:18] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> esper
+[16:36:21] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> que mierda
+[16:36:24] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> como que 10 bloqu
+[16:36:24] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> menos de 5 creo
+[16:36:27] [Async Chat Thread - #5/INFO]: [Not Secure] <Lazic> coal
+[16:36:28] [Async Chat Thread - #5/INFO]: [Not Secure] <zekrompeak> lazic do u have 2 diamond
+[16:36:30] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> xau
+[16:36:34] [Async Chat Thread - #5/INFO]: [Not Secure] <zekrompeak> get 4 obsidian
+[16:36:44] [Async Chat Thread - #5/INFO]: [Not Secure] <Lazic> for enchanting table?
+[16:36:45] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> en la tienda slime puso q se compra mazo por 5 o 10 bloques de esmew
+[16:36:46] [Async Chat Thread - #5/INFO]: [Not Secure] <zekrompeak> yes
+[16:36:48] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[16:36:51] [Server thread/INFO]: Xautral issued server command: /kill @e[type=enderman]
+[16:36:51] [Server thread/INFO]: [Xautral: Killed 76 entities]
+[16:36:53] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:36:54] [Async Chat Thread - #5/INFO]: [Not Secure] <Lazic> ill get obsidian
+[16:37:00] [Server thread/INFO]: Xautral issued server command: /kill @e[type=enderman]
+[16:37:00] [Server thread/INFO]: [Xautral: Killed 71 entities]
+[16:37:01] [Async Chat Thread - #5/INFO]: [Not Secure] <Lazic> u get sugar cane and leather
+[16:37:22] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> bro way wallahi
+[16:37:25] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> say wallahi
+[16:37:41] [Server thread/INFO]: [Westhelm] Lazic has made the advancement [Ice Bucket Challenge]
+[16:37:47] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> oigan
+[16:37:52] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> ty si hago a las águilas?
+[16:37:58] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> paraq?
+[16:38:00] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> que es eso
+[16:38:05] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> o0 que puedas domesticar phantoms
+[16:38:08] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> aaa
+[16:38:10] [Server thread/INFO]: Xautral issued server command: /kill @e[type=enderman]
+[16:38:10] [Server thread/INFO]: [Xautral: Killed 78 entities]
+[16:38:14] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> bro....
+[16:38:16] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> as cosas utiles pls
+[16:38:19] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> la neta no
+[16:38:23] [Server thread/INFO]: PlechStyles lost connection: Timed out
+[16:38:23] [Server thread/INFO]: [Kawesar Tribe] PlechStyles left the game
+[16:38:24] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> nadie la va a utilizar
+[16:38:30] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> entonces chinguen a su madre putitos
+[16:38:31] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> mejor has el portal de diamante
+[16:38:33] [Server thread/INFO]: Xautral issued server command: /kill @e[type=enderman]
+[16:38:33] [Server thread/INFO]: [Xautral: Killed 79 entities]
+[16:38:36] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> o del cielo
+[16:38:39] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> o de paw patrol
+[16:38:42] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> esew
+[16:38:48] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> agan cosas utiles y ya
+[16:39:01] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> mi pico se va a romper
+[16:39:11] [Async Chat Thread - #5/INFO]: [Not Secure] <Lazic> where u at z
+[16:39:15] [Async Chat Thread - #5/INFO]: [Not Secure] <Lazic> zekrompeak*
+[16:39:20] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[16:39:20] [Async Chat Thread - #5/INFO]: [Not Secure] <zekrompeak> a few thousand blocks away
+[16:39:20] [Server thread/INFO]: [Xautral: Set own game mode to Survival Mode]
+[16:39:23] [Async Chat Thread - #5/INFO]: [Not Secure] <zekrompeak> im looking for bookls
+[16:39:24] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[16:39:27] [Async Chat Thread - #5/INFO]: [Not Secure] <Lazic> why
+[16:39:27] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> sigueme pegando culero eh
+[16:39:35] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> chupalo
+[16:39:41] [User Authenticator #60/INFO]: Disconnecting Lazic (/127.227.82.132:47663): [LoginSecurity] This player is already online!
+[16:39:41] [User Authenticator #60/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:39:41] [Server thread/INFO]: Lazic (/127.227.82.132:47663) lost connection: [LoginSecurity] This player is already online!
+[16:39:42] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> me quisiste estafar
+[16:39:53] [User Authenticator #61/INFO]: Disconnecting Lazic (/127.227.82.132:41379): [LoginSecurity] This player is already online!
+[16:39:53] [User Authenticator #61/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:39:53] [Server thread/INFO]: Lazic (/127.227.82.132:41379) lost connection: [LoginSecurity] This player is already online!
+[16:39:58] [User Authenticator #62/INFO]: Disconnecting Lazic (/127.227.82.132:48173): [LoginSecurity] This player is already online!
+[16:39:58] [User Authenticator #62/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:39:58] [Server thread/INFO]: Lazic (/127.227.82.132:48173) lost connection: [LoginSecurity] This player is already online!
+[16:40:00] [Server thread/INFO]: volcon2 lost connection: Timed out
+[16:40:00] [Server thread/INFO]: [Volcanos] volcon2 left the game
+[16:40:00] [Server thread/INFO]: Xautral lost connection: Timed out
+[16:40:00] [Server thread/INFO]: Xautral left the game
+[16:40:00] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[16:40:01] [Server thread/INFO]: Lazic lost connection: Timed out
+[16:40:01] [Server thread/INFO]: [Westhelm] Lazic left the game
+[16:40:02] [User Authenticator #63/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:40:03] [Server thread/INFO]: [Westhelm] Lazic joined the game
+[16:40:03] [Server thread/INFO]: Lazic[/127.227.82.132:52191] logged in with entity id 64126 at ([minecraft:overworld]-1347.9379071259077, 64.0, 678.9909255261832)
+[16:40:23] [Server thread/INFO]: [Not Secure] [Server] me cago en la puta otra vez no me deja entrar
+[16:40:28] [Async Chat Thread - #5/INFO]: [Not Secure] <zekrompeak> 0 books
+[16:40:33] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> por negro
+[16:40:43] [User Authenticator #64/INFO]: Disconnecting Lazic (/127.227.82.132:50341): [LoginSecurity] This player is already online!
+[16:40:43] [User Authenticator #64/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:40:43] [Server thread/INFO]: Lazic (/127.227.82.132:50341) lost connection: [LoginSecurity] This player is already online!
+[16:40:47] [User Authenticator #65/INFO]: Disconnecting Lazic (/127.227.82.132:53627): [LoginSecurity] This player is already online!
+[16:40:47] [User Authenticator #65/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:40:47] [Server thread/INFO]: Lazic (/127.227.82.132:53627) lost connection: [LoginSecurity] This player is already online!
+[16:40:50] [Server thread/INFO]: Lazic was kicked due to keepalive timeout!
+[16:40:50] [Server thread/INFO]: Lazic lost connection: Timed out
+[16:40:50] [Server thread/INFO]: Lazic left the game
+[16:41:01] [User Authenticator #66/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:41:02] [Server thread/INFO]: [Westhelm] Lazic joined the game
+[16:41:02] [Server thread/INFO]: Lazic[/127.227.82.132:38069] logged in with entity id 65073 at ([minecraft:overworld]-1347.8001404016763, 64.0, 678.734138855598)
+[16:41:18] [Server thread/INFO]: [Not Secure] [Server] síguele culero itz_gan
+[16:41:25] [Server thread/INFO]: [Not Secure] [Server] luego no andes de chillona de "ay xautral basta, me lastima"
+[16:41:25] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> callate
+[16:41:25] [Server thread/INFO]: zekrompeak lost connection: Disconnected
+[16:41:26] [Server thread/INFO]: [Westhelm] zekrompeak left the game
+[16:41:26] [Server thread/INFO]: There are 2 of a max of 20 players online: [Flame Horde] itz_gan, [Westhelm] Lazic
+[16:41:29] [User Authenticator #67/INFO]: UUID of player zekrompeak is b9da48f8-6c41-3713-af55-ca39a6226374
+[16:41:30] [Server thread/INFO]: [Westhelm] zekrompeak joined the game
+[16:41:30] [Server thread/INFO]: zekrompeak[/127.215.133.35:59781] logged in with entity id 65414 at ([minecraft:overworld]443.30000001192093, 36.34456680377502, 479.69999998807907)
+[16:41:36] [Server thread/INFO]: [Not Secure] [Server] por puto-doto
+[16:41:42] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> solo sirves pa correr con elys
+[16:41:47] [Async Chat Thread - #5/INFO]: [Not Secure] <zekrompeak> bro
+[16:41:48] [Server thread/INFO]: [Westhelm] Lazic has made the advancement [Who Needs Rockets?]
+[16:41:51] [Async Chat Thread - #5/INFO]: [Not Secure] <zekrompeak> what the fuck is this lag
+[16:41:55] [Server thread/INFO]: [Not Secure] [Server] exclamo la perra con escudo
+[16:41:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[16:41:59] [Async Chat Thread - #5/INFO]: [Not Secure] <zekrompeak> xautral tp me to lazic pls
+[16:42:01] [Async Chat Thread - #5/INFO]: [Not Secure] <itz_gan> ni lo uso
+[16:42:06] [Server thread/INFO]: Teleported [Westhelm] zekrompeak to [Westhelm] Lazic
+[16:42:07] [Server thread/INFO]: [Not Secure] [Server] ese w
+[16:42:25] [Async Chat Thread - #6/INFO]: [Not Secure] <zekrompeak> we need books
+[16:42:32] [Async Chat Thread - #6/INFO]: [Not Secure] <Lazic> hmm
+[16:42:35] [User Authenticator #68/INFO]: Disconnecting zekrompeak (/127.215.133.35:46943): [LoginSecurity] This player is already online!
+[16:42:35] [User Authenticator #68/INFO]: UUID of player zekrompeak is b9da48f8-6c41-3713-af55-ca39a6226374
+[16:42:35] [Server thread/INFO]: zekrompeak (/127.215.133.35:46943) lost connection: [LoginSecurity] This player is already online!
+[16:42:38] [User Authenticator #69/INFO]: Disconnecting zekrompeak (/127.215.133.35:51245): [LoginSecurity] This player is already online!
+[16:42:38] [User Authenticator #69/INFO]: UUID of player zekrompeak is b9da48f8-6c41-3713-af55-ca39a6226374
+[16:42:38] [Server thread/INFO]: zekrompeak (/127.215.133.35:51245) lost connection: [LoginSecurity] This player is already online!
+[16:42:40] [Async Chat Thread - #6/INFO]: [Not Secure] <Lazic> idk
+[16:42:41] [User Authenticator #70/INFO]: Disconnecting zekrompeak (/127.215.133.35:37725): [LoginSecurity] This player is already online!
+[16:42:41] [User Authenticator #70/INFO]: UUID of player zekrompeak is b9da48f8-6c41-3713-af55-ca39a6226374
+[16:42:41] [Server thread/INFO]: zekrompeak (/127.215.133.35:37725) lost connection: [LoginSecurity] This player is already online!
+[16:42:48] [User Authenticator #71/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:42:49] [Server thread/INFO]: [Kawesar Tribe] PlechStyles joined the game
+[16:42:49] [Server thread/INFO]: PlechStyles[/127.229.163.226:36983] logged in with entity id 65907 at ([minecraft:overworld]-200.69999998807907, 55.0, 732.7477019453112)
+[16:42:51] [User Authenticator #72/INFO]: Disconnecting Lazic (/127.227.82.132:50831): [LoginSecurity] This player is already online!
+[16:42:51] [User Authenticator #72/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:42:51] [Server thread/INFO]: Lazic (/127.227.82.132:50831) lost connection: [LoginSecurity] This player is already online!
+[16:42:53] [User Authenticator #73/INFO]: Disconnecting Lazic (/127.227.82.132:38657): [LoginSecurity] This player is already online!
+[16:42:53] [User Authenticator #73/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:42:53] [Server thread/INFO]: Lazic (/127.227.82.132:38657) lost connection: [LoginSecurity] This player is already online!
+[16:42:55] [Server thread/INFO]: Kicked [Westhelm] Lazic: Kicked by an operator
+[16:42:55] [Server thread/INFO]: Lazic lost connection: Kicked by an operator
+[16:42:55] [Server thread/INFO]: Lazic left the game
+[16:42:59] [User Authenticator #74/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:42:59] [Server thread/INFO]: zekrompeak was kicked due to keepalive timeout!
+[16:42:59] [Server thread/INFO]: zekrompeak lost connection: Timed out
+[16:42:59] [Server thread/INFO]: zekrompeak left the game
+[16:43:00] [Server thread/INFO]: [Westhelm] Lazic joined the game
+[16:43:00] [Server thread/INFO]: Lazic[/127.227.82.132:40091] logged in with entity id 66234 at ([minecraft:overworld]-1343.3684599896887, 65.17675927506424, 691.0267961235178)
+[16:43:03] [Server thread/INFO]: [Not Secure] [Server] guys, the palyit tunnels is laging
+[16:43:09] [User Authenticator #75/INFO]: UUID of player OPlechStyles is 9c5026b5-1602-34df-9cd4-1dd4d84122b4
+[16:43:10] [Server thread/INFO]: [Not Secure] [Server] i cant connect
+[16:43:10] [Server thread/INFO]: OPlechStyles joined the game
+[16:43:10] [Server thread/INFO]: OPlechStyles[/127.229.163.226:42517] logged in with entity id 66377 at ([minecraft:overworld]-410.37038523218644, 78.61486790770114, 205.44568871869726)
+[16:43:12] [Async Chat Thread - #6/INFO]: [Not Secure] <Lazic> like yesterday
+[16:43:18] [User Authenticator #76/INFO]: UUID of player zekrompeak is b9da48f8-6c41-3713-af55-ca39a6226374
+[16:43:19] [Server thread/INFO]: [Westhelm] zekrompeak joined the game
+[16:43:19] [Server thread/INFO]: zekrompeak[/127.215.133.35:59335] logged in with entity id 66518 at ([minecraft:overworld]-1348.4613075197767, 64.0, 678.9828911802235)
+[16:43:23] [Async Chat Thread - #7/INFO]: [Not Secure] <itz_gan> SOY LA PUTA CABRA
+[16:43:30] [Async Chat Thread - #7/INFO]: [Not Secure] <Lazic> zekrompeak get cows ill get sugar cane
+[16:43:40] [Async Chat Thread - #7/INFO]: [Not Secure] <zekrompeak> wheres enchanting table
+[16:43:48] [Async Chat Thread - #7/INFO]: [Not Secure] <zekrompeak> why do u need sugar cane
+[16:43:54] [Async Chat Thread - #7/INFO]: [Not Secure] <Lazic> for books
+[16:44:04] [Async Chat Thread - #7/INFO]: [Not Secure] <Lazic> and the enchanting table is in my inv
+[16:44:11] [Async Chat Thread - #7/INFO]: [Not Secure] <zekrompeak> ooh
+[16:44:44] [Server thread/INFO]: OPlechStyles issued server command: /effect give OPlechStyles minecraft:night_vision infinite 1 true
+[16:44:44] [Server thread/INFO]: [OPlechStyles: Applied effect Night Vision to OPlechStyles]
+[16:45:04] [Async Chat Thread - #7/INFO]: [Not Secure] <itz_gan> plech mi amor
+[16:45:04] [User Authenticator #77/INFO]: Disconnecting PlechStyles (/127.229.163.226:50821): [LoginSecurity] This player is already online!
+[16:45:04] [User Authenticator #77/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:45:04] [Server thread/INFO]: PlechStyles (/127.229.163.226:50821) lost connection: [LoginSecurity] This player is already online!
+[16:45:16] [User Authenticator #78/INFO]: Disconnecting PlechStyles (/127.229.163.226:33091): [LoginSecurity] This player is already online!
+[16:45:16] [User Authenticator #78/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:45:16] [Server thread/INFO]: PlechStyles was kicked due to keepalive timeout!
+[16:45:16] [Server thread/INFO]: OPlechStyles was kicked due to keepalive timeout!
+[16:45:16] [Server thread/INFO]: PlechStyles (/127.229.163.226:33091) lost connection: [LoginSecurity] This player is already online!
+[16:45:16] [Server thread/INFO]: PlechStyles lost connection: Timed out
+[16:45:16] [Server thread/INFO]: PlechStyles left the game
+[16:45:16] [Server thread/INFO]: OPlechStyles lost connection: Timed out
+[16:45:16] [Server thread/INFO]: OPlechStyles left the game
+[16:45:19] [User Authenticator #79/INFO]: UUID of player OPlechStyles is 9c5026b5-1602-34df-9cd4-1dd4d84122b4
+[16:45:20] [Server thread/INFO]: OPlechStyles joined the game
+[16:45:20] [Server thread/INFO]: OPlechStyles[/127.229.163.226:58831] logged in with entity id 69152 at ([minecraft:overworld]-197.2352302848497, 49.7588565148302, 744.8886715725556)
+[16:45:22] [User Authenticator #80/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[16:45:23] [Server thread/INFO]: [Kawesar Tribe] PlechStyles joined the game
+[16:45:23] [Server thread/INFO]: PlechStyles[/127.229.163.226:33797] logged in with entity id 69190 at ([minecraft:overworld]-199.3628335899012, 55.0, 731.8674003317369)
+[16:45:49] [Server thread/INFO]: [Not Secure] [Server] guys i gonna start the server more later because the lag
+[16:45:50] [Server thread/INFO]: There are 5 of a max of 20 players online: [Flame Horde] itz_gan, [Westhelm] Lazic, [Westhelm] zekrompeak, OPlechStyles, [Kawesar Tribe] PlechStyles
+[16:45:52] [Server thread/INFO]: [Not Secure] [Server] ok?
+[16:45:57] [User Authenticator #81/INFO]: Disconnecting Lazic (/127.227.82.132:53863): [LoginSecurity] This player is already online!
+[16:45:57] [User Authenticator #81/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:45:57] [Server thread/INFO]: Lazic (/127.227.82.132:53863) lost connection: [LoginSecurity] This player is already online!
+[16:45:57] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[16:45:59] [User Authenticator #82/INFO]: Disconnecting Lazic (/127.227.82.132:47765): [LoginSecurity] This player is already online!
+[16:45:59] [User Authenticator #82/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:45:59] [Server thread/INFO]: Lazic (/127.227.82.132:47765) lost connection: [LoginSecurity] This player is already online!
+[16:46:01] [User Authenticator #83/INFO]: Disconnecting Lazic (/127.227.82.132:56707): [LoginSecurity] This player is already online!
+[16:46:01] [User Authenticator #83/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:46:01] [Server thread/INFO]: Lazic (/127.227.82.132:56707) lost connection: [LoginSecurity] This player is already online!
+[16:46:03] [User Authenticator #84/INFO]: Disconnecting Lazic (/127.227.82.132:37677): [LoginSecurity] This player is already online!
+[16:46:03] [User Authenticator #84/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:46:04] [Server thread/INFO]: Lazic (/127.227.82.132:37677) lost connection: [LoginSecurity] This player is already online!
+[16:46:04] [Server thread/INFO]: Saving the game (this may take a moment!)
+[16:46:05] [Server thread/INFO]: Saved the game
+[16:46:06] [Server thread/INFO]: Stopping the server
+[16:46:06] [Server thread/INFO]: Stopping server
+[16:46:06] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[16:46:06] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[16:46:06] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[16:46:06] [Server thread/INFO]: [ItemEdit] Disabling ItemEdit v3.7.10
+[16:46:06] [Server thread/INFO]: [OpenInv] Disabling OpenInv v5.3.3
+[16:46:06] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.4
+[16:46:06] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.11.0
+[16:46:06] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.11.0
+[16:46:06] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[16:46:06] [Server thread/INFO]: Saving players
+[16:46:06] [User Authenticator #85/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[16:46:06] [Server thread/INFO]: itz_gan lost connection: Server closed
+[16:46:06] [Server thread/INFO]: itz_gan left the game
+[16:46:06] [Server thread/INFO]: Lazic lost connection: Server closed
+[16:46:06] [Server thread/INFO]: Lazic left the game
+[16:46:06] [Server thread/INFO]: zekrompeak lost connection: Server closed
+[16:46:06] [Server thread/INFO]: zekrompeak left the game
+[16:46:06] [Server thread/INFO]: OPlechStyles lost connection: Server closed
+[16:46:06] [Server thread/INFO]: OPlechStyles left the game
+[16:46:06] [Server thread/INFO]: PlechStyles lost connection: Server closed
+[16:46:06] [Server thread/INFO]: PlechStyles left the game
+[16:46:06] [Server thread/INFO]: Lazic (/127.227.82.132:53559) lost connection: Disconnected
+[16:46:06] [Server thread/INFO]: Saving worlds
+[16:46:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:46:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[16:46:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[16:46:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[16:46:13] [Server thread/INFO]: [ChunkHolderManager] Saved 1237 block chunks, 708 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 6.63s
+[16:46:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[16:46:13] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[16:46:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:46:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[16:46:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[16:46:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[16:46:13] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[16:46:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[16:46:13] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[16:46:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:46:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[16:46:13] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[16:46:13] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[16:46:13] [Server thread/INFO]: [ChunkHolderManager] Saved 312 block chunks, 43 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.18s
+[16:46:13] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[16:46:13] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[16:46:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:46:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:46:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:46:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:46:14] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[16:46:14] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[16:46:14] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:46:14] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
