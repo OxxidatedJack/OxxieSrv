@@ -1,0 +1,5 @@
+sudo playitd --socket-path /run/playit/playitd.sock
+
+sudo playit --socket-path /run/playit/playitd.sock
+
+java -Xms14G -Xmx14G -XX:+UseZGC -XX:+ZGenerational -XX:+AlwaysPreTouch -Dfile.encoding=UTF-8 -Dlog4j2.formatMsgNoLookups=true -jar server.jar nogui
