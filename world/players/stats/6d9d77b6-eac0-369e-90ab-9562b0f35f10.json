@@ -1,24 +1,27 @@
 {
   "stats": {
-    "minecraft:used": {
-      "minecraft:sand": 1
+    "minecraft:mined": {
+      "minecraft:sand": 4
     },
     "minecraft:picked_up": {
       "minecraft:sand": 1
     },
+    "minecraft:used": {
+      "minecraft:sand": 1
+    },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 0,
+      "minecraft:time_since_rest": 441,
       "minecraft:walk_one_cm": 2663,
-      "minecraft:leave_game": 3,
+      "minecraft:leave_game": 4,
       "minecraft:walk_under_water_one_cm": 171,
       "minecraft:damage_taken": 615,
-      "minecraft:play_time": 4490,
+      "minecraft:play_time": 4931,
       "minecraft:damage_dealt": 182,
       "minecraft:jump": 43,
-      "minecraft:time_since_death": 0,
+      "minecraft:time_since_death": 343,
       "minecraft:sprint_one_cm": 1622,
       "minecraft:fall_one_cm": 225,
-      "minecraft:total_world_time": 4490,
+      "minecraft:total_world_time": 4931,
       "minecraft:fly_one_cm": 3647,
       "minecraft:walk_on_water_one_cm": 3507,
       "minecraft:crouch_one_cm": 201,
@@ -27,9 +30,6 @@
     },
     "minecraft:killed_by": {
       "minecraft:player": 2
-    },
-    "minecraft:mined": {
-      "minecraft:sand": 4
     }
   },
   "DataVersion": 4790

@@ -18,8 +18,20 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "ce85d91a-40e8-3a50-b65b-223c1e5293e4",
+    "name": "sweetily",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "a8c8e5bf-61c3-3670-8418-d9212f1cf031",
     "name": "kyo_saint",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d4b5246f-7ded-33b5-9330-4be467263585",
+    "name": "Javadroker_MC",
     "level": 4,
     "bypassesPlayerLimit": false
   },

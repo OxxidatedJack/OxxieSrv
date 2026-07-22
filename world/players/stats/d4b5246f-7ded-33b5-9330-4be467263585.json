@@ -1,0 +1,53 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:black_concrete": 387,
+      "minecraft:warden_spawn_egg": 1,
+      "minecraft:pearlescent_froglight": 5,
+      "minecraft:villager_spawn_egg": 9,
+      "minecraft:sculk": 4,
+      "minecraft:white_stained_glass_pane": 52,
+      "minecraft:iron_block": 10,
+      "minecraft:goat_horn": 1,
+      "minecraft:sea_lantern": 14
+    },
+    "minecraft:picked_up": {
+      "minecraft:milk_bucket": 3,
+      "minecraft:white_stained_glass_pane": 1,
+      "minecraft:cobblestone": 2,
+      "minecraft:wooden_sword": 1,
+      "minecraft:nether_star": 3,
+      "minecraft:emerald": 2,
+      "minecraft:cobbled_deepslate": 28
+    },
+    "minecraft:custom": {
+      "minecraft:damage_resisted": 1785,
+      "minecraft:talked_to_villager": 1,
+      "minecraft:time_since_rest": 58511,
+      "minecraft:walk_one_cm": 71735,
+      "minecraft:leave_game": 4,
+      "minecraft:walk_under_water_one_cm": 8119,
+      "minecraft:damage_taken": 80,
+      "minecraft:damage_dealt": 10,
+      "minecraft:play_time": 58511,
+      "minecraft:jump": 211,
+      "minecraft:time_since_death": 58511,
+      "minecraft:drop": 7,
+      "minecraft:sprint_one_cm": 20584,
+      "minecraft:fall_one_cm": 1265,
+      "minecraft:swim_one_cm": 868,
+      "minecraft:total_world_time": 58511,
+      "minecraft:fly_one_cm": 282617,
+      "minecraft:walk_on_water_one_cm": 7791,
+      "minecraft:crouch_one_cm": 2521,
+      "minecraft:sneak_time": 1639
+    },
+    "minecraft:dropped": {
+      "minecraft:nether_star": 3,
+      "minecraft:villager_spawn_egg": 1,
+      "minecraft:white_stained_glass_pane": 2,
+      "minecraft:emerald": 1
+    }
+  },
+  "DataVersion": 4790
+}

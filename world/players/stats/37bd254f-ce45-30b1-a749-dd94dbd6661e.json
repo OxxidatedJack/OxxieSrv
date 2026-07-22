@@ -1,0 +1,84 @@
+{
+  "stats": {
+    "minecraft:mined": {
+      "minecraft:tall_grass": 2,
+      "minecraft:granite": 4,
+      "minecraft:bush": 1,
+      "minecraft:diorite": 11,
+      "minecraft:grass_block": 1,
+      "minecraft:cobblestone": 6,
+      "minecraft:short_grass": 1,
+      "minecraft:tuff": 21,
+      "minecraft:diamond_ore": 4,
+      "minecraft:deepslate": 82,
+      "minecraft:deepslate_diamond_ore": 35,
+      "minecraft:deepslate_iron_ore": 1,
+      "minecraft:crafting_table": 1,
+      "minecraft:birch_log": 6,
+      "minecraft:leaf_litter": 1,
+      "minecraft:oak_log": 5,
+      "minecraft:stone": 49
+    },
+    "minecraft:used": {
+      "minecraft:diamond_pickaxe": 120,
+      "minecraft:crafting_table": 2,
+      "minecraft:iron_pickaxe": 93,
+      "minecraft:bread": 1,
+      "minecraft:cobblestone": 13
+    },
+    "minecraft:picked_up": {
+      "minecraft:diorite": 11,
+      "minecraft:dirt": 1,
+      "minecraft:cobblestone": 55,
+      "minecraft:totem_of_undying": 3,
+      "minecraft:crafting_table": 1,
+      "minecraft:iron_ingot": 43,
+      "minecraft:cobbled_deepslate": 82,
+      "minecraft:raw_iron": 1,
+      "minecraft:tuff": 21,
+      "minecraft:leaf_litter": 3,
+      "minecraft:oak_log": 5,
+      "minecraft:birch_log": 6,
+      "minecraft:diamond": 39,
+      "minecraft:granite": 4,
+      "minecraft:emerald": 15
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 8,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:oak_planks": 20,
+      "minecraft:birch_planks": 24,
+      "minecraft:diamond_pickaxe": 1,
+      "minecraft:bread": 60,
+      "minecraft:iron_pickaxe": 1,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:custom": {
+      "minecraft:traded_with_villager": 10,
+      "minecraft:interact_with_crafting_table": 5,
+      "minecraft:talked_to_villager": 5,
+      "minecraft:time_since_rest": 20287,
+      "minecraft:walk_one_cm": 22362,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 130,
+      "minecraft:play_time": 20287,
+      "minecraft:damage_dealt": 98,
+      "minecraft:jump": 89,
+      "minecraft:time_since_death": 20287,
+      "minecraft:drop": 8,
+      "minecraft:open_barrel": 5,
+      "minecraft:sprint_one_cm": 11708,
+      "minecraft:open_chest": 9,
+      "minecraft:fall_one_cm": 2075,
+      "minecraft:total_world_time": 20287,
+      "minecraft:fly_one_cm": 7526,
+      "minecraft:crouch_one_cm": 6777,
+      "minecraft:sneak_time": 4686
+    },
+    "minecraft:dropped": {
+      "minecraft:iron_ingot": 40,
+      "minecraft:emerald": 12
+    }
+  },
+  "DataVersion": 4790
+}
