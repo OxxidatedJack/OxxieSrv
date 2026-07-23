@@ -1,6 +1,22 @@
-[00:27:08] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
-[00:27:08] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) for Minecraft 26.1.2
-[00:27:09] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[00:27:09] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[00:27:09] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+[01:03:45] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[01:03:45] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) for Minecraft 26.1.2
+[01:03:45] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:03:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[01:03:47] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
  - ItemEdit (3.7.10), LoginSecurity (3.2.0), OpenInv (5.3.3), SkinsRestorer (15.12.5), ViaBackwards (5.11.0), ViaVersion (5.11.0)
+[01:03:53] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
+[01:03:53] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
+[01:03:53] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[01:03:53] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[01:03:53] [ServerMain/ERROR]: Failed to start the minecraft server
+net.minecraft.util.DirectoryLock$LockException: /workspaces/mcsrv/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:94) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
+	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:29) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.createLock(LevelStorageSource.java:465) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:461) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
+	at net.minecraft.world.level.storage.LevelStorageSource.validateAndCreateAccess(LevelStorageSource.java:394) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
+	at net.minecraft.server.Main.main(Main.java:184) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
+	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
