@@ -1,13 +1,1175 @@
-[23:12:02] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
-[23:12:02] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) for Minecraft 26.1.2
-[23:12:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[23:12:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[23:12:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+[13:23:36] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[13:23:36] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) for Minecraft 26.1.2
+[13:23:36] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:23:37] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[13:23:37] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
  - ItemEdit (3.7.10), LoginSecurity (3.2.0), OpenInv (5.3.3), SkinsRestorer (15.12.5), ViaBackwards (5.11.0), ViaVersion (5.11.0)
-[23:12:08] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
-[23:12:08] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
-[23:12:08] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
-[23:12:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[23:12:11] [ServerMain/INFO]: Loaded 1515 recipes
-[23:12:11] [ServerMain/INFO]: Loaded 1617 advancements
-[23:12:11] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[13:23:43] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
+[13:23:43] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
+[13:23:43] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[13:23:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[13:23:46] [ServerMain/INFO]: Loaded 1515 recipes
+[13:23:46] [ServerMain/INFO]: Loaded 1617 advancements
+[13:23:46] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[13:23:47] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 829.6ms
+[13:23:47] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[13:23:47] [Server thread/INFO]: Loading properties
+[13:23:47] [Server thread/INFO]: This server is running Paper version 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) (Implementing API version 26.1.2.build.74-stable)
+[13:23:47] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:23:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:23:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:23:48] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[13:23:48] [Server thread/INFO]: Default game type: SURVIVAL
+[13:23:48] [Server thread/INFO]: Generating keypair
+[13:23:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:23:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:23:49] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loading 1 libraries... please wait
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loaded library /workspaces/MotlaSrv/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-api/5.1.1/adventure-api-5.1.1.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-key/5.1.1/adventure-key-5.1.1.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/org/jetbrains/annotations/26.1.0/annotations-26.1.0.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-platform-bukkit/4.4.1/adventure-platform-bukkit-4.4.1.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-platform-api/4.4.1/adventure-platform-api-4.4.1.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-bungeecord/4.4.1/adventure-text-serializer-bungeecord-4.4.1.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-nbt/4.21.0/adventure-nbt-4.21.0.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.21.0/adventure-text-serializer-gson-legacy-impl-4.21.0.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-json-legacy-impl/4.21.0/adventure-text-serializer-json-legacy-impl-4.21.0.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-platform-facet/4.4.1/adventure-platform-facet-4.4.1.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-platform-viaversion/4.4.1/adventure-platform-viaversion-4.4.1.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-minimessage/5.1.1/adventure-text-minimessage-5.1.1.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-gson/5.1.1/adventure-text-serializer-gson-5.1.1.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-json/5.1.1/adventure-text-serializer-json-5.1.1.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-commons/5.1.1/adventure-text-serializer-commons-5.1.1.jar
+[13:23:49] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-legacy/5.1.1/adventure-text-serializer-legacy-5.1.1.jar
+[13:23:50] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[13:23:50] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[13:23:50] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[13:23:50] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[13:23:51] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[13:23:51] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
+[13:23:51] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.3.3
+[13:23:51] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.10
+[13:23:51] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
+[13:23:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:23:51] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
+[13:23:51] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.1.2.
+[13:23:52] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[13:23:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:23:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:23:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:23:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:23:52] [Server thread/INFO]: Preparing level "world"
+[13:23:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[13:23:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[13:23:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[13:23:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[13:23:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[13:23:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[13:23:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[13:23:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.5
+[13:23:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 98b9488
+[13:23:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[13:23:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[13:23:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[13:23:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[13:23:53] [Server thread/INFO]: Loading 41 persistent chunks for level 'minecraft:overworld'...
+[13:23:53] [Server thread/INFO]: Preparing spawn area: 19%
+[13:23:53] [Server thread/INFO]: Preparing spawn area: 19%
+[13:23:54] [Server thread/INFO]: Prepared spawn area in 1136 ms
+[13:23:54] [Server thread/INFO]: Loading 49 persistent chunks for level 'minecraft:the_nether'...
+[13:23:54] [Server thread/INFO]: Preparing spawn area: 16%
+[13:23:54] [Server thread/INFO]: Prepared spawn area in 179 ms
+[13:23:54] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[13:23:54] [Server thread/INFO]: Prepared spawn area in 1 ms
+[13:23:54] [Server thread/INFO]: Done preparing level "world" (2.026s)
+[13:23:54] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[13:23:54] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
+[13:23:54] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[13:23:54] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.3.3
+[13:23:54] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.10
+[13:23:54] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[13:23:54] [Server thread/INFO]: [ItemEdit] Unable to hook into Vault
+[13:23:54] [Server thread/INFO]: [ItemEdit] # Enabled (took 140 ms)
+[13:23:54] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[13:23:54] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[13:23:54] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[13:23:54] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[13:23:54] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[13:23:54] [Server thread/WARN]: [LoginSecurity] "LoginSecurity v3.2.0" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "public void com.lenis0012.bukkit.loginsecurity.modules.general.PlayerListener.onPlayerSpawn(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [lenis0012].
+[13:23:54] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[13:23:55] [Server thread/INFO]: [spark] Starting background profiler...
+[13:23:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:23:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[13:23:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[13:23:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:23:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:23:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:23:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:23:56] [Server thread/INFO]: Running delayed init tasks
+[13:23:56] [Server thread/INFO]: Done (21.428s)! For help, type "help"
+[13:23:56] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[13:25:53] [User Authenticator #0/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[13:25:53] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LoginSecurity]
+[13:25:58] [Server thread/INFO]: [OP] Xautral joined the game
+[13:25:58] [Server thread/INFO]: Xautral[/127.9.216.32:52833] logged in with entity id 46 at ([minecraft:overworld]0.5, 0.0, 0.5)
+[13:26:23] [Server thread/INFO]: Xautral issued server command: /skin notification ignore-cracked-client
+[13:26:28] [Server thread/INFO]: Xautral issued server command: /save-all
+[13:26:29] [Server thread/INFO]: [[OP] Xautral: Saved the game]
+[13:26:31] [Server thread/INFO]: Xautral issued server command: /kill
+[13:26:31] [Server thread/INFO]: [OP] Xautral was killed
+[13:26:31] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:26:32] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[13:26:32] [Server thread/INFO]: Xautral left the game
+[13:26:34] [User Authenticator #1/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[13:26:35] [Server thread/INFO]: [OP] Xautral joined the game
+[13:26:35] [Server thread/INFO]: Xautral[/127.9.216.32:57325] logged in with entity id 163 at ([minecraft:overworld]-990.5, 2.875, 3673.5)
+[13:26:49] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[13:26:49] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[13:28:41] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[13:29:01] [User Authenticator #2/INFO]: UUID of player zekrompeak is b9da48f8-6c41-3713-af55-ca39a6226374
+[13:29:03] [Server thread/INFO]: [Westhelm] zekrompeak joined the game
+[13:29:03] [Server thread/INFO]: zekrompeak[/127.215.133.35:48103] logged in with entity id 384 at ([minecraft:overworld]-1323.6324042035578, 70.0, 708.5191358046708)
+[13:29:14] [Server thread/INFO]: zekrompeak issued server command: /
+[13:29:39] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> xautral
+[13:29:42] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> what
+[13:29:43] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> hi
+[13:29:46] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> how do i repair my armor
+[13:29:52] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> my netherite armor is about to break
+[13:29:53] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> but repairnng it :V
+[13:30:10] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> how do i repa
+[13:30:13] [Async Chat Thread - #0/INFO]: [Not Secure] <zekrompeak> repair
+[13:31:21] [Async Chat Thread - #2/INFO]: [Not Secure] <zekrompeak> how do i repair
+[13:31:31] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> find mending with villagers
+[13:31:37] [User Authenticator #3/INFO]: UUID of player Slimegolembross is eccfda82-36bb-34f6-990b-f38cbf3c2466
+[13:31:38] [Server thread/INFO]: [Kawesar Tribe] Slimegolembross joined the game
+[13:31:38] [Server thread/INFO]: Slimegolembross[/127.115.210.97:37343] logged in with entity id 978 at ([minecraft:overworld]-994.2375000119209, 22.0, 3697.7900108983144)
+[13:31:42] [Server thread/INFO]: zekrompeak lost connection: Disconnected
+[13:31:43] [Server thread/INFO]: [Westhelm] zekrompeak left the game
+[13:31:57] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> como chinga este zekrompeak
+[13:32:05] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> ta cada puto rato "Xautral how i do repair my armor"
+[13:32:08] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> quiere que le haga todo alv
+[13:32:35] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembross> hola
+[13:32:42] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembross> yap
+[13:32:51] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembross> que se consiga mending y ya :V
+[13:33:05] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembross> que hora es alli xau?
+[13:33:19] [User Authenticator #4/INFO]: UUID of player itz_gan is ca1bc987-e6c9-3259-9306-9c250204f71d
+[13:33:24] [Server thread/INFO]: [Flame Horde] itz_gan joined the game
+[13:33:24] [Server thread/INFO]: itz_gan[/127.140.154.52:42775] logged in with entity id 1484 at ([minecraft:overworld]-225.24984663004082, -40.5, 2463.442023661583)
+[13:33:39] [User Authenticator #5/INFO]: UUID of player Slimegolembros is fb02b546-7f6c-3666-aaca-2e861bcf597e
+[13:33:40] [Server thread/INFO]: [OP] Slimegolembros joined the game
+[13:33:40] [Server thread/INFO]: Slimegolembros[/127.115.210.97:33979] logged in with entity id 1822 at ([minecraft:the_nether]-110.58012365912369, 132.80818689704353, 426.07517965261485)
+[13:33:58] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> bino el favorito
+[13:33:58] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> Slimegolembros aca son las perras 6 de la mañana
+[13:34:05] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembross> ostia
+[13:34:12] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembross> y que haces tan despierto bro
+[13:34:18] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> no tengo sueño
+[13:34:21] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembross> bruh
+[13:34:23] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> alla que hora es
+[13:34:31] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembross> yo me levante a las 12 am de la mañana xd
+[13:34:33] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> chinga tu madre entonces
+[13:34:34] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> y mi bad omen
+[13:34:38] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembross> aqui son las 3:34 pm
+[13:34:55] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> volvio al pasado xsu
+[13:35:04] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> ahora no soy xautralt
+[13:35:07] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> soy xsun su
+[13:35:12] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembross> XDDD
+[13:35:37] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> nadie se muera
+[13:35:40] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> o les reventará los timpanos
+[13:35:46] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> y si me muero?
+[13:35:53] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> ia ia a eie eie
+[13:35:55] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> ostia
+[13:35:57] [Server thread/INFO]: Xautral issued server command: /tpd
+[13:35:58] [Server thread/INFO]: Xautral issued server command: /tps
+[13:36:03] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> ahora quiero probarlo xddd
+[13:36:17] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> xau
+[13:36:21] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> esto sonará si te mueres itz_gan
+[13:36:22] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> manda tp
+[13:36:30] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:36:30] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:36:33] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[13:36:33] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[13:36:35] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> eso?
+[13:36:35] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:36:35] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:36:39] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:36:39] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:36:45] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> sonido de almas saliendo de tu cuerpo
+[13:36:45] [Server thread/INFO]: Slimegolembros issued server command: /msg Xautral esta es la base que stabas haciendo con plech ?
+[13:36:48] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> Slimegolembros si
+[13:36:51] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:36:51] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:36:51] [Async Chat Thread - #3/INFO]: [Not Secure] <Slimegolembros> a
+[13:36:52] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:36:52] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:36:53] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:36:53] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:36:54] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:36:54] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:36:56] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:36:56] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:36:59] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 0 1
+[13:36:59] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:37:02] [Server thread/INFO]: Slimegolembros issued server command: /msg Xautral estan conectadas las 3 bases xd
+[13:37:09] [Server thread/INFO]: Xautral issued server command: /tell Slimegolembros por quié?
+[13:37:15] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 0 1
+[13:37:15] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 2 players]
+[13:37:39] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:37:39] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:37:42] [Async Chat Thread - #3/INFO]: [Not Secure] <Slimegolembros> xd
+[13:37:42] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:37:42] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:37:43] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:37:43] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:37:44] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:37:44] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:37:47] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:37:47] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:37:49] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> q raro cambio de tiempo xd
+[13:37:49] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:37:49] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:37:59] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:37:59] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:38:01] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:38:01] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:38:02] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:38:02] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:38:05] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 0 1
+[13:38:05] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:38:13] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder player @a ~ ~ ~ 2347628734 2 1
+[13:38:13] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:item.trident.thunder to 4 players]
+[13:38:15] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[13:38:15] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[13:38:18] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> suena verga
+[13:38:21] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> xau te compro cords de una trial nueva
+[13:38:29] [Async Chat Thread - #3/INFO]: [Not Secure] <Slimegolembross> :V
+[13:38:29] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> no vendo cords w ya te dije
+[13:38:35] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembross> encuentrala tu
+[13:38:39] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> pero no es de un jugador bro
+[13:38:39] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembross> si no no tiene gracia
+[13:38:55] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> Slimegolembros yq te maten a media población de aldeanos tampoco
+[13:39:00] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> o no xau?
+[13:39:42] [Server thread/INFO]: Slimegolembros issued server command: /tp itz_gan
+[13:39:42] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Flame Horde] itz_gan]
+[13:39:42] [Server thread/INFO]: [OP] Slimegolembros has made the advancement [Minecraft: Trial(s) Edition]
+[13:40:21] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> si o no q w
+[13:40:36] [Async Chat Thread - #4/INFO]: [Not Secure] <Slimegolembros> yo tampoco le entendi XD
+[13:41:02] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> este es custol q oe vrg
+[13:41:30] [Server thread/INFO]: Slimegolembros issued server command: /tp 23029372 235 -1028389
+[13:41:30] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to 23029372.500000, 235.000000, -1028388.500000]
+[13:41:37] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> nome deja pegarle xd
+[13:41:42] [Async Chat Thread - #4/INFO]: [Not Secure] <Slimegolembros> si se puede
+[13:41:44] [Async Chat Thread - #5/INFO]: [Not Secure] <Slimegolembros> esta bug xd
+[13:41:47] [Async Chat Thread - #5/INFO]: [Not Secure] <Slimegolembros> pero se puede
+[13:41:47] [Server thread/INFO]: Xautral issued server command: /particle noxious_gas ~ ~1 ~ 0 0 0 0 1
+[13:41:53] [Server thread/INFO]: Slimegolembros issued server command: /tp Slimegolembross Slimegolembros
+[13:41:53] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [Kawesar Tribe] Slimegolembross to [OP] Slimegolembros]
+[13:42:00] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 0 0 0 1
+[13:42:00] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:01] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 0 0 0 1
+[13:42:01] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:02] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 0 0 0 1
+[13:42:02] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:04] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 0 0 0 155
+[13:42:04] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:09] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 1 0 0 155
+[13:42:09] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:12] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~ ~ 0 1 0 0 155
+[13:42:12] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:15] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~ ~ 0 1 0 0 155
+[13:42:15] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:18] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~ ~ 0 0 0 0 155
+[13:42:18] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:22] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~3 ~ 0 0 0 0 155
+[13:42:22] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:27] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~2 ~ 0 0 0 0 155
+[13:42:27] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:31] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 0 0 0 155
+[13:42:31] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:32] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 0 0 0 155
+[13:42:32] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:34] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 0 0 0 15555
+[13:42:34] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:37] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 0 0 0 1555
+[13:42:37] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:38] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 0 0 0 1555
+[13:42:38] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:42] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 0 0 1 1555
+[13:42:42] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:45] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 0 0 51 1555
+[13:42:45] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:49] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 0 1 1 1555
+[13:42:49] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:51] [Async Chat Thread - #6/INFO]: [Not Secure] <itz_gan> tp ami base
+[13:42:53] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 0 0.5 1 1555
+[13:42:53] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:56] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 0 0.3 1 1555
+[13:42:56] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:42:59] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0 0 0.2 1 1555
+[13:42:59] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:43:02] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1 ~ 0.2 0 0.2 1 1555
+[13:43:02] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:43:06] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1.2 ~ 0.2 0 0.2 1 1555
+[13:43:06] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:43:07] [Server thread/INFO]: Xautral issued server command: /particle splash ~ ~1.2 ~ 0.2 0 0.2 1 1555
+[13:43:07] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:splash]
+[13:43:34] [Server thread/INFO]: Xautral issued server command: /particle trail ~ ~1 ~ 0 0 0 0 1
+[13:43:36] [Server thread/INFO]: Slimegolembros issued server command: /tp Slimegolembross -999 22 3695
+[13:43:36] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [Kawesar Tribe] Slimegolembross to -998.500000, 22.000000, 3695.500000]
+[13:43:44] [Async Chat Thread - #7/INFO]: [Not Secure] <itz_gan> Xautral tengo lq fuente de tu economia en una structura
+[13:43:57] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0 1
+[13:43:57] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:00] [Server thread/INFO]: Slimegolembros issued server command: /tp itz_gan
+[13:44:00] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Flame Horde] itz_gan]
+[13:44:04] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0 1.5
+[13:44:06] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0 155
+[13:44:06] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:08] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0 155
+[13:44:08] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:09] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0 155
+[13:44:09] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:11] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0.5 155
+[13:44:11] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:15] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0.2 155
+[13:44:15] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:17] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0.1 155
+[13:44:17] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:20] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0.1 155
+[13:44:20] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:23] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0.1 155
+[13:44:23] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:26] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0.1 155
+[13:44:26] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:28] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0.1 155
+[13:44:28] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:29] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0.1 155
+[13:44:29] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:30] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0.1 15554
+[13:44:30] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:34] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0.1 1555
+[13:44:34] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:37] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0.1 1555
+[13:44:37] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:41] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 1 1555
+[13:44:41] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:42] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 1 1555
+[13:44:42] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:44:50] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sculk_soul ~ ~1 ~ 0 0 0 1 1555
+[13:44:50] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:sculk_soul]
+[13:44:53] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sculk_soul ~ ~1 ~ 0 0 0 0.2 1555
+[13:44:53] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:sculk_soul]
+[13:44:56] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 1 1555
+[13:44:56] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:45:01] [Server thread/INFO]: Xautral issued server command: /particle soul ~ ~1 ~ 0 0 0 0.1 1555
+[13:45:01] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:soul]
+[13:45:03] [Async Chat Thread - #8/INFO]: [Not Secure] <itz_gan> slime
+[13:45:12] [Async Chat Thread - #8/INFO]: [Not Secure] <itz_gan> ponme una cajita aqui?:v
+[13:45:24] [Async Chat Thread - #8/INFO]: [Not Secure] <Slimegolembros> no me mandas :V
+[13:45:27] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sculk_charge_pop ~ ~1 ~ 0 0 0 0.1 1555
+[13:45:27] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:sculk_charge_pop]
+[13:45:28] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sculk_charge_pop ~ ~1 ~ 0 0 0 0.1 1555
+[13:45:28] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:sculk_charge_pop]
+[13:45:30] [Async Chat Thread - #8/INFO]: [Not Secure] <itz_gan> :(
+[13:45:37] [Async Chat Thread - #8/INFO]: [Not Secure] <Slimegolembros> y no se que es una cajita
+[13:45:38] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sculk_soul ~ ~1 ~ 0 0 0 0.1 1555
+[13:45:38] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:sculk_soul]
+[13:45:40] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sculk_soul ~ ~1 ~ 0 0 0 0.1 1555
+[13:45:40] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:sculk_soul]
+[13:45:46] [Async Chat Thread - #8/INFO]: [Not Secure] <itz_gan> de estss ven
+[13:45:50] [Async Chat Thread - #8/INFO]: [Not Secure] <Slimegolembros> no hay cajas en minecraft :V
+[13:46:44] [Server thread/INFO]: Slimegolembros issued server command: /tp Slimegolembross -202 55 702
+[13:46:44] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [Kawesar Tribe] Slimegolembross to -201.500000, 55.000000, 702.500000]
+[13:47:07] [Server thread/INFO]: Xautral issued server command: /save-all
+[13:47:07] [Server thread/INFO]: [[OP] Xautral: Saved the game]
+[13:47:10] [Server thread/INFO]: Xautral issued server command: /kill
+[13:47:10] [Server thread/INFO]: [OP] Xautral was killed
+[13:47:10] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:47:16] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[13:47:16] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[13:47:19] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembross
+[13:47:19] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Kawesar Tribe] Slimegolembross]
+[13:47:22] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[13:47:22] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[13:47:30] [Server thread/INFO]: Xautral issued server command: /spawnpoint Xautral ~ ~ ~
+[13:47:30] [Server thread/INFO]: [[OP] Xautral: Set spawn point to 0, -5, 3 [0.0, 0.0] in minecraft:overworld for [OP] Xautral]
+[13:47:32] [Server thread/INFO]: Xautral issued server command: /kill
+[13:47:32] [Server thread/INFO]: [OP] Xautral was killed
+[13:47:32] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:47:40] [Async Chat Thread - #10/INFO]: [Not Secure] <itz_gan> ostia
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9373, uuid='20c3c63e-8341-4314-a2cb-fabab0ebeba0', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9377, uuid='fa3e25ff-8291-4b08-adba-7637dd2cdf43', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9375, uuid='2e6a5beb-7ef3-4e1b-af36-c00f53b5f300', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=102, v=true] died: Corpse was squished too much
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9360, uuid='5e76f718-7fd1-4b30-9736-ae44a46aacf3', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=111, v=true] died: Corpse was squished too much
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9362, uuid='91e964a8-d4a1-4b15-85a3-fcb8594142c7', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9364, uuid='18313661-88d0-4f73-8357-d39e66195d3c', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9379, uuid='9973ee1d-cc2e-41fe-a2be-3d4094a50bad', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=104, v=true] died: Corpse was squished too much
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9385, uuid='3b4fc05d-53e2-4492-a2bb-fa30f263fe6a', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=101, v=true] died: Corpse was squished too much
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9366, uuid='e066b198-8fed-45ed-b502-eb788fbaadf2', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9387, uuid='f00fdd8b-4210-412c-99d4-bb69ce031cd6', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=101, v=true] died: Corpse was squished too much
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9368, uuid='6e23ce03-3c1d-4351-b4d3-c161eccd2f76', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9393, uuid='1176b048-8172-468f-bfe2-1882efa2ab48', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9371, uuid='15da3abe-68e6-444c-b894-23c3b4e2fd47', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9381, uuid='e608a95b-141c-43a9-9a9d-3720fce5cbc3', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=106, v=true] died: Corpse was squished too much
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9395, uuid='00c88030-0af3-4ebd-8467-659c83f49eb7', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=102, v=true] died: Corpse was squished too much
+[13:47:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/9399, uuid='156db6f6-107a-4b41-bba5-0ab4a136aed7', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9401, uuid='68387c7b-56aa-4c5d-89f0-2b66d66a2023', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9383, uuid='b1690467-10ee-484d-ad5d-f29cfff36170', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=109, v=true] died: Corpse was squished too much
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9397, uuid='6527d2b0-19cc-4f3f-b1d1-63d941d083f3', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=103, v=true] died: Corpse was squished too much
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9406, uuid='a12d84b7-c8fa-41d1-b04c-4b5593f761ad', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9408, uuid='910d9ce6-9316-4f3e-a4f2-33ab320618af', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9389, uuid='20f148f5-1e80-4f50-9439-16b638e10fce', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9413, uuid='d51bb159-5a33-4de1-904f-a5d16ac64d31', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9417, uuid='9c9ac01a-80b7-4ef2-842f-c7f6bc43337f', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9421, uuid='43b155d9-7cc4-4987-b492-66f579da70df', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9404, uuid='6dce88b8-c033-4d52-bc8d-cd261f9c7ec6', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=109, v=true] died: Corpse was squished too much
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9410, uuid='01444934-9186-4d79-ace0-a2ff13e350cb', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=106, v=true] died: Corpse was squished too much
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9424, uuid='f87fc322-314d-4463-88d0-a1b8c3dcc7de', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9430, uuid='e1832532-6928-4fa5-b07f-c6bc0c376378', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=101, v=true] died: Corpse was squished too much
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9419, uuid='f54e35c9-2d1f-42f2-960b-f18f4d3edd8c', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=106, v=true] died: Corpse was squished too much
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9415, uuid='6074cbae-6f33-4bb0-b7c2-76cab91b82a2', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was squished too much
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9450, uuid='562707a6-e016-4b7b-b7d0-32bd5cb49dc2', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9435, uuid='8c1b76ff-b128-4552-bea3-d815819b6147', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=105, v=true] died: Corpse was squished too much
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9460, uuid='f976cbef-18fd-41ba-b71d-0e93f2bf3b5b', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:42] [Server thread/INFO]: Named entity Skeleton['Corpse'/9463, uuid='58dc10f2-49b2-45a3-a201-9dafdbe70900', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9466, uuid='ac70b465-2556-4df4-93ce-df8170424c7d', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9428, uuid='bc7d5b30-2a2a-4c31-949e-9757b80b714c', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9468, uuid='e1fc9870-d7ed-4450-917d-6ad46bb3dd95', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9473, uuid='94a7a992-9643-4336-81e7-0e22e3dd3182', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9440, uuid='48761851-4197-4b0c-9b89-9ec7f98258a6', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9477, uuid='92247b2d-f60e-4f35-a5c0-4c3ffeedf20f', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9447, uuid='456a60fe-582c-447a-b44f-8a4af3c3e53a', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9491, uuid='22c94917-48e8-4a35-88e4-05f32b65ae61', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9454, uuid='f15fa214-7ffe-4e4f-9bcb-c1ef2713e61b', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9494, uuid='ea56e93d-67a9-42de-b144-03bbcfeaaba2', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=101, v=true] died: Corpse was squished too much
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9485, uuid='7d05f2ab-411d-4741-be5e-1750a4acbb57', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=105, v=true] died: Corpse was squished too much
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9504, uuid='67dc7d11-5a7f-4e47-a024-92e2a762d15f', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9471, uuid='fde49221-5c86-4196-8844-121ff2f75ee7', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was squished too much
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9512, uuid='4820e8e5-4342-4c9e-8b6a-e69e28c233eb', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9515, uuid='cfc601c9-09d9-4d9f-a310-d2878ba132ed', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9496, uuid='c64b6f38-544f-4222-90ff-0b46e4f50970', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=105, v=true] died: Corpse was squished too much
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9517, uuid='670f31ea-1be2-4f1c-8d5e-dd425ba30a8a', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9501, uuid='123881ef-828e-441e-97b3-3244012f247f', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=105, v=true] died: Corpse was squished too much
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9489, uuid='311345cf-05c4-4810-98b2-373ae3478ca7', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9531, uuid='e1193bc9-f416-4998-8f11-8e037f7439d3', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/9535, uuid='b939b675-5b8d-4a1c-9be6-c0f1b778e311', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9543, uuid='13b0df52-5884-4fb3-8da0-76bb791e7b61', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9523, uuid='cf01c4a2-a3a1-4536-9343-3e4fd4f36aeb', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=106, v=true] died: Corpse was squished too much
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9558, uuid='c60287bf-9c83-4a84-8a42-9cc2620f763d', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9569, uuid='d9d71d99-6c29-4389-b4f8-2cacd47cd209', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9550, uuid='32fa521f-3c0f-4c27-97d0-8abdfa538a2f', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=103, v=true] died: Corpse was squished too much
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9573, uuid='fcecab96-c220-473f-bda1-e28382930cee', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9533, uuid='6333558c-3a89-440e-9139-218844829e21', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9612, uuid='00f75e60-8043-4d9a-b004-3daa7cf509d5', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9539, uuid='380a1795-20f5-4088-bde0-d2ba26041d11', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9617, uuid='77c51113-4c7f-41cd-a0a5-1dce135a9053', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9571, uuid='8aad2368-8d34-460e-89bb-854309db9f39', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=106, v=true] died: Corpse was squished too much
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9546, uuid='9d963d40-ec02-48e2-b244-5bfa709c9a17', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9621, uuid='f9cbea3e-9e32-41b4-879c-4b0867051474', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9619, uuid='7080f13b-5502-4b27-80f6-b63b942a10a1', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=104, v=true] died: Corpse was squished too much
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9627, uuid='dd2cee89-82d0-4d5b-b8c2-79180a5c4339', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9599, uuid='fd732aef-b005-4e28-86cd-85cb5a010616', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=108, v=true] died: Corpse was squished too much
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9629, uuid='eb73a97e-7f74-4c1b-b11d-53cb0f0ac825', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9583, uuid='91c21af7-4cf0-4c18-8bd8-f7fd1a121c35', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9635, uuid='3bbe9e68-5dcc-40b3-abba-8561b53b4996', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/9640, uuid='fb56a699-efc3-472e-a95a-db06b078835e', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9642, uuid='dfd41de9-6734-4aa0-b399-5ca7f4f0ed01', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9644, uuid='7cce566a-3673-4b0e-802c-96eefa92ed77', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9646, uuid='8dfc8f2e-e5a6-4986-b2c1-d606e48e0380', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9631, uuid='15f4d6d6-ed8e-4e6e-9491-376be946f0fe', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=106, v=true] died: Corpse was squished too much
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9623, uuid='3147dd9a-8a13-4c4c-bd6f-148771622d6b', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9625, uuid='bb7e2119-cb26-4693-b5ed-2cd11fa90032', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was squished too much
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9663, uuid='2d925845-c091-4b83-9205-efe953b01a3f', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9650, uuid='57da52d7-51b8-42ad-9030-5db12497c6d7', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=104, v=true] died: Corpse was squished too much
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9673, uuid='9f08ae20-0516-4718-bd77-e41f0351c05f', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9681, uuid='8628d0eb-9a1d-4f80-94f4-cb205fcabcc7', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9683, uuid='c674f4eb-4292-4215-9cb5-5dd4669dd0ab', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9685, uuid='1e03419a-687d-4bfa-8b67-e9f187781e44', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9687, uuid='ebfd1d06-7a77-4c7f-999a-730ea88c4ffa', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9689, uuid='68f42703-ab2b-49ad-82fa-f5651dc063dc', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9693, uuid='2f22be09-cc08-42b0-9d4d-ee3f89009f10', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9652, uuid='615ea05e-c73f-4b6b-ba03-a127b013f9b3', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9699, uuid='609faf43-b674-49db-8456-23a2d9b826c6', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9665, uuid='1fa699c2-551e-4b8f-bb30-41c3d33e90ab', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9703, uuid='e414f25f-bfda-4fd6-b98e-77f2d574043e', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=101, v=true] died: Corpse was squished too much
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9706, uuid='17ebf6ab-c06c-4d34-aaa0-ba1db842c601', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9708, uuid='cbdf78ed-955c-4bdf-a6e9-57f7aef8a515', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9701, uuid='f71719a6-f8f6-4327-89ec-1740fa17d062', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=104, v=true] died: Corpse was squished too much
+[13:47:45] [Server thread/INFO]: Named entity Skeleton['Corpse'/9711, uuid='ad5c512c-6db6-488c-a2df-d8f6bfcf4aa6', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9717, uuid='05f622f8-a9b5-4b41-99e6-2c612f1fac9a', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9722, uuid='8751715e-64d5-481b-a3eb-9f00ca40653a', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9724, uuid='dccb6c6f-0d9b-4f58-86ff-a8ad36c2628f', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9727, uuid='aca7b1fe-42b7-4786-bbba-dc1f27de1f96', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9729, uuid='75abade4-67cc-4b48-a9ff-32544369b63a', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9732, uuid='552d889d-ea75-4aee-aa0d-5748a3fb1263', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9734, uuid='b942782f-20e4-4649-a784-fb886819c0dd', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9737, uuid='1d4e5f52-6876-4958-9dca-9740111fe31f', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9741, uuid='4d774358-270a-48d0-8b94-023e674efa22', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9747, uuid='5fed1dae-79df-4830-a4ed-79ce966b89d8', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=101, v=true] died: Corpse was squished too much
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9751, uuid='0b494b3b-63cc-4479-9f60-0eef3daef525', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9753, uuid='3c9306d3-5f22-4f04-a047-b4fc4d134aff', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9759, uuid='ac446cb3-c0a4-43ac-8813-fdc8e216b701', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9769, uuid='5135c9bb-019e-45c7-bd8a-9224334c2bb0', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9763, uuid='d7014cf8-a162-4284-ba64-b8790af2633d', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=102, v=true] died: Corpse was squished too much
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9773, uuid='d4f2afd6-44ef-47dd-acec-b5ab3e3e3857', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=102, v=true] died: Corpse was squished too much
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9782, uuid='8976bc3b-ca38-4940-9e8d-c6d3ac5a362b', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/9784, uuid='93cd548d-df80-4c9d-a60a-e81c063ae0b9', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9778, uuid='5874905f-a142-46e8-b508-4c5658c91eab', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=104, v=true] died: Corpse was squished too much
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9793, uuid='cc1eda08-2655-439c-a1aa-ee3eec8290fa', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9800, uuid='9fdf86b3-7801-4ffd-a986-45f18cda9453', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9802, uuid='172a4f12-533b-4f73-a3ce-defdc0034afc', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9804, uuid='a4c1d605-cc83-42cd-bc57-ea6c0a88b44d', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9806, uuid='c03832dd-c55e-4107-bf69-34bff94b8381', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9814, uuid='c53b35ab-441c-4e10-8877-4fc2aa1cf02c', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9821, uuid='ca1e13dc-1db3-4593-ac4f-e83745f9022c', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9823, uuid='3818628a-685e-4367-ac00-6ff625486fff', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9827, uuid='94301ee9-f04d-4d6e-af1e-f89d64993f61', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9789, uuid='eb658500-22a0-47be-b6e8-b3c1c5c39b72', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9834, uuid='f81d019a-51c0-489f-8f19-a67d31d3db3b', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9836, uuid='208faa62-5caf-42be-b8d9-918bccbbefbe', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9838, uuid='08ce9e3e-236f-428d-bbad-276b438c178e', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9846, uuid='3aca4caf-8774-4a91-ac39-d59530879e66', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9851, uuid='dc1e93b2-c2b6-4a9f-90d4-daca119a6333', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9854, uuid='7636654b-4c3e-4b4e-8f06-5f030fd1fc89', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9817, uuid='94625883-ed64-476e-a70c-d0c2aa70419a', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/9868, uuid='68a969ed-77b5-48e4-ba51-cecd994c8954', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=101, v=true] died: Corpse was squished too much
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9875, uuid='d3e303d9-9ad5-4b17-91b8-30a2054d5259', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9881, uuid='aea1a584-b945-44f7-bd81-371a3955bf44', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9885, uuid='4807c211-9a98-445d-9a3b-af984f688d91', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9887, uuid='cdc173c4-6059-4979-8ead-00ec1490ea9c', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9898, uuid='bdb8d689-c1ca-4a25-b3be-06b68469be59', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9858, uuid='bee290ef-8016-4eee-84f1-f23b1a2a6212', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was squished too much
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9900, uuid='12b7aa06-5061-47d6-8329-6ea02e5356e6', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9864, uuid='ada680b6-fbd4-4ccb-b8de-2fcf9826d132', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9909, uuid='4be84d90-f12d-4719-888d-b619dea69909', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=101, v=true] died: Corpse was squished too much
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9871, uuid='1d010419-609f-4afc-9ef8-300a990fcaaa', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was squished too much
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9920, uuid='c3e6bf96-4202-46ea-aa06-db00d6c8af36', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9924, uuid='e9902da9-cf8c-406e-8e9f-f9c5da09cfd9', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9928, uuid='0d1bfe2e-7d8d-483e-8591-a4a175e2612e', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9893, uuid='cada30d7-4c65-42b9-b3e1-f423a27ddc90', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9939, uuid='5517d6a6-2542-4fdb-84f8-4710de27aaea', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9943, uuid='2d53a60c-f215-4cfd-908c-eefb54d6b753', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9911, uuid='5c7d09b3-693d-4f61-a207-ed2603c6d526', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9948, uuid='041e147c-3299-4691-ad17-a0771cf4fe13', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9931, uuid='08531da1-27b6-43ca-8a53-81ea3780b32c', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=106, v=true] died: Corpse was squished too much
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9916, uuid='ad3ec7d2-693d-4f7c-b587-005927938df0', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:48] [Server thread/INFO]: Named entity Skeleton['Corpse'/9950, uuid='f47f7dad-6197-4f00-863f-46fe2f2ce968', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9954, uuid='845a80fa-7830-4b49-84cf-210678e8c0f7', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9958, uuid='6447b024-e18b-4443-99e6-0bd79dccde6d', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9960, uuid='365b1788-06e8-4478-b3ee-86772a1fe6ba', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9963, uuid='e5e8512c-fab4-4525-8cf4-92505eeb81d1', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9936, uuid='1b767640-5030-46c2-bd08-82e1409603cf', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9966, uuid='5758cca7-aeea-4291-add4-db83192627ca', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9977, uuid='61f92889-545a-41cd-964b-e1157e934f70', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9945, uuid='09426a0a-44cb-4c7e-896a-c3bc4e6440c5', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was struck by lightning
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9974, uuid='265800ec-8c8c-46b0-949a-9ee184496018', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=102, v=true] died: Corpse was squished too much
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9984, uuid='03e4a300-374d-4f23-807c-bf92e016075a', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9988, uuid='eb94aa33-5a76-45b0-a61a-50f012c09120', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9979, uuid='486eb0fe-4630-478a-bf38-657777bab324', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=103, v=true] died: Corpse was squished too much
+[13:47:49] [Server thread/INFO]: Reset [Death] for 4 entities
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9998, uuid='64e02aed-fd81-4c07-ae2c-1a939f634478', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/10000, uuid='a9084c8f-8aab-4d58-9d47-21003926d59d', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9970, uuid='707f73f7-c979-44f9-9996-209f05209a20', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was squished too much
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9996, uuid='216414f9-cdf8-4948-bbd0-4c2858e3db3d', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=103, v=true] died: Corpse was squished too much
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/10005, uuid='a00a35fc-45c9-46b2-8769-6b13821b39c6', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/10013, uuid='44810f5b-52f7-4732-af41-8c02a39c942d', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/9993, uuid='c63609c2-c461-4119-a8e7-3aa1808633e5', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=107, v=true] died: Corpse was squished too much
+[13:47:49] [Server thread/INFO]: Named entity Skeleton['Corpse'/10021, uuid='13dd1334-0e3b-41e9-bd09-6b796f645ad8', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10024, uuid='2515ef7f-a4fe-4f06-814e-c415f9bd9728', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10028, uuid='c539405f-4a87-4c26-9544-bf4b26194d5e', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was struck by lightning
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10017, uuid='a9edb9ac-c9e1-4cac-b355-e4af15cc7b43', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=104, v=true] died: Corpse was squished too much
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10031, uuid='d718012f-e31f-4ea7-97cb-33cb72f8e037', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10009, uuid='8fdd8f5a-8ae9-43db-83bb-8f4f40a64634', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=107, v=true] died: Corpse was squished too much
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10035, uuid='8b047ed7-07b4-49ae-b33c-0514d487b4d1', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10043, uuid='6e75e5f3-c2f3-4005-8f08-111344abaee4', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=101, v=true] died: Corpse was squished too much
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10051, uuid='f28225d4-55fd-42ea-a306-36521c452b33', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:50] [Server thread/INFO]: Slimegolembros issued server command: /give Slimegolembross minecraft:acacia_boat
+[13:47:50] [Server thread/INFO]: [[OP] Slimegolembros: Gave 1 [Acacia Boat] to [Kawesar Tribe] Slimegolembross]
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10049, uuid='69279987-c32a-4543-bf84-bee534871b39', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=103, v=true] died: Corpse was squished too much
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10054, uuid='f3532eef-0659-4839-a4e0-0bea6f52676a', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=102, v=true] died: Corpse was squished too much
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10061, uuid='66e0dde3-fcdf-4391-a9a5-94d34239aaf9', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=101, v=true] died: Corpse was squished too much
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10065, uuid='c32740bb-33ed-47df-a9d3-95c129fc8364', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=102, v=true] died: Corpse was squished too much
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10075, uuid='ff047c1f-df3b-4774-aeb8-a5b91f9ddf91', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10077, uuid='44d937d8-adb4-4478-ba68-2bd08f2335cd', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10069, uuid='3ce5a3a8-8144-481b-a9da-f956e48409da', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=103, v=true] died: Corpse was squished too much
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10057, uuid='6eebc794-87ac-417d-b510-149042947ba1', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=107, v=true] died: Corpse was squished too much
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10080, uuid='c74abd61-4990-4663-b501-6f116c15e232', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=102, v=true] died: Corpse was squished too much
+[13:47:50] [Server thread/INFO]: Named entity Skeleton['Corpse'/10041, uuid='9ba4067c-223f-4ed0-ac2d-944b04ab3e88', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=114, v=true] died: Corpse was squished too much
+[13:47:51] [Server thread/INFO]: Named entity Skeleton['Corpse'/10107, uuid='51bdc78b-559a-417b-91c1-0d42453a5ebc', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:51] [Server thread/INFO]: Named entity Skeleton['Corpse'/10037, uuid='b6cecb7a-b21c-4b9f-af34-8cb4e043e232', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=119, v=true] died: Corpse was squished too much
+[13:47:51] [Server thread/INFO]: Named entity Skeleton['Corpse'/10111, uuid='a414424b-545b-47e6-b84e-bd9601b34c44', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=102, v=true] died: Corpse was squished too much
+[13:47:51] [Server thread/INFO]: Named entity Skeleton['Corpse'/10090, uuid='6f46c75c-2f17-426c-b0cb-34c23e41de93', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=108, v=true] died: Corpse was squished too much
+[13:47:51] [Server thread/INFO]: Named entity Skeleton['Corpse'/10123, uuid='1ac30028-758e-4f7d-828d-a3f7908252b9', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=100, v=true] died: Corpse was squished too much
+[13:47:51] [Server thread/INFO]: Named entity Skeleton['Corpse'/10098, uuid='3529bdaa-a099-48da-9427-ddf5da1ea273', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=107, v=true] died: Corpse was squished too much
+[13:47:51] [Server thread/INFO]: Named entity Skeleton['Corpse'/10102, uuid='1d4e0a05-7361-408e-85b9-38dabe43c68b', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=107, v=true] died: Corpse was squished too much
+[13:47:51] [Server thread/INFO]: Named entity Skeleton['Corpse'/10119, uuid='4e70ee9f-430e-4d1f-b5a0-eacb7ba68b8c', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=103, v=true] died: Corpse was squished too much
+[13:47:51] [Server thread/INFO]: Named entity Skeleton['Corpse'/10095, uuid='22677cd9-0512-4fe4-b504-3e82dd53d006', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was squished too much
+[13:47:51] [Server thread/INFO]: Named entity Skeleton['Corpse'/10127, uuid='831865f7-4100-43f4-bfc4-3285c1dee227', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=106, v=true] died: Corpse was squished too much
+[13:47:51] [Server thread/INFO]: Named entity Skeleton['Corpse'/10139, uuid='dfbbd046-460f-42a2-b8e0-4024967f6691', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=103, v=true] died: Corpse was squished too much
+[13:47:51] [Server thread/INFO]: Named entity Skeleton['Corpse'/10131, uuid='a7f3b0c9-fd6e-45e8-8ed0-b8b7e6fac9da', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=106, v=true] died: Corpse was squished too much
+[13:47:51] [Server thread/INFO]: Named entity Skeleton['Corpse'/10149, uuid='5564cf79-4a79-4498-b2f0-3f57e73607d0', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=105, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10086, uuid='5001dc5a-9e47-4cf4-9824-30f52623839d', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=124, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10151, uuid='7f20bdcf-fe73-45ae-8a01-060419ce2ac8', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=107, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10114, uuid='7fce07ec-781e-45da-90cb-01d0d0735bf3', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=119, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10163, uuid='7284a8c5-608a-421f-bf24-30d0e2711d72', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=105, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10176, uuid='8c052150-b83f-448f-95fa-68e592a5add4', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=103, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10180, uuid='25678685-3b14-4bfb-b13f-ba1a38bddee4', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=102, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10155, uuid='7ee834d9-8dd0-4aa8-adba-8cc8d22c0d49', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=111, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10160, uuid='69ce140a-546e-462a-8dee-b63307e83c94', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10143, uuid='452800b2-fc88-4a4d-b9bc-dc644bd8b99a', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=117, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10157, uuid='c1cc2c10-237e-423b-a7fc-59f7ad2a70b0', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=112, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10173, uuid='4c521a3f-5b74-418c-bb95-b3bc4e8445ed', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=108, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10133, uuid='20db4fce-6c27-40f0-a1da-6adc834ccb48', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=123, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10147, uuid='6900a05e-fb61-46f7-9f01-e8d32c39cc6f', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=120, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10184, uuid='b48fb496-d78b-4741-84c4-5588d94e08f3', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10196, uuid='af21478c-5093-4988-9bbb-99ccc4272a19', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=107, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10169, uuid='0510654d-a888-4cb0-8ddd-770ce21faef6', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=116, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10188, uuid='0eb8bd6f-e149-46df-a8e8-69f4b9991afb', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=112, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10190, uuid='72af1a41-58d8-4597-be24-c513871ae62c', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=113, v=true] died: Corpse was squished too much
+[13:47:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/10206, uuid='c3c83dd5-9c6a-47ac-af1d-4c2e2c793bde', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=108, v=true] died: Corpse was squished too much
+[13:47:53] [Server thread/INFO]: Named entity Skeleton['Corpse'/10193, uuid='9fca2f95-72ed-4dfe-8a13-e0ee36554b1c', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=116, v=true] died: Corpse was squished too much
+[13:47:53] [Server thread/INFO]: Named entity Skeleton['Corpse'/10209, uuid='a6b29453-9901-40eb-9576-8d472a57dd3e', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=111, v=true] died: Corpse was squished too much
+[13:47:53] [Server thread/INFO]: Named entity Skeleton['Corpse'/10216, uuid='acea0984-6746-4ddb-bbfd-c23e64ae7599', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=110, v=true] died: Corpse was squished too much
+[13:47:53] [Server thread/INFO]: Named entity Skeleton['Corpse'/10165, uuid='baca3d92-dfae-47c2-945c-2be07326735e', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=129, v=true] died: Corpse was squished too much
+[13:47:53] [Server thread/INFO]: Named entity Skeleton['Corpse'/10228, uuid='aa2f12e8-c374-4229-a094-cd491c4459f4', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=109, v=true] died: Corpse was squished too much
+[13:47:53] [Server thread/INFO]: Named entity Skeleton['Corpse'/10232, uuid='7bbe3e61-9391-4d7e-ab83-0cb61a5f69dc', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=108, v=true] died: Corpse was squished too much
+[13:47:53] [Server thread/INFO]: Named entity Skeleton['Corpse'/10221, uuid='ceb22cad-e8a3-4c58-8221-9f62cef3cfcf', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=113, v=true] died: Corpse was squished too much
+[13:47:53] [Server thread/INFO]: Named entity Skeleton['Corpse'/10200, uuid='13c16a77-1366-4214-8939-e67c54275810', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=122, v=true] died: Corpse was squished too much
+[13:47:53] [Server thread/INFO]: Named entity Skeleton['Corpse'/10202, uuid='9c1fbdd6-5898-45af-92ee-ab7ca2eb4c86', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=122, v=true] died: Corpse was squished too much
+[13:47:53] [Server thread/INFO]: Named entity Skeleton['Corpse'/10218, uuid='66c1efa0-1899-477e-884f-5dc6740a79ec', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=118, v=true] died: Corpse was squished too much
+[13:47:53] [Server thread/INFO]: Named entity Skeleton['Corpse'/10241, uuid='4178cc7d-84e8-45d5-859c-a382823b4f3f', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=112, v=true] died: Corpse was squished too much
+[13:47:53] [Server thread/INFO]: Named entity Skeleton['Corpse'/10238, uuid='d895f940-5a42-4b60-b4a9-b5821eb3759b', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=114, v=true] died: Corpse was squished too much
+[13:47:53] [Server thread/INFO]: Named entity Skeleton['Corpse'/10226, uuid='96d7d057-80d7-4761-857c-32c748e6afb3', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=119, v=true] died: Corpse was squished too much
+[13:47:53] [Server thread/INFO]: Named entity Skeleton['Corpse'/10243, uuid='93fdff0b-b7fc-43d9-be32-781c63d49511', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=114, v=true] died: Corpse was squished too much
+[13:47:54] [Server thread/INFO]: Named entity Skeleton['Corpse'/10213, uuid='80da3411-01c6-4ed8-bd32-c8d6475ca0f6', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=132, v=true] died: Corpse was squished too much
+[13:47:54] [Server thread/INFO]: Named entity Skeleton['Corpse'/10256, uuid='046d7f3c-2444-460d-8d33-02bcc9b77d78', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=118, v=true] died: Corpse was squished too much
+[13:47:54] [Server thread/INFO]: Named entity Skeleton['Corpse'/10304, uuid='543662e5-5b29-415c-80bf-ebd6b442f8f6', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=106, v=true] died: Corpse was squished too much
+[13:47:54] [Server thread/INFO]: Named entity Skeleton['Corpse'/10264, uuid='597a4a63-e803-4769-b016-c0ba23f52a3e', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=117, v=true] died: Corpse was squished too much
+[13:47:54] [Server thread/INFO]: Named entity Skeleton['Corpse'/10277, uuid='cc1997b8-c81a-42e9-bfcb-0464ab2406ff', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=114, v=true] died: Corpse was squished too much
+[13:47:54] [Server thread/INFO]: Named entity Skeleton['Corpse'/10269, uuid='5d89672b-a067-4fdc-9122-1ef857aa205d', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=117, v=true] died: Corpse was squished too much
+[13:47:54] [Server thread/INFO]: Named entity Skeleton['Corpse'/10235, uuid='fe6df4cf-bc4e-44ac-a91a-a0cb13a54821', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=127, v=true] died: Corpse was squished too much
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10290, uuid='fac717f2-d998-4232-bf73-c1b7fe0c8f08', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=182, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10324, uuid='5a8c550d-be3d-46bc-b756-24a133425f0d', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=174, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10326, uuid='12c03786-793c-43ea-bdd6-8b0239ad8f53', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=173, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10292, uuid='cb30456b-4066-439f-8f04-65f21173680b', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=181, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10297, uuid='9205d2f2-2ea0-4394-a08b-4f2d9c45d901', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=180, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10273, uuid='fa60063e-17c4-4a30-a494-cd42804640f9', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=187, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10223, uuid='5ab464b0-a288-4c37-90e2-41402f7876e6', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=201, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10348, uuid='7285b80c-d20f-4f50-aff0-016ea0dc5d57', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=167, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10282, uuid='58c26003-db89-4946-90fb-5822c955f14f', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=184, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10286, uuid='b1329902-fab4-4537-a897-54dba27ac2f6', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=183, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10279, uuid='ec92e9ea-fffa-4871-bd9e-9b3647d8435b', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=185, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10311, uuid='81dddc89-7c94-4b9b-98b6-b25a58dfd526', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=177, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10345, uuid='5a478238-f88a-4df7-8734-2e1995308f47', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=168, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10247, uuid='e781126d-8bef-496c-813a-154785b40910', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=193, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10314, uuid='fcf0fdb0-3183-4347-91f3-1dc1757a1e17', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=176, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10340, uuid='7278e7f3-7a57-4d69-aaec-2706ed356619', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=169, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10338, uuid='715227e2-b22c-4d23-9c46-4c85d39f16b9', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=170, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10259, uuid='4b34bab4-3a9a-49f3-ad29-40c2222490a5', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=190, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10335, uuid='69199380-0296-4e28-8a03-06983798fa33', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=171, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10329, uuid='3b2814f2-541c-45ae-b2b9-05b671dbf58f', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=172, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10307, uuid='90853197-c461-44e4-9f32-164705500af2', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=178, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10252, uuid='199441d7-186a-41c2-8a06-01a38c43ac8f', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=192, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/10318, uuid='f1b3c790-026b-4608-9cfa-ba3fe8e3dd0e', l='ServerLevel[world]', x=1.47, y=-5.00, z=3.95, cpos=[0, 0], tl=175, v=true] died: Corpse was killed
+[13:47:57] [Server thread/INFO]: Killed 23 entities
+[13:47:58] [Async Chat Thread - #10/INFO]: [Not Secure] <Slimegolembross> XD
+[13:48:06] [Async Chat Thread - #10/INFO]: [Not Secure] <Xautral> no se reseteaba la chingadera
+[13:48:20] [Server thread/INFO]: Xautral issued server command: /tps
+[13:48:27] [Server thread/INFO]: Reset [Death] for 4 entities
+[13:48:28] [Server thread/INFO]: Reset [Death] for 4 entities
+[13:48:29] [Server thread/INFO]: Reset [Death] for 4 entities
+[13:48:29] [Server thread/INFO]: Reset [Death] for 4 entities
+[13:48:33] [Server thread/INFO]: Xautral issued server command: /kill
+[13:48:33] [Server thread/INFO]: [OP] Xautral was killed
+[13:48:33] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:48:39] [Async Chat Thread - #10/INFO]: [Not Secure] <Xautral> ya
+[13:48:39] [Async Chat Thread - #11/INFO]: [Not Secure] <itz_gan> de estas slime
+[13:48:42] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros Xautral
+[13:48:42] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Slimegolembros to [OP] Xautral]
+[13:48:46] [Server thread/INFO]: Xautral issued server command: /kill Slimegolembros
+[13:48:46] [Server thread/INFO]: [OP] Slimegolembros was killed
+[13:48:46] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Slimegolembros]
+[13:48:54] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[13:48:54] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[13:48:54] [Server thread/INFO]: Slimegolembros issued server command: /tp itz_gan
+[13:48:54] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Flame Horde] itz_gan]
+[13:49:02] [Async Chat Thread - #11/INFO]: [Not Secure] <Slimegolembros> son arcas
+[13:49:11] [Server thread/INFO]: Named entity Skeleton['Corpse'/11136, uuid='1e88d06f-4252-42f6-9606-d092e1a2d973', l='ServerLevel[world]', x=-314.54, y=69.10, z=787.50, cpos=[-20, 49], tl=503, v=true] died: Corpse was slain by [OP] Xautral
+[13:49:14] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[13:49:14] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[13:49:17] [Server thread/INFO]: Xautral issued server command: /kill Slimegolembros
+[13:49:17] [Server thread/INFO]: [OP] Slimegolembros was killed
+[13:49:17] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Slimegolembros]
+[13:49:21] [Server thread/INFO]: Slimegolembros issued server command: /tp itz_gan
+[13:49:21] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Flame Horde] itz_gan]
+[13:49:23] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[13:49:23] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[13:49:27] [Server thread/INFO]: Xautral issued server command: /kill Slimegolembros
+[13:49:27] [Server thread/INFO]: [OP] Slimegolembros was killed
+[13:49:27] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Slimegolembros]
+[13:49:28] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[13:49:28] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[13:49:29] [Async Chat Thread - #11/INFO]: [Not Secure] <Slimegolembros> que haces xau
+[13:49:36] [Async Chat Thread - #11/INFO]: [Not Secure] <Slimegolembros> quitaste el permadeath?
+[13:49:37] [Async Chat Thread - #11/INFO]: [Not Secure] <itz_gan> otra:D
+[13:49:47] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> un poco
+[13:49:51] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[13:49:51] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[13:50:20] [Server thread/INFO]: Xautral issued server command: /kill
+[13:50:20] [Server thread/INFO]: [OP] Xautral was killed
+[13:50:20] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:50:27] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[13:50:30] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> que carajios
+[13:50:39] [Server thread/INFO]: Xautral issued server command: /summon minecraft:sheep
+[13:50:39] [Server thread/INFO]: [[OP] Xautral: Summoned new Sheep]
+[13:50:48] [Server thread/INFO]: Xautral issued server command: /scoreboard players set @n[type=minecraft:sheep] Death 1
+[13:50:48] [Server thread/INFO]: [[OP] Xautral: Set [Death] for Sheep to 1]
+[13:50:54] [Server thread/INFO]: Reset [Death] for 4 entities
+[13:50:57] [Server thread/INFO]: Reset [Death] for 762 entities
+[13:50:59] [Server thread/INFO]: Named entity Skeleton['Corpse'/11520, uuid='e5a5c843-d9a2-413d-a67d-0417692e4b27', l='ServerLevel[world]', x=-281.53, y=69.10, z=784.68, cpos=[-18, 49], tl=1852, v=true] died: Corpse was killed
+[13:50:59] [Server thread/INFO]: Killed Corpse
+[13:51:01] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[13:51:06] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[13:51:09] [Server thread/INFO]: Xautral issued server command: /kill
+[13:51:09] [Server thread/INFO]: [OP] Xautral was killed
+[13:51:09] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:51:11] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[13:51:27] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives remove Death
+[13:51:27] [Server thread/INFO]: [[OP] Xautral: Removed objective [Death]]
+[13:51:31] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives add Death deathCount
+[13:51:31] [Server thread/INFO]: [[OP] Xautral: Created new objective [Death]]
+[13:51:32] [Server thread/INFO]: Xautral issued server command: /kill
+[13:51:32] [Server thread/INFO]: [OP] Xautral was killed
+[13:51:32] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:51:36] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[13:51:36] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[13:51:38] [Server thread/INFO]: Xautral issued server command: /kill Slimegolembros
+[13:51:38] [Server thread/INFO]: [OP] Slimegolembros was killed
+[13:51:38] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Slimegolembros]
+[13:51:41] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[13:51:41] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[13:51:45] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> empezamos con el primer erort
+[13:51:49] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> por que carajos no se genera en la muerte
+[13:51:54] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> y por que carajos no me lo gener
+[13:51:55] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[13:51:58] [Server thread/INFO]: Xautral issued server command: /kill Slimegolembros
+[13:51:58] [Server thread/INFO]: [OP] Slimegolembros was killed
+[13:51:58] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Slimegolembros]
+[13:52:11] [Server thread/INFO]: Named entity Skeleton['Corpse'/13112, uuid='d36fa3e8-ad7b-4db3-b995-782d77230bf7', l='ServerLevel[world]', x=-234.90, y=69.10, z=749.00, cpos=[-15, 46], tl=266, v=true] died: Corpse was slain by [OP] Xautral
+[13:52:14] [Server thread/INFO]: Named entity Skeleton['Corpse'/13033, uuid='a1af0ce8-8d7c-4be9-bec1-0697473bee7c', l='ServerLevel[world]', x=-221.22, y=69.10, z=765.47, cpos=[-14, 47], tl=710, v=true] died: Corpse was slain by [OP] Xautral
+[13:52:19] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[13:52:19] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[13:52:44] [Async Chat Thread - #12/INFO]: [Not Secure] <itz_gan> slime
+[13:52:53] [Server thread/INFO]: Xautral issued server command: /kill
+[13:52:53] [Server thread/INFO]: [OP] Xautral was killed
+[13:52:53] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:52:54] [Async Chat Thread - #12/INFO]: [Not Secure] <itz_gan> m3 haces tp a unas cords
+[13:52:58] [Server thread/INFO]: Xautral issued server command: /kill
+[13:52:58] [Server thread/INFO]: [OP] Xautral was killed
+[13:52:58] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:53:01] [Server thread/INFO]: Xautral issued server command: /kill
+[13:53:01] [Server thread/INFO]: [OP] Xautral was killed
+[13:53:01] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:53:02] [Server thread/INFO]: Xautral issued server command: /kill
+[13:53:02] [Server thread/INFO]: [OP] Xautral was killed
+[13:53:02] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:53:03] [Server thread/INFO]: Xautral issued server command: /kill
+[13:53:03] [Server thread/INFO]: [OP] Xautral was killed
+[13:53:03] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:53:04] [Async Chat Thread - #12/INFO]: [Not Secure] <Slimegolembros> xau se puede hacer eso?
+[13:53:06] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[13:53:09] [Async Chat Thread - #13/INFO]: [Not Secure] <Xautral> que cosa
+[13:53:10] [Async Chat Thread - #13/INFO]: [Not Secure] <Xautral> si
+[13:53:13] [Async Chat Thread - #13/INFO]: [Not Secure] <Slimegolembros> k
+[13:53:18] [Async Chat Thread - #13/INFO]: [Not Secure] <Slimegolembros> cuales cords itz_gan
+[13:53:36] [Server thread/INFO]: itz_gan issued server command: /msg Slimegolembros 8382 60 -283
+[13:53:49] [Async Chat Thread - #12/INFO]: [Not Secure] <Slimegolembros> porque lo haces en msg? si solo esta xau tu y yo xd?
+[13:53:59] [Server thread/INFO]: Slimegolembros issued server command: /tp itz_gan 8382 60 -283
+[13:53:59] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [Flame Horde] itz_gan to 8382.500000, 60.000000, -282.500000]
+[13:54:19] [Async Chat Thread - #12/INFO]: [Not Secure] <itz_gan> ns
+[13:54:43] [Server thread/INFO]: Xautral issued server command: /kill
+[13:54:43] [Server thread/INFO]: [OP] Xautral was killed
+[13:54:43] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:54:46] [Server thread/INFO]: Xautral issued server command: /kill
+[13:54:46] [Server thread/INFO]: [OP] Xautral was killed
+[13:54:46] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:54:48] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[13:54:48] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[13:54:51] [Server thread/INFO]: Xautral issued server command: /kill Slimegolembros
+[13:54:51] [Server thread/INFO]: [OP] Slimegolembros was killed
+[13:54:51] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Slimegolembros]
+[13:54:54] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> no genera el corpse
+[13:54:55] [Async Chat Thread - #12/INFO]: [Not Secure] <itz_gan> oh yeah
+[13:54:56] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> por que chingados
+[13:54:58] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros Xautral
+[13:54:58] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Slimegolembros to [OP] Xautral]
+[13:55:00] [Async Chat Thread - #13/INFO]: [Not Secure] <itz_gan> omg
+[13:55:01] [Server thread/INFO]: Xautral issued server command: /kill Slimegolembros
+[13:55:01] [Server thread/INFO]: [OP] Slimegolembros was killed
+[13:55:01] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Slimegolembros]
+[13:55:04] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[13:55:04] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[13:55:04] [Async Chat Thread - #12/INFO]: [Not Secure] <itz_gan> Slimegolembros
+[13:55:05] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[13:55:07] [Async Chat Thread - #13/INFO]: [Not Secure] <Slimegolembros> que
+[13:55:10] [Server thread/INFO]: Slimegolembros issued server command: /tp itz_gan
+[13:55:10] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Flame Horde] itz_gan]
+[13:55:11] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[13:55:11] [Async Chat Thread - #13/INFO]: [Not Secure] <itz_gan> re dije unas cords muy radom
+[13:55:18] [Async Chat Thread - #13/INFO]: [Not Secure] <itz_gan> y mira donde me llevaron xdd
+[13:55:27] [Async Chat Thread - #13/INFO]: [Not Secure] <Slimegolembros> que pasa
+[13:55:28] [Async Chat Thread - #13/INFO]: [Not Secure] <itz_gan> dia pls
+[13:55:33] [Server thread/INFO]: Xautral issued server command: /kill Slimegolembros
+[13:55:33] [Server thread/INFO]: [OP] Slimegolembros was killed
+[13:55:33] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Slimegolembros]
+[13:55:36] [Server thread/INFO]: Xautral issued server command: /tp sl
+[13:55:37] [Async Chat Thread - #13/INFO]: [Not Secure] <itz_gan> esq te dije cualquier cord
+[13:55:37] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[13:55:37] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[13:55:39] [Server thread/INFO]: Slimegolembros issued server command: /effect give Slimegolembros minecraft:night_vision infinite 1 true
+[13:55:39] [Server thread/INFO]: [[OP] Slimegolembros: Applied effect Night Vision to [OP] Slimegolembros]
+[13:55:40] [Server thread/INFO]: Xautral issued server command: /kill Slimegolembros
+[13:55:40] [Server thread/INFO]: [OP] Slimegolembros was killed
+[13:55:40] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Slimegolembros]
+[13:55:41] [Server thread/INFO]: Slimegolembros issued server command: /effect give Slimegolembros minecraft:night_vision infinite 1 true
+[13:55:41] [Server thread/INFO]: [[OP] Slimegolembros: Applied effect Night Vision to [OP] Slimegolembros]
+[13:55:42] [Async Chat Thread - #13/INFO]: [Not Secure] <Xautral> ya
+[13:55:43] [Server thread/INFO]: Xautral issued server command: /kill Xautral
+[13:55:43] [Server thread/INFO]: [OP] Xautral was killed
+[13:55:43] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:55:45] [Server thread/INFO]: Xautral issued server command: /kill Xautral
+[13:55:45] [Server thread/INFO]: [OP] Xautral was killed
+[13:55:45] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:55:49] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[13:55:49] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[13:55:50] [Server thread/INFO]: Slimegolembros issued server command: /time set minecraft:day
+[13:55:50] [Server thread/INFO]: [[OP] Slimegolembros: Set minecraft:overworld to time marker minecraft:day]
+[13:55:51] [Server thread/INFO]: Xautral issued server command: /kill Slimegolembros
+[13:55:51] [Server thread/INFO]: [OP] Slimegolembros was killed
+[13:55:51] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Slimegolembros]
+[13:55:54] [Async Chat Thread - #13/INFO]: [Not Secure] <Xautral> que carajos
+[13:55:55] [Server thread/INFO]: Slimegolembros issued server command: /weather clear
+[13:55:55] [Server thread/INFO]: [[OP] Slimegolembros: Set the weather to clear]
+[13:55:57] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[13:55:57] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[13:55:57] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[13:55:59] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[13:56:08] [Server thread/WARN]: Acacia Boat (vehicle of Slimegolembross) moved wrongly! 0.34472122436619657
+[13:56:08] [Server thread/WARN]: Acacia Boat (vehicle of Slimegolembross) moved wrongly! 0.4731287322611024
+[13:56:15] [Server thread/INFO]: Xautral issued server command: /kill Xautral
+[13:56:15] [Server thread/INFO]: [OP] Xautral was killed
+[13:56:15] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:56:17] [Server thread/INFO]: Xautral issued server command: /kill Xautral
+[13:56:17] [Server thread/INFO]: [OP] Xautral was killed
+[13:56:17] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:56:19] [Server thread/INFO]: Xautral issued server command: /kill Xautral
+[13:56:19] [Server thread/INFO]: [OP] Xautral was killed
+[13:56:19] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:56:23] [Async Chat Thread - #13/INFO]: [Not Secure] <Xautral> no spanwea
+[13:56:24] [Async Chat Thread - #13/INFO]: [Not Secure] <Xautral> por que
+[13:56:25] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[13:57:41] [Server thread/INFO]: Xautral issued server command: /kill
+[13:57:41] [Server thread/INFO]: [OP] Xautral was killed
+[13:57:41] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:57:45] [Server thread/INFO]: Xautral issued server command: /kill
+[13:57:45] [Server thread/INFO]: [OP] Xautral was killed
+[13:57:45] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:57:47] [Server thread/INFO]: Xautral issued server command: /kill
+[13:57:47] [Server thread/INFO]: [OP] Xautral was killed
+[13:57:47] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:57:49] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[13:57:52] [Server thread/INFO]: Xautral issued server command: /kill
+[13:57:52] [Server thread/INFO]: [OP] Xautral was killed
+[13:57:52] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[13:58:11] [User Authenticator #6/INFO]: UUID of player Lazic_77 is 2909bf04-3690-3dbb-95ef-6876d62fc066
+[13:58:12] [Server thread/INFO]: Lazic_77 joined the game
+[13:58:12] [Server thread/INFO]: Lazic_77[/127.85.160.60:32847] logged in with entity id 17776 at ([minecraft:overworld]-228.5, 63.0, 192.5)
+[13:58:17] [Server thread/INFO]: Lazic_77 lost connection: Disconnected
+[13:58:17] [Server thread/INFO]: Lazic_77 left the game
+[13:58:23] [Server thread/INFO]: Slimegolembros issued server command: /tp Slimegolembros
+[13:58:23] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [OP] Slimegolembros]
+[13:58:26] [Server thread/INFO]: Slimegolembros issued server command: /tp Slimegolembross
+[13:58:26] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Kawesar Tribe] Slimegolembross]
+[13:58:27] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
+[13:58:32] [Server thread/INFO]: Slimegolembros issued server command: /effect give Slimegolembros minecraft:night_vision infinite 1 true
+[13:58:32] [Server thread/INFO]: [[OP] Slimegolembros: Applied effect Night Vision to [OP] Slimegolembros]
+[13:58:48] [User Authenticator #7/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[13:58:49] [Server thread/INFO]: Lazic (f72fed07-8c3b-3951-9764-96b624f229a5) lost connection: Disconnected
+[13:58:49] [Server thread/INFO]: Slimegolembros issued server command: /tp Slimegolembross Slimegolembros
+[13:58:49] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [Kawesar Tribe] Slimegolembross to [OP] Slimegolembros]
+[13:58:50] [User Authenticator #8/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[13:58:51] [Server thread/INFO]: [Westhelm] Lazic joined the game
+[13:58:51] [Server thread/INFO]: Lazic[/127.85.160.60:58899] logged in with entity id 18298 at ([minecraft:overworld]-1346.5, 64.0, 677.5)
+[13:58:55] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[13:59:21] [User Authenticator #9/INFO]: UUID of player fafafaxdfa is f258345e-3b57-30ad-bf76-8e8a94d40a00
+[13:59:24] [Server thread/INFO]: [Flame Horde] fafafaxdfa joined the game
+[13:59:24] [Server thread/INFO]: fafafaxdfa[/127.253.200.228:59367] logged in with entity id 18644 at ([minecraft:overworld]46.09691167308799, 63.0, 2912.9000430862534)
+[13:59:33] [Async Chat Thread - #15/INFO]: [Not Secure] <itz_gan> FAFAA
+[13:59:48] [Async Chat Thread - #15/INFO]: [Not Secure] <Lazic> xautral did my teamate do this to my farm?
+[14:00:11] [Async Chat Thread - #15/INFO]: [Not Secure] <Slimegolembros> what happend Lazic
+[14:00:14] [Server thread/INFO]: Slimegolembros issued server command: /tp Lazic
+[14:00:14] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Westhelm] Lazic]
+[14:00:22] [Async Chat Thread - #15/INFO]: [Not Secure] <Lazic> my farm is griefed
+[14:00:30] [Async Chat Thread - #15/INFO]: [Not Secure] <Slimegolembros> oh
+[14:00:34] [Server thread/INFO]: itz_gan issued server command: /msg fafafaxdfa tengo q hacer algo en bosh ya vengo
+[14:00:36] [Async Chat Thread - #14/INFO]: [Not Secure] <Slimegolembros> here was villagers?
+[14:00:58] [Async Chat Thread - #14/INFO]: [Not Secure] <Lazic> it's a breeding farm but idk when i was online did my teamate do it
+[14:00:58] [Server thread/INFO]: [OP] Slimegolembros has completed the challenge [Serious Dedication]
+[14:01:16] [Async Chat Thread - #14/INFO]: [Not Secure] <itz_gan> esew
+[14:01:23] [Async Chat Thread - #14/INFO]: [Not Secure] <itz_gan> azada de netherite
+[14:01:25] [Async Chat Thread - #14/INFO]: [Not Secure] <Slimegolembros> sir here sometimes start snowing
+[14:01:30] [Server thread/INFO]: Xautral issued server command: /kill Xautral
+[14:01:30] [Server thread/INFO]: [OP] Xautral was killed
+[14:01:30] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[14:01:33] [Server thread/INFO]: itz_gan lost connection: Disconnected
+[14:01:33] [Server thread/INFO]: [Flame Horde] itz_gan left the game
+[14:01:40] [Server thread/INFO]: [Not Secure] [@] hola
+[14:01:45] [Async Chat Thread - #14/INFO]: [Not Secure] <Lazic> but snow dosent move villagers and place netherack
+[14:01:46] [Async Chat Thread - #14/INFO]: [Not Secure] <Slimegolembros> you need to put a roof
+[14:01:54] [Async Chat Thread - #15/INFO]: [Not Secure] <Slimegolembros> i know
+[14:01:56] [Server thread/INFO]: Xautral issued server command: /summon skeleton ~ ~ ~ {CanPickUpLoot:1b,Glowing:1b,NoGravity:1b,Silent:1b,Tags:["Corpse"],active_effects:[{id:fire_resistance,duration:22,amplifier:22,show_particles:0b}]}
+[14:01:56] [Server thread/INFO]: [[OP] Xautral: Summoned new Skeleton]
+[14:01:57] [Async Chat Thread - #14/INFO]: [Not Secure] <Lazic> k
+[14:01:57] [Async Chat Thread - #14/INFO]: [Not Secure] <Slimegolembros> but put a roof
+[14:01:58] [Server thread/INFO]: Xautral issued server command: /summon skeleton ~ ~ ~ {CanPickUpLoot:1b,Glowing:1b,NoGravity:1b,Silent:1b,Tags:["Corpse"],active_effects:[{id:fire_resistance,duration:22,amplifier:22,show_particles:0b}]}
+[14:01:58] [Server thread/INFO]: [[OP] Xautral: Summoned new Skeleton]
+[14:01:59] [Server thread/INFO]: Xautral issued server command: /summon skeleton ~ ~ ~ {CanPickUpLoot:1b,Glowing:1b,NoGravity:1b,Silent:1b,Tags:["Corpse"],active_effects:[{id:fire_resistance,duration:22,amplifier:22,show_particles:0b}]}
+[14:01:59] [Server thread/INFO]: [[OP] Xautral: Summoned new Skeleton]
+[14:02:02] [Async Chat Thread - #14/INFO]: [Not Secure] <Xautral> que carajos...
+[14:02:03] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:02:03] [Async Chat Thread - #14/INFO]: [Not Secure] <fafafaxdfa> dios pense q itz murio
+[14:02:13] [Server thread/INFO]: Xautral issued server command: /tp @n[tag=Corpse]
+[14:02:14] [Server thread/INFO]: Xautral issued server command: /tp @n[tag=Corpse]
+[14:02:17] [Async Chat Thread - #14/INFO]: [Not Secure] <Lazic> can i get my villagers back or u cant do that
+[14:02:24] [Server thread/INFO]: Xautral issued server command: /summon skeleton ~ ~ ~ {CanPickUpLoot:1b,Glowing:1b,NoGravity:1b,Silent:1b,Tags:["Corpse"],active_effects:[{id:fire_resistance,duration:22,amplifier:22,show_particles:0b}]}
+[14:02:24] [Server thread/INFO]: [[OP] Xautral: Summoned new Skeleton]
+[14:02:27] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[14:02:27] [Server thread/INFO]: Xautral issued server command: /summon skeleton ~ ~ ~ {CanPickUpLoot:1b,Glowing:1b,NoGravity:1b,Silent:1b,Tags:["Corpse"],active_effects:[{id:fire_resistance,duration:22,amplifier:22,show_particles:0b}]}
+[14:02:27] [Server thread/INFO]: [[OP] Xautral: Summoned new Skeleton]
+[14:02:28] [Server thread/INFO]: Xautral issued server command: /summon skeleton ~ ~ ~ {CanPickUpLoot:1b,Glowing:1b,NoGravity:1b,Silent:1b,Tags:["Corpse"],active_effects:[{id:fire_resistance,duration:22,amplifier:22,show_particles:0b}]}
+[14:02:28] [Server thread/INFO]: [[OP] Xautral: Summoned new Skeleton]
+[14:02:30] [Async Chat Thread - #14/INFO]: [Not Secure] <Xautral> ya vi el error.
+[14:02:33] [Async Chat Thread - #14/INFO]: [Not Secure] <Xautral> estoy en espectador
+[14:02:37] [Async Chat Thread - #14/INFO]: [Not Secure] <Xautral> no hay nadie que cargue el chunk
+[14:02:45] [Async Chat Thread - #14/INFO]: [Not Secure] <Xautral> caigo y reboto de pendejo
+[14:02:54] [Async Chat Thread - #14/INFO]: [Not Secure] <Lazic> thanks man
+[14:03:03] [Async Chat Thread - #15/INFO]: [Not Secure] <Slimegolembros> np
+[14:03:07] [Async Chat Thread - #15/INFO]: [Not Secure] <Slimegolembros> XD
+[14:03:11] [Async Chat Thread - #15/INFO]: [Not Secure] <Lazic> lol
+[14:03:28] [Async Chat Thread - #15/INFO]: [Not Secure] <Slimegolembros> its all good now sir?
+[14:03:35] [Async Chat Thread - #15/INFO]: [Not Secure] <Lazic> yes thanks
+[14:03:38] [Async Chat Thread - #15/INFO]: [Not Secure] <Slimegolembros> np
+[14:03:59] [Async Chat Thread - #15/INFO]: [Not Secure] <Slimegolembros> let me know if anything else happens
+[14:04:02] [Async Chat Thread - #15/INFO]: [Not Secure] <Lazic> yes
+[14:04:42] [Async Chat Thread - #15/INFO]: [Not Secure] <Slimegolembros> xau entendiste algo de lo que estuvimos hablando?
+[14:05:05] [Server thread/INFO]: Slimegolembros issued server command: /tp Xautral
+[14:05:05] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [OP] Xautral]
+[14:05:35] [Server thread/INFO]: Slimegolembros issued server command: /tp Slimegolembross
+[14:05:35] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Kawesar Tribe] Slimegolembross]
+[14:05:41] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
+[14:05:52] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[14:06:03] [Server thread/INFO]: Slimegolembros issued server command: /effect give Slimegolembros minecraft:night_vision infinite 1 true
+[14:06:16] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:06:22] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> si
+[14:06:28] [Server thread/INFO]: Xautral issued server command: /kill
+[14:06:28] [Server thread/INFO]: [OP] Xautral was killed
+[14:06:28] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[14:06:30] [Async Chat Thread - #16/INFO]: [Not Secure] <Slimegolembros> le grifearon la granja
+[14:06:31] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:06:34] [Server thread/INFO]: Xautral issued server command: /tp Lazic
+[14:06:34] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Westhelm] Lazic]
+[14:06:42] [Async Chat Thread - #16/INFO]: [Not Secure] <Slimegolembros> ya esta reparada
+[14:06:46] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> was made by your teammate
+[14:06:49] [Async Chat Thread - #16/INFO]: [Not Secure] <Lazic> idk
+[14:06:56] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> i already see him made this
+[14:06:59] [Async Chat Thread - #16/INFO]: [Not Secure] <Lazic> bro litteraly said it was a creeper in dc
+[14:07:01] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> curiusly
+[14:07:10] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> PlechyStyles kill some intruder in your base called "Volcon2"
+[14:07:35] [Async Chat Thread - #16/INFO]: [Not Secure] <Slimegolembros> como xau
+[14:07:35] [Server thread/INFO]: Xautral issued server command: /fill -1360 70 707
+[14:07:43] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> verga slime
+[14:07:48] [Server thread/INFO]: Xautral issued server command: /fill -1360 70 707 -1329 64 677 air replace snow
+[14:07:48] [Server thread/INFO]: [[OP] Xautral: Successfully filled 745 block(s)]
+[14:07:58] [Server thread/INFO]: Xautral issued server command: /fill -1360 70 707 -1329 24 677 air replace snow
+[14:08:00] [Async Chat Thread - #16/INFO]: [Not Secure] <Slimegolembros> com oque plechstyles mata algunos intrusos en su base llamados volcon2?
+[14:08:01] [Server thread/INFO]: Xautral issued server command: /fill -1360 70 707 -1329 34 677 air replace snow
+[14:08:05] [Server thread/INFO]: Xautral issued server command: /fill -1360 70 707 -1329 44 677 air replace snow
+[14:08:05] [Server thread/INFO]: [[OP] Xautral: Successfully filled 92 block(s)]
+[14:08:06] [User Authenticator #10/INFO]: Disconnecting Lazic (/127.85.160.60:40953): [LoginSecurity] This player is already online!
+[14:08:06] [User Authenticator #10/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[14:08:06] [Server thread/INFO]: Lazic (/127.85.160.60:40953) lost connection: [LoginSecurity] This player is already online!
+[14:08:07] [Async Chat Thread - #16/INFO]: [Not Secure] <Slimegolembros> xd
+[14:08:09] [Server thread/INFO]: Lazic lost connection: Disconnected
+[14:08:09] [Server thread/INFO]: [Westhelm] Lazic left the game
+[14:08:10] [User Authenticator #11/INFO]: UUID of player Lazic is f72fed07-8c3b-3951-9764-96b624f229a5
+[14:08:10] [Server thread/INFO]: [Westhelm] Lazic joined the game
+[14:08:10] [Server thread/INFO]: Lazic[/127.85.160.60:42471] logged in with entity id 23039 at ([minecraft:overworld]-1348.6156265106592, 64.0, 679.5619885188268)
+[14:08:12] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> ne que momentod ije intruders
+[14:08:25] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> Slimependejobros
+[14:08:26] [Server thread/INFO]: Lazic issued server command: /skin notification ignore-cracked-client
+[14:08:28] [Server thread/INFO]: Lazic issued server command: /skin notification ignore-cracked-client
+[14:08:28] [Server thread/INFO]: Lazic issued server command: /skin notification ignore-cracked-client
+[14:08:33] [Server thread/INFO]: Xautral issued server command: /kill Xautral
+[14:08:33] [Server thread/INFO]: [OP] Xautral was killed
+[14:08:33] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[14:08:37] [Server thread/INFO]: Xautral issued server command: /tp Lazic
+[14:08:37] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Westhelm] Lazic]
+[14:08:37] [Async Chat Thread - #16/INFO]: [Not Secure] <Slimegolembros> em digiste intruder
+[14:08:41] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:08:41] [Async Chat Thread - #16/INFO]: [Not Secure] <Lazic> what the
+[14:08:53] [Server thread/INFO]: Named entity Skeleton['Corpse'/23158, uuid='f51dae64-a6fd-4134-8a78-c6d1f8cb6ba3', l='ServerLevel[world]', x=-1367.70, y=64.00, z=681.70, cpos=[-86, 42], tl=385, v=true] died: Corpse was slain by [OP] Xautral
+[14:08:58] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[14:08:58] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[14:09:43] [Server thread/INFO]: Villager Villager['Villager'/18307, uuid='6ee66e32-9a76-4c3b-8b31-3ba4a4c4aa56', l='ServerLevel[world]', x=-1331.79, y=64.00, z=685.30, cpos=[-84, 42], tl=13050, v=true] died, message: 'Villager was slain by Zombie'
+[14:09:51] [Server thread/INFO]: Xautral issued server command: /tp Lazic
+[14:09:51] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Westhelm] Lazic]
+[14:10:01] [Server thread/INFO]: Xautral issued server command: /tp fafafaxdfa
+[14:10:01] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] fafafaxdfa]
+[14:10:05] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[14:10:06] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:10:09] [Server thread/INFO]: Xautral issued server command: /kill Xautral
+[14:10:09] [Server thread/INFO]: [OP] Xautral was killed
+[14:10:09] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[14:10:11] [Server thread/INFO]: Xautral issued server command: /tp fafafaxdfa
+[14:10:11] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] fafafaxdfa]
+[14:10:16] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:10:20] [Server thread/INFO]: [OP] Slimegolembros has made the advancement [Enchanter]
+[14:10:23] [Async Chat Thread - #18/INFO]: [Not Secure] <Xautral> no mames w
+[14:10:26] [Async Chat Thread - #18/INFO]: [Not Secure] <Xautral> no ta haciendo nada
+[14:10:29] [Server thread/INFO]: Named entity Skeleton['Corpse'/23819, uuid='6e7fa44a-45f7-4660-8252-73e9b02cd720', l='ServerLevel[world]', x=41.70, y=63.00, z=2897.30, cpos=[2, 181], tl=411, v=true] died: Corpse was slain by [Flame Horde] fafafaxdfa
+[14:10:30] [Async Chat Thread - #18/INFO]: [Not Secure] <Slimegolembros> quien
+[14:10:32] [Async Chat Thread - #18/INFO]: [Not Secure] <Xautral> pendejete
+[14:10:33] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[14:10:33] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[14:10:54] [Server thread/INFO]: Xautral issued server command: /scoreboard players add @n[tag=Corpse,distance=..2] health 65
+[14:10:57] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[14:10:57] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[14:11:00] [Server thread/INFO]: Xautral issued server command: /kill
+[14:11:00] [Server thread/INFO]: [OP] Xautral was killed
+[14:11:00] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[14:11:01] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[14:11:01] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[14:11:04] [Server thread/INFO]: Xautral issued server command: /scoreboard players add @n[tag=Corpse,distance=..2] health 65
+[14:11:05] [Async Chat Thread - #18/INFO]: [Not Secure] <Slimegolembros> em que es el corpse
+[14:11:06] [Server thread/INFO]: Xautral issued server command: /scoreboard players add @n[tag=Corpse,distance=..2] health 65
+[14:11:07] [Server thread/INFO]: Xautral issued server command: /scoreboard players add @n[tag=Corpse,distance=..2] health 65
+[14:11:11] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[14:11:11] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[14:11:11] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:11:14] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Survival Mode]
+[14:11:30] [Server thread/INFO]: Xautral issued server command: /scoreboard players add @n[tag=Corpse] health 65
+[14:11:32] [Server thread/INFO]: Xautral issued server command: /scoreboard players add @n[tag=Corpse] health 65
+[14:11:41] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembross
+[14:11:41] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Kawesar Tribe] Slimegolembross]
+[14:11:43] [Async Chat Thread - #18/INFO]: [Not Secure] <Slimegolembros> se puede matar?
+[14:11:43] [Server thread/INFO]: Xautral issued server command: /kill
+[14:11:43] [Server thread/INFO]: [OP] Xautral was killed
+[14:11:43] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[14:11:43] [Server thread/INFO]: Villager Villager['Villager'/16828, uuid='91119ee4-80c3-4367-bd36-f1286e588827', l='ServerLevel[world]', x=-999.97, y=22.00, z=3693.96, cpos=[-63, 230], tl=17585, v=true] was struck by lightning LightningBolt['Lightning Bolt'/24522, uuid='85bb16d4-2c8e-4263-834a-579382c5e3f9', l='ServerLevel[world]', x=-1000.57, y=23.50, z=3696.51, cpos=[-63, 231], tl=1, v=true].
+[14:11:43] [Server thread/INFO]: Villager Villager['Librarian'/16827, uuid='c9e88f2f-cdd9-4171-b873-de63fb889ecf', l='ServerLevel[world]', x=-999.26, y=22.42, z=3693.35, cpos=[-63, 230], tl=17585, v=true] was struck by lightning LightningBolt['Lightning Bolt'/24522, uuid='85bb16d4-2c8e-4263-834a-579382c5e3f9', l='ServerLevel[world]', x=-1000.57, y=23.50, z=3696.51, cpos=[-63, 231], tl=1, v=true].
+[14:11:44] [Server thread/INFO]: [Kawesar Tribe] Slimegolembross has made the advancement [Surge Protector]
+[14:11:47] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembross
+[14:11:47] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Kawesar Tribe] Slimegolembross]
+[14:12:11] [Server thread/INFO]: Xautral issued server command: /kill
+[14:12:11] [Server thread/INFO]: [OP] Xautral was killed
+[14:12:11] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[14:12:11] [Server thread/INFO]: [OP] Slimegolembros has made the advancement [Surge Protector]
+[14:12:16] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[14:12:16] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[14:12:30] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[14:12:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/24732, uuid='5c6a51ac-7f76-4f07-926c-a436bcf3bde1', l='ServerLevel[world]', x=-1007.70, y=22.38, z=3692.26, cpos=[-63, 230], tl=601, v=true] died: Corpse suffocated in a wall
+[14:12:44] [Server thread/INFO]: Slimegolembros issued server command: /ie enchant sharpness 200
+[14:12:46] [Server thread/INFO]: Named entity Skeleton['Corpse'/24183, uuid='8e2a9ed9-073a-44e4-8a20-2bf0bdc05cb4', l='ServerLevel[world]', x=-1030.30, y=13.00, z=3685.30, cpos=[-65, 230], tl=2137, v=true] died: Corpse was slain by [OP] Slimegolembros
+[14:12:49] [Server thread/INFO]: Xautral issued server command: /kill @n[type=minecraft:witch]
+[14:12:49] [Server thread/INFO]: [[OP] Xautral: Killed Witch]
+[14:12:51] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
+[14:12:55] [Server thread/INFO]: Xautral issued server command: /kill @e[tag=Corpse]
+[14:12:55] [Server thread/INFO]: Named entity Skeleton['Corpse'/24521, uuid='9dcaaaa5-0d82-40d6-a746-6409db58882d', l='ServerLevel[world]', x=-1000.70, y=23.50, z=3697.70, cpos=[-63, 231], tl=1435, v=true] died: Corpse was killed
+[14:12:55] [Server thread/INFO]: [[OP] Xautral: Killed Corpse]
+[14:12:55] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[14:12:57] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[14:12:57] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[14:12:59] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:13:01] [Async Chat Thread - #20/INFO]: [Not Secure] <Slimegolembros> la bruja era inmortal we
+[14:13:08] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives setdisplay sidebar
+[14:13:08] [Server thread/INFO]: [[OP] Xautral: Cleared any objectives in display slot sidebar]
+[14:13:09] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> si vi
+[14:13:11] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[14:13:11] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[14:13:15] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembross
+[14:13:15] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Kawesar Tribe] Slimegolembross]
+[14:13:18] [Async Chat Thread - #20/INFO]: [Not Secure] <Slimegolembros> eso lo hiciste tu=
+[14:13:25] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> que hicee yo q
+[14:13:27] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[14:13:27] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[14:13:36] [Async Chat Thread - #20/INFO]: [Not Secure] <Slimegolembross> la bruja inmortal
+[14:14:00] [Server thread/INFO]: Slimegolembros issued server command: /effect give Slimegolembross minecraft:night_vision infinite 1 true
+[14:14:00] [Server thread/INFO]: [[OP] Slimegolembros: Applied effect Night Vision to [Kawesar Tribe] Slimegolembross]
+[14:14:08] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
+[14:14:13] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Survival Mode]
+[14:14:15] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
+[14:14:16] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[14:15:38] [Server thread/INFO]: Slimegolembros issued server command: /tp Slimegolembross Slimegolembros
+[14:15:38] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [Kawesar Tribe] Slimegolembross to [OP] Slimegolembros]
+[14:15:45] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
+[14:17:17] [Server thread/INFO]: Slimegolembross lost connection: Disconnected
+[14:17:17] [Server thread/INFO]: [Kawesar Tribe] Slimegolembross left the game
+[14:18:51] [Server thread/INFO]: Xautral issued server command: /tp 00 0
+[14:18:53] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[14:18:53] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[14:18:57] [Async Chat Thread - #22/INFO]: [Not Secure] <Xautral> Slimegolembros deja de decir palabrhostias
+[14:19:07] [Server thread/INFO]: Xautral issued server command: /kill
+[14:19:07] [Server thread/INFO]: [OP] Xautral was killed
+[14:19:07] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[14:19:10] [Async Chat Thread - #22/INFO]: [Not Secure] <Xautral> SIII
+[14:19:12] [Async Chat Thread - #22/INFO]: [Not Secure] <Xautral> PORFIN
+[14:19:13] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:21:49] [Server thread/INFO]: Xautral issued server command: /save-all
+[14:21:49] [Server thread/INFO]: [[OP] Xautral: Saved the game]
+[14:28:01] [Server thread/INFO]: Xautral issued server command: /say @e[type=#global]
+[14:28:01] [Async Chat Thread - #25/INFO]: [Not Secure] [[OP] Xautral] 
+[14:28:03] [Server thread/INFO]: Xautral issued server command: /say @e[type=#global]
+[14:28:03] [Async Chat Thread - #24/INFO]: [Not Secure] [[OP] Xautral] 
+[14:28:05] [Server thread/INFO]: Slimegolembros lost connection: Timed out
+[14:28:05] [Server thread/INFO]: [OP] Slimegolembros left the game
+[14:28:06] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Survival Mode]
+[14:28:20] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:28:52] [User Authenticator #12/INFO]: UUID of player volcon2 is 9c42fa87-f091-3883-9bf4-db229d9050dc
+[14:28:52] [Server thread/INFO]: [Volcanos] volcon2 joined the game
+[14:28:52] [Server thread/INFO]: volcon2[/127.125.214.129:32979] logged in with entity id 31018 at ([minecraft:the_nether]64.42654984829973, 75.16610926093821, -27.634151524598902)
+[14:28:55] [User Authenticator #13/INFO]: UUID of player wizmarcos2014 is 8e7e39b3-70dc-396a-aff0-66987bef5fff
+[14:28:56] [Server thread/INFO]: [Kawesar Tribe] wizmarcos2014 joined the game
+[14:28:56] [Server thread/INFO]: wizmarcos2014[/127.125.17.88:33537] logged in with entity id 31134 at ([minecraft:overworld]-989.386324686983, 22.5625, 3711.699999988079)
+[14:29:04] [Async Chat Thread - #26/INFO]: [Not Secure] <wizmarcos2014> slimer
+[14:29:07] [Async Chat Thread - #26/INFO]: [Not Secure] <Xautral> hablando del rey de roma
+[14:29:15] [Async Chat Thread - #26/INFO]: [Not Secure] <wizmarcos2014> xau
+[14:29:21] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> q
+[14:29:21] [Async Chat Thread - #27/INFO]: [Not Secure] <wizmarcos2014> slimer se ha unido al server?
+[14:29:33] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> si
+[14:29:35] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> justo se fue el w
+[14:29:41] [Async Chat Thread - #27/INFO]: [Not Secure] <wizmarcos2014> bruh
+[14:29:43] [Async Chat Thread - #27/INFO]: [Not Secure] <wizmarcos2014> dijo a donde
+[14:29:53] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> no
+[14:29:59] [Async Chat Thread - #26/INFO]: [Not Secure] <wizmarcos2014> ok
+[14:29:59] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> solo se desconectó
+[14:30:07] [Async Chat Thread - #27/INFO]: [Not Secure] <wizmarcos2014> gracias
+[14:30:11] [Async Chat Thread - #27/INFO]: [Not Secure] <wizmarcos2014> lo voy a seguir buscando
+[14:30:12] [Async Chat Thread - #27/INFO]: [Not Secure] <wizmarcos2014> ads
+[14:30:13] [Server thread/INFO]: wizmarcos2014 lost connection: Disconnected
+[14:30:13] [Server thread/INFO]: [Kawesar Tribe] wizmarcos2014 left the game
+[14:30:14] [Async Chat Thread - #27/INFO]: [Not Secure] <volcon2> bro realmente pensaba que les iba a contar que haria en la vida real
+[14:30:33] [Server thread/INFO]: Xautral issued server command: /kill
+[14:30:33] [Server thread/INFO]: [OP] Xautral was killed
+[14:30:33] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[14:30:36] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:30:40] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Survival Mode]
+[14:30:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/27697, uuid='7691c23f-dc86-47ba-b65b-dd3a2b8fe69a', l='ServerLevel[world]', x=5.67, y=-4.12, z=-4.70, cpos=[0, -1], tl=13949, v=true] died: Corpse was slain by [OP] Xautral
+[14:30:51] [Server thread/INFO]: Named entity Skeleton['Corpse'/32524, uuid='b4bfe605-44b2-4dfe-b6ed-50d5b3673923', l='ServerLevel[world]', x=-3.70, y=-5.00, z=1.96, cpos=[-1, 0], tl=354, v=true] died: Corpse was slain by [OP] Xautral
+[14:30:57] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
