@@ -1,13 +1,383 @@
-[23:12:02] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
-[23:12:02] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) for Minecraft 26.1.2
-[23:12:02] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[23:12:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[23:12:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - ItemEdit (3.7.10), LoginSecurity (3.2.0), OpenInv (5.3.3), SkinsRestorer (15.12.5), ViaBackwards (5.11.0), ViaVersion (5.11.0)
-[23:12:08] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
-[23:12:08] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
-[23:12:08] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
-[23:12:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[23:12:11] [ServerMain/INFO]: Loaded 1515 recipes
-[23:12:11] [ServerMain/INFO]: Loaded 1617 advancements
-[23:12:11] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[00:00:04] [Server thread/INFO]: [Flame Horde] _Brvnno fell from a high place
+[00:00:10] [Async Chat Thread - #1/INFO]: [Not Secure] <FireEmblem> este pendejete
+[00:00:10] [Server thread/INFO]: OPlechStyles issued server command: /tp _Brvnno OPlechStyles
+[00:00:10] [Server thread/INFO]: [[OP] OPlechStyles: Teleported [Flame Horde] _Brvnno to [OP] OPlechStyles]
+[00:00:17] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> sean serios oe
+[00:00:18] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> toma
+[00:00:19] [Async Chat Thread - #1/INFO]: [Not Secure] <_Brvnno> bro si si puse el agua
+[00:00:21] [Async Chat Thread - #1/INFO]: [Not Secure] <OPlechStyles> se nos petatea el bruno
+[00:01:00] [Async Chat Thread - #1/INFO]: [Not Secure] <FireEmblem> ey puto calmado
+[00:01:30] [Async Chat Thread - #1/INFO]: [Not Secure] <FireEmblem> chicas
+[00:01:32] [Async Chat Thread - #2/INFO]: [Not Secure] <FireEmblem> dejen de pelear
+[00:01:59] [Async Chat Thread - #2/INFO]: [Not Secure] <_Brvnno> comidaa
+[00:02:04] [Server thread/INFO]: [Flame Horde] FireEmblem has completed the challenge [Over-Overkill]
+[00:02:08] [Async Chat Thread - #2/INFO]: [Not Secure] <FireEmblem> uff
+[00:02:12] [Async Chat Thread - #2/INFO]: [Not Secure] <FireEmblem> dele el totem
+[00:02:14] [Async Chat Thread - #2/INFO]: [Not Secure] <FireEmblem> _Brvnno
+[00:02:16] [Async Chat Thread - #2/INFO]: [Not Secure] <FireEmblem> dele el totem
+[00:02:17] [Async Chat Thread - #2/INFO]: [Not Secure] <_Brvnno> mno
+[00:02:22] [Async Chat Thread - #2/INFO]: [Not Secure] <_Brvnno> dame uno
+[00:02:23] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> tengo muchos tranqui
+[00:02:26] [Server thread/INFO]: OPlechStyles issued server command: /give @a paper[custom_name=[{"text":"Lil Bro","italic":false}],lore=[[{"text":"Pase para ser enano por 10 minutos","italic":false}]],rarity=epic]
+[00:02:26] [Server thread/INFO]: [[OP] OPlechStyles: Gave 1 [Lil Bro] to 6 players]
+[00:02:29] [Async Chat Thread - #2/INFO]: [Not Secure] <_Brvnno> comidaa
+[00:02:45] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> xdd
+[00:02:53] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> ocupo goldens applee
+[00:03:13] [Server thread/INFO]: FireEmblem lost connection: Disconnected
+[00:03:13] [Server thread/INFO]: [Flame Horde] FireEmblem left the game
+[00:03:22] [Async Chat Thread - #2/INFO]: [Not Secure] <_Brvnno> Xautral 1v1
+[00:03:25] [Async Chat Thread - #2/INFO]: [Not Secure] <_Brvnno> gey
+[00:03:30] [Async Chat Thread - #2/INFO]: [Not Secure] <OPlechStyles> uno de estos dos cofre tiene un pase para ser chiquito por 10m
+[00:03:41] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> estoy programando el sistema de resurrección ya remasterizado y limpio
+[00:03:44] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> para que si puedan hacer pvp
+[00:03:49] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> es malo bruno xd
+[00:03:50] [Async Chat Thread - #2/INFO]: [Not Secure] <OPlechStyles> pera _Brvnno
+[00:03:54] [Server thread/INFO]: OPlechStyles issued server command: /tp itz_gan OPlechStyles
+[00:03:54] [Server thread/INFO]: [[OP] OPlechStyles: Teleported [Flame Horde] itz_gan to [OP] OPlechStyles]
+[00:03:57] [Async Chat Thread - #2/INFO]: [Not Secure] <_Brvnno> Xautral es malo?
+[00:03:59] [Async Chat Thread - #2/INFO]: [Not Secure] <OPlechStyles> cual escojen
+[00:04:00] [Async Chat Thread - #2/INFO]: [Not Secure] <_Brvnno> o yo soy malo
+[00:04:02] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> si
+[00:04:04] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> el
+[00:04:06] [Async Chat Thread - #2/INFO]: [Not Secure] <OPlechStyles> de estos de ak
+[00:04:18] [Async Chat Thread - #2/INFO]: [Not Secure] <OPlechStyles> quien lo tiene xd
+[00:04:18] [Async Chat Thread - #2/INFO]: [Not Secure] <_Brvnno> tlo tenbgo
+[00:04:26] [Async Chat Thread - #2/INFO]: [Not Secure] <OPlechStyles> listo para ser una pulga _Brvnno
+[00:04:29] [Async Chat Thread - #2/INFO]: [Not Secure] <_Brvnno> chi
+[00:04:34] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> yo también quiero oe
+[00:04:34] [Async Chat Thread - #2/INFO]: [Not Secure] <_Brvnno> matare a itz
+[00:04:39] [Server thread/INFO]: OPlechStyles issued server command: /attribute _Brvnno minecraft:scale base set 0.0001
+[00:04:49] [Server thread/INFO]: OPlechStyles issued server command: /attribute OPlechStyles minecraft:scale base set 0.0001
+[00:05:03] [Async Chat Thread - #2/INFO]: [Not Secure] <OPlechStyles> la pulga asesina
+[00:05:14] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives add Rev minecraft.custom:minecraft.sneak_time
+[00:05:14] [Server thread/INFO]: [[OP] Xautral: Created new objective [Rev]]
+[00:05:17] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> are kaboom todo
+[00:05:23] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> tengo crystals
+[00:05:27] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> soy peligroso
+[00:05:32] [Async Chat Thread - #2/INFO]: [Not Secure] <OPlechStyles> solo pisalo xdd
+[00:05:38] [Async Chat Thread - #2/INFO]: [Not Secure] <_Brvnno> ahhahah
+[00:05:56] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> no quiero gastarlos contigo bruno xd
+[00:06:12] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> JAJAJAJA
+[00:06:12] [Async Chat Thread - #2/INFO]: [Not Secure] <_Brvnno> hjiji
+[00:06:19] [Async Chat Thread - #2/INFO]: [Not Secure] <_Brvnno> :c
+[00:06:20] [Async Chat Thread - #2/INFO]: [Not Secure] <OPlechStyles> bruno mira entras entre estos cofres
+[00:06:26] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> plech quiero ser un zombie gigante
+[00:06:36] [Async Chat Thread - #1/INFO]: [Not Secure] <itz_gan> osea del tamaño
+[00:06:57] [Async Chat Thread - #2/INFO]: [Not Secure] <OPlechStyles> seguro?
+[00:07:00] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> si
+[00:07:03] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives setdisplay sidebar Rev
+[00:07:03] [Server thread/INFO]: [[OP] Xautral: Set display slot sidebar to show objective Rev]
+[00:07:07] [Server thread/INFO]: Xautral issued server command: /tps
+[00:07:08] [Async Chat Thread - #2/INFO]: [Not Secure] <OPlechStyles> si te pega bruno ahi te quedas nomas xd
+[00:07:13] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> es imposible de aimear xdd
+[00:07:19] [Server thread/INFO]: OPlechStyles issued server command: /attribute itz_gan minecraft:scale base set 600
+[00:07:28] [Server thread/INFO]: OPlechStyles issued server command: /summon minecraft:giant
+[00:07:28] [Server thread/INFO]: [[OP] OPlechStyles: Summoned new Giant]
+[00:07:35] [Async Chat Thread - #2/INFO]: [Not Secure] <OPlechStyles> eres mas grande omg
+[00:07:45] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> ayudaaaa
+[00:07:50] [Async Chat Thread - #2/INFO]: [Not Secure] <OPlechStyles> pareces un titan de atack on titan
+[00:07:54] [Server thread/INFO]: OPlechStyles issued server command: /attribute itz_gan minecraft:scale base set 20
+[00:08:01] [Server thread/INFO]: OPlechStyles issued server command: /attribute itz_gan minecraft:scale base reset
+[00:08:02] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> ya tengo un titan bro
+[00:08:05] [Server thread/INFO]: OPlechStyles issued server command: /attribute itz_gan minecraft:scale base set 20
+[00:08:10] [Server thread/INFO]: OPlechStyles issued server command: /attribute itz_gan minecraft:scale base set 10
+[00:08:11] [Async Chat Thread - #2/INFO]: [Not Secure] <itz_gan> asme pulgita
+[00:08:18] [Server thread/INFO]: OPlechStyles issued server command: /attribute itz_gan minecraft:scale base set 0.0001
+[00:08:25] [Async Chat Thread - #2/INFO]: [Not Secure] <OPlechStyles> pelea de pulgas clandestina
+[00:08:40] [Server thread/INFO]: _Brvnno lost connection: Disconnected
+[00:08:40] [Server thread/INFO]: [Flame Horde] _Brvnno left the game
+[00:08:46] [Async Chat Thread - #2/INFO]: [Not Secure] <OPlechStyles> JAJAJ VOLO EL GAN
+[00:09:08] [Server thread/INFO]: OPlechStyles issued server command: /attribute _Brvnno minecraft:scale base reset
+[00:09:31] [User Authenticator #11/INFO]: UUID of player _Brvnno is 5161d8bb-08fc-394b-8a8d-3b12dec4f1a3
+[00:09:31] [Server thread/INFO]: [Flame Horde] _Brvnno joined the game
+[00:09:31] [Server thread/INFO]: _Brvnno[/127.74.118.227:52989] logged in with entity id 16996 at ([minecraft:overworld]13.1821811273722, 64.0, 2969.3490459568075)
+[00:09:47] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> HAHAHHA
+[00:09:49] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> JAJAJAJ
+[00:09:59] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> X RAY
+[00:10:09] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> xau si me agacho sale 1 ira
+[00:10:12] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> JAJAJAJ
+[00:10:22] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> busca trial
+[00:10:30] [Server thread/INFO]: OPlechStyles issued server command: /attribute _Brvnno minecraft:scale base reset
+[00:10:37] [Server thread/INFO]: OPlechStyles issued server command: /attribute itz_gan minecraft:scale base reset
+[00:10:49] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> quieren montar una polla?
+[00:10:50] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> digo
+[00:10:53] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> un pollo
+[00:10:53] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> si
+[00:10:57] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> no
+[00:10:59] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> YO SI
+[00:11:07] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> quiero motarte ati
+[00:11:07] [Server thread/INFO]: OPlechStyles issued server command: /ride _Brvnno mount
+[00:11:11] [Server thread/INFO]: OPlechStyles issued server command: /ride _Brvnno mount 965bdc17-c366-4cb0-ad23-2eb54cab25f4
+[00:11:11] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] _Brvnno started riding Chicken]
+[00:11:13] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> a\]
+[00:11:16] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> uuu]
+[00:11:28] [Server thread/INFO]: OPlechStyles issued server command: /ride _Brvnno mount
+[00:11:37] [Server thread/INFO]: OPlechStyles issued server command: /ride _Brvnno mount f4d2f917-2325-4b93-a5f0-f0fc28202156
+[00:11:37] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] _Brvnno started riding Iron Golem]
+[00:11:45] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> tu guarda espaldas
+[00:11:47] [Server thread/INFO]: OPlechStyles issued server command: /ride _Brvnno mount f4d2f917-2325-4b93-a5f0-f0fc28202156
+[00:11:47] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] _Brvnno started riding Iron Golem]
+[00:12:11] [Server thread/INFO]: OPlechStyles issued server command: /ride itz_gan mount
+[00:12:17] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> paz la armor
+[00:12:18] [Server thread/INFO]: OPlechStyles issued server command: /ride itz_gan mount fe3fab03-46b4-4eed-83f8-998a0f03a2bc
+[00:12:18] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] itz_gan started riding Ravager]
+[00:12:30] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> dale toro dalee
+[00:12:32] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> tpirtoo
+[00:12:44] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 1556
+[00:12:44] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:12:45] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 1556
+[00:12:45] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:12:47] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 1556
+[00:12:47] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:12:48] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 1556
+[00:12:48] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:12:50] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 1556
+[00:12:50] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:12:53] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 1556
+[00:12:53] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:12:54] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 1556
+[00:12:54] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:12:56] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 1556
+[00:12:56] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:12:57] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> ESTE ESTA BUENO
+[00:13:01] [Server thread/INFO]: OPlechStyles issued server command: /ride _Brvnno mount
+[00:13:04] [Server thread/INFO]: Xautral issued server command: /particle minecraft:trial_spawner_detection_ominous ~ ~1 ~ 0 0 0 1 1556
+[00:13:04] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection_ominous]
+[00:13:06] [Server thread/INFO]: Xautral issued server command: /particle minecraft:trial_spawner_detection_ominous ~ ~1 ~ 0 0 0 1 1556
+[00:13:06] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection_ominous]
+[00:13:07] [Server thread/INFO]: OPlechStyles issued server command: /ride _Brvnno mount 47ef18af-c327-48f0-a939-60de9766390f
+[00:13:07] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] _Brvnno started riding Ghast]
+[00:13:08] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 1556
+[00:13:08] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:13:10] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> un warden XD
+[00:13:11] [Server thread/INFO]: OPlechStyles issued server command: /ride _Brvnno mount 47ef18af-c327-48f0-a939-60de9766390f
+[00:13:11] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] _Brvnno started riding Ghast]
+[00:13:11] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 155
+[00:13:11] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:13:12] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 155
+[00:13:12] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:13:17] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 5555
+[00:13:17] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:13:17] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> un warden pls
+[00:13:19] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 555
+[00:13:19] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:13:20] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 555
+[00:13:20] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:13:21] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 555
+[00:13:21] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:13:23] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 555
+[00:13:23] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:13:30] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> OJO EL BRUNO Y SU ANGRY GHAST
+[00:13:34] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> hahaha
+[00:13:36] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> las aventura
+[00:13:38] [Server thread/INFO]: [Flame Horde] itz_gan has completed the challenge [Uneasy Alliance]
+[00:13:41] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> [proximamente en cines
+[00:13:43] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> easy
+[00:13:54] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 1 1556
+[00:13:54] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:13:56] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 1 1556
+[00:13:56] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:00] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 1.5 1556
+[00:14:00] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:02] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> itz_gan solo seria una verguenza q no le hayas dado
+[00:14:03] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 5.5 1556t
+[00:14:04] [Server thread/INFO]: OPlechStyles issued server command: /ride itz_gan mount
+[00:14:05] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 5.5 1556
+[00:14:05] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:08] [Server thread/INFO]: OPlechStyles issued server command: /ride itz_gan mount c03df1fe-e858-409f-9311-ffb4e5d20003
+[00:14:08] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] itz_gan started riding Zoglin]
+[00:14:08] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 55 1556
+[00:14:08] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:11] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 1 1556
+[00:14:11] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:14] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 1 1556
+[00:14:14] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:18] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> ns mueve esta gordo
+[00:14:21] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 -1 0 1 1556
+[00:14:21] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:22] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 -1 0 1 1556
+[00:14:22] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:26] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~0.5 ~ 0 -1 0 1 1556
+[00:14:26] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:29] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~0.3 ~ 0 -1 0 1 1556
+[00:14:29] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:30] [Server thread/INFO]: OPlechStyles issued server command: /tp _Brvnno OPlechStyles
+[00:14:30] [Server thread/INFO]: [[OP] OPlechStyles: Teleported [Flame Horde] _Brvnno to [OP] OPlechStyles]
+[00:14:33] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~ ~ 0 -1 0 1 1556
+[00:14:33] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:34] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> queria un warden:(
+[00:14:34] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~ ~ 0 -1 0 1 1556
+[00:14:34] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:34] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> haceme montar un warden\
+[00:14:34] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> dale chancho
+[00:14:34] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~ ~ 0 -1 0 1 1556
+[00:14:34] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:37] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~-1 ~ 0 -1 0 1 1556
+[00:14:37] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:38] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~-1 ~ 0 -1 0 1 1556
+[00:14:38] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:40] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~-1 ~ 0 -1 0 1 1556
+[00:14:40] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[00:14:52] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~ ~ 0 0 0 1 555
+[00:14:52] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:14:53] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~ ~ 0 0 0 1 555
+[00:14:53] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:14:55] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~ ~ 0 0 0 1 555
+[00:14:55] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:14:55] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> quien quiere subirse en el goat
+[00:14:57] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~ ~ 0 0 0 1 555
+[00:14:57] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:14:58] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~ ~ 0 0 0 1 555
+[00:14:58] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:14:59] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~ ~ 0 0 0 1 555
+[00:14:59] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:14:59] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~ ~ 0 0 0 1 555
+[00:14:59] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:15:00] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~ ~ 0 0 0 1 555
+[00:15:00] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[00:15:09] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> quien quiere subirse en el goat chicas
+[00:15:31] [Server thread/INFO]: OPlechStyles issued server command: /ride _Brvnno mount
+[00:15:32] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> pasa cxomida no
+[00:15:42] [Server thread/INFO]: OPlechStyles issued server command: /ride _Brvnno mount 3322e660-a168-4fd9-9186-c683cdccf01c
+[00:15:42] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] _Brvnno started riding Goat]
+[00:15:45] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> no tengo xd
+[00:15:54] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> pasa comida plech
+[00:15:55] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> un warden
+[00:16:03] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> tengan mi micro polla
+[00:16:17] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> ME ESPANTÉ
+[00:16:19] [Server thread/INFO]: Named entity Skeleton['Corpse'/19004, uuid='0199fa13-7f55-4f91-bb1b-03b6e563b95f', l='ServerLevel[world]', x=-8.36, y=63.00, z=2910.35, cpos=[-1, 181], tl=128, v=true] died: Corpse was slain by [Flame Horde] _Brvnno
+[00:16:19] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> puta madr
+[00:16:22] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> y eso que lo programé tyo
+[00:16:24] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> calalte negro
+[00:16:28] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> callate negro
+[00:16:32] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> sucio
+[00:16:37] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> vete a comer vrg
+[00:16:40] [Server thread/INFO]: Xautral issued server command: /tps
+[00:16:44] [Server thread/INFO]: OPlechStyles issued server command: /ride itz_gan mount
+[00:16:47] [Server thread/INFO]: Xautral issued server command: /spawnpoint Xautral ~ ~ ~
+[00:16:47] [Server thread/INFO]: [[OP] Xautral: Set spawn point to 2, -5, 1 [0.0, 0.0] in minecraft:overworld for [OP] Xautral]
+[00:16:47] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> aver esa sw bruno
+[00:16:48] [Server thread/INFO]: Xautral issued server command: /kill
+[00:16:48] [Server thread/INFO]: [OP] Xautral was killed
+[00:16:48] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[00:16:54] [Server thread/INFO]: OPlechStyles issued server command: /ride itz_gan mount 9649bcb6-9ddf-4913-bb9c-ce4008488dee
+[00:16:54] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] itz_gan started riding Enderman]
+[00:16:56] [Server thread/INFO]: OPlechStyles issued server command: /ride itz_gan mount 9649bcb6-9ddf-4913-bb9c-ce4008488dee
+[00:16:56] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] itz_gan started riding Enderman]
+[00:16:58] [Server thread/INFO]: OPlechStyles issued server command: /ride itz_gan mount 9649bcb6-9ddf-4913-bb9c-ce4008488dee
+[00:16:58] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] itz_gan started riding Enderman]
+[00:17:00] [Server thread/INFO]: OPlechStyles issued server command: /ride itz_gan mount 9649bcb6-9ddf-4913-bb9c-ce4008488dee
+[00:17:00] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] itz_gan started riding Enderman]
+[00:17:03] [Server thread/INFO]: OPlechStyles issued server command: /ride itz_gan mount 9649bcb6-9ddf-4913-bb9c-ce4008488dee
+[00:17:03] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] itz_gan started riding Enderman]
+[00:17:07] [Server thread/INFO]: OPlechStyles issued server command: /ride itz_gan mount 9649bcb6-9ddf-4913-bb9c-ce4008488dee
+[00:17:07] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] itz_gan started riding Enderman]
+[00:17:20] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> no tiene filo
+[00:17:23] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> jeje
+[00:17:28] [Server thread/INFO]: OPlechStyles issued server command: /ride itz_gan mount
+[00:17:30] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> OPlechStyles
+[00:17:33] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> tu me quitas mucha vida con esto
+[00:17:33] [Server thread/INFO]: OPlechStyles issued server command: /ride itz_gan mount 1ac98639-99b0-48af-8bc0-44656dfc20ad
+[00:17:33] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] itz_gan started riding Parrot]
+[00:17:36] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> montame en un warden
+[00:17:37] [Server thread/INFO]: OPlechStyles issued server command: /ride itz_gan mount 1ac98639-99b0-48af-8bc0-44656dfc20ad
+[00:17:37] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] itz_gan started riding Parrot]
+[00:17:49] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> ami no
+[00:18:00] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> me void
+[00:18:00] [Async Chat Thread - #4/INFO]: [Not Secure] <OPlechStyles> JAJA COMO TIRABA LA ESPADA
+[00:18:00] [Server thread/INFO]: Named entity Skeleton['Corpse'/19199, uuid='8861222a-c4f8-4e29-89a8-a12c830b751b', l='ServerLevel[world]', x=4.02, y=-5.00, z=-4.52, cpos=[0, -1], tl=1453, v=true] died: Corpse was killed
+[00:18:01] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> montame en wardwwwn
+[00:18:04] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> ire a bosh bruno
+[00:18:09] [Async Chat Thread - #4/INFO]: [Not Secure] <OPlechStyles> SEGURO?
+[00:18:12] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> chi
+[00:18:14] [Async Chat Thread - #4/INFO]: [Not Secure] <OPlechStyles> SEGUURISIMO?
+[00:18:15] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> ok itz
+[00:18:17] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> morire oe
+[00:18:20] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> si OPlechStyles
+[00:18:23] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1
+[00:18:23] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:block.end_portal_frame.fill to 5 players]
+[00:18:25] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1
+[00:18:25] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:block.end_portal_frame.fill to 5 players]
+[00:18:26] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1
+[00:18:26] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:block.end_portal_frame.fill to 5 players]
+[00:18:27] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1
+[00:18:27] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:block.end_portal_frame.fill to 5 players]
+[00:18:27] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1
+[00:18:27] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:block.end_portal_frame.fill to 5 players]
+[00:18:27] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1
+[00:18:27] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:block.end_portal_frame.fill to 5 players]
+[00:18:28] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1
+[00:18:28] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:block.end_portal_frame.fill to 5 players]
+[00:18:28] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1
+[00:18:28] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:block.end_portal_frame.fill to 5 players]
+[00:18:28] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1
+[00:18:28] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:block.end_portal_frame.fill to 5 players]
+[00:18:28] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1
+[00:18:28] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:block.end_portal_frame.fill to 5 players]
+[00:18:29] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1t
+[00:18:30] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1t
+[00:18:31] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1
+[00:18:31] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:block.end_portal_frame.fill to 5 players]
+[00:18:31] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> LOS ALDEANOS
+[00:18:31] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1
+[00:18:31] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:block.end_portal_frame.fill to 5 players]
+[00:18:31] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1
+[00:18:31] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:block.end_portal_frame.fill to 5 players]
+[00:18:32] [Async Chat Thread - #4/INFO]: [Not Secure] <OPlechStyles> ANALIZALO
+[00:18:32] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:block.end_portal_frame.fill player @a ~ ~ ~ 1 0 1
+[00:18:32] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:block.end_portal_frame.fill to 5 players]
+[00:18:36] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> ponlo lejos plech
+[00:18:37] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> emm si
+[00:18:39] [Async Chat Thread - #4/INFO]: [Not Secure] <OPlechStyles> oe si mejor lejos
+[00:18:50] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> mueren mis aldeanos y mueres tu
+[00:18:56] [Server thread/INFO]: OPlechStyles issued server command: /ride _Brvnno mount
+[00:19:01] [Server thread/INFO]: OPlechStyles issued server command: /ride _Brvnno mount e2ec494e-f312-49d2-9ddc-3751129edb6c
+[00:19:01] [Server thread/INFO]: [[OP] OPlechStyles: [Flame Horde] _Brvnno started riding Warden]
+[00:19:01] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> lo dice alguien q juega en celular
+[00:19:11] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> ya o
+[00:19:13] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> ya no
+[00:19:18] [Server thread/INFO]: OPlechStyles issued server command: /kill @e[type=minecraft:warden
+[00:19:21] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> tppp
+[00:19:24] [Server thread/INFO]: OPlechStyles issued server command: /kill @e[type=minecraft:warden]
+[00:19:24] [Server thread/INFO]: [[OP] OPlechStyles: Killed Warden]
+[00:19:24] [Async Chat Thread - #4/INFO]: [Not Secure] <itz_gan> quiero ver
+[00:19:35] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> tranquilo bruno ya lo mate
+[00:19:43] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> boe
+[00:19:45] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> bye
+[00:19:47] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> bye
+[00:19:49] [Server thread/INFO]: Xautral issued server command: /kill
+[00:19:49] [Server thread/INFO]: [OP] Xautral was killed
+[00:19:49] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[00:19:49] [Async Chat Thread - #3/INFO]: [Not Secure] <itz_gan> bye bb plech
+[00:19:50] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> tepea,me a mi base
+[00:19:52] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> byee
+[00:19:58] [Server thread/INFO]: itz_gan lost connection: Disconnected
+[00:19:58] [Server thread/INFO]: [Flame Horde] itz_gan left the game
+[00:19:59] [Server thread/INFO]: Named entity Skeleton['Corpse'/20430, uuid='1e4552bc-46a9-4479-8a34-b11642ccf929', l='ServerLevel[world]', x=2.50, y=-5.00, z=1.50, cpos=[0, 0], tl=190, v=true] died: Corpse was killed
+[00:20:09] [Server thread/INFO]: OPlechStyles issued server command: /tp _Brvnno OPlechStyles
+[00:20:09] [Server thread/INFO]: [[OP] OPlechStyles: Teleported [Flame Horde] _Brvnno to [OP] OPlechStyles]
+[00:20:14] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> por di0s
+[00:20:16] [Server thread/INFO]: Xautral issued server command: /tag Xautral list
+[00:20:17] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> casi me matas
+[00:20:21] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> perdon
+[00:20:25] [Server thread/INFO]: Xautral issued server command: /kill
+[00:20:25] [Server thread/INFO]: [OP] Xautral was killed
+[00:20:25] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[00:20:27] [Async Chat Thread - #3/INFO]: [Not Secure] <OPlechStyles> perdown
+[00:20:27] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> me voy yo tmb chau
+[00:20:32] [Server thread/INFO]: _Brvnno lost connection: Disconnected
+[00:20:32] [Server thread/INFO]: [Flame Horde] _Brvnno left the game
+[00:20:32] [Server thread/INFO]: Named entity Skeleton['Corpse'/20873, uuid='2884d053-d394-42b8-be30-d9c8641ae51d', l='ServerLevel[world]', x=2.07, y=-5.00, z=1.60, cpos=[0, 0], tl=140, v=true] died: Corpse was killed
+[00:20:33] [Server thread/INFO]: OPlechStyles issued server command: /tp _Brvnno OPlechStyles
+[00:20:38] [Server thread/INFO]: Xautral issued server command: /kill
+[00:20:38] [Server thread/INFO]: [OP] Xautral was killed
+[00:20:38] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[00:20:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/21040, uuid='90436970-e895-4375-93f1-cf740725f70c', l='ServerLevel[world]', x=-4.24, y=-5.00, z=5.44, cpos=[-1, 0], tl=189, v=true] died: Corpse was killed
+[00:20:50] [Server thread/INFO]: OPlechStyles issued server command: /enchant OPlechStyles minecraft:mendin
+[00:20:53] [Server thread/INFO]: OPlechStyles issued server command: /enchant OPlechStyles minecraft:mending
+[00:20:53] [Server thread/INFO]: [[OP] OPlechStyles: Applied enchantment Mending to [OP] OPlechStyles's item]
+[00:21:03] [Server thread/INFO]: [[OP] OPlechStyles: Set own game mode to Survival Mode]
+[00:21:25] [Server thread/INFO]: [OP] OPlechStyles was impaled by [OP] OPlechStyles
+[00:21:28] [Server thread/INFO]: [OP] OPlechStyles was doomed to fall
+[00:21:29] [Server thread/INFO]: [OP] OPlechStyles was doomed to fall
+[00:21:30] [Server thread/INFO]: [[OP] OPlechStyles: Set own game mode to Creative Mode]
