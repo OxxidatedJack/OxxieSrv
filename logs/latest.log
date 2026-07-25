@@ -83,3 +83,396 @@
 [16:58:49] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
 [16:58:50] [Server thread/INFO]: Loading 41 persistent chunks for level 'minecraft:overworld'...
 [16:58:50] [Server thread/INFO]: Preparing spawn area: 19%
+[16:58:50] [Server thread/INFO]: Preparing spawn area: 19%
+[16:58:52] [Server thread/INFO]: Prepared spawn area in 1954 ms
+[16:58:52] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[16:58:52] [Server thread/INFO]: Prepared spawn area in 0 ms
+[16:58:52] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[16:58:52] [Server thread/INFO]: Prepared spawn area in 1 ms
+[16:58:52] [Server thread/INFO]: Done preparing level "world" (2.740s)
+[16:58:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[16:58:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
+[16:58:52] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[16:58:52] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.3.3
+[16:58:52] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.10
+[16:58:52] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[16:58:53] [Server thread/INFO]: [ItemEdit] Unable to hook into Vault
+[16:58:53] [Server thread/INFO]: [ItemEdit] # Enabled (took 443 ms)
+[16:58:53] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[16:58:53] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[16:58:53] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[16:58:53] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[16:58:53] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[16:58:53] [Server thread/WARN]: [LoginSecurity] "LoginSecurity v3.2.0" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "public void com.lenis0012.bukkit.loginsecurity.modules.general.PlayerListener.onPlayerSpawn(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [lenis0012].
+[16:58:53] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[16:58:53] [Server thread/INFO]: [spark] Starting background profiler...
+[16:58:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:58:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:58:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:58:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:58:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:58:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:58:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:58:55] [Server thread/INFO]: Running delayed init tasks
+[16:58:55] [Server thread/INFO]: Done (21.283s)! For help, type "help"
+[16:58:55] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[17:00:09] [User Authenticator #0/INFO]: UUID of player volcon2 is 9c42fa87-f091-3883-9bf4-db229d9050dc
+[17:00:09] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LoginSecurity]
+[17:00:11] [Server thread/INFO]: [Volcanos] volcon2 joined the game
+[17:00:11] [Server thread/INFO]: volcon2[/127.125.214.129:35019] logged in with entity id 10 at ([minecraft:the_nether]-11.489818022229077, 54.0, 43.45257856074879)
+[17:00:52] [Server thread/INFO]: [Not Secure] [Server] aahorita me conecto
+[17:00:54] [Server thread/INFO]: [Not Secure] [Server] voy a cagar
+[17:00:55] [Server thread/INFO]: There are 1 of a max of 20 players online: [Volcanos] volcon2
+[17:01:12] [Server thread/INFO]: [Not Secure] [Server] si se apaga es por inactividad
+[17:03:53] [User Authenticator #1/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[17:03:54] [Server thread/INFO]: [OP] Xautral joined the game
+[17:03:54] [Server thread/INFO]: Xautral[/127.9.216.32:51023] logged in with entity id 551 at ([minecraft:the_nether]-11.489818022229077, 54.0, 43.45257856074879)
+[17:04:08] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> nexo asal
+[17:04:18] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[17:04:19] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> e
+[17:04:22] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[17:04:24] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> estaba afk
+[17:04:42] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> estaba siguiendo los rastros de emblem
+[17:04:50] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> por que tuvo que crear otro portal
+[17:04:54] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> per ya se me acabaron
+[17:05:33] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> podia crear una trampa de portal
+[17:05:39] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> como la que le hicieron a coldi
+[17:05:42] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> la viste?
+[17:05:55] [User Authenticator #2/INFO]: UUID of player Slimegolembros is fb02b546-7f6c-3666-aaca-2e861bcf597e
+[17:05:56] [Server thread/INFO]: [OP] Slimegolembros joined the game
+[17:05:56] [Server thread/INFO]: Slimegolembros[/127.115.210.97:54821] logged in with entity id 676 at ([minecraft:overworld]65.19727919789644, 67.30569527715333, 2922.3734727484675)
+[17:06:11] [Async Chat Thread - #1/INFO]: [Not Secure] <Slimegolembros> volvi
+[17:06:16] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> no
+[17:06:17] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> no
+[17:06:22] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> me iamginé la de drdonut
+[17:06:55] [Server thread/INFO]: Villager Villager['Villager'/94, uuid='a751c135-184d-4f1f-896b-37df3b1ee9f1', l='ServerLevel[world]', x=-33.34, y=47.00, z=52.43, cpos=[-3, 3], tl=8069, v=true] died, message: 'Villager hit the ground too hard'
+[17:06:59] [Server thread/INFO]: Slimegolembros issued server command: /tp volcon2
+[17:06:59] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Volcanos] volcon2]
+[17:07:03] [Server thread/INFO]: Slimegolembros issued server command: /tp Xautral
+[17:07:03] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [OP] Xautral]
+[17:07:08] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> ostias
+[17:07:20] [Server thread/INFO]: Slimegolembros issued server command: /inv volcon2
+[17:07:21] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> este lo hice yo estoy seguro
+[17:07:29] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> culerísimo
+[17:07:36] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> oh no
+[17:07:38] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> no fue mio
+[17:07:44] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> bellísimo
+[17:07:48] [Server thread/INFO]: Slimegolembros issued server command: /tp volcon2
+[17:07:48] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Volcanos] volcon2]
+[17:07:51] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> wey
+[17:07:52] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
+[17:07:54] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> que
+[17:08:04] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> donde pudo contruir el pt portal
+[17:08:17] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> por que te auto-censuras las groserías
+[17:08:20] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> no estas en yt kids
+[17:08:25] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> no se
+[17:08:36] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> no soy de decir muchas groserias de todos modos
+[17:08:44] [Server thread/INFO]: Slimegolembros issued server command: /msg Xautral em mira arriva esta toda la zona que hice
+[17:09:05] [Server thread/INFO]: Slimegolembros issued server command: /msg Xautral en el techo del nether
+[17:09:14] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> sino encuentro nada voy a la base de los gringos
+[17:09:19] [Async Chat Thread - #1/INFO]: [Not Secure] <Slimegolembros> XD
+[17:09:24] [Server thread/INFO]: Slimegolembros issued server command: /tp volcon2
+[17:09:24] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Volcanos] volcon2]
+[17:09:29] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> listo
+[17:09:33] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> el portal
+[17:09:33] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[17:09:38] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> lo encontre
+[17:09:50] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> aunque no me llevo a nada
+[17:09:57] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> ostras kaky
+[17:10:00] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> KAKY NO
+[17:10:03] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> NOOO KAKY
+[17:10:06] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> si kaky
+[17:10:09] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> no entendiste
+[17:10:09] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> quien es kaky
+[17:10:10] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> :vvv
+[17:10:11] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> ire a matar a los gringos
+[17:10:14] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> nadie entendió
+[17:10:21] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> pobrecitos
+[17:10:28] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> en permadeath cuanndo kakytron muere por un enda-cripe
+[17:10:36] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> el Rich Grita sus pendejadas
+[17:10:40] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> que
+[17:10:44] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> wtf
+[17:10:48] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> ah
+[17:10:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> el bro NO es superman
+[17:10:53] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> la base de los emblems esta cerca
+[17:10:55] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> :sob: :pray:
+[17:11:02] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> alchile ellos si les puedes robar
+[17:11:03] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> ay un aldeano zombificado
+[17:11:03] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> estan todas las bases cerca o que?
+[17:11:09] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> acá entre nos pero ellos le robaron a plechy
+[17:11:10] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> parece
+[17:11:15] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> si
+[17:11:21] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> bueno solo unos cuantos
+[17:11:25] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> pero equis
+[17:11:28] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> a ver si la encuentro siquiera
+[17:11:30] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> por que se que
+[17:11:30] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> si se coectan ya los peudes raidear
+[17:11:34] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> Xautral robo cosas de plech y mias :V
+[17:11:36] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> estan por aca
+[17:11:47] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> xautral,*
+[17:12:18] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> es que es raro
+[17:12:21] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> nstruyeron otro portal
+[17:12:27] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> y ay un aldeano zombificado
+[17:12:34] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> ah
+[17:12:37] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> la base de los gringos
+[17:12:48] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> y por ende la base de plech cerca3
+[17:13:03] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> entonces de ese portal le robaron a plech?
+[17:13:04] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> ya no
+[17:13:05] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> y a slime
+[17:13:11] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> la base de plech ya esta lejos
+[17:13:13] [Async Chat Thread - #1/INFO]: [Not Secure] <Slimegolembros> si :(
+[17:13:15] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> pero bien a la chingada
+[17:13:20] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> bro
+[17:13:21] [Async Chat Thread - #1/INFO]: [Not Secure] <Slimegolembros> la antigua xau
+[17:13:24] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> los girngos nisiquierad
+[17:13:31] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> volvierona contruir el portal
+[17:13:33] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> girngos :rofl: :V:
+[17:13:35] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> depues de que me exploto
+[17:13:40] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> el creeper electrico
+[17:13:49] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> es que este zekrompeak es un mantenido
+[17:13:53] [Async Chat Thread - #1/INFO]: [Not Secure] <Slimegolembros> XD
+[17:13:59] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> lazic es el unico quehace algo
+[17:14:18] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> wey
+[17:14:21] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> te jur o que no los pongo yo
+[17:14:23] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> que carajos
+[17:14:23] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> wtf
+[17:14:27] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> tanto putísimo creeper
+[17:14:35] [Server thread/INFO]: Slimegolembros issued server command: /tp volcon2
+[17:14:35] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Volcanos] volcon2]
+[17:14:35] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> vi que el creeper estaba viendo algo
+[17:14:47] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> como si hubiera una entidad
+[17:14:53] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> que insinuas pedazo deverga
+[17:14:54] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> otro criper
+[17:14:56] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> estoy espeteandote
+[17:14:57] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> creeper
+[17:15:00] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> x2
+[17:15:02] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> estoy especteandote
+[17:15:10] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> Slimegolembros no esta generando ni vergas
+[17:15:16] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> que mierda
+[17:15:19] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> que veia el creeper entonces
+[17:16:06] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> brocito
+[17:16:08] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[17:16:18] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> que mielda
+[17:16:21] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> XD
+[17:16:38] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> xau cual es tu flor favorita?
+[17:16:47] [User Authenticator #3/INFO]: UUID of player NoirMoon is d0cc53cf-4271-3c4a-8900-c81d275134de
+[17:16:47] [Server thread/INFO]: [Flame Horde] NoirMoon joined the game
+[17:16:47] [Server thread/INFO]: NoirMoon[/127.21.248.113:37373] logged in with entity id 2995 at ([minecraft:overworld]52.714461537019695, 58.9375, 2918.051284709339)
+[17:16:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> cempazuchitl
+[17:16:58] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> de minecraft :V
+[17:17:06] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> tulipan
+[17:17:09] [Server thread/INFO]: Xautral issued server command: /tp NoirMoon
+[17:17:09] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] NoirMoon]
+[17:17:13] [Server thread/INFO]: Slimegolembros issued server command: /tp NoirMoon
+[17:17:13] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Flame Horde] NoirMoon]
+[17:17:19] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> viva sexo
+[17:17:23] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> q verga we
+[17:17:25] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> esta la base de plech cerca
+[17:17:27] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> la ex base?
+[17:17:29] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> me espante
+[17:17:32] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> le puedo robar lo que le quedo o no
+[17:17:34] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> volcon no
+[17:17:46] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> volcon2 sabes que esa base era mia tambien verdad?
+[17:17:49] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> yo ya habia encontrado la base de las
+[17:17:51] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> emblems
+[17:17:57] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> pero nmo guarde cords del portal
+[17:18:03] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> me cague todo por
+[17:18:06] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> farfa
+[17:18:11] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> tenia una armadura de cuero
+[17:18:12] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> como la
+[17:18:16] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> que te da corazones og extras
+[17:18:22] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> la custom
+[17:18:23] [User Authenticator #4/INFO]: Disconnecting NoirMoon (/127.21.248.113:56067): [LoginSecurity] This player is already online!
+[17:18:23] [User Authenticator #4/INFO]: UUID of player NoirMoon is d0cc53cf-4271-3c4a-8900-c81d275134de
+[17:18:23] [Server thread/INFO]: NoirMoon (/127.21.248.113:56067) lost connection: [LoginSecurity] This player is already online!
+[17:18:24] [User Authenticator #5/INFO]: Disconnecting NoirMoon (/127.21.248.113:51567): [LoginSecurity] This player is already online!
+[17:18:24] [User Authenticator #5/INFO]: UUID of player NoirMoon is d0cc53cf-4271-3c4a-8900-c81d275134de
+[17:18:24] [Server thread/INFO]: NoirMoon (/127.21.248.113:51567) lost connection: [LoginSecurity] This player is already online!
+[17:18:27] [Server thread/INFO]: NoirMoon was kicked due to keepalive timeout!
+[17:18:27] [Server thread/INFO]: NoirMoon lost connection: Timed out
+[17:18:27] [Server thread/INFO]: NoirMoon left the game
+[17:18:30] [Server thread/INFO]: Slimegolembros issued server command: /tp Xautral
+[17:18:30] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [OP] Xautral]
+[17:18:53] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> slime igual plech me mato
+[17:19:11] [Async Chat Thread - #1/INFO]: [Not Secure] <Slimegolembros> te lo merecias :V
+[17:19:15] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> no hice nada
+[17:19:17] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> cabron marica multikit
+[17:19:17] [User Authenticator #6/INFO]: UUID of player NoirMoon is d0cc53cf-4271-3c4a-8900-c81d275134de
+[17:19:19] [Server thread/INFO]: [Flame Horde] NoirMoon joined the game
+[17:19:19] [Server thread/INFO]: NoirMoon[/127.17.235.221:40111] logged in with entity id 4475 at ([minecraft:overworld]49.84186826526169, 63.0, 2912.524211990105)
+[17:19:21] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> cabron marica multikit
+[17:19:25] [Server thread/INFO]: Xautral issued server command: /tp
+[17:19:27] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[17:19:27] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Volcanos] volcon2]
+[17:19:33] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> correle esclavo
+[17:19:35] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> pero en faaa
+[17:19:36] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[17:19:46] [Async Chat Thread - #1/INFO]: [Not Secure] <NoirMoon> y el ardido soy yo
+[17:19:49] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> si
+[17:20:05] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> oigan
+[17:20:05] [Server thread/INFO]: Slimegolembros issued server command: /tp NoirMoon
+[17:20:05] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Flame Horde] NoirMoon]
+[17:20:06] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> como lo ven chavos
+[17:20:07] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> porq tengo la armadura tan rota no mames
+[17:20:07] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> que
+[17:20:13] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> el que
+[17:20:16] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> titz_gan reclama un refill kit por que segun lo maté
+[17:20:27] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> tque es un refill kit
+[17:20:28] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> si solo me limite a reventarle la madre a NoirMoon y a fafa
+[17:20:32] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> esos kits customs donde se consiguen
+[17:20:32] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> refil kit es refilear kit
+[17:20:34] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> down mono
+[17:20:41] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> a
+[17:20:43] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> volcon2: IA IA A EIE EIE
+[17:20:51] [Async Chat Thread - #1/INFO]: [Not Secure] <Slimegolembros> yo lo veo que no
+[17:20:58] [Async Chat Thread - #1/INFO]: [Not Secure] <NoirMoon> xau no em habias reparado la armor porq de la nada ta tan rota
+[17:20:58] [Async Chat Thread - #1/INFO]: [Not Secure] <Slimegolembros> que se haga una granja de xp
+[17:21:09] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> deja de llorar puta
+[17:21:14] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> y has las cosas por ti mismo
+[17:21:14] [Server thread/INFO]: Slimegolembros issued server command: /inv NoirMoon
+[17:21:21] [Server thread/INFO]: Slimegolembros issued server command: /inv NoirMoon
+[17:21:29] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> NoirMoon si
+[17:21:32] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> ya te la habia reparado
+[17:21:37] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> pero volcon2 esta haciendo algo imposible
+[17:21:37] [Async Chat Thread - #1/INFO]: [Not Secure] <NoirMoon> wtf
+[17:21:40] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> tirando factos
+[17:21:44] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> eso no debe pasar
+[17:21:45] [Server thread/INFO]: Slimegolembros issued server command: /ie repaircost
+[17:21:50] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> deja lo elimino
+[17:21:52] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[17:21:53] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Survival Mode]
+[17:21:56] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> ...
+[17:21:57] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[17:21:58] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> nexo asal
+[17:21:58] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[17:22:00] [Async Chat Thread - #1/INFO]: [Not Secure] <NoirMoon> ese quien es
+[17:22:06] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> :vvvvvv
+[17:22:08] [Server thread/INFO]: Slimegolembros issued server command: /effect clear Slimegolembros
+[17:22:08] [Server thread/INFO]: [[OP] Slimegolembros: Removed every effect from [OP] Slimegolembros]
+[17:22:17] [Async Chat Thread - #1/INFO]: [Not Secure] <Slimegolembros> ...
+[17:22:17] [Async Chat Thread - #1/INFO]: [Not Secure] <NoirMoon> ./report por arruinar la experiencia de los player
+[17:22:21] [Async Chat Thread - #1/INFO]: [Not Secure] <NoirMoon> ahre
+[17:22:33] [Server thread/INFO]: Slimegolembros issued server command: /effect give Slimegolembros minecraft:night_vision infinite 1 true
+[17:22:33] [Server thread/INFO]: [[OP] Slimegolembros: Applied effect Night Vision to [OP] Slimegolembros]
+[17:22:42] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> ahre que pendejo
+[17:22:48] [Async Chat Thread - #1/INFO]: [Not Secure] <Slimegolembros> eso por pegarme tremendo ostion
+[17:22:51] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> eres cavayo o que chinjados
+[17:22:57] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> ostion
+[17:22:58] [Server thread/INFO]: Slimegolembros issued server command: /tp Xautral
+[17:22:58] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [OP] Xautral]
+[17:23:00] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> ostia chavales
+[17:23:00] [Async Chat Thread - #3/INFO]: [Not Secure] <NoirMoon> slime que iba a saber yo que eras tu JAJAJA
+[17:23:01] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> joder
+[17:23:03] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> mongolitos con papitas
+[17:23:09] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> UNGUGGUGNG
+[17:23:14] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> ostion
+[17:23:15] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> JAJAJJA
+[17:23:15] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> Du bis gut genug
+[17:23:21] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> uuuooo
+[17:23:27] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> se que el plech su base erstaba en nieve.
+[17:23:34] [Server thread/INFO]: Slimegolembros issued server command: /tp volcon2
+[17:23:34] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Volcanos] volcon2]
+[17:23:34] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> aunque haya un bioma de jungla cercas
+[17:23:37] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> ese carnaaaaaal
+[17:23:44] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> pista: la nueva base ni esta en la tierra
+[17:23:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> callate Xautral
+[17:23:56] [Async Chat Thread - #3/INFO]: [Not Secure] <Slimegolembros> :V
+[17:23:56] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> Slimegolembros callat tu puto
+[17:23:57] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> blo lo digo por que yo ya estuve en la base de plech
+[17:24:00] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> y de estos gringos
+[17:24:01] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> volcon2
+[17:24:02] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> y de emblem
+[17:24:03] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> nos vale keki
+[17:24:08] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> :papeado:
+[17:24:12] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> tu como estuviste en la base
+[17:24:15] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> o serás tu el raideador?
+[17:24:20] [Server thread/INFO]: Xautral issued server command: /inv volcon2
+[17:24:22] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> no
+[17:24:25] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> mira como se altera
+[17:24:26] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> recuerdas que me dropeo
+[17:24:27] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> plech lo llego a matar
+[17:24:27] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> es el raider
+[17:24:34] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> zDropeado__
+[17:24:43] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> ¿QUE LO MATAS GILIPOLLAS?
+[17:24:48] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> ste pavo
+[17:24:55] [Async Chat Thread - #3/INFO]: [Not Secure] <NoirMoon> gilipollas
+[17:25:00] [Async Chat Thread - #3/INFO]: [Not Secure] <Slimegolembros> que pasa xau
+[17:25:01] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> ¡¡Seno Axal!!
+[17:25:02] [Async Chat Thread - #3/INFO]: [Not Secure] <Slimegolembros> yo no hice nada
+[17:25:05] [Async Chat Thread - #3/INFO]: [Not Secure] <Slimegolembros> :(
+[17:25:18] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> tu k kvron malpari2
+[17:25:19] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Survival Mode]
+[17:25:21] [Async Chat Thread - #3/INFO]: [Not Secure] <NoirMoon> oh no xautral con psicosis otra ves no
+[17:25:30] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[17:25:35] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> oigan :fish: a:fish:t:bear:
+[17:25:40] [Async Chat Thread - #3/INFO]: [Not Secure] <NoirMoon> XD
+[17:25:46] [Async Chat Thread - #3/INFO]: [Not Secure] <NoirMoon> esa mamada que
+[17:26:17] [Server thread/INFO]: Xautral issued server command: /tellraw @a[name=!Slimegolembros] {"text":"<Slimegolembros> que te pasa noir por que me dices eso"}
+[17:26:24] [Async Chat Thread - #3/INFO]: [Not Secure] <NoirMoon> ?
+[17:26:24] [Server thread/INFO]: Xautral issued server command: /tellraw @a[name=!Slimegolembros] {"text":"<Slimegolembros> yo que te hice :(}"}
+[17:26:37] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> que hiciste we
+[17:26:37] [Async Chat Thread - #3/INFO]: [Not Secure] <NoirMoon> te paso screenshot de mi pantalla
+[17:26:40] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> este es de los expertos?
+[17:26:42] [Async Chat Thread - #3/INFO]: [Not Secure] <NoirMoon> porque no hice ninguna pendejada
+[17:26:45] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> volcon2 ni ide
+[17:26:46] [Async Chat Thread - #3/INFO]: [Not Secure] <NoirMoon> xautral
+[17:26:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> que
+[17:26:52] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> deja el puto commando de psicosis
+[17:26:55] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> ¿¿??
+[17:27:14] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> yo me acuerdo en los viejos tiempos cuando xautral ponia un comando que hacia parecer que otra persona decia algo por msg
+[17:27:17] [Server thread/INFO]: Xautral issued server command: /tellraw @a[name=NoirMoon] {"text":"<volcon2> vamos a penetrarte"}
+[17:27:29] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> ya ves
+[17:27:30] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> xd
+[17:27:40] [Server thread/INFO]: Xautral issued server command: /tellraw @a[name=NoirMoon] {"text":"<Slimegolembros> xautral banealo"}
+[17:27:43] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> el apodo era commando psicosis
+[17:27:52] [Server thread/INFO]: Xautral issued server command: /tellraw @a[name=NoirMoon] {"text":"<Xautral> simon patrón"}
+[17:27:59] [Server thread/INFO]: Xautral issued server command: /tellraw @a[name=NoirMoon] {"text":"<Xautral> ahí voy en burguiza"}
+[17:28:14] [Server thread/INFO]: Xautral issued server command: /tellraw @a[name=NoirMoon] {"text":"<NoirMoon> chinguen su madre todos"}
+[17:28:18] [Server thread/INFO]: Xautral issued server command: /tellraw @a[name=NoirMoon] {"text":"<NoirMoon> 666"}
+[17:28:21] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> ves eso no lo dije yo
+[17:28:21] [Server thread/INFO]: Xautral issued server command: /tellraw @a[name=NoirMoon] {"text":"<NoirMoon> Satanás "}
+[17:28:27] [Server thread/INFO]: Xautral issued server command: /tellraw @a[name=NoirMoon] {"text":"<NoirMoon> Hail Lucifer"}
+[17:28:28] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> wasd
+[17:28:30] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> wasd
+[17:28:33] [Server thread/INFO]: Xautral issued server command: /tellraw @a[name=NoirMoon] {"text":"<NoirMoon> Arriba el diablo"}
+[17:28:34] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> ¿?
+[17:28:37] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> ya wey
+[17:28:43] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> xautral estoy grabando
+[17:28:47] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> ok puta
+[17:28:50] [Server thread/INFO]: Xautral issued server command: /tellraw @a[name=NoirMoon] {"text":"<volcon2> callate putita"}
+[17:28:52] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> :)99
+[17:28:53] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> yo no dije eso..
+[17:28:54] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> con eso tengo pruebas de que estas haciendo mamadas
+[17:28:54] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> xddxdxd
+[17:28:58] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> we
+[17:28:59] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> callate pendjeo
+[17:29:02] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> es psicosis
+[17:29:03] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> estoy especteando al volcon
+[17:29:04] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> que mierda
+[17:29:12] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> chingue su madre el américa
+[17:29:16] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> q pdo
+[17:29:17] [Async Chat Thread - #2/INFO]: [Not Secure] <NoirMoon> XAUTRAL ES UN PUTO COMMANDO NO IMPORTA QUE ESTE EN SPECTADOR
+[17:29:22] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> ¿¿??
+[17:29:35] [Async Chat Thread - #3/INFO]: [Not Secure] <NoirMoon> heroe de la aldea nice
+[17:30:40] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> que verga
+[17:31:01] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> bruh...
+[17:31:03] [Async Chat Thread - #4/INFO]: [Not Secure] <Slimegolembros> gogogo
+[17:31:39] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> y este portal de donde salio cabron
+[17:31:55] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> NoirMoon lee el discord
+[17:31:56] [Async Chat Thread - #4/INFO]: [Not Secure] <NoirMoon> cuando yo lelge al server slime me puso 900 piglins :c
+[17:32:01] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> callate
+[17:32:18] [Async Chat Thread - #4/INFO]: [Not Secure] <NoirMoon> sospechoso
+[17:32:19] [Async Chat Thread - #4/INFO]: [Not Secure] <Slimegolembros> en que momento hice
+[17:32:20] [Async Chat Thread - #4/INFO]: [Not Secure] <Slimegolembros> eso
+[17:32:23] [Server thread/INFO]: Xautral issued server command: /tellraw @a[name=NoirMoon] {"text":"<NoirMoon> callate tu pendejo de mierda"}
+[17:32:24] [Async Chat Thread - #4/INFO]: [Not Secure] <Slimegolembros> estuve quieto todo el rato
+[17:32:29] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> y yo viendo a volcon
+[17:32:33] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> aposté a que se muriera el w
+[17:32:37] [Async Chat Thread - #4/INFO]: [Not Secure] <Slimegolembros> xd
+[17:32:38] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> no puto
+[17:32:41] [Async Chat Thread - #4/INFO]: [Not Secure] <NoirMoon> we yo tampoco puse eso
+[17:32:42] [Async Chat Thread - #4/INFO]: [Not Secure] <NoirMoon> que miedo
+[17:32:55] [Async Chat Thread - #4/INFO]: [Not Secure] <NoirMoon> que pustas en moonlights peak
+[17:33:09] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> no pusiste q
+[17:33:16] [Async Chat Thread - #4/INFO]: [Not Secure] <NoirMoon> lo de los chats
+[17:33:16] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> todo el log eres tu peleandose invisiblemente conmigo
