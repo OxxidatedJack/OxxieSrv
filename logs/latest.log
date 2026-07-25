@@ -1173,3 +1173,98 @@
 [14:30:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/27697, uuid='7691c23f-dc86-47ba-b65b-dd3a2b8fe69a', l='ServerLevel[world]', x=5.67, y=-4.12, z=-4.70, cpos=[0, -1], tl=13949, v=true] died: Corpse was slain by [OP] Xautral
 [14:30:51] [Server thread/INFO]: Named entity Skeleton['Corpse'/32524, uuid='b4bfe605-44b2-4dfe-b6ed-50d5b3673923', l='ServerLevel[world]', x=-3.70, y=-5.00, z=1.96, cpos=[-1, 0], tl=354, v=true] died: Corpse was slain by [OP] Xautral
 [14:30:57] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:31:29] [Async Chat Thread - #28/INFO]: [Not Secure] <volcon2> bro realmente xau?
+[14:31:32] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> qu
+[14:31:34] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[14:31:34] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Volcanos] volcon2]
+[14:31:35] [Async Chat Thread - #28/INFO]: [Not Secure] <volcon2> o bro realmente no?
+[14:31:40] [Async Chat Thread - #29/INFO]: [Not Secure] <Xautral> no te entiendo
+[14:31:49] [Async Chat Thread - #29/INFO]: [Not Secure] <Xautral> tah ya entendi
+[14:31:50] [Async Chat Thread - #29/INFO]: [Not Secure] <volcon2> bro say wallahi bro say wallahi
+[14:31:52] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> no habia elid el cha
+[14:31:57] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> volcon2
+[14:32:00] [Async Chat Thread - #29/INFO]: [Not Secure] <volcon2> mande
+[14:32:10] [Async Chat Thread - #29/INFO]: [Not Secure] <Xautral> los corpse ahora tendran una prob del 50 que si los matas te de una cabeza de jugador
+[14:32:15] [Async Chat Thread - #29/INFO]: [Not Secure] <Xautral> qu las puees consumir y te dan buenos efectos
+[14:32:18] [Async Chat Thread - #29/INFO]: [Not Secure] <Xautral> mir
+[14:32:20] [Async Chat Thread - #29/INFO]: [Not Secure] <volcon2> igual no puedo matar a nadie
+[14:32:20] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[14:32:20] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Volcanos] volcon2]
+[14:32:23] [Async Chat Thread - #29/INFO]: [Not Secure] <Xautral> mira
+[14:32:27] [Server thread/INFO]: Xautral issued server command: /kill
+[14:32:27] [Server thread/INFO]: [OP] Xautral was killed
+[14:32:27] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[14:32:30] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[14:32:30] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Volcanos] volcon2]
+[14:32:39] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:32:40] [Async Chat Thread - #29/INFO]: [Not Secure] <volcon2> wey
+[14:32:41] [Async Chat Thread - #29/INFO]: [Not Secure] <volcon2> no muere
+[14:32:43] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> si
+[14:32:45] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> 65 de hp
+[14:32:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/33239, uuid='233312d7-d97d-4663-8452-a05c2890f2b5', l='ServerLevel[world]', x=83.80, y=68.00, z=-3.67, cpos=[5, -1], tl=395, v=true] died: Corpse was slain by [Volcanos] volcon2
+[14:32:50] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> ahuevo
+[14:32:51] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> si te teoco
+[14:32:54] [Async Chat Thread - #28/INFO]: [Not Secure] <volcon2> ahh ya vi
+[14:32:54] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> consumela
+[14:32:56] [Server thread/INFO]: Xautral issued server command: /inv volcon2
+[14:33:05] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> cometela
+[14:33:05] [Async Chat Thread - #28/INFO]: [Not Secure] <volcon2> me la como?
+[14:33:07] [Async Chat Thread - #28/INFO]: [Not Secure] <volcon2> JAJAJA
+[14:33:07] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> si
+[14:33:17] [Async Chat Thread - #28/INFO]: [Not Secure] <volcon2> a la verga
+[14:33:19] [Async Chat Thread - #28/INFO]: [Not Secure] <volcon2> esta op
+[14:33:24] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> tiene una prob del 50 porcierto de regenerarte toda la vida
+[14:33:34] [Async Chat Thread - #28/INFO]: [Not Secure] <volcon2> pero igual estas conciente que no matare a nadie
+[14:33:38] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> no
+[14:33:47] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> pero puedes aprovechar legalmente para matar el corpse de alguien más
+[14:33:49] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[14:33:49] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[14:33:51] [Server thread/INFO]: Xautral issued server command: /tp fafafaxdfa
+[14:33:51] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] fafafaxdfa]
+[14:33:52] [Server thread/WARN]: Lazic moved too quickly! -1.649618705661851,0.8338907390617862,-14.799156541459297
+[14:33:54] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[14:33:54] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[14:33:59] [Async Chat Thread - #28/INFO]: [Not Secure] <volcon2> nunca he estado ni con netherite en este servidor
+[14:34:06] [Async Chat Thread - #28/INFO]: [Not Secure] <volcon2> me he tardado
+[14:34:10] [Async Chat Thread - #28/INFO]: [Not Secure] <volcon2> no he podido encontrar
+[14:34:29] [User Authenticator #14/INFO]: UUID of player Slimegolembross is eccfda82-36bb-34f6-990b-f38cbf3c2466
+[14:34:31] [Server thread/INFO]: [Kawesar Tribe] Slimegolembross joined the game
+[14:34:31] [Server thread/INFO]: Slimegolembross[/127.115.210.97:35197] logged in with entity id 34441 at ([minecraft:overworld]-1031.8891102629557, 13.0, 3687.6790805975165)
+[14:34:44] [User Authenticator #15/INFO]: UUID of player Slimegolembros is fb02b546-7f6c-3666-aaca-2e861bcf597e
+[14:34:45] [Server thread/INFO]: [OP] Slimegolembros joined the game
+[14:34:45] [Server thread/INFO]: Slimegolembros[/127.115.210.97:34097] logged in with entity id 34829 at ([minecraft:overworld]-1026.3329690497844, 16.000412309311045, 3687.5459402433817)
+[14:35:10] [Async Chat Thread - #30/INFO]: [Not Secure] <Slimegolembross> volvi
+[14:35:23] [Async Chat Thread - #30/INFO]: [Not Secure] <Xautral> palabrhositas
+[14:35:24] [Async Chat Thread - #31/INFO]: [Not Secure] <Xautral> palabrhostias
+[14:35:26] [Async Chat Thread - #30/INFO]: [Not Secure] <volcon2> i see you o no?
+[14:35:33] [User Authenticator #16/INFO]: UUID of player wizmarcos2014 is 8e7e39b3-70dc-396a-aff0-66987bef5fff
+[14:35:34] [Server thread/INFO]: [Kawesar Tribe] wizmarcos2014 joined the game
+[14:35:34] [Server thread/INFO]: wizmarcos2014[/127.125.17.88:59573] logged in with entity id 35227 at ([minecraft:overworld]-991.2484357458823, 22.0, 3707.279832826891)
+[14:35:42] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives remove RevTimer
+[14:35:42] [Server thread/INFO]: [[OP] Xautral: Removed objective [RevTimer]]
+[14:35:44] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives remove revive
+[14:35:44] [Server thread/INFO]: [[OP] Xautral: Removed objective [revive]]
+[14:35:46] [Async Chat Thread - #30/INFO]: [Not Secure] <wizmarcos2014> ya esta
+[14:35:51] [Async Chat Thread - #30/INFO]: [Not Secure] <wizmarcos2014> slimer encontrado
+[14:35:54] [Async Chat Thread - #30/INFO]: [Not Secure] <Slimegolembross> XD
+[14:36:04] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[14:36:31] [Async Chat Thread - #30/INFO]: [Not Secure] <volcon2> cuando se acbaa el servidor
+[14:36:35] [Async Chat Thread - #30/INFO]: [Not Secure] <Xautral> ¿¿??
+[14:36:35] [Async Chat Thread - #30/INFO]: [Not Secure] <volcon2> o todavia faltan meses
+[14:36:39] [Async Chat Thread - #30/INFO]: [Not Secure] <Xautral> meses
+[14:36:52] [Async Chat Thread - #30/INFO]: [Not Secure] <Xautral> hasta que hayan minimo 20 jugadores diarios
+[14:36:53] [Async Chat Thread - #30/INFO]: [Not Secure] <volcon2> tal ves tenga posibilidades de ganarlo
+[14:36:56] [Async Chat Thread - #30/INFO]: [Not Secure] <volcon2> pero son muy bajas
+[14:37:08] [Server thread/INFO]: Slimegolembros issued server command: /inv wizmarcos2014
+[14:37:08] [Async Chat Thread - #30/INFO]: [Not Secure] <Xautral> el bro se creía dr casa :Sob:
+[14:37:19] [Async Chat Thread - #30/INFO]: [Not Secure] <volcon2> quien es dr casa
+[14:37:22] [Async Chat Thread - #31/INFO]: [Not Secure] <volcon2> bro say wallahi
+[14:37:47] [Async Chat Thread - #31/INFO]: [Not Secure] <volcon2> igual nadie es bueno en pvp esta temporada
+[14:38:30] [Async Chat Thread - #31/INFO]: [Not Secure] <volcon2> los gringos ni idea
+[14:38:35] [Async Chat Thread - #31/INFO]: [Not Secure] <volcon2> pero los de latam nadie es bueno
+[14:39:02] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives setdisplay sidebar RevTIme
+[14:40:47] [Async Chat Thread - #32/INFO]: [Not Secure] <volcon2> que raro que cerca de aca haya un portal
+[14:40:52] [Async Chat Thread - #32/INFO]: [Not Secure] <volcon2> y todavia no lo haya encontrado
+[14:41:53] [Async Chat Thread - #34/INFO]: [Not Secure] <volcon2> eso que fue
+[14:43:22] [Server thread/INFO]: Xautral issued server command: /save-all
+[14:43:22] [Server thread/INFO]: [[OP] Xautral: Saved the game]
