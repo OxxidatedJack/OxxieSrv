@@ -1,19 +1,19 @@
 {
   "stats": {
     "minecraft:custom": {
-      "minecraft:time_since_rest": 403880,
+      "minecraft:time_since_rest": 406566,
       "minecraft:talked_to_villager": 97,
-      "minecraft:leave_game": 20,
+      "minecraft:leave_game": 21,
       "minecraft:damage_taken": 4113,
       "minecraft:mob_kills": 189,
       "minecraft:boat_one_cm": 31939,
       "minecraft:open_shulker_box": 46,
-      "minecraft:time_since_death": 403874,
+      "minecraft:time_since_death": 406560,
       "minecraft:open_enderchest": 1,
       "minecraft:sleep_in_bed": 1,
       "minecraft:interact_with_smithing_table": 2,
       "minecraft:swim_one_cm": 22209,
-      "minecraft:total_world_time": 820726,
+      "minecraft:total_world_time": 823412,
       "minecraft:crouch_one_cm": 89264,
       "minecraft:deaths": 5,
       "minecraft:climb_one_cm": 22052,
@@ -26,7 +26,7 @@
       "minecraft:walk_one_cm": 692843,
       "minecraft:walk_under_water_one_cm": 75330,
       "minecraft:damage_dealt": 16730,
-      "minecraft:play_time": 820726,
+      "minecraft:play_time": 823412,
       "minecraft:jump": 2346,
       "minecraft:drop": 112,
       "minecraft:open_barrel": 47,
@@ -37,7 +37,7 @@
       "minecraft:fly_one_cm": 220089,
       "minecraft:interact_with_anvil": 12,
       "minecraft:walk_on_water_one_cm": 44551,
-      "minecraft:sneak_time": 20801
+      "minecraft:sneak_time": 20823
     },
     "minecraft:used": {
       "minecraft:acacia_boat": 8,
