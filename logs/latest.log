@@ -1677,3 +1677,51 @@ Reason: ¡You have perished!
 [15:12:00] [Server thread/INFO]: Xautral issued server command: /save-all
 [15:12:00] [Server thread/INFO]: [[OP] Xautral: Saved the game]
 [15:12:05] [Async Chat Thread - #41/INFO]: [Not Secure] <volcon2> bueno a los de rojo
+[15:12:19] [Async Chat Thread - #41/INFO]: [Not Secure] <volcon2> ocupo recursos y por ellos me mataron y perdi todo
+[15:12:21] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> mi mayor creacion
+[15:12:39] [Async Chat Thread - #41/INFO]: [Not Secure] <Xautral> SEXO ANALL
+[15:12:44] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> que rico
+[15:12:49] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> depende
+[15:12:54] [Async Chat Thread - #40/INFO]: [Not Secure] <fafafaxdfa> tu lo pusiste
+[15:12:54] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> bro estaba escribiendo
+[15:12:56] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> xd
+[15:13:04] [Async Chat Thread - #40/INFO]: [Not Secure] <fafafaxdfa> tu lo pusiste?
+[15:13:07] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> que no tio
+[15:13:10] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> ostia chabaln
+[15:13:14] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> me hechan la culpa de todo
+[15:13:15] [Async Chat Thread - #40/INFO]: [Not Secure] <fafafaxdfa> x fin sirve
+[15:13:17] [Async Chat Thread - #40/INFO]: [Not Secure] <fafafaxdfa> ven
+[15:13:35] [Async Chat Thread - #40/INFO]: [Not Secure] <volcon2> que xautral
+[15:13:37] [Async Chat Thread - #40/INFO]: [Not Secure] <volcon2> cuando quieras
+[15:14:23] [Server thread/INFO]: NoirMoon issued server command: /effect give NoirMoon minecraft:invisibility infinite 255 true
+[15:14:23] [Server thread/INFO]: [[OP] NoirMoon: Applied effect Invisibility to [OP] NoirMoon]
+[15:16:09] [Server thread/INFO]: [[OP] NoirMoon: Set own game mode to Survival Mode]
+[15:16:12] [Server thread/INFO]: Xautral issued server command: /save-all
+[15:16:12] [Server thread/INFO]: [[OP] Xautral: Saved the game]
+[15:16:14] [Server thread/INFO]: NoirMoon issued server command: /effect clear
+[15:16:14] [Server thread/INFO]: [[OP] NoirMoon: Removed every effect from [OP] NoirMoon]
+[15:16:51] [Async Chat Thread - #42/INFO]: [Not Secure] <fafafaxdfa> VAMO
+[15:16:53] [Async Chat Thread - #42/INFO]: [Not Secure] <NoirMoon> me meto o no me meto como player hmmm
+[15:16:54] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives setdisplay sidebar SneakRev
+[15:16:54] [Server thread/INFO]: [[OP] Xautral: Set display slot sidebar to show objective SneakRev]
+[15:16:57] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[15:16:57] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[15:16:57] [Server thread/INFO]: [[OP] NoirMoon: Set own game mode to Creative Mode]
+[15:16:59] [Async Chat Thread - #42/INFO]: [Not Secure] <Xautral> Slimegolembros
+[15:17:01] [Async Chat Thread - #42/INFO]: [Not Secure] <Slimegolembros> que es eso
+[15:17:02] [Async Chat Thread - #42/INFO]: [Not Secure] <Xautral> callat
+[15:17:05] [Server thread/INFO]: Xautral issued server command: /kill Slimegolembros
+[15:17:05] [Server thread/INFO]: [OP] Slimegolembros was killed
+[15:17:05] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Slimegolembros]
+[15:17:10] [Async Chat Thread - #42/INFO]: [Not Secure] <Slimegolembros> ostia me cague
+[15:17:10] [Server thread/INFO]: Named entity Skeleton['Corpse'/63516, uuid='5b9244dd-d321-4dc5-805d-02ac056ab7ce', l='ServerLevel[world]', x=-107.24, y=130.87, z=445.75, cpos=[-7, 27], tl=110, v=true] died: Corpse was killed
+[15:17:12] [Server thread/INFO]: NoirMoon issued server command: /effect give NoirMoon minecraft:invisibility infinite 255 true
+[15:17:12] [Server thread/INFO]: [[OP] NoirMoon: Applied effect Invisibility to [OP] NoirMoon]
+[15:17:17] [Async Chat Thread - #42/INFO]: [Not Secure] <Xautral> revivió de los muertejos
+[15:17:19] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[15:17:25] [Server thread/INFO]: Xautral issued server command: /tp fafafaxdfa
+[15:17:25] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] fafafaxdfa]
+[15:17:26] [Server thread/INFO]: Slimegolembros issued server command: /effect give Slimegolembros minecraft:night_vision infinite 1 true
+[15:17:26] [Server thread/INFO]: [[OP] Slimegolembros: Applied effect Night Vision to [OP] Slimegolembros]
+[15:17:27] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[15:17:27] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
