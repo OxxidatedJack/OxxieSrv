@@ -1268,3 +1268,412 @@
 [14:41:53] [Async Chat Thread - #34/INFO]: [Not Secure] <volcon2> eso que fue
 [14:43:22] [Server thread/INFO]: Xautral issued server command: /save-all
 [14:43:22] [Server thread/INFO]: [[OP] Xautral: Saved the game]
+[14:47:16] [Server thread/INFO]: Lazic lost connection: Disconnected
+[14:47:16] [Server thread/INFO]: [Westhelm] Lazic left the game
+[14:47:52] [Server thread/INFO]: Xautral issued server command: /kill
+[14:47:52] [Server thread/INFO]: [OP] Xautral was killed
+[14:47:52] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[14:47:59] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:48:15] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives remove RevTimer
+[14:48:15] [Server thread/INFO]: [[OP] Xautral: Removed objective [RevTimer]]
+[14:48:16] [Server thread/INFO]: Xautral issued server command: /kill
+[14:48:16] [Server thread/INFO]: [OP] Xautral was killed
+[14:48:16] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[14:48:41] [Server thread/INFO]: Named entity Skeleton['Corpse'/44264, uuid='f17128c8-2201-436a-8b2c-6cd235b61951', l='ServerLevel[world]', x=-0.97, y=-5.00, z=2.22, cpos=[-1, 0], tl=969, v=true] died: Corpse was killed
+[14:48:45] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:49:48] [Server thread/INFO]: Xautral issued server command: /kill
+[14:49:48] [Server thread/INFO]: [OP] Xautral was killed
+[14:49:48] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[14:50:13] [Server thread/INFO]: Named entity Skeleton['Corpse'/45502, uuid='de51f617-cb9c-4c15-91cb-eacaa6e93436', l='ServerLevel[world]', x=-0.88, y=-3.99, z=2.66, cpos=[-1, 0], tl=498, v=true] died: Corpse was killed
+[14:50:13] [Server thread/INFO]: Named entity Skeleton['Corpse'/44593, uuid='94bd7401-05e5-4a8f-8b84-71c8439b68a9', l='ServerLevel[world]', x=3.51, y=0.36, z=2.60, cpos=[0, 0], tl=2333, v=true] died: Corpse was killed
+[14:50:14] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:50:49] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives setdisplay sidebar ban
+[14:50:49] [Server thread/INFO]: [[OP] Xautral: Set display slot sidebar to show objective ban]
+[14:50:52] [Async Chat Thread - #37/INFO]: [Not Secure] <volcon2> ban que
+[14:50:55] [Async Chat Thread - #37/INFO]: [Not Secure] <Slimegolembros> que es eso xd
+[14:51:44] [Server thread/INFO]: Xautral issued server command: /kill
+[14:51:44] [Server thread/INFO]: [OP] Xautral was killed
+[14:51:44] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[14:51:59] [Server thread/INFO]: Named entity Skeleton['Corpse'/46555, uuid='0f892e99-0a31-4098-9cc2-aa628844f35e', l='ServerLevel[world]', x=0.78, y=0.47, z=3.41, cpos=[0, 0], tl=298, v=true] died: Corpse was killed
+[14:51:59] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[14:51:59] [Server thread/INFO]: Xautral left the game
+[14:52:02] [User Authenticator #17/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[14:52:03] [Server thread/INFO]: [OP] Xautral joined the game
+[14:52:03] [Server thread/INFO]: Xautral[/127.9.216.32:44673] logged in with entity id 46727 at ([minecraft:overworld]-1.2059952223301333, 0.1084944990589175, 1.390164911280843)
+[14:52:08] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:52:19] [Async Chat Thread - #38/INFO]: [Not Secure] <Xautral> ahuevo
+[14:52:21] [Server thread/INFO]: Xautral issued server command: /save-all
+[14:52:21] [Server thread/INFO]: [[OP] Xautral: Saved the game]
+[14:52:23] [Async Chat Thread - #38/INFO]: [Not Secure] <Xautral> dejen salvo todo
+[14:52:28] [Async Chat Thread - #38/INFO]: [Not Secure] <Slimegolembros> que pasa
+[14:52:47] [Async Chat Thread - #39/INFO]: [Not Secure] <Xautral> nada
+[14:52:55] [Async Chat Thread - #39/INFO]: [Not Secure] <Xautral> es que ya hice un gran avance programacional
+[14:53:02] [Async Chat Thread - #39/INFO]: [Not Secure] <Slimegolembros> bien
+[14:53:18] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives add SneakRev minecraft.custom:minecraft.sneak_time
+[14:53:18] [Server thread/INFO]: [[OP] Xautral: Created new objective [SneakRev]]
+[14:54:11] [Server thread/INFO]: wizmarcos2014 lost connection: Disconnected
+[14:54:11] [Server thread/INFO]: [Kawesar Tribe] wizmarcos2014 left the game
+[14:55:42] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
+[14:55:46] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 0 1
+[14:55:46] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:55:47] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 0 1
+[14:55:47] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:55:48] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 0 144
+[14:55:48] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:55:49] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 0 144
+[14:55:49] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:55:52] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 0 1555
+[14:55:52] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:55:54] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 0 5555
+[14:55:54] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:55:57] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 15 5555
+[14:55:57] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:01] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 12345 5555
+[14:56:01] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:04] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 1345 5555
+[14:56:04] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:08] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 135 5555
+[14:56:08] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:09] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 135 5555
+[14:56:09] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:09] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[14:56:11] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0 0 15 5555
+[14:56:11] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:15] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~ ~ 0 0 0 15 5555
+[14:56:15] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:18] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~ ~ 0 0.2 0 15 5555
+[14:56:18] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:23] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~ ~ 0 0.3 0 15 5555
+[14:56:23] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:28] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 15 5555
+[14:56:28] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:29] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 15 5555
+[14:56:29] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:30] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembros> em
+[14:56:33] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 15 5555
+[14:56:33] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:36] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 15 5555
+[14:56:36] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:38] [Async Chat Thread - #40/INFO]: [Not Secure] <fafafaxdfa> a
+[14:56:39] [User Authenticator #18/INFO]: UUID of player NoirMoon is d0cc53cf-4271-3c4a-8900-c81d275134de
+[14:56:39] [Server thread/INFO]: NoirMoon joined the game
+[14:56:39] [Server thread/INFO]: NoirMoon[/127.21.248.113:41305] logged in with entity id 49289 at ([minecraft:overworld]-212.5, 64.0, 207.5)
+[14:56:41] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 2 5555
+[14:56:41] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:45] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> quien es este tipo
+[14:56:47] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 2 5555
+[14:56:47] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:49] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 2 5555
+[14:56:49] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:50] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 2 5555
+[14:56:50] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:56:52] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> la novenidecima cuenta de kyo
+[14:56:53] [Async Chat Thread - #40/INFO]: [Not Secure] <volcon2> bro say wallahi
+[14:56:54] [Async Chat Thread - #40/INFO]: [Not Secure] <fafafaxdfa> y si lo mato? xd
+[14:56:54] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 2 5555
+[14:56:54] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[14:57:00] [Async Chat Thread - #40/INFO]: [Not Secure] <fafafaxdfa> a
+[14:57:03] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> es un admin w
+[14:57:04] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembros> joe porque no lo hiciste fafafaxdfa
+[14:57:10] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> el bro tiene mas cuentas que años :fire:
+[14:57:12] [Async Chat Thread - #40/INFO]: [Not Secure] <fafafaxdfa> xq me dio pena
+[14:57:32] [Server thread/INFO]: NoirMoon issued server command: /skin set MagicznaZabencja
+[14:57:33] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembros> xau porque en el nether hay locator bar?
+[14:57:38] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> que te valga madres
+[14:57:39] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> no no se
+[14:57:40] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> porqe si
+[14:57:55] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
+[14:57:57] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> esta mamada que
+[14:58:02] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> se llama fire y esta hecho de hielo
+[14:58:15] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> gente
+[14:58:17] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> actualziación
+[14:58:18] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembros> que
+[14:58:21] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> si alguien no alcanza a revivir
+[14:58:23] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> todos los corpse se mueren
+[14:58:25] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[14:58:26] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> xau dame mi poderes :Sob:
+[14:58:30] [Server thread/INFO]: Xautral issued server command: /op NoirMoon
+[14:58:30] [Server thread/INFO]: [[OP] Xautral: Made NoirMoon a server operator]
+[14:58:34] [Server thread/INFO]: [NoirMoon: Set own game mode to Creative Mode]
+[14:58:40] [Server thread/INFO]: NoirMoon issued server command: /team join M NoirMoon
+[14:58:40] [Server thread/INFO]: [NoirMoon: Added [OP] NoirMoon to team [Mod]]
+[14:58:42] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembros> pero pa que sirven los corpose
+[14:58:42] [Server thread/INFO]: Xautral issued server command: /kill
+[14:58:42] [Server thread/INFO]: [OP] Xautral was killed
+[14:58:42] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[14:58:43] [Server thread/INFO]: [[OP] NoirMoon: Set own game mode to Spectator Mode]
+[14:58:45] [Server thread/INFO]: [OP] NoirMoon has made the advancement [We Need to Go Deeper]
+[14:58:57] [Server thread/INFO]: [[OP] NoirMoon: Set own game mode to Creative Mode]
+[14:58:57] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[14:58:57] [Server thread/INFO]: Xautral left the game
+[14:58:59] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> esto ke
+[14:58:59] [User Authenticator #19/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[14:59:00] [Server thread/INFO]: [OP] Xautral joined the game
+[14:59:00] [Server thread/INFO]: Xautral[/127.9.216.32:45433] logged in with entity id 51319 at ([minecraft:overworld]-0.2871183715049317, -5.0, 3.4103907783697953)
+[14:59:03] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[14:59:07] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembros> chismoso
+[14:59:28] [Server thread/WARN]: Oak Boat (vehicle of NoirMoon) moved wrongly! 0.3030404056498526
+[14:59:28] [Server thread/WARN]: Oak Boat (vehicle of NoirMoon) moved wrongly! 0.6487740581447952
+[14:59:28] [Server thread/WARN]: Oak Boat (vehicle of NoirMoon) moved wrongly! 0.8062137181596256
+[14:59:45] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> che slime porque hay un monton de aldeanos
+[14:59:52] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembros> se escaparon
+[14:59:54] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[14:59:54] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[14:59:56] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembros> de la primera ase
+[14:59:57] [Server thread/INFO]: Xautral issued server command: /kill Slimegolembros
+[14:59:57] [Server thread/INFO]: [OP] Slimegolembros was killed
+[14:59:57] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Slimegolembros]
+[15:00:04] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[15:00:06] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> cabron estúpido
+[15:00:07] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembros> AAAA
+[15:00:12] [Server thread/WARN]: Slimegolembros moved too quickly! -38.37782862649641,0.06612848322708942,-32.715579581866535
+[15:00:15] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> a donde vas w
+[15:00:20] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembros> que acaba de pasar
+[15:00:23] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> ni sirve mi chingadera
+[15:00:23] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> tiene la cara de slime no mames
+[15:00:25] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> puta madre
+[15:00:28] [Server thread/INFO]: Xautral issued server command: /tp fafafaxdfa
+[15:00:28] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] fafafaxdfa]
+[15:00:29] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[15:00:29] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[15:00:31] [Server thread/INFO]: Xautral issued server command: /kill x
+[15:00:32] [Server thread/INFO]: Xautral issued server command: /kill Xautral
+[15:00:32] [Server thread/INFO]: [OP] Xautral was killed
+[15:00:32] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[15:00:34] [Server thread/INFO]: [Volcanos] volcon2 has completed the challenge [Return to Sender]
+[15:00:43] [Server thread/INFO]: Slimegolembros issued server command: /effect give Slimegolembros minecraft:night_vision infinite 1 true
+[15:00:43] [Server thread/INFO]: [[OP] Slimegolembros: Applied effect Night Vision to [OP] Slimegolembros]
+[15:00:44] [Async Chat Thread - #41/INFO]: [Not Secure] <volcon2> y ese disco
+[15:00:50] [Server thread/INFO]: [Not Secure] [Server] que pasa
+[15:00:50] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> es inmortal esta chingadera o que
+[15:00:52] [Server thread/INFO]: [OP] NoirMoon has made the advancement [Monster Hunter]
+[15:00:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/52693, uuid='6751142c-ee66-4f0c-bd05-842ac0e2c03d', l='ServerLevel[world]', x=-57.30, y=130.84, z=220.10, cpos=[-4, 13], tl=1087, v=true] died: Corpse was slain by [OP] NoirMoon
+[15:00:53] [Server thread/INFO]: [Not Secure] [Server] chavals
+[15:01:20] [Async Chat Thread - #41/INFO]: [Not Secure] <volcon2> ese disco amos
+[15:01:25] [Async Chat Thread - #41/INFO]: [Not Secure] <volcon2> roddy
+[15:01:27] [Async Chat Thread - #40/INFO]: [Not Secure] <volcon2> es nuevo?
+[15:01:38] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> pinche noir ya la cagaste
+[15:01:40] [Async Chat Thread - #41/INFO]: [Not Secure] <Xautral> para que lo matsa puñeton
+[15:01:41] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[15:01:46] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> q
+[15:01:49] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> yo que
+[15:01:54] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> si yo estaba en un barco asi bien chingon
+[15:02:05] [Async Chat Thread - #41/INFO]: [Not Secure] <Xautral> ahí me salió en la consola de "COrpse was killed by Noir"
+[15:02:16] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> ah nose
+[15:02:24] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> vales pa pura verga
+[15:02:41] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> solo se que a corpose le cayo un meteorito mientras caminaba por la calle
+[15:02:49] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> corpose :Skull:
+[15:02:49] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> ni verga se como se escribe
+[15:03:00] [Server thread/INFO]: Xautral issued server command: /kill Xautral
+[15:03:00] [Server thread/INFO]: [OP] Xautral was killed
+[15:03:00] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[15:03:16] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> esta cagadisimo esta monda
+[15:03:16] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[15:03:21] [Async Chat Thread - #40/INFO]: [Not Secure] <volcon2> fafa me prestas tu portal del end
+[15:03:25] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> ah la verga
+[15:03:35] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> slime ayuda we
+[15:03:41] [Async Chat Thread - #40/INFO]: [Not Secure] <fafafaxdfa> no tengo
+[15:03:51] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembros> que paso
+[15:04:08] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> se ve bien culero desde mi pov
+[15:04:15] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembros> x2
+[15:04:31] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> veo 7 slimes
+[15:04:52] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembros> yo 4 kyos
+[15:05:14] [Server thread/INFO]: NoirMoon issued server command: /kill NoirMoon
+[15:05:14] [Server thread/INFO]: [OP] NoirMoon was killed
+[15:05:14] [Server thread/INFO]: [[OP] NoirMoon: Killed [OP] NoirMoon]
+[15:05:21] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> aaaaaaaaaa
+[15:05:32] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~ ~ 0 0.3 0 15 5555
+[15:05:32] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[15:05:33] [Async Chat Thread - #41/INFO]: [Not Secure] <Xautral> haber
+[15:05:35] [Async Chat Thread - #41/INFO]: [Not Secure] <Xautral> que les dije pendejos
+[15:05:37] [Server thread/INFO]: [[OP] NoirMoon: Set own game mode to Creative Mode]
+[15:05:39] [Async Chat Thread - #41/INFO]: [Not Secure] <Xautral> de que no se mueran pro que estoy testeando
+[15:05:45] [Async Chat Thread - #41/INFO]: [Not Secure] <Xautral> y lo primero que hace este puñetas es matarse
+[15:05:46] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> explote de la nada
+[15:05:51] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~ ~ 0 0.3 0 15 5555
+[15:05:51] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[15:05:52] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~ ~ 0 0.3 0 15 5555
+[15:05:52] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[15:05:53] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~ ~ 0 0.3 0 15 5555
+[15:05:53] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[15:05:53] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> ahre se mato el solo
+[15:05:58] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~0.2 ~ 0 0.3 0 15 5555
+[15:05:58] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[15:06:02] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1.2 ~ 0 0.3 0 15 5555
+[15:06:02] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[15:06:03] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1.2 ~ 0 0.3 0 15 5555
+[15:06:03] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[15:06:07] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 15 5555
+[15:06:07] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[15:06:10] [Async Chat Thread - #41/INFO]: [Not Secure] <Xautral> pinche gerardo
+[15:06:11] [Async Chat Thread - #41/INFO]: [Not Secure] <Xautral> pinche gerardo
+[15:06:12] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> pinche gerardo
+[15:06:13] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 15 5555
+[15:06:13] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[15:06:14] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 15 5555
+[15:06:14] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[15:06:15] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 15 5555
+[15:06:15] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[15:06:18] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 15 5555
+[15:06:18] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[15:06:20] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 15 5555
+[15:06:20] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[15:06:23] [Server thread/INFO]: Xautral issued server command: /particle trial_omen ~ ~1 ~ 0 0.3 0 15 5555
+[15:06:23] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_omen]
+[15:06:32] [Async Chat Thread - #40/INFO]: [Not Secure] <volcon2> agreguen denuevo mi tridnete
+[15:06:32] [Server thread/INFO]: Xautral issued server command: /kill
+[15:06:32] [Server thread/INFO]: [OP] Xautral was killed
+[15:06:32] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
+[15:06:41] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembros> volcon
+[15:06:43] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> slime ponte a girar como yo esta bien culero
+[15:06:45] [Async Chat Thread - #41/INFO]: [Not Secure] <Slimegolembros> coge un totem
+[15:06:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/53089, uuid='8c0a1d93-18c0-4801-ac61-9821bb817e45', l='ServerLevel[world]', x=0.76, y=-5.00, z=-1.11, cpos=[0, -1], tl=7499, v=true] died: Corpse was killed
+[15:06:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/51154, uuid='7c20993b-0889-4d4f-b6fa-8bee2cf4657a', l='ServerLevel[world]', x=-0.29, y=-5.00, z=3.41, cpos=[-1, 0], tl=9697, v=true] died: Corpse was killed
+[15:06:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/55394, uuid='05c07194-76af-431d-8984-302c3c3087bd', l='ServerLevel[world]', x=0.74, y=-1.50, z=3.38, cpos=[0, 0], tl=4547, v=true] died: Corpse was killed
+[15:06:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/57480, uuid='1c162347-507f-40b3-991e-7f2df1bd9eb3', l='ServerLevel[world]', x=3.75, y=-0.58, z=1.54, cpos=[0, 0], tl=298, v=true] died: Corpse was killed
+[15:06:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/56700, uuid='c53d6c10-4569-492f-9743-397ed88d74a8', l='ServerLevel[world]', x=-79.77, y=129.00, z=98.58, cpos=[-5, 6], tl=1858, v=true] died: Corpse was killed
+[15:06:47] [Server thread/INFO]: Xautral lost connection: You are banned from this server
+[15:06:47] [Server thread/INFO]: Xautral left the game
+[15:06:50] [User Authenticator #20/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[15:06:51] [Server thread/INFO]: [OP] Xautral joined the game
+[15:06:51] [Server thread/INFO]: Xautral[/127.9.216.32:37803] logged in with entity id 57709 at ([minecraft:overworld]-0.2871183715049317, -5.0, 3.4103907783697953)
+[15:06:52] [Async Chat Thread - #41/INFO]: [Not Secure] <Slimegolembros> coge un totem we
+[15:06:54] [Async Chat Thread - #41/INFO]: [Not Secure] <Xautral> oigan masturbandita
+[15:06:56] [Async Chat Thread - #41/INFO]: [Not Secure] <volcon2> que totem
+[15:06:57] [Server thread/INFO]: Xautral issued server command: /tp Slimegolembros
+[15:06:57] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] Slimegolembros]
+[15:06:58] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[15:07:00] [Server thread/INFO]: Xautral issued server command: /kill Slimegolembros
+[15:07:00] [Server thread/INFO]: [OP] Slimegolembros was killed
+[15:07:00] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Slimegolembros]
+[15:07:08] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[15:07:09] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> ayudame xautral me persiñe al revez
+[15:07:15] [Server thread/INFO]: Named entity Skeleton['Corpse'/57778, uuid='8ed979e2-2311-4162-916b-90c53882bd83', l='ServerLevel[world]', x=-123.30, y=129.00, z=95.85, cpos=[-8, 5], tl=298, v=true] died: Corpse was killed
+[15:07:15] [Server thread/INFO]: Slimegolembros lost connection: You are banned from this server
+[15:07:15] [Server thread/INFO]: Slimegolembros left the game
+[15:07:19] [Async Chat Thread - #41/INFO]: [Not Secure] <Xautral> JAJAJAJ
+[15:07:20] [Async Chat Thread - #40/INFO]: [Not Secure] <volcon2> nmms ya ni comida tengo
+[15:07:21] [User Authenticator #21/INFO]: UUID of player Slimegolembros is fb02b546-7f6c-3666-aaca-2e861bcf597e
+[15:07:21] [Server thread/INFO]: Disconnecting Slimegolembros (/127.115.210.97:40395): You are banned from this server.
+Reason: ¡You have perished!
+[15:07:21] [Server thread/INFO]: Slimegolembros (/127.115.210.97:40395) lost connection: You are banned from this server.
+Reason: ¡You have perished!
+[15:07:23] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembross> xau
+[15:07:24] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembross> bro
+[15:07:25] [Server thread/INFO]: Xautral issued server command: /pardon Slimegolembros
+[15:07:25] [Server thread/INFO]: [[OP] Xautral: Unbanned Slimegolembros]
+[15:07:25] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> ayudame xautral
+[15:07:26] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> que
+[15:07:33] [User Authenticator #22/INFO]: UUID of player Slimegolembros is fb02b546-7f6c-3666-aaca-2e861bcf597e
+[15:07:34] [Server thread/INFO]: [OP] Slimegolembros joined the game
+[15:07:34] [Server thread/INFO]: Slimegolembros[/127.115.210.97:34923] logged in with entity id 58037 at ([minecraft:the_nether]-123.30000001192093, 129.0, 96.40720205408566)
+[15:07:34] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> so q w
+[15:07:36] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> wtf
+[15:07:36] [Async Chat Thread - #40/INFO]: [Not Secure] <NoirMoon> definicion de cagado
+[15:07:48] [Server thread/INFO]: Xautral issued server command: /tp fafafaxdfa
+[15:07:49] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] fafafaxdfa]
+[15:07:50] [Server thread/INFO]: Slimegolembros issued server command: /effect give Slimegolembros minecraft:night_vision infinite 1 true
+[15:07:50] [Server thread/INFO]: [[OP] Slimegolembros: Applied effect Night Vision to [OP] Slimegolembros]
+[15:07:54] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> pndejo
+[15:07:55] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> casi m muero
+[15:08:04] [Server thread/INFO]: Slimegolembros lost connection: Disconnected
+[15:08:04] [Server thread/INFO]: [OP] Slimegolembros left the game
+[15:08:08] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[15:08:08] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[15:08:09] [Async Chat Thread - #40/INFO]: [Not Secure] <Slimegolembross> que lag
+[15:08:11] [Async Chat Thread - #40/INFO]: [Not Secure] <Xautral> vas
+[15:08:13] [Server thread/INFO]: [[OP] NoirMoon: Set own game mode to Spectator Mode]
+[15:08:14] [Async Chat Thread - #41/INFO]: [Not Secure] <fafafaxdfa> dios
+[15:08:18] [Async Chat Thread - #41/INFO]: [Not Secure] <fafafaxdfa> estaba afk
+[15:08:23] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> fue porque gire a la velocidad de la luz asi bien perron
+[15:08:25] [Server thread/INFO]: [OP] NoirMoon has made the advancement [Those Were the Days]
+[15:08:37] [Server thread/INFO]: NoirMoon issued server command: /effect give NoirMoon minecraft:fire_resistance infinite
+[15:08:37] [Server thread/INFO]: [[OP] NoirMoon: Applied effect Fire Resistance to [OP] NoirMoon]
+[15:08:39] [Server thread/INFO]: [[OP] NoirMoon: Set own game mode to Survival Mode]
+[15:08:40] [Async Chat Thread - #41/INFO]: [Not Secure] <volcon2> que hace el noirmoon conmigo
+[15:08:42] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> hay kbron
+[15:08:47] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> porq spawnee aqui
+[15:08:51] [User Authenticator #23/INFO]: UUID of player Slimegolembros is fb02b546-7f6c-3666-aaca-2e861bcf597e
+[15:08:52] [Server thread/INFO]: [OP] Slimegolembros joined the game
+[15:08:52] [Server thread/INFO]: Slimegolembros[/127.115.210.97:42083] logged in with entity id 58641 at ([minecraft:the_nether]-124.3125, 128.5875, 86.48709930439058)
+[15:09:02] [Server thread/INFO]: [[OP] NoirMoon: Set own game mode to Spectator Mode]
+[15:09:05] [Server thread/INFO]: [[OP] NoirMoon: Set own game mode to Creative Mode]
+[15:09:11] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> fafa quieres ver algo cagado
+[15:09:15] [Async Chat Thread - #41/INFO]: [Not Secure] <fafafaxdfa> q
+[15:09:21] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
+[15:09:22] [Async Chat Thread - #41/INFO]: [Not Secure] <Xautral> si
+[15:09:22] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[15:09:28] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Survival Mode]
+[15:09:35] [Async Chat Thread - #41/INFO]: [Not Secure] <volcon2> xautral ocupo un rtp al overworld
+[15:09:39] [Async Chat Thread - #41/INFO]: [Not Secure] <volcon2> me quede sin comida
+[15:09:54] [Server thread/INFO]: Xautral issued server command: /tp ~ ~150 +
+[15:09:55] [Server thread/INFO]: Xautral issued server command: /tp ~ ~150 ~
+[15:09:55] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.823912, 146.373837, 2.239689]
+[15:10:00] [Server thread/INFO]: Xautral issued server command: /tp volcon2 Xautral
+[15:10:00] [Server thread/INFO]: [[OP] Xautral: Teleported [Volcanos] volcon2 to [OP] Xautral]
+[15:10:08] [Async Chat Thread - #41/INFO]: [Not Secure] <Xautral> alch si w
+[15:10:09] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[15:10:09] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[15:10:10] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> xd
+[15:10:26] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[15:10:34] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> xautral crea una expansion de dominio asi con particulas
+[15:10:39] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 0 1
+[15:10:39] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:10:40] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 0 1
+[15:10:40] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:10:41] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> JAJAJAJ
+[15:10:43] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 1 155
+[15:10:43] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:10:47] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 0.2 155
+[15:10:47] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:10:47] [Async Chat Thread - #41/INFO]: [Not Secure] <NoirMoon> QUE MAMADA ESTOY VIENDO
+[15:10:48] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 0.2 155
+[15:10:48] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:10:49] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 0.2 155
+[15:10:49] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:10:53] [Async Chat Thread - #41/INFO]: [Not Secure] <fafafaxdfa> ´pera
+[15:10:54] [Server thread/INFO]: [[OP] NoirMoon: Set own game mode to Survival Mode]
+[15:10:57] [Server thread/INFO]: [[OP] NoirMoon: Set own game mode to Creative Mode]
+[15:10:58] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~5 ~ 0 0 0 0.2 155
+[15:10:58] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:10:59] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~5 ~ 0 0 0 0.2 155
+[15:10:59] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:01] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0 0 0.2 155
+[15:11:01] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:05] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0.2 0 0.2 155
+[15:11:05] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:06] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0.2 0 0.2 155
+[15:11:06] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:07] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0.2 0 0.2 155
+[15:11:07] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:07] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0.2 0 0.2 155
+[15:11:07] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:08] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0.2 0 0.2 155
+[15:11:08] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:08] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0.2 0 0.2 155
+[15:11:08] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:08] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0.2 0 0.2 155
+[15:11:08] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:09] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0.2 0 0.2 155
+[15:11:09] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:10] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0.2 0 0.2 155
+[15:11:10] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:12] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0.2 0 0.2 1554
+[15:11:12] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:15] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0.2 0 0.2 5554
+[15:11:15] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:19] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0.2 0 0.2 3554
+[15:11:19] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:22] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0.2 0 0.2 3552
+[15:11:22] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:23] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0.2 0 0.2 3552
+[15:11:23] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:24] [Server thread/INFO]: Xautral issued server command: /particle trial_spawner_detection ~ ~1 ~ 0 0.2 0 0.2 3552
+[15:11:24] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:trial_spawner_detection]
+[15:11:41] [Async Chat Thread - #41/INFO]: [Not Secure] <volcon2> tengo que ir a matar a los
+[15:11:44] [Async Chat Thread - #41/INFO]: [Not Secure] <volcon2> ah
+[15:11:47] [Async Chat Thread - #41/INFO]: [Not Secure] <volcon2> se desconecto
+[15:11:56] [Async Chat Thread - #41/INFO]: [Not Secure] <Xautral> sida
+[15:12:00] [Server thread/INFO]: Xautral issued server command: /save-all
+[15:12:00] [Server thread/INFO]: [[OP] Xautral: Saved the game]
+[15:12:05] [Async Chat Thread - #41/INFO]: [Not Secure] <volcon2> bueno a los de rojo

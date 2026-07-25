@@ -1,0 +1,50 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 8110,
+      "minecraft:walk_one_cm": 12972,
+      "minecraft:mob_kills": 1,
+      "minecraft:walk_under_water_one_cm": 52,
+      "minecraft:damage_dealt": 459,
+      "minecraft:boat_one_cm": 303687,
+      "minecraft:play_time": 18407,
+      "minecraft:jump": 86,
+      "minecraft:time_since_death": 8071,
+      "minecraft:drop": 4,
+      "minecraft:sprint_one_cm": 4906,
+      "minecraft:fall_one_cm": 1450,
+      "minecraft:swim_one_cm": 1197,
+      "minecraft:total_world_time": 18407,
+      "minecraft:fly_one_cm": 68406,
+      "minecraft:walk_on_water_one_cm": 2536,
+      "minecraft:crouch_one_cm": 310,
+      "minecraft:sneak_time": 450,
+      "minecraft:deaths": 1
+    },
+    "minecraft:used": {
+      "minecraft:blue_ice": 65,
+      "minecraft:oak_boat": 16,
+      "minecraft:mace": 3,
+      "minecraft:bedrock": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:netherrack": 2,
+      "minecraft:spruce_boat": 1,
+      "minecraft:bone": 2,
+      "minecraft:rotten_flesh": 1
+    },
+    "minecraft:dropped": {
+      "minecraft:blue_ice": 1,
+      "minecraft:oak_boat": 1,
+      "minecraft:netherrack": 2,
+      "minecraft:spruce_boat": 1
+    },
+    "minecraft:killed": {
+      "minecraft:skeleton": 1
+    }
+  },
+  "DataVersion": 4790
+}
