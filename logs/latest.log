@@ -1,2 +1,775 @@
 [01:02:02] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
 [01:02:02] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) for Minecraft 26.1.2
+[01:02:03] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:02:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[01:02:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - ItemEdit (3.7.10), LoginSecurity (3.2.0), OpenInv (5.3.3), SkinsRestorer (15.12.5), ViaBackwards (5.11.0), ViaVersion (5.11.0)
+[01:02:09] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
+[01:02:09] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
+[01:02:09] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[01:02:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[01:02:11] [ServerMain/INFO]: Loaded 1515 recipes
+[01:02:11] [ServerMain/INFO]: Loaded 1617 advancements
+[01:02:11] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[01:02:12] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 402.0ms
+[01:02:12] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[01:02:12] [Server thread/INFO]: Loading properties
+[01:02:12] [Server thread/INFO]: This server is running Paper version 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) (Implementing API version 26.1.2.build.74-stable)
+[01:02:12] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:02:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:02:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:02:12] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[01:02:13] [Server thread/INFO]: Default game type: SURVIVAL
+[01:02:13] [Server thread/INFO]: Generating keypair
+[01:02:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:02:13] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:02:13] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[01:02:13] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loading 1 libraries... please wait
+[01:02:13] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loaded library /workspaces/MotlaSrv/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-api/5.1.1/adventure-api-5.1.1.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-key/5.1.1/adventure-key-5.1.1.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/org/jetbrains/annotations/26.1.0/annotations-26.1.0.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-platform-bukkit/4.4.1/adventure-platform-bukkit-4.4.1.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-platform-api/4.4.1/adventure-platform-api-4.4.1.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-bungeecord/4.4.1/adventure-text-serializer-bungeecord-4.4.1.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-nbt/4.21.0/adventure-nbt-4.21.0.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.21.0/adventure-text-serializer-gson-legacy-impl-4.21.0.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-json-legacy-impl/4.21.0/adventure-text-serializer-json-legacy-impl-4.21.0.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-platform-facet/4.4.1/adventure-platform-facet-4.4.1.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-platform-viaversion/4.4.1/adventure-platform-viaversion-4.4.1.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-minimessage/5.1.1/adventure-text-minimessage-5.1.1.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-gson/5.1.1/adventure-text-serializer-gson-5.1.1.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-json/5.1.1/adventure-text-serializer-json-5.1.1.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-commons/5.1.1/adventure-text-serializer-commons-5.1.1.jar
+[01:02:14] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-legacy/5.1.1/adventure-text-serializer-legacy-5.1.1.jar
+[01:02:14] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[01:02:14] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[01:02:14] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[01:02:15] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[01:02:15] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[01:02:15] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
+[01:02:15] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.3.3
+[01:02:15] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.10
+[01:02:15] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
+[01:02:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:02:15] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
+[01:02:16] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.1.2.
+[01:02:16] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[01:02:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:02:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:02:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:02:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:02:16] [Server thread/INFO]: Preparing level "world"
+[01:02:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:02:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[01:02:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[01:02:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[01:02:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[01:02:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[01:02:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:02:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.5
+[01:02:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 98b9488
+[01:02:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[01:02:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:02:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[01:02:17] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[01:02:17] [Server thread/INFO]: Loading 41 persistent chunks for level 'minecraft:overworld'...
+[01:02:17] [Server thread/INFO]: Preparing spawn area: 19%
+[01:02:18] [Server thread/INFO]: Preparing spawn area: 47%
+[01:02:18] [Server thread/INFO]: Prepared spawn area in 1159 ms
+[01:02:18] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[01:02:18] [Server thread/INFO]: Prepared spawn area in 0 ms
+[01:02:18] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[01:02:18] [Server thread/INFO]: Prepared spawn area in 1 ms
+[01:02:18] [Server thread/INFO]: Done preparing level "world" (1.929s)
+[01:02:18] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[01:02:18] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
+[01:02:18] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[01:02:18] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.3.3
+[01:02:19] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.10
+[01:02:19] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[01:02:19] [Server thread/INFO]: [ItemEdit] Unable to hook into Vault
+[01:02:19] [Server thread/INFO]: [ItemEdit] # Enabled (took 249 ms)
+[01:02:19] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[01:02:19] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[01:02:19] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[01:02:19] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[01:02:19] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[01:02:19] [Server thread/WARN]: [LoginSecurity] "LoginSecurity v3.2.0" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "public void com.lenis0012.bukkit.loginsecurity.modules.general.PlayerListener.onPlayerSpawn(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [lenis0012].
+[01:02:19] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[01:02:19] [Server thread/INFO]: [spark] Starting background profiler...
+[01:02:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:02:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:02:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:02:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:02:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:02:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:02:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:02:20] [Server thread/INFO]: Running delayed init tasks
+[01:02:20] [Server thread/INFO]: Done (20.153s)! For help, type "help"
+[01:02:20] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[01:03:19] [User Authenticator #0/INFO]: UUID of player blime2009 is ca9a4d06-dddd-395d-87ca-776f889f41ca
+[01:03:19] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LoginSecurity]
+[01:03:23] [Server thread/INFO]: [OP] blime2009 joined the game
+[01:03:23] [Server thread/INFO]: blime2009[/127.158.187.200:46003] logged in with entity id 5 at ([minecraft:overworld]-0.14527304376854575, -5.0, -10.592081809292466)
+[01:04:43] [Server thread/INFO]: blime2009 issued server command: /tp 0 100 0
+[01:04:43] [Server thread/INFO]: [[OP] blime2009: Teleported [OP] blime2009 to 0.500000, 100.000000, 0.500000]
+[01:04:47] [Server thread/INFO]: [Not Secure] [Server] hola bb
+[01:04:54] [Server thread/INFO]: [Not Secure] [Server] eh carnal no toques ni madres de los mecanismos
+[01:05:00] [Async Chat Thread - #1/INFO]: [Not Secure] <blime2009> hola terroncito de azucar
+[01:05:01] [Server thread/INFO]: [Not Secure] [Server] descubi que tengo mala memoriaasí que les puse carteles
+[01:05:10] [Async Chat Thread - #1/INFO]: [Not Secure] <blime2009> yo toy peor
+[01:05:12] [Async Chat Thread - #1/INFO]: [Not Secure] <blime2009> pero bueno
+[01:05:14] [Server thread/INFO]: blime2009 issued server command: /tp 0 0 0
+[01:05:14] [Server thread/INFO]: [[OP] blime2009: Teleported [OP] blime2009 to 0.500000, 0.000000, 0.500000]
+[01:05:33] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:phantom
+[01:05:33] [Server thread/INFO]: [[OP] blime2009: Summoned new Phantom]
+[01:05:38] [Server thread/INFO]: blime2009 issued server command: /gamemode survival
+[01:05:38] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Survival Mode]
+[01:05:40] [Server thread/INFO]: blime2009 issued server command: /gamemode creative
+[01:05:40] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Creative Mode]
+[01:06:15] [Server thread/INFO]: [Not Secure] [Server] pob me vale verga, y me doormí:
+[01:06:23] [Server thread/INFO]: [Not Secure] [Server] y no quties el comando de Thunder Endless
+[01:06:52] [Server thread/INFO]: There are 1 of a max of 20 players online: [OP] blime2009
+[01:06:56] [Server thread/INFO]: [Not Secure] [Server] ahorita me conecto
+[01:07:54] [User Authenticator #1/INFO]: UUID of player _Brvnno is 5161d8bb-08fc-394b-8a8d-3b12dec4f1a3
+[01:07:56] [Server thread/INFO]: [Flame Horde] _Brvnno joined the game
+[01:07:56] [Server thread/INFO]: _Brvnno[/127.74.118.227:41683] logged in with entity id 515 at ([minecraft:overworld]45.910913736774056, 60.0, 2923.699999988079)
+[01:08:13] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> blime2009 sos gey?
+[01:08:22] [Async Chat Thread - #3/INFO]: [Not Secure] <blime2009> no
+[01:08:31] [Async Chat Thread - #3/INFO]: [Not Secure] <blime2009> tampaco lesbiana
+[01:08:31] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> :C F
+[01:08:32] [User Authenticator #2/INFO]: UUID of player volcon2 is 9c42fa87-f091-3883-9bf4-db229d9050dc
+[01:08:34] [Server thread/INFO]: [Volcanos] volcon2 joined the game
+[01:08:34] [Server thread/INFO]: volcon2[/127.125.214.129:55563] logged in with entity id 951 at ([minecraft:the_nether]18.69999998807907, 28.494416730335264, 390.15632342634035)
+[01:08:36] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> a sos mujer
+[01:08:43] [Server thread/INFO]: volcon2 lost connection: Disconnected
+[01:08:43] [Server thread/INFO]: [Volcanos] volcon2 left the game
+[01:08:43] [Async Chat Thread - #3/INFO]: [Not Secure] <blime2009> si
+[01:08:47] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> sos lesbiana?
+[01:08:50] [Async Chat Thread - #3/INFO]: [Not Secure] <blime2009> no
+[01:09:01] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> tas cerca de serlo?
+[01:09:05] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> has pensado en serlo?
+[01:09:14] [Server thread/INFO]: Xautral (/127.9.216.32:47357) lost connection: Disconnected
+[01:09:14] [User Authenticator #3/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[01:09:16] [Async Chat Thread - #3/INFO]: [Not Secure] <blime2009> de vez en cuando
+[01:09:19] [User Authenticator #4/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[01:09:24] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> q cosa
+[01:09:24] [Async Chat Thread - #3/INFO]: [Not Secure] <blime2009> cuando estoy con estos pndjs
+[01:09:27] [Server thread/INFO]: [OP] Xautral joined the game
+[01:09:27] [Server thread/INFO]: Xautral[/127.9.216.32:47309] logged in with entity id 1242 at ([minecraft:the_nether]23.340741841298826, 56.73746738462223, 378.81595785164876)
+[01:09:31] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> a ps si
+[01:09:32] [Async Chat Thread - #3/INFO]: [Not Secure] <blime2009> ola Xautral
+[01:09:49] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> Xautral es pendejo no lo digo yo lo dice la ciencia
+[01:09:53] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> mejoir me callo
+[01:09:55] [Server thread/INFO]: Xautral issued server command: /l
+[01:10:08] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> hola beibi
+[01:10:12] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> maluma
+[01:10:17] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> tipo no hay nada q hacer ni salir puedo
+[01:10:18] [Server thread/INFO]: Xautral issued server command: /tp _Brvnno
+[01:10:18] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] _Brvnno]
+[01:10:39] [Server thread/INFO]: Xautral issued server command: /tp blime2009
+[01:10:39] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] blime2009]
+[01:10:41] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> q haces
+[01:10:43] [Async Chat Thread - #4/INFO]: [Not Secure] <blime2009> si eres homosexual no tengo en nada contra ti
+[01:10:54] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> el monte homosexual no tiene nada en contra de mi
+[01:11:06] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> Xautral sos gey
+[01:11:15] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> ¿?
+[01:11:19] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> no lo sé
+[01:11:22] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> emmm
+[01:11:24] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[01:11:24] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:11:25] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> q ricoo
+[01:11:32] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> blime2009 wtf
+[01:12:00] [Server thread/INFO]: Xautral issued server command: /ride 53070d5a-c464-4b26-9236-a2d02e9ee38d mount Xautral
+[01:12:02] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> wtf tengo un hoyo
+[01:12:07] [Server thread/INFO]: Xautral issued server command: /ride Xautral mount 53070d5a-c464-4b26-9236-a2d02e9ee38d
+[01:12:07] [Server thread/INFO]: [[OP] Xautral: [OP] Xautral started riding Slime]
+[01:12:09] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> yo tambien
+[01:12:17] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> no osea ash tas te pendejo
+[01:12:45] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[01:12:45] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:12:46] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> blime
+[01:12:58] [Async Chat Thread - #4/INFO]: [Not Secure] <blime2009> q
+[01:12:59] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> por que la cosa verde es tan grande de l
+[01:13:01] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> por que la cosa verde es tan grande de la nada
+[01:13:04] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> tioene 2 putos coras
+[01:13:05] [Async Chat Thread - #4/INFO]: [Not Secure] <blime2009> no se alv
+[01:13:08] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> CARNAL
+[01:13:12] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> LOS SLIMES COLOSALES
+[01:13:25] [User Authenticator #5/INFO]: UUID of player volcon2 is 9c42fa87-f091-3883-9bf4-db229d9050dc
+[01:13:25] [Server thread/INFO]: [Volcanos] volcon2 joined the game
+[01:13:25] [Server thread/INFO]: volcon2[/127.125.214.129:49127] logged in with entity id 2190 at ([minecraft:the_nether]18.69999998807907, 24.739416693566543, 390.15632342634035)
+[01:13:33] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> hablando de verdes
+[01:13:46] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> Xautral
+[01:13:48] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> q
+[01:13:55] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[01:13:55] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:14:00] [Async Chat Thread - #4/INFO]: [Not Secure] <blime2009> ahi tienes
+[01:14:06] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> tenes idea de pq mis aldeanos se reiniciaron :v
+[01:14:14] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> sabe
+[01:14:16] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> por
+[01:14:19] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> 2 tipos entraron a tu base
+[01:14:20] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> gan
+[01:14:29] [Server thread/INFO]: Xautral issued server command: /tp _Brvnno
+[01:14:29] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] _Brvnno]
+[01:14:33] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> le detonaron toda la base
+[01:14:36] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> gente
+[01:14:38] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> se estaba quejando de los aldeanos
+[01:14:38] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> dios mi equipo sirve pa hacer estupideces namas o q
+[01:14:45] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> ahora loas aldenoas pueden spawnear ilusionistas
+[01:14:47] [Server thread/INFO]: blime2009 issued server command: /gamemode survival
+[01:14:47] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Survival Mode]
+[01:14:53] [Server thread/INFO]: blime2009 issued server command: /gamemode creative
+[01:14:53] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Creative Mode]
+[01:14:53] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> nmms
+[01:14:55] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> como asi
+[01:14:56] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> pongan botones en la base para impedirl
+[01:15:01] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> no se lo saqué de permadeat lo de lso botones
+[01:15:03] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> dah pero no nos digas
+[01:15:03] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> taunque si sirve
+[01:15:18] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> wtf
+[01:15:21] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> que
+[01:15:23] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[01:15:23] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Volcanos] volcon2]
+[01:15:38] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> Xautral y si reinicias el server
+[01:15:41] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> n
+[01:15:43] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> este we
+[01:15:44] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> nigger
+[01:15:48] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> mira
+[01:15:51] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> dame razones
+[01:16:04] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> no tengo ni filo en la espada ni la armor maxeada osea q esperas q haga
+[01:16:06] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[01:16:06] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Volcanos] volcon2]
+[01:16:13] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> yo tampoco
+[01:16:15] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> lol
+[01:16:15] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> _Brvnno
+[01:16:19] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> volcon2 callate
+[01:16:21] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> los ahogados te dan netherite
+[01:16:23] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> iiiii te chingo
+[01:16:26] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> te vas a dejar volcon2?
+[01:16:27] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> si ya vi
+[01:16:37] [Server thread/INFO]: blime2009 issued server command: /msg Xautral brvnno es homosexual creo
+[01:16:38] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> pero de q me sirve si ni tengo encantamientos
+[01:16:41] [Server thread/INFO]: blime2009 issued server command: /msg Xautral owo
+[01:16:46] [Server thread/INFO]: Xautral issued server command: /tell blime2009 como sabes
+[01:16:50] [Server thread/INFO]: Xautral issued server command: /tell blime2009 y si yo tambien sospecho
+[01:16:58] [Server thread/INFO]: Named entity Ghast['Nuke Ghast'/3514, uuid='42bc4429-1f38-4cc4-bf30-52e44704cc4c', l='ServerLevel[world]', x=-92.54, y=47.61, z=435.43, cpos=[-6, 27], tl=457, v=true] died: Nuke Ghast was blown up by [Volcanos] volcon2
+[01:17:11] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> otra pregunta esto es un anarquico o un tipo permadeath o como va esto
+[01:17:16] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> semi-vanilla
+[01:17:26] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> y ya no se
+[01:17:28] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> se puede matar gente?
+[01:17:29] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> todo esta hecho con comandos
+[01:17:32] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> _Brvnno si
+[01:17:38] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> okey
+[01:17:41] [Server thread/INFO]: blime2009 issued server command: /msg Xautral me estubo preguntando si era gay o lesbiana
+[01:17:42] [Async Chat Thread - #3/INFO]: [Not Secure] <_Brvnno> deja hablo a mi team
+[01:17:45] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> vienes a por mi?
+[01:17:46] [Server thread/INFO]: Xautral issued server command: /tell blime2009 si leí
+[01:17:54] [Server thread/INFO]: blime2009 issued server command: /msg Xautral o si minimo tenia una atraccion
+[01:17:56] [Server thread/INFO]: Xautral issued server command: /tell blime2009 ahí le dije que no sabía yo si era gay para ver que decía ese c
+[01:17:57] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> volcon2 si calro
+[01:18:00] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> pero con la cara destapada te quiero
+[01:18:09] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> osea sin casco?
+[01:18:10] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime ~ ~3 ~
+[01:18:10] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:18:12] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> blo...
+[01:18:13] [Server thread/INFO]: Xautral issued server command: /tp _Brvnno
+[01:18:13] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] _Brvnno]
+[01:18:17] [Server thread/INFO]: blime2009 issued server command: /gamemode survival
+[01:18:17] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Survival Mode]
+[01:18:18] [Server thread/INFO]: [OP] blime2009 was slain by Slime
+[01:18:20] [Server thread/INFO]: Xautral issued server command: /tp blime2009
+[01:18:20] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] blime2009]
+[01:18:22] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> ahahahha
+[01:18:25] [Server thread/INFO]: Named entity Skeleton['Corpse'/4320, uuid='5aeee626-9dc5-4cc3-8a8b-31c55f1592d7', l='ServerLevel[world]', x=-0.82, y=-4.09, z=-3.85, cpos=[-1, -1], tl=148, v=true] died: Corpse was killed
+[01:18:25] [Server thread/INFO]: [OP] blime2009 has made the advancement [Suit Up]
+[01:18:25] [Async Chat Thread - #4/INFO]: [Not Secure] <blime2009> nerfen a esa madre
+[01:18:28] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> hasta cuando no puede morir muere
+[01:18:33] [Server thread/INFO]: blime2009 issued server command: /gamemode creative
+[01:18:33] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Creative Mode]
+[01:18:38] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> blime2009 shift para revivitar
+[01:18:45] [Server thread/INFO]: Xautral issued server command: /tp _Brvnno
+[01:18:45] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] _Brvnno]
+[01:18:57] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> hay noW
+[01:19:03] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> q pasaaa
+[01:19:06] [Server thread/INFO]: Named entity Skeleton['Terrorist'/4584, uuid='34f90851-ed2b-44bc-9776-d4fd942a6863', l='ServerLevel[world]', x=72.57, y=83.17, z=2965.14, cpos=[4, 185], tl=345, v=true] died: Terrorist was slain by Shulker Bullet
+[01:19:09] [Server thread/INFO]: blime2009 issued server command: /tp _Brvnno
+[01:19:09] [Server thread/INFO]: [[OP] blime2009: Teleported [OP] blime2009 to [Flame Horde] _Brvnno]
+[01:19:16] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/5448, uuid='d6af60e0-b10b-469d-af49-af655008a314', l='ServerLevel[world]', x=66.06, y=63.83, z=2961.96, cpos=[4, 185], tl=243, v=true] died: Rapture Drowned was struck by lightning
+[01:19:19] [Server thread/WARN]: [net.minecraft.world.item.component.TypedEntityData] Serialization errors:
+Skeleton['Terrorist'/6445, uuid='a6c55303-c5bc-405c-b0d1-48185208acaf', l='ServerLevel[world]', x=114.50, y=68.00, z=2958.50, cpos=[7, 184], tl=0, v=false]: Failed to decode value '{body:{count:2,id:"netherite_ingot"},chest:{id:"chainmail_chestplate"},feet:{id:"chainmail_boots"},head:{id:"chainmail_helmet"},legs:{id:"chainmail_leggings"},mainhand:{components:{custom_name:[{italic:0b,text:"Multishot Bow"}],enchantments:{multishot:3,power:3},"minecraft:enchantments":{"minecraft:infinity":1,"minecraft:power":2}},count:1,id:"bow"},offhand:{components:{custom_name:[{italic:0b,text:"TNT"}],enchantments:{power:3}},count:8,id:"arrow"},saddle:{count:1,id:"netherite_upgrade_smithing_template"}}' from field 'equipment': Duplicate entry for key: 'PatchKey[type=minecraft:enchantments, removed=false]' missed input: {"minecraft:enchantments":{"minecraft:infinity":1,"minecraft:power":2}} missed input: {mainhand:{components:{custom_name:[{italic:0b,text:"Multishot Bow"}],enchantments:{multishot:3,power:3},"minecraft:enchantments":{"minecraft:infinity":1,"minecraft:power":2}},count:1,id:"bow"}}
+[01:19:23] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/5447, uuid='6d667e5c-a804-4745-b95a-1640ac8ec440', l='ServerLevel[world]', x=66.17, y=61.05, z=2959.77, cpos=[4, 184], tl=391, v=true] died: Rapture Drowned was impaled by Rapture Drowned with [Rapture Drowned's Trident]
+[01:19:25] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/5438, uuid='c5485b08-1bc7-4f78-81b2-21b721b338db', l='ServerLevel[world]', x=65.94, y=61.62, z=2958.39, cpos=[4, 184], tl=436, v=true] died: Rapture Drowned was impaled by Rapture Drowned with [Rapture Drowned's Trident]
+[01:19:26] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> suena como campana
+[01:19:33] [Server thread/INFO]: Xautral issued server command: /tp _Brvnno
+[01:19:33] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] _Brvnno]
+[01:19:43] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[01:19:49] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[01:20:10] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> estoy re jodido
+[01:20:15] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> ese w
+[01:20:20] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[01:20:25] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[01:20:32] [Server thread/INFO]: Named entity Creeper['Kilonova Creeper'/6877, uuid='e0fb4326-b391-433e-bf29-0653a3f6d5de', l='ServerLevel[world]', x=8.00, y=71.00, z=2994.03, cpos=[0, 187], tl=99, v=true] died: Kilonova Creeper was shot by Skeleton
+[01:20:35] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> has conseguid netherite bruno¡
+[01:20:36] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> ?
+[01:21:22] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[01:21:32] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> volcon2 voyt porti
+[01:21:36] [Server thread/INFO]: Xautral issued server command: /execute at _Brvnno run summon minecraft:illusioner ~ ~5 ~
+[01:21:36] [Server thread/INFO]: [[OP] Xautral: Summoned new Illusioner]
+[01:21:45] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> ay w
+[01:21:51] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> no sabía que daban ceguera en dificultad diificl
+[01:22:06] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[01:22:06] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> bruno
+[01:22:09] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> que
+[01:22:11] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> no sabes donde estoy
+[01:22:16] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> si se
+[01:22:19] [Server thread/INFO]: Named entity Ghast['Nuke Ghast'/8061, uuid='145648a4-da6a-46ed-8eb9-5310a673d923', l='ServerLevel[world]', x=-248.59, y=87.51, z=486.43, cpos=[-16, 30], tl=186, v=true] died: Nuke Ghast was blown up by [Volcanos] volcon2
+[01:22:23] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> no mames
+[01:22:25] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> volcon gigachad
+[01:22:25] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> sisi
+[01:22:27] [Async Chat Thread - #4/INFO]: [Not Secure] <_Brvnno> en nether
+[01:23:30] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[01:23:51] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> Xautral
+[01:23:53] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> que
+[01:24:03] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> pq mis maldtitos aldeanos se reiniciaron
+[01:24:08] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> quie no lo se w
+[01:24:12] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> estuvieron tus otros compas ah
+[01:24:14] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> estuvieron tus otros compas ahi
+[01:24:15] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> pregunt
+[01:24:27] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> bruno
+[01:24:28] [Server thread/INFO]: Xautral issued server command: /kill @e[type=#undead]
+[01:24:28] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/7707, uuid='3a6d5eb6-1803-4657-8143-d09746b19a3d', l='ServerLevel[world]', x=46.46, y=62.94, z=2924.76, cpos=[2, 182], tl=4388, v=true] died: Rapture Drowned was killed
+[01:24:28] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/5434, uuid='4f249910-994c-470c-8063-5de4e17ef0d8', l='ServerLevel[world]', x=44.70, y=47.18, z=2941.30, cpos=[2, 183], tl=6480, v=true] died: Rapture Drowned was killed
+[01:24:28] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/5278, uuid='e8d89f99-15dd-4e96-98c7-aa0280cb7e40', l='ServerLevel[world]', x=48.85, y=47.17, z=2951.04, cpos=[3, 184], tl=6543, v=true] died: Rapture Drowned was killed
+[01:24:28] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/7726, uuid='7db25caf-6c44-4b08-8a1c-7b4f0fe51143', l='ServerLevel[world]', x=45.30, y=61.00, z=2926.30, cpos=[2, 182], tl=4288, v=true] died: Rapture Drowned was killed
+[01:24:28] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/7745, uuid='46aad45a-6ada-48e0-8e4e-5a75a7adb012', l='ServerLevel[world]', x=54.30, y=61.00, z=2927.70, cpos=[3, 182], tl=4133, v=true] died: Rapture Drowned was killed
+[01:24:28] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/6629, uuid='d5ca76f0-3664-4a6c-a0aa-e483cec3773b', l='ServerLevel[world]', x=71.16, y=52.17, z=2953.11, cpos=[4, 184], tl=5762, v=true] died: Rapture Drowned was killed
+[01:24:28] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/7744, uuid='936ef45d-8c4f-4d37-9429-43c25289d9ea', l='ServerLevel[world]', x=54.70, y=61.00, z=2927.30, cpos=[3, 182], tl=4137, v=true] died: Rapture Drowned was killed
+[01:24:28] [Server thread/INFO]: [[OP] Xautral: Killed 92 entities]
+[01:24:30] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> nunca me encontraran
+[01:24:34] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[01:24:34] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Volcanos] volcon2]
+[01:24:37] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[01:24:37] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> veni a ver q aldeanos se reiniciaron para q te sea obio q no fueron ellos
+[01:24:39] [Server thread/WARN]: [net.minecraft.world.item.component.TypedEntityData] Serialization errors:
+Skeleton['Terrorist'/10383, uuid='37d5d4a8-6719-4b35-b6a6-9f39aab479fd', l='ServerLevel[world]', x=-7251.50, y=122.00, z=3965.50, cpos=[-454, 247], tl=0, v=false]: Failed to decode value '{body:{count:2,id:"netherite_ingot"},chest:{id:"chainmail_chestplate"},feet:{id:"chainmail_boots"},head:{id:"chainmail_helmet"},legs:{id:"chainmail_leggings"},mainhand:{components:{custom_name:[{italic:0b,text:"Multishot Bow"}],enchantments:{multishot:3,power:3},"minecraft:enchantments":{"minecraft:power":1,"minecraft:unbreaking":1}},count:1,id:"bow"},offhand:{components:{custom_name:[{italic:0b,text:"TNT"}],enchantments:{power:3}},count:8,id:"arrow"},saddle:{count:1,id:"netherite_upgrade_smithing_template"}}' from field 'equipment': Duplicate entry for key: 'PatchKey[type=minecraft:enchantments, removed=false]' missed input: {"minecraft:enchantments":{"minecraft:power":1,"minecraft:unbreaking":1}} missed input: {mainhand:{components:{custom_name:[{italic:0b,text:"Multishot Bow"}],enchantments:{multishot:3,power:3},"minecraft:enchantments":{"minecraft:power":1,"minecraft:unbreaking":1}},count:1,id:"bow"}}
+[01:24:48] [Server thread/INFO]: Named entity Skeleton['Terrorist'/10383, uuid='37d5d4a8-6719-4b35-b6a6-9f39aab479fd', l='ServerLevel[world]', x=-7250.93, y=128.18, z=3961.41, cpos=[-454, 247], tl=175, v=true] died: Terrorist was slain by Iron Golem
+[01:24:50] [Server thread/INFO]: blime2009 issued server command: /tp 0 0 0
+[01:24:50] [Server thread/INFO]: [[OP] blime2009: Teleported [OP] blime2009 to 0.500000, 0.000000, 0.500000]
+[01:24:59] [Server thread/INFO]: Named entity Skeleton['Terrorist'/10402, uuid='7f98357f-71b0-4d84-9e2b-034a8f93623a', l='ServerLevel[world]', x=-7288.56, y=126.00, z=3961.45, cpos=[-456, 247], tl=407, v=true] died: Terrorist fell from a high place
+[01:25:02] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/11789, uuid='bd43d7cd-2d53-4ae6-9879-57324f33334d', l='ServerLevel[world]', x=-7303.39, y=116.94, z=3924.67, cpos=[-457, 245], tl=173, v=true] died: Rapture Drowned was doomed to fall by Iron Golem
+[01:25:05] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/11796, uuid='7170ab02-78c4-41e5-9e3c-287739dee0ab', l='ServerLevel[world]', x=-7303.61, y=118.00, z=3918.79, cpos=[-457, 244], tl=214, v=true] died: Rapture Drowned was slain by Iron Golem
+[01:25:08] [Server thread/INFO]: Named entity Skeleton['Terrorist'/12392, uuid='8a76a002-ebf6-4812-98d0-ff5e5478d7c5', l='ServerLevel[world]', x=-7312.78, y=117.91, z=3887.98, cpos=[-458, 242], tl=114, v=true] died: Terrorist was slain by Iron Golem
+[01:25:09] [Server thread/INFO]: Named entity Skeleton['Terrorist'/12389, uuid='8b8711ad-fed0-4045-97bb-84ed2a96877d', l='ServerLevel[world]', x=-7312.32, y=118.86, z=3887.07, cpos=[-458, 242], tl=138, v=true] died: Terrorist was slain by Iron Golem
+[01:25:09] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> volcon2
+[01:25:13] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/11792, uuid='9971ebcb-f589-4a1e-9a4f-d3fbda02f2a6', l='ServerLevel[world]', x=-7298.59, y=120.31, z=3921.32, cpos=[-457, 245], tl=390, v=true] died: Rapture Drowned was slain by Iron Golem
+[01:25:15] [Server thread/INFO]: Villager Villager['Villager'/9994, uuid='c5a30303-1b45-436a-b372-33cb8f973922', l='ServerLevel[world]', x=-7258.24, y=130.00, z=3949.50, cpos=[-454, 246], tl=900, v=true] died, message: 'Villager was impaled by Rapture Drowned with [Rapture Drowned's Trident]'
+[01:25:17] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> que
+[01:25:18] [Server thread/INFO]: Villager Villager['Farmer'/10156, uuid='8ec45990-77d1-4d9f-a10b-dc8325af1eee', l='ServerLevel[world]', x=-7281.10, y=108.42, z=3871.96, cpos=[-456, 241], tl=900, v=true] was struck by lightning LightningBolt['Lightning Bolt'/13220, uuid='6a93860e-564c-48d1-a0ec-65d9057ee0a3', l='ServerLevel[world]', x=-7280.35, y=105.94, z=3871.57, cpos=[-456, 241], tl=1, v=true].
+[01:25:18] [Server thread/INFO]: Named entity Skeleton['Terrorist'/12383, uuid='1430e6ba-2c0e-4a84-a09b-d4cd3ee7cd2d', l='ServerLevel[world]', x=-7306.18, y=126.71, z=3890.89, cpos=[-457, 243], tl=315, v=true] died: Terrorist was slain by Shulker Bullet
+[01:25:19] [Server thread/INFO]: Villager Villager['Leatherworker'/10137, uuid='363f23c2-a9d0-4344-8c84-6452200b2bb6', l='ServerLevel[world]', x=-7290.59, y=105.50, z=3885.20, cpos=[-456, 242], tl=928, v=true] was struck by lightning LightningBolt['Lightning Bolt'/13268, uuid='c1b7a512-17a9-4940-91d3-de1b81bcc474', l='ServerLevel[world]', x=-7288.31, y=103.94, z=3886.44, cpos=[-456, 242], tl=1, v=true].
+[01:25:19] [Server thread/INFO]: Villager Villager['Leatherworker'/10138, uuid='3fa926a8-d158-49d7-bdc9-eff42cb1f504', l='ServerLevel[world]', x=-7288.64, y=105.75, z=3885.94, cpos=[-456, 242], tl=928, v=true] was struck by lightning LightningBolt['Lightning Bolt'/13268, uuid='c1b7a512-17a9-4940-91d3-de1b81bcc474', l='ServerLevel[world]', x=-7288.31, y=103.94, z=3886.44, cpos=[-456, 242], tl=1, v=true].
+[01:25:23] [Server thread/INFO]: Villager Villager['Leatherworker'/10126, uuid='1aef0a7b-7725-46c2-8b5d-ef1cf7f77cd7', l='ServerLevel[world]', x=-7289.45, y=104.00, z=3891.47, cpos=[-456, 243], tl=1030, v=true] died, message: 'Leatherworker was impaled by Rapture Drowned with [Rapture Drowned's Trident]'
+[01:25:25] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/13125, uuid='37bdcb35-7ca6-4f93-860e-3fe829f70044', l='ServerLevel[world]', x=-7289.29, y=105.00, z=3881.44, cpos=[-456, 242], tl=263, v=true] died: Rapture Drowned was slain by Iron Golem
+[01:25:26] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/13159, uuid='60dbd1c2-4348-42f3-9386-2393b50dddbf', l='ServerLevel[world]', x=-7299.59, y=110.94, z=3878.79, cpos=[-457, 242], tl=259, v=true] died: Rapture Drowned was slain by Iron Golem
+[01:25:28] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/13128, uuid='c5c18318-a5fb-4704-88de-6c6d3f097ec7', l='ServerLevel[world]', x=-7284.79, y=105.00, z=3886.52, cpos=[-456, 242], tl=310, v=true] died: Rapture Drowned was slain by Iron Golem
+[01:25:29] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/13158, uuid='17bb037d-3cc0-4822-a212-8a0d65367344', l='ServerLevel[world]', x=-7285.43, y=104.00, z=3886.45, cpos=[-456, 242], tl=323, v=true] died: Rapture Drowned was slain by Iron Golem
+[01:25:32] [Server thread/INFO]: Villager Villager['Leatherworker'/10100, uuid='bb5c6a37-e87c-438f-b9b8-c36b61d36fd1', l='ServerLevel[world]', x=-7280.15, y=107.00, z=3899.03, cpos=[-456, 243], tl=1215, v=true] died, message: 'Leatherworker was impaled by Rapture Drowned with [Rapture Drowned's Trident]'
+[01:25:36] [Server thread/INFO]: Villager Villager['Leatherworker'/10102, uuid='6beea93d-4ca4-4f71-8b6f-449b36ee1431', l='ServerLevel[world]', x=-7276.27, y=108.67, z=3903.87, cpos=[-455, 243], tl=1303, v=true] was struck by lightning LightningBolt['Lightning Bolt'/13427, uuid='a16fb39a-a305-4ba0-bb99-26e78f649fdb', l='ServerLevel[world]', x=-7276.12, y=106.94, z=3904.36, cpos=[-455, 244], tl=1, v=true].
+[01:25:39] [Server thread/INFO]: Villager Villager['Villager'/10096, uuid='7e3e58b1-0a6b-42b9-ba22-e46cec609c77', l='ServerLevel[world]', x=-7283.84, y=107.00, z=3906.16, cpos=[-456, 244], tl=1366, v=true] was struck by lightning LightningBolt['Lightning Bolt'/13450, uuid='a6d3b425-45b4-464f-b338-0bc1f552ec88', l='ServerLevel[world]', x=-7282.09, y=105.94, z=3903.09, cpos=[-456, 243], tl=7, v=true].
+[01:25:41] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/13157, uuid='6ab7f3c8-0561-4947-b2fa-5c7b3f2c5dae', l='ServerLevel[world]', x=-7277.96, y=107.00, z=3900.98, cpos=[-455, 243], tl=567, v=true] died: Rapture Drowned was slain by Iron Golem
+[01:25:45] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[01:25:45] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:25:52] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> el el nether hay ghast q one shotean?
+[01:25:53] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[01:25:53] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Volcanos] volcon2]
+[01:25:54] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> sos gey?
+[01:25:55] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> si
+[01:25:58] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> JAJA
+[01:25:58] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> alaa
+[01:25:59] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[01:26:02] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[01:26:06] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> y si, los ghasts si oneshotean
+[01:26:08] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> explotan
+[01:26:11] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> son nuke ghast
+[01:26:14] [Server thread/INFO]: Xautral issued server command: /tp _Brvnno
+[01:26:14] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] _Brvnno]
+[01:26:21] [Server thread/INFO]: Xautral issued server command: /summon minecraft:illusioner
+[01:26:21] [Server thread/INFO]: [[OP] Xautral: Summoned new Illusioner]
+[01:26:24] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> bruno
+[01:26:27] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> me veniras a buscar?
+[01:26:28] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> uqeee
+[01:26:31] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> see
+[01:26:33] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> veniras :sob: :pray:
+[01:26:35] [Server thread/INFO]: blime2009 issued server command: /gamemode survival
+[01:26:35] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Survival Mode]
+[01:26:43] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[01:26:43] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:26:44] [Server thread/INFO]: [OP] blime2009 was slain by Slime
+[01:26:46] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> bro me estoy veniriendo :skull: :pray:
+[01:26:47] [Server thread/INFO]: Xautral issued server command: /tp blime2009
+[01:26:47] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] blime2009]
+[01:26:48] [Server thread/INFO]: Villager Villager['Villager'/13504, uuid='68e92e39-0765-427c-a88d-7b3b47a4251d', l='ServerLevel[world]', x=-7307.30, y=112.00, z=3907.47, cpos=[-457, 244], tl=1261, v=true] died, message: 'Villager was blown up by Creeper'
+[01:26:59] [Server thread/INFO]: Named entity Skeleton['Corpse'/14133, uuid='1670406a-a299-4213-9f86-23c9bc39d92a', l='ServerLevel[world]', x=-4.69, y=-4.25, z=4.70, cpos=[-1, 0], tl=300, v=true] died: Corpse was killed
+[01:27:01] [Async Chat Thread - #6/INFO]: [Not Secure] <blime2009> maten a esa mrd
+[01:27:02] [Server thread/INFO]: Villager Villager['Librarian'/562, uuid='39aac39e-b05a-4e08-bc6a-98907c1a4488', l='ServerLevel[world]', x=45.70, y=60.00, z=2921.50, cpos=[2, 182], tl=22931, v=true] died, message: 'Librarian was shot by Illusioner'
+[01:27:10] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> bruno
+[01:27:12] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> re-pene
+[01:27:14] [Server thread/INFO]: blime2009 issued server command: /gamemode creative
+[01:27:14] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Creative Mode]
+[01:27:16] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> y como no sabes que yo si se donde estas
+[01:27:19] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> berooo
+[01:27:22] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> y en realidad tu deberias de tener meido
+[01:27:23] [Async Chat Thread - #6/INFO]: [Not Secure] <blime2009> xautral
+[01:27:25] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> qu
+[01:27:29] [Async Chat Thread - #6/INFO]: [Not Secure] <blime2009> bufiastes a todos los mobs?
+[01:27:33] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> que si blime
+[01:27:34] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> no todos
+[01:27:36] [Server thread/INFO]: Xautral issued server command: /tp 0.00
+[01:27:38] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[01:27:38] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Volcanos] volcon2]
+[01:27:41] [Server thread/INFO]: Villager Villager['Cleric'/560, uuid='de7f5b2b-ffe9-4de1-b3dc-9b20a2b44358', l='ServerLevel[world]', x=54.56, y=59.00, z=2917.38, cpos=[3, 182], tl=23716, v=true] died, message: 'Cleric was slain by [Flame Horde] _Brvnno'
+[01:27:46] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> gent
+[01:27:48] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> no me puedo comer a mi mismo
+[01:27:49] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> votacion para terminar la tormenta
+[01:27:58] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> callate
+[01:28:00] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> gey
+[01:28:04] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> y así terminar el modo así de mobs custom y verga
+[01:28:04] [Server thread/INFO]: blime2009 issued server command: /gamemode survival
+[01:28:04] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Survival Mode]
+[01:28:06] [Server thread/INFO]: Xautral issued server command: /tp _Brvnno
+[01:28:06] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] _Brvnno]
+[01:28:07] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[01:28:07] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:28:08] [Server thread/INFO]: [OP] blime2009 was slain by Slime
+[01:28:10] [Server thread/INFO]: Xautral issued server command: /tp blime2009
+[01:28:10] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] blime2009]
+[01:28:11] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> a vale me parece bien]
+[01:28:13] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> bueno de echo
+[01:28:15] [Server thread/INFO]: Named entity Skeleton['Corpse'/14815, uuid='659df687-3509-455c-95c6-7b4066433d41', l='ServerLevel[world]', x=2.62, y=-5.00, z=-4.59, cpos=[0, -1], tl=142, v=true] died: Corpse was killed
+[01:28:16] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> dios blime deja de morri
+[01:28:18] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> a mi me conviene que termine
+[01:28:21] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> pero la verdad
+[01:28:26] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> me da igual si termina o no
+[01:28:30] [Server thread/INFO]: blime2009 issued server command: /gamemode creative
+[01:28:30] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Creative Mode]
+[01:28:31] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> eso es un si o un no
+[01:28:34] [Server thread/INFO]: Xautral issued server command: /tp _Brvnno
+[01:28:34] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] _Brvnno]
+[01:28:37] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> un no
+[01:28:41] [Server thread/INFO]: blime2009 issued server command: /clear blime2009
+[01:28:41] [Server thread/INFO]: [[OP] blime2009: Removed 492 item(s) from player [OP] blime2009]
+[01:28:48] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> tu blime2009
+[01:28:49] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> ?
+[01:29:08] [Server thread/INFO]: blime2009 issued server command: /gamemode survival
+[01:29:08] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Survival Mode]
+[01:29:19] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> blime2009
+[01:29:19] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> blime2009
+[01:29:19] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> blime2009
+[01:29:20] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> blime2009
+[01:29:22] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> deje mis flechas tnt
+[01:29:23] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> mierda
+[01:29:25] [Async Chat Thread - #6/INFO]: [Not Secure] <blime2009> q
+[01:29:27] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[01:29:27] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:29:31] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> quieres terminar la tormenta?
+[01:29:32] [Server thread/INFO]: blime2009 issued server command: /gamemode creative
+[01:29:32] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Creative Mode]
+[01:29:34] [Server thread/INFO]: Villager Villager['Villager'/10071, uuid='67c611a7-c20d-4d4c-b92a-31ea9e971653', l='ServerLevel[world]', x=-7259.14, y=114.00, z=3916.48, cpos=[-454, 244], tl=6078, v=true] died, message: 'Villager suffocated in a wall'
+[01:29:36] [Async Chat Thread - #6/INFO]: [Not Secure] <blime2009> no
+[01:29:40] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> JIJIJA
+[01:29:42] [Server thread/INFO]: Villager Villager['Villager'/10045, uuid='fa8073d8-e30e-44e8-946a-278d99512e5a', l='ServerLevel[world]', x=-7257.37, y=114.05, z=3914.86, cpos=[-454, 244], tl=6229, v=true] died, message: 'Villager suffocated in a wall'
+[01:29:44] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> bien blime
+[01:29:45] [Server thread/INFO]: Villager Villager['Villager'/10048, uuid='9d53f7b3-a389-418c-84d2-dff555d270e1', l='ServerLevel[world]', x=-7255.91, y=114.00, z=3916.46, cpos=[-454, 244], tl=6283, v=true] died, message: 'Villager suffocated in a wall'
+[01:29:48] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> te chingaste _Brvnno
+[01:29:51] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> pq
+[01:29:57] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> quieres terminar la tormenta?
+[01:29:59] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> si
+[01:30:02] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> bro
+[01:30:05] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[01:30:09] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> todo flame horder quiere terminar la tormenta
+[01:30:24] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> desde que itz_gan descubrió que no puede escapar con elys ya se paniqueó no?
+[01:30:29] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> antes estaba como "ez"
+[01:30:30] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> see
+[01:30:37] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> esq juega en telefono tons es re malo
+[01:30:42] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> y se murióen un combo de phantoms y ahí si se mariqueó
+[01:30:48] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[01:30:48] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:30:51] [Server thread/INFO]: blime2009 issued server command: /gamemode survival
+[01:30:51] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Survival Mode]
+[01:30:52] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> bro realmente le dio miedo 2 zombies ahogados
+[01:30:56] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> que le popearon totem
+[01:30:57] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> hahahha
+[01:30:59] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> el brotato realmente creía que no pensaríamos en eso :skull: :pray:
+[01:31:07] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[01:31:10] [Server thread/INFO]: Villager Villager['Villager'/13538, uuid='3ccec2c4-578d-42f0-8586-a3c4da9d45df', l='ServerLevel[world]', x=-7315.84, y=119.36, z=3932.15, cpos=[-458, 245], tl=6441, v=true] was struck by lightning LightningBolt['Lightning Bolt'/15866, uuid='d89441e1-f83b-4164-bd24-47ba233515d6', l='ServerLevel[world]', x=-7316.05, y=119.00, z=3932.49, cpos=[-458, 245], tl=1, v=true].
+[01:31:12] [Server thread/INFO]: Villager Villager['Villager'/13526, uuid='0bc0df36-45e4-451d-b411-1393e11370bf', l='ServerLevel[world]', x=-7318.92, y=116.87, z=3924.35, cpos=[-458, 245], tl=6491, v=true] was struck by lightning LightningBolt['Lightning Bolt'/15877, uuid='796341e4-de11-4dfe-b2dc-328a11462c6c', l='ServerLevel[world]', x=-7318.67, y=115.00, z=3923.62, cpos=[-458, 245], tl=1, v=true].
+[01:31:12] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/15846, uuid='da7efe32-b59d-4fe9-8903-147c873519c7', l='ServerLevel[world]', x=-7318.57, y=123.00, z=3938.07, cpos=[-458, 246], tl=95, v=true] died: Rapture Drowned was impaled by Rapture Drowned with [Rapture Drowned's Trident]
+[01:31:13] [Server thread/INFO]: blime2009 issued server command: /tp _Brvnno
+[01:31:13] [Server thread/INFO]: [[OP] blime2009: Teleported [OP] blime2009 to [Flame Horde] _Brvnno]
+[01:31:13] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/15845, uuid='9687352f-db5f-4d49-820c-cb21e9bdf286', l='ServerLevel[world]', x=-7318.27, y=124.00, z=3937.83, cpos=[-458, 246], tl=111, v=true] died: Rapture Drowned was struck by lightning
+[01:31:13] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/15847, uuid='def47318-d884-492e-bdc8-6986f0022915', l='ServerLevel[world]', x=-7321.45, y=129.00, z=3939.81, cpos=[-458, 246], tl=114, v=true] died: Rapture Drowned went up in flames
+[01:31:17] [Server thread/INFO]: blime2009 issued server command: /gamemode creative
+[01:31:17] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Creative Mode]
+[01:31:23] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> haber haber
+[01:31:24] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/15853, uuid='02610149-755d-4fb2-9b49-b0634e6e1a4e', l='ServerLevel[world]', x=-7321.49, y=126.00, z=3946.43, cpos=[-458, 246], tl=323, v=true] died: Rapture Drowned was slain by [Volcanos] volcon2
+[01:31:27] [Async Chat Thread - #5/INFO]: [Not Secure] <blime2009> quieres un chicle?
+[01:31:32] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> a vale
+[01:31:38] [Server thread/INFO]: Xautral issued server command: /tp blime2009
+[01:31:38] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] blime2009]
+[01:31:41] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> jodewte bruja
+[01:31:48] [Server thread/INFO]: Xautral issued server command: /summon minecraft:illusioner
+[01:31:48] [Server thread/INFO]: [[OP] Xautral: Summoned new Illusioner]
+[01:31:55] [Async Chat Thread - #6/INFO]: [Not Secure] <blime2009> mmm
+[01:31:58] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> bruno
+[01:32:00] [Async Chat Thread - #6/INFO]: [Not Secure] <blime2009> le hace falta un bufeo
+[01:32:03] [Async Chat Thread - #6/INFO]: [Not Secure] <blime2009> gracias
+[01:32:04] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> seguro que no te quieres hacer
+[01:32:06] [Server thread/INFO]: blime2009 issued server command: /tp 0 0 0
+[01:32:06] [Server thread/INFO]: [[OP] blime2009: Teleported [OP] blime2009 to 0.500000, 0.000000, 0.500000]
+[01:32:08] [Server thread/INFO]: blime2009 issued server command: /tp volcon2
+[01:32:08] [Server thread/INFO]: [[OP] blime2009: Teleported [OP] blime2009 to [Volcanos] volcon2]
+[01:32:15] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> volcon2 q paso
+[01:32:16] [Async Chat Thread - #5/INFO]: [Not Secure] <blime2009> quieres un chicle?
+[01:32:18] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> si
+[01:32:18] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/15850, uuid='5ad9aa0a-d3c6-4905-aa11-d1d217712ff6', l='ServerLevel[world]', x=-7331.71, y=117.00, z=3929.14, cpos=[-459, 245], tl=1408, v=true] died: Rapture Drowned was slain by Iron Golem
+[01:32:23] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> no apcepteees
+[01:32:26] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> bruno seguro que no quieres entrar a mi clan?
+[01:32:28] [Server thread/INFO]: blime2009 issued server command: /kill @e[type=minecraft:slime ]
+[01:32:31] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> emm
+[01:32:40] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> y q me llevo a cambio
+[01:32:40] [Async Chat Thread - #5/INFO]: [Not Secure] <blime2009> gracias
+[01:32:43] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> bte chicle
+[01:32:44] [Server thread/INFO]: blime2009 issued server command: /tp 0 0 0
+[01:32:44] [Server thread/INFO]: [[OP] blime2009: Teleported [OP] blime2009 to 0.500000, 0.000000, 0.500000]
+[01:32:47] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> em
+[01:32:48] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> no se
+[01:32:53] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> ayudame
+[01:32:56] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> ganaremos
+[01:33:03] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> ya nadie se conecta en emblem
+[01:33:08] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> flame*
+[01:33:13] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> esq
+[01:33:17] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> _Brvnno, volcon es Alguien que aYuda a todos cuando pUeDe, es miembro del mejor clAn de todos.
+[01:33:20] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> no puedo traicionar a itz gan
+[01:33:29] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> bueno pero
+[01:33:36] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> ese wey se paniquea por 2 phantosm que explotas
+[01:33:37] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> si le da miedo la tormenta
+[01:33:37] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> ese wey se paniquea por 2 phantosm que explotan
+[01:33:39] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> Xautral si eso se nota pero a itz gan no lo puedo traicionar
+[01:33:39] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[01:33:39] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:33:46] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> pero por otro lado
+[01:33:53] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> volcon es alguien que no valora su propio esfuerzo
+[01:33:57] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> capaz de morir otra vez
+[01:34:01] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[01:34:01] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Volcanos] volcon2]
+[01:34:01] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> crees que por ejemplo si te estoy a punto de dropear por ejemplo
+[01:34:05] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> em bno lo pensare
+[01:34:07] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> venga a ayudarte?
+[01:34:09] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[01:34:11] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[01:34:19] [Server thread/INFO]: Villager Villager['Villager'/13515, uuid='c66d7a14-0b78-4f84-b5bc-02cd9a375c5b', l='ServerLevel[world]', x=-7304.58, y=112.00, z=3911.70, cpos=[-457, 244], tl=10271, v=true] was struck by lightning LightningBolt['Lightning Bolt'/16983, uuid='b7bc82ae-e056-48ca-ab54-1d7c7e83cc59', l='ServerLevel[world]', x=-7306.47, y=111.00, z=3913.24, cpos=[-457, 244], tl=1, v=true].
+[01:34:19] [Server thread/INFO]: Villager Villager['Leatherworker'/10111, uuid='fc0e40d9-351a-4ab2-ab64-7db177d05f37', l='ServerLevel[world]', x=-7303.49, y=112.00, z=3910.74, cpos=[-457, 244], tl=11760, v=true] was struck by lightning LightningBolt['Lightning Bolt'/16983, uuid='b7bc82ae-e056-48ca-ab54-1d7c7e83cc59', l='ServerLevel[world]', x=-7306.47, y=111.00, z=3913.24, cpos=[-457, 244], tl=1, v=true].
+[01:34:19] [Server thread/INFO]: Villager Villager['Villager'/13543, uuid='c888f2d8-5228-4038-96ea-80ef6f4ab26a', l='ServerLevel[world]', x=-7306.92, y=112.47, z=3913.98, cpos=[-457, 244], tl=10215, v=true] was struck by lightning LightningBolt['Lightning Bolt'/16983, uuid='b7bc82ae-e056-48ca-ab54-1d7c7e83cc59', l='ServerLevel[world]', x=-7306.47, y=111.00, z=3913.24, cpos=[-457, 244], tl=1, v=true].
+[01:34:26] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/16935, uuid='194ebd82-a727-4fa3-9c0b-5e4ab426ca2c', l='ServerLevel[world]', x=-7316.39, y=113.94, z=3923.61, cpos=[-458, 245], tl=272, v=true] died: Rapture Drowned was slain by Iron Golem
+[01:34:28] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> volcon2 no pq no creo q me podas dropear cuando existen las elis :v
+[01:34:30] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[01:34:30] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:34:34] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/16933, uuid='edd5ae5d-29e6-4d37-9dfe-3b19c3e718e6', l='ServerLevel[world]', x=-7321.97, y=130.76, z=3941.49, cpos=[-458, 246], tl=443, v=true] died: Rapture Drowned was slain by Shulker Bullet
+[01:34:35] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[01:34:35] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:34:37] [Server thread/INFO]: Villager Villager['Villager'/13516, uuid='acfeeaf3-2de1-428b-aa8b-97870e2cf441', l='ServerLevel[world]', x=-7322.68, y=114.08, z=3897.32, cpos=[-458, 243], tl=10624, v=true] was struck by lightning LightningBolt['Lightning Bolt'/17313, uuid='40580ea6-76b4-40fa-8c35-2bdc7a4d19e8', l='ServerLevel[world]', x=-7322.52, y=113.00, z=3896.56, cpos=[-458, 243], tl=1, v=true].
+[01:34:39] [Server thread/INFO]: Villager Villager['Villager'/13555, uuid='5c87060d-5de6-4eac-863b-9348de69d768', l='ServerLevel[world]', x=-7308.86, y=114.81, z=3928.79, cpos=[-457, 245], tl=10592, v=true] was struck by lightning LightningBolt['Lightning Bolt'/17422, uuid='1bca4826-9e2b-462c-af6f-2787236b7072', l='ServerLevel[world]', x=-7308.28, y=113.00, z=3929.50, cpos=[-457, 245], tl=1, v=true].
+[01:34:43] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> igual si escapas te dropeara un ghast
+[01:34:50] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/16936, uuid='a10f9a24-ae2f-4511-88d1-34c44e4cd6ec', l='ServerLevel[world]', x=-7316.75, y=113.00, z=3911.49, cpos=[-458, 244], tl=745, v=true] died: Rapture Drowned was slain by Iron Golem
+[01:34:54] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> mas rapido
+[01:35:01] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> totem y ya
+[01:35:05] [Server thread/INFO]: Named entity Skeleton['Terrorist'/17058, uuid='3e048a61-b3c1-49b0-9ec4-e95750e282fa', l='ServerLevel[world]', x=-7326.53, y=131.54, z=3943.70, cpos=[-458, 246], tl=678, v=true] died: Terrorist was struck by lightning
+[01:35:06] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> no entiendes
+[01:35:09] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> el ghast
+[01:35:10] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[01:35:10] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:35:14] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> te dropea 20 totems
+[01:35:16] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/17582, uuid='de323f72-c347-43f9-a48f-e700341586b6', l='ServerLevel[world]', x=-7319.36, y=115.94, z=3925.11, cpos=[-458, 245], tl=281, v=true] died: Rapture Drowned hit the ground too hard while trying to escape Rapture Drowned
+[01:35:18] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> si no mal me equivoco
+[01:35:19] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/17581, uuid='6e8523b8-a3fc-4906-887d-3ed1d0c41b77', l='ServerLevel[world]', x=-7320.86, y=118.00, z=3928.06, cpos=[-458, 245], tl=327, v=true] died: Rapture Drowned went up in flames
+[01:35:22] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> o cuanto era xautral
+[01:35:28] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/17580, uuid='ff9017b4-1f62-420d-b27e-b4b39e6c2dff', l='ServerLevel[world]', x=-7322.50, y=115.00, z=3920.63, cpos=[-458, 245], tl=525, v=true] died: Rapture Drowned was slain by Iron Golem
+[01:35:33] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> que cosa
+[01:35:38] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> cuantos
+[01:35:42] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> totems te dropea el ghast
+[01:35:58] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> dnd esta mi clan cuando se les necesita por dios
+[01:36:02] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> el ghast te reventa 2 totems: Explosión (1 Totem) + Caída (otro totem - 50%) + Fuego (20%)
+[01:36:07] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> ah
+[01:36:09] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> 2 totems
+[01:36:11] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> nd que ver 20
+[01:36:12] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> JAJA
+[01:36:15] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> el marica de itz_gan no se coenctaŕa en4 días por que hasta 4 días termina la tormenta
+[01:36:15] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> hahahah
+[01:36:34] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> vale le dire q si no se une ahora me vopy de su clan de mrd
+[01:36:37] [Server thread/INFO]: Named entity Skeleton['Terrorist'/18110, uuid='d16bd880-6446-47e2-bf4b-aa8c705247fb', l='ServerLevel[world]', x=-7318.70, y=119.94, z=3934.25, cpos=[-458, 245], tl=171, v=true] died: Terrorist was slain by Shulker Bullet
+[01:36:42] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/18216, uuid='6356ddc8-de04-4d2c-9446-b311265e9c37', l='ServerLevel[world]', x=-7322.52, y=123.00, z=3936.54, cpos=[-458, 246], tl=183, v=true] died: Rapture Drowned was slain by [Volcanos] volcon2
+[01:36:44] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/18390, uuid='51cf735a-93bb-44dd-8517-99c83363172f', l='ServerLevel[world]', x=-7313.83, y=125.93, z=3937.39, cpos=[-458, 246], tl=81, v=true] died: Rapture Drowned was shot by Terrorist using [Multishot Bow]
+[01:36:46] [Server thread/INFO]: [Volcanos] volcon2 was shot by Terrorist using [Multishot Bow]
+[01:36:47] [Async Chat Thread - #5/INFO]: [Not Secure] <blime2009> xau
+[01:36:48] [Server thread/INFO]: volcon2 lost connection: Disconnected
+[01:36:48] [Server thread/INFO]: [Volcanos] volcon2 left the game
+[01:36:54] [Server thread/INFO]: Named entity Skeleton['Corpse'/18984, uuid='b7d0b2b4-9ba7-4a3a-8c35-20c740763055', l='ServerLevel[world]', x=-7326.50, y=132.41, z=3936.68, cpos=[-458, 246], tl=144, v=true] died: Corpse was killed
+[01:36:57] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> q
+[01:36:58] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> o noo
+[01:36:59] [User Authenticator #6/INFO]: UUID of player volcon2 is 9c42fa87-f091-3883-9bf4-db229d9050dc
+[01:37:00] [Server thread/INFO]: [Volcanos] volcon2 joined the game
+[01:37:00] [Server thread/INFO]: volcon2[/127.125.214.129:41673] logged in with entity id 19055 at ([minecraft:overworld]-7322.085522874552, 126.09097371180422, 3936.6842768944025)
+[01:37:00] [Server thread/INFO]: Named entity Skeleton['Terrorist'/18414, uuid='63cbdd89-5c4c-4361-b7da-2fe361a4a879', l='ServerLevel[world]', x=-7320.07, y=118.94, z=3931.96, cpos=[-458, 245], tl=383, v=true] died: Terrorist fell from a high place
+[01:37:02] [Async Chat Thread - #6/INFO]: [Not Secure] <blime2009> puedes hacer eso de aparicion natural con cualquier mob?
+[01:37:03] [Server thread/INFO]: Xautral issued server command: /tp volcon2 x
+[01:37:05] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> mori?
+[01:37:06] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> JAJAJA
+[01:37:07] [Server thread/INFO]: Xautral issued server command: /tp volcon2 Xautral
+[01:37:07] [Server thread/INFO]: [[OP] Xautral: Teleported [Volcanos] volcon2 to [OP] Xautral]
+[01:37:10] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> no del todo
+[01:37:13] [Server thread/INFO]: Xautral issued server command: /gamemode survival volcon2
+[01:37:13] [Server thread/INFO]: [[OP] Xautral: Set [Volcanos] volcon2's game mode to Survival Mode]
+[01:37:16] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> se me bugueo todo
+[01:37:17] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/15205, uuid='aaf326d8-f8bb-4f11-91b1-50c261cc1a98', l='ServerLevel[world]', x=49.30, y=56.05, z=2929.30, cpos=[3, 183], tl=9810, v=true] died: Rapture Drowned was slain by [Flame Horde] _Brvnno
+[01:37:18] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> solo hago que se dupliqu
+[01:37:22] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> y que tengan una motion de 1b
+[01:37:24] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/15191, uuid='90d62974-49b1-47a0-8057-569c8ac2a992', l='ServerLevel[world]', x=57.75, y=58.74, z=2932.75, cpos=[3, 183], tl=10007, v=true] died: Rapture Drowned was slain by [Flame Horde] _Brvnno
+[01:37:25] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> a la derecha
+[01:37:28] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> así para que parezcanatural
+[01:37:38] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> me reparas la armor porfa xau?
+[01:37:41] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> no
+[01:37:44] [Server thread/INFO]: Xautral issued server command: /inv volcon2
+[01:37:44] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> bueno
+[01:37:49] [Server thread/INFO]: Xautral issued server command: /ie durability 0
+[01:37:49] [Async Chat Thread - #6/INFO]: [Not Secure] <blime2009> lo puedes hacer con los slimes?
+[01:37:50] [Server thread/INFO]: Xautral issued server command: /ie durability 0
+[01:37:50] [Server thread/INFO]: Xautral issued server command: /ie durability 0
+[01:37:50] [Server thread/INFO]: Xautral issued server command: /ie durability 0
+[01:37:52] [Server thread/INFO]: Xautral issued server command: /inv volcon2
+[01:37:55] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/15193, uuid='de5b1b45-c1ca-46c6-9e30-3a0f56ab2f4c', l='ServerLevel[world]', x=52.15, y=55.13, z=2929.30, cpos=[3, 183], tl=10620, v=true] died: Rapture Drowned was slain by [Flame Horde] _Brvnno
+[01:37:56] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> en serio?
+[01:38:00] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> ¿?
+[01:38:01] [Server thread/INFO]: Named entity Drowned['Rapture Drowned'/15204, uuid='b0c827c2-e110-4a80-9e83-04fa34bb8e63', l='ServerLevel[world]', x=49.30, y=56.05, z=2929.30, cpos=[3, 183], tl=10692, v=true] died: Rapture Drowned was slain by [Flame Horde] _Brvnno
+[01:38:04] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> pues haber
+[01:38:11] [Server thread/INFO]: blime2009 issued server command: /tp volcon2
+[01:38:11] [Server thread/INFO]: [[OP] blime2009: Teleported [OP] blime2009 to [Volcanos] volcon2]
+[01:38:12] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> prorgamaría que se clonen de que
+[01:38:27] [Async Chat Thread - #6/INFO]: [Not Secure] <blime2009> esqueleto?
+[01:38:32] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> la
+[01:38:33] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> lag
+[01:38:34] [Server thread/INFO]: Named entity Skeleton['Terrorist'/18416, uuid='9381ae76-60e0-4589-b851-ff99777859d1', l='ServerLevel[world]', x=-7320.72, y=126.01, z=3944.61, cpos=[-458, 246], tl=2255, v=true] died: Terrorist was slain by [Volcanos] volcon2
+[01:38:39] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> o simplemente haz lo mismo que yo con los bullet hells
+[01:38:45] [Server thread/INFO]: Xautral issued server command: /msg blime2009 spawnealos manualmente :Vvv
+[01:38:49] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> Xautral
+[01:38:51] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> q
+[01:38:52] [Server thread/INFO]: Xautral issued server command: /tp _Brvnno
+[01:38:52] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] _Brvnno]
+[01:38:55] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> podes pasar la tormenta??
+[01:39:00] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> no
+[01:39:03] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> pq
+[01:39:03] [Server thread/INFO]: blime2009 issued server command: /gamemode spectator
+[01:39:03] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Spectator Mode]
+[01:39:05] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> amenos de una votacion
+[01:39:07] [Server thread/INFO]: Named entity Skeleton['Terrorist'/18415, uuid='837f606d-4263-4fd6-9629-714fee55558e', l='ServerLevel[world]', x=-7315.79, y=125.00, z=3943.05, cpos=[-458, 246], tl=2916, v=true] died: Terrorist was slain by Shulker Bullet
+[01:39:12] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> volcon2 tu q votas
+[01:39:13] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[01:39:13] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:39:15] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[01:39:15] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:39:16] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> que no
+[01:39:24] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> nah sos un gey egoista
+[01:39:25] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> yo digo que s
+[01:39:26] [Server thread/INFO]: blime2009 issued server command: /tp 0 0 0
+[01:39:26] [Server thread/INFO]: [[OP] blime2009: Teleported [OP] blime2009 to 0.500000, 0.000000, 0.500000]
+[01:39:29] [Server thread/INFO]: blime2009 issued server command: /gamemode creative
+[01:39:29] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Creative Mode]
+[01:39:36] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> por que egoista
+[01:39:42] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> si nadie tiene todos los items customs
+[01:39:46] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> yo soy el unico
+[01:39:52] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> podria pasarlo y ser el mas op
+[01:39:53] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> apoco
+[01:39:57] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> y si eh
+[01:40:02] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[01:40:02] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[01:40:04] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> volcon estuvo en generaciones de puro permadeath
+[01:40:06] [Async Chat Thread - #5/INFO]: [Not Secure] <_Brvnno> q items custom hay
+[01:40:08] [Server thread/INFO]: blime2009 issued server command: /gamemode spectator
+[01:40:08] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Spectator Mode]
+[01:40:10] [Server thread/INFO]: blime2009 issued server command: /tp volcon2
+[01:40:10] [Server thread/INFO]: [[OP] blime2009: Teleported [OP] blime2009 to [Volcanos] volcon2]
+[01:40:11] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> tridentes arcos
+[01:40:12] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> tnt
+[01:40:15] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> el tridente con spearman (secuestra al que dispares)
+[01:40:22] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> flechas tnt (bullet hell)
+[01:40:26] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> flechas bullet hell generic
+[01:40:37] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> a ps tengo 2 items tons
+[01:40:42] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> y con balletsa multishot ni se diga
+[01:40:43] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> un arco y flechas
+[01:40:44] [Server thread/INFO]: blime2009 issued server command: /execute as @e[type=minecraft:skeleton ] at @s run summon minecraft:slime
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Terrorist: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:44] [Server thread/INFO]: [Skeleton: Summoned new Slime]
+[01:40:55] [Server thread/INFO]: Xautral issued server command: /tp sl
+[01:40:57] [Server thread/INFO]: Xautral issued server command: /tp blime2009
+[01:40:57] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] blime2009]
+[01:41:00] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> y me dices egoits
+[01:41:03] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> na JAJA
+[01:41:05] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> afk
+[01:41:05] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> callate
+[01:41:05] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[01:41:07] [Async Chat Thread - #6/INFO]: [Not Secure] <_Brvnno> sos un gey
+[01:41:09] [Server thread/INFO]: blime2009 issued server command: /tp 0 0 0
+[01:41:09] [Server thread/INFO]: [[OP] blime2009: Teleported [OP] blime2009 to 0.500000, 0.000000, 0.500000]
+[01:41:11] [Server thread/INFO]: blime2009 issued server command: /gamemode creative
+[01:41:11] [Server thread/INFO]: [[OP] blime2009: Set own game mode to Creative Mode]
+[01:41:14] [Async Chat Thread - #5/INFO]: [Not Secure] <volcon2> puede ser
