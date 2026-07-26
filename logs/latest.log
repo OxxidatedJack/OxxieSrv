@@ -1290,3 +1290,810 @@ Reason: ¡You have perished!
 [02:04:55] [Async Chat Thread - #7/INFO]: [Not Secure] <_Brvnno> ni me se las cord asi q esta bien
 [02:04:59] [Async Chat Thread - #7/INFO]: [Not Secure] <volcon2> lo puedes tpear?
 [02:05:24] [Server thread/INFO]: [Not Secure] [Server] si
+[02:05:34] [Async Chat Thread - #7/INFO]: [Not Secure] <volcon2> gracias
+[02:05:47] [Async Chat Thread - #7/INFO]: [Not Secure] <Xautral> _Brvnnob me avisas cuando estés list
+[02:05:51] [Async Chat Thread - #7/INFO]: [Not Secure] <_Brvnno> ya
+[02:05:55] [Server thread/INFO]: Xautral issued server command: /tp _Brvnno volcon2
+[02:05:55] [Server thread/INFO]: [[OP] Xautral: Teleported [Flame Horde] _Brvnno to [Volcanos] volcon2]
+[02:06:00] [Async Chat Thread - #7/INFO]: [Not Secure] <_Brvnno> hello
+[02:06:02] [Async Chat Thread - #8/INFO]: [Not Secure] <volcon2> hola
+[02:06:02] [Async Chat Thread - #8/INFO]: [Not Secure] <Xautral> tiene cooldown de 5 minutos
+[02:06:05] [Async Chat Thread - #8/INFO]: [Not Secure] <blime2009> vro realmente se ardio
+[02:06:06] [Async Chat Thread - #8/INFO]: [Not Secure] <Xautral> si recibe daño te baneamos
+[02:06:10] [Server thread/INFO]: Xautral issued server command: /tp _Brvnno
+[02:06:10] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] _Brvnno]
+[02:06:10] [Async Chat Thread - #8/INFO]: [Not Secure] <volcon2> ah JAJA
+[02:06:11] [Async Chat Thread - #8/INFO]: [Not Secure] <volcon2> ya vi
+[02:06:24] [Async Chat Thread - #8/INFO]: [Not Secure] <volcon2> bueno practicamente
+[02:06:36] [Async Chat Thread - #7/INFO]: [Not Secure] <_Brvnno> ala
+[02:06:51] [Async Chat Thread - #7/INFO]: [Not Secure] <_Brvnno> sos bueno en pvp?
+[02:06:57] [Async Chat Thread - #8/INFO]: [Not Secure] <volcon2> no creo
+[02:07:01] [Async Chat Thread - #8/INFO]: [Not Secure] <volcon2> farmeo mucho
+[02:07:05] [Async Chat Thread - #8/INFO]: [Not Secure] <_Brvnno> okey
+[02:07:08] [Async Chat Thread - #8/INFO]: [Not Secure] <volcon2> no he secuestrado a ni uno de estos
+[02:07:23] [Async Chat Thread - #8/INFO]: [Not Secure] <volcon2> mira la cantidad de aldeanos
+[02:07:26] [Async Chat Thread - #8/INFO]: [Not Secure] <Xautral> te uno a su civ _Brvnno?
+[02:07:31] [Async Chat Thread - #8/INFO]: [Not Secure] <_Brvnno> si
+[02:07:37] [Server thread/INFO]: Xautral issued server command: /team join Volcanos _Brvnno
+[02:07:37] [Server thread/INFO]: [[OP] Xautral: Added [Volcanos] _Brvnno to team [[Volcanos]]]
+[02:07:41] [Server thread/INFO]: Xautral issued server command: /tp _Brvnno
+[02:07:41] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Volcanos] _Brvnno]
+[02:07:42] [Async Chat Thread - #8/INFO]: [Not Secure] <volcon2> bruno ven
+[02:07:47] [Async Chat Thread - #8/INFO]: [Not Secure] <Xautral> todo se ve diferente sin perma-kill
+[02:07:58] [Async Chat Thread - #8/INFO]: [Not Secure] <Xautral> ahora ya tienen un trauma con la tormenta
+[02:09:00] [Async Chat Thread - #9/INFO]: [Not Secure] <_Brvnno> uuu
+[02:09:06] [Async Chat Thread - #9/INFO]: [Not Secure] <_Brvnno> esto es a mi base?
+[02:09:07] [Server thread/INFO]: Villager Villager['Villager'/94250, uuid='4c4dc7f8-f0b8-4968-8b11-0c044fa8ad7e', l='ServerLevel[world]', x=-895.17, y=88.00, z=479.58, cpos=[-56, 29], tl=704, v=true] died, message: 'Villager suffocated in a wall'
+[02:09:09] [Async Chat Thread - #9/INFO]: [Not Secure] <volcon2> si
+[02:09:11] [Server thread/INFO]: Villager Villager['Villager'/94251, uuid='b7dcc563-8b6c-4e2c-9e76-4073d830e02c', l='ServerLevel[world]', x=-888.75, y=88.00, z=492.49, cpos=[-56, 30], tl=766, v=true] died, message: 'Villager suffocated in a wall'
+[02:09:21] [Async Chat Thread - #9/INFO]: [Not Secure] <_Brvnno> wtfg
+[02:09:56] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[02:09:56] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Volcanos] volcon2]
+[02:10:01] [Async Chat Thread - #9/INFO]: [Not Secure] <Xautral> ca
+[02:10:04] [Async Chat Thread - #9/INFO]: [Not Secure] <Xautral> cabrooon
+[02:10:07] [Async Chat Thread - #9/INFO]: [Not Secure] <volcon2> perdon
+[02:10:11] [Async Chat Thread - #10/INFO]: [Not Secure] <Xautral> se me super lageo
+[02:10:15] [Server thread/INFO]: Xautral issued server command: /kill @e[type=ghast]
+[02:10:15] [Server thread/INFO]: [[OP] Xautral: Killed 2 entities]
+[02:10:40] [Async Chat Thread - #10/INFO]: [Not Secure] <Xautral> cabron estúpido
+[02:10:40] [Async Chat Thread - #10/INFO]: [Not Secure] <Xautral> blime2009
+[02:10:44] [Async Chat Thread - #10/INFO]: [Not Secure] <blime2009> q
+[02:10:51] [Server thread/INFO]: Xautral issued server command: /msg blime2009 mandale a MD a este puto RKa que no diga nada por que no me carga su md
+[02:11:57] [Server thread/INFO]: Xautral issued server command: /tp blime2009
+[02:11:57] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] blime2009]
+[02:12:00] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> bebote
+[02:12:04] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[02:12:04] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[02:12:05] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[02:12:06] [Async Chat Thread - #12/INFO]: [Not Secure] <blime2009> q
+[02:12:13] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> q de q carnal
+[02:12:16] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> dije bebote no bebe
+[02:12:27] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> ven
+[02:12:32] [Async Chat Thread - #12/INFO]: [Not Secure] <blime2009> a estaba viendo otra parte del chat
+[02:12:37] [Server thread/INFO]: [Volcanos] _Brvnno has completed the challenge [Subspace Bubble]
+[02:12:49] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> deja veo donde esta
+[02:12:55] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> que quieres
+[02:13:14] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> no recuerdo si era en esta casa
+[02:13:22] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> el q
+[02:13:24] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> que de q
+[02:13:33] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> bueno aca estaba haciendo
+[02:13:39] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> por si algo
+[02:13:42] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> OPERA GX
+[02:13:46] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> EL MEJOR NAVEGADOR DE TODOS
+[02:13:47] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> SI GORDO SI~
+[02:13:50] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> NO, NO DE LADO YA NO~
+[02:13:59] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> los estaba observando
+[02:14:01] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> estudiando
+[02:14:04] [Server thread/INFO]: blime2009 issued server command: /tp volcon2
+[02:14:04] [Server thread/INFO]: [[OP] blime2009: Teleported [OP] blime2009 to [Volcanos] volcon2]
+[02:14:09] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> era eso
+[02:14:13] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> ok
+[02:14:19] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> y gracias a ti
+[02:14:20] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> fue
+[02:14:23] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> que encontre la base
+[02:14:26] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> pq
+[02:14:30] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> me guiaste a ella
+[02:14:33] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> cuando
+[02:14:35] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> segui rastros
+[02:14:45] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> solo eh ido una vez a nether
+[02:14:49] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> pues
+[02:14:55] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> de echo hasta encontre
+[02:14:57] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> un trono de hielo
+[02:15:01] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> de emblem
+[02:15:03] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> yo tengo cord de una base q encontre eyer
+[02:15:08] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> de los gringos?
+[02:15:13] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> no se
+[02:15:18] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> como era?
+[02:15:22] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> tenian muchas shulker de totem
+[02:15:28] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> sera la de blime
+[02:15:32] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> digo l
+[02:15:34] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> de plech
+[02:15:42] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> q yo sepa no se puede robar tonss no tome nadaq
+[02:15:49] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> nop
+[02:15:50] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> o si se puede
+[02:15:54] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> pero ustedes le robaron a plech
+[02:15:58] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> no?
+[02:15:59] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> yo no
+[02:16:03] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> gan
+[02:16:07] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> mis amigos no les dije cords
+[02:16:20] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> por que ir con gan?
+[02:16:26] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> si no hizo nada bueno por ti
+[02:16:32] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> es mi amigo
+[02:16:35] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> lo se
+[02:16:44] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> pero crees que te hubiera ayudado
+[02:16:50] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> te lo he dicho
+[02:16:55] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> el no se puede sacrificar por ti
+[02:17:01] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> si creo q me hubiera yudado
+[02:17:07] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> eso piensas?
+[02:17:07] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> no es el primer server q juegfo con el
+[02:17:13] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> lo ah echo
+[02:17:20] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> su objetivo era matarme
+[02:17:24] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> y le dio miedo la tormenta
+[02:17:27] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> enserio?
+[02:17:31] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> bueno supongo que es su objetivo
+[02:17:33] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> emm
+[02:17:42] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> lo ha dicho en el discord
+[02:17:45] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> bno
+[02:17:47] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> q podemos hacer
+[02:17:49] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> llevas como 2 dias en el servidor no?
+[02:17:50] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> pues
+[02:17:59] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> si se conecta alguien de tu base le podriamos raidear
+[02:18:05] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> pero no se que quieres que sea tu clan
+[02:18:05] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> nononono
+[02:18:11] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> tu plan*
+[02:18:19] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> mira solo no los molestemos
+[02:18:19] [Async Chat Thread - #12/INFO]: [Not Secure] <blime2009> q hacen
+[02:18:23] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> nada
+[02:18:26] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> igual el fafafa con escudo me ganaria
+[02:18:30] [Async Chat Thread - #12/INFO]: [Not Secure] <blime2009> q planean
+[02:18:35] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> de echo podemos robarles por robarles a plech
+[02:18:38] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> pero
+[02:18:44] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> no se que queiras hacer
+[02:18:50] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> sorry
+[02:18:53] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> prefiero dejarlos tranquilos
+[02:18:59] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> oye pera deja agarro mis cosas
+[02:19:05] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> sisi
+[02:19:34] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> emm no tengo nada
+[02:19:38] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> como todo arde es bonito
+[02:19:49] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> les puedes robar si ellos les robaron a plech y a slime
+[02:19:51] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> es legal
+[02:19:57] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> pero ellos no robaron
+[02:20:04] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> raidearon*
+[02:20:05] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives
+[02:20:08] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> tampoco
+[02:20:12] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> que hicieron
+[02:20:12] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> ni digas carnal que tambien teniamos pruebas
+[02:20:15] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> nada
+[02:20:20] [Server thread/INFO]: Xautral issued server command: /tp _Brvnno
+[02:20:20] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Volcanos] _Brvnno]
+[02:20:23] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> q pruebas
+[02:20:29] [Server thread/INFO]: Xautral issued server command: /advancement grant _Brvnno only minecraft:nether/summon_wither
+[02:20:29] [Server thread/INFO]: [Volcanos] _Brvnno has made the advancement [Withering Heights]
+[02:20:29] [Server thread/INFO]: [[OP] Xautral: Granted the advancement [Withering Heights] to [Volcanos] _Brvnno]
+[02:20:31] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> ese
+[02:20:38] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> si hubieran matado al wither no tendrían la estrella del nether
+[02:20:47] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> y plech era le único que tenía esqueletos wither
+[02:20:52] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[02:20:52] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[02:20:59] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> ah
+[02:21:00] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> a si losvi
+[02:21:03] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> tengo un slime
+[02:21:17] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> entre a su base y casi muero en su garnja de wither
+[02:21:19] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> para que sirve
+[02:21:26] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> tener un slime
+[02:21:33] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> pues es un slime
+[02:21:35] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> por suerte no se a dnd fui y llegue a un lugar con aldeanos y ahi habiua salida
+[02:22:14] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> nada mas ers mio
+[02:22:20] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> ya agarre todo
+[02:22:22] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> agarre los libros de prote
+[02:22:25] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> nonono\t
+[02:22:26] [Server thread/INFO]: blime2009 lost connection: Disconnected
+[02:22:26] [Server thread/INFO]: [OP] blime2009 left the game
+[02:22:28] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> esos son de ellos
+[02:22:29] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> que pasa
+[02:22:35] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> no mios
+[02:22:38] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> ya
+[02:22:45] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> me sineto mal
+[02:23:06] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> cres q si itz gan se quisiera unir a nosotros estaria bien para ti?
+[02:23:16] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> pues
+[02:23:24] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> yo no soy el problema
+[02:23:30] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> me quiere matar desde que inicio el servidor
+[02:23:37] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> si cierto
+[02:23:38] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> hace cuanto esta el server
+[02:23:38] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> por que
+[02:23:45] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> ni idea
+[02:23:49] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> _Brvnno volcon esta desde la quinta generacion
+[02:23:52] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> estamos en la sext
+[02:24:00] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> fue uno de los primeros en unirse
+[02:24:10] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> a dndn vamos
+[02:24:11] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> a ya que es?
+[02:24:14] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> no se
+[02:24:59] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> wtf
+[02:25:03] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> ah
+[02:25:09] [Server thread/INFO]: Villager Villager['Villager'/102060, uuid='a80c4ba6-eb25-4dfc-b488-432457ba3033', l='ServerLevel[world]', x=-33.25, y=49.00, z=53.09, cpos=[-3, 3], tl=628, v=true] died, message: 'Villager hit the ground too hard'
+[02:25:14] [User Authenticator #16/INFO]: UUID of player OPlechStyles is 9c5026b5-1602-34df-9cd4-1dd4d84122b4
+[02:25:14] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> alejate
+[02:25:15] [Server thread/INFO]: [OP] OPlechStyles joined the game
+[02:25:15] [Server thread/INFO]: OPlechStyles[/127.229.163.226:55673] logged in with entity id 102390 at ([minecraft:overworld]14.594802985403025, 67.63079725604668, 2924.257438426287)
+[02:25:18] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> soy yo o sacan aldeanos de craativo
+[02:25:21] [Server thread/INFO]: Villager Villager['Villager'/102134, uuid='d22186c1-779c-4c7b-a732-1673ff9c8147', l='ServerLevel[world]', x=-21.17, y=65.50, z=51.21, cpos=[-2, 3], tl=826, v=true] died, message: 'Villager was shot by [Volcanos] volcon2 using [Multishot Bow]'
+[02:25:30] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> holas
+[02:25:33] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> no es ilegal?
+[02:25:37] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> el que?
+[02:25:48] [Server thread/INFO]: OPlechStyles issued server command: /tp OPlechStyles _Brvnno
+[02:25:48] [Server thread/INFO]: [[OP] OPlechStyles: Teleported [OP] OPlechStyles to [Volcanos] _Brvnno]
+[02:25:48] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> esto
+[02:25:50] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> creo que cuando ellos hacen algo ilegal
+[02:25:53] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> ya no pueden
+[02:25:56] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> ser protegidos
+[02:25:58] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> como la ONU
+[02:25:59] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> JAJAJ
+[02:26:04] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> bruno desde cuando eres del volcon?
+[02:26:06] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> y arriba que es
+[02:26:08] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> una pulga
+[02:26:18] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> OPlechStyles desde hace 10m
+[02:26:26] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> ya no es fire emblem good boy ahora es volcon2 good boy
+[02:26:34] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> esq ni me ayudan
+[02:26:44] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> sorry
+[02:26:45] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> JAJA
+[02:27:00] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> oye volcon q es esto
+[02:27:04] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> pq hay tantos
+[02:27:04] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> no se
+[02:27:09] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> un trafico de los emblems
+[02:27:12] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> oye
+[02:27:15] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> y arriba que es
+[02:27:27] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> ay un puente
+[02:27:31] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> a dnd
+[02:27:31] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> que conecta a otro lugar
+[02:27:47] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> oopaaa
+[02:27:51] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> es el portal cerca del spawn
+[02:27:53] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> creo
+[02:28:15] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> este era el trono
+[02:28:16] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> que te decia
+[02:28:24] [Server thread/INFO]: OPlechStyles issued server command: /tp OPlechStyles volcon2
+[02:28:24] [Server thread/INFO]: [[OP] OPlechStyles: Teleported [OP] OPlechStyles to [Volcanos] volcon2]
+[02:28:49] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> apenas y entro :v
+[02:29:04] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> es el trono de plechito
+[02:29:09] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> plech eres jugador no?
+[02:29:13] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> sep
+[02:29:22] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> buscas venganza? o no
+[02:29:22] [Async Chat Thread - #12/INFO]: [Not Secure] <_Brvnno> re chistoso
+[02:29:28] [Async Chat Thread - #12/INFO]: [Not Secure] <OPlechStyles> de q?
+[02:29:42] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> bueno supongo que no
+[02:29:53] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> es el trono de todos aca
+[02:29:56] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> si con emblem te estabamos cuidado como esos jovenes q ayudan a los ancianitos a pasar la calle:v
+[02:30:07] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> te chingó w
+[02:30:12] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> lo se
+[02:30:16] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> no tengo problemas con emblem
+[02:30:17] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> solo con gan
+[02:30:21] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> bueno
+[02:30:24] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> el tiene problemas conmigo
+[02:30:35] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> con mi esposa
+[02:30:38] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> asi estamos
+[02:30:39] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> si
+[02:30:57] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> nos vamos ya? o todavia nop
+[02:31:21] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> eres una pulguita
+[02:31:32] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> q pasa si me hago gigante
+[02:31:40] [Server thread/INFO]: OPlechStyles issued server command: /attribute OPlechStyles minecraft:scale base set 600
+[02:31:47] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> empujas mucho
+[02:31:48] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> te reboto
+[02:31:51] [User Authenticator #17/INFO]: UUID of player FireEmblem is 5a48378f-9425-393f-a12b-7c3bfb2ee2e1
+[02:31:54] [Server thread/INFO]: [Flame Horde] FireEmblem joined the game
+[02:31:54] [Server thread/INFO]: FireEmblem[/127.189.106.131:44333] logged in with entity id 104699 at ([minecraft:overworld]53.89636957326034, 64.0, 2910.2394888714443)
+[02:32:00] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> ola FireEmblem
+[02:32:06] [Server thread/WARN]: FireEmblem was kicked for floating too long!
+[02:32:06] [Server thread/INFO]: FireEmblem lost connection: Flying is not enabled on this server
+[02:32:06] [Server thread/INFO]: FireEmblem left the game
+[02:32:10] [Async Chat Thread - #11/INFO]: [Not Secure] <_Brvnno> se fue
+[02:32:10] [User Authenticator #18/INFO]: UUID of player FireEmblem is 5a48378f-9425-393f-a12b-7c3bfb2ee2e1
+[02:32:11] [Server thread/INFO]: [Flame Horde] FireEmblem joined the game
+[02:32:11] [Server thread/INFO]: FireEmblem[/127.189.106.131:49453] logged in with entity id 105067 at ([minecraft:overworld]53.89636957326034, 64.0, 2910.2394888714443)
+[02:32:33] [Server thread/INFO]: OPlechStyles issued server command: /tp OPlechStyles volcon2
+[02:32:33] [Server thread/INFO]: [[OP] OPlechStyles: Teleported [OP] OPlechStyles to [Volcanos] volcon2]
+[02:32:36] [Server thread/INFO]: volcon2 lost connection: Disconnected
+[02:32:36] [Server thread/INFO]: [Volcanos] volcon2 left the game
+[02:32:37] [Server thread/INFO]: [[OP] OPlechStyles: Set own game mode to Spectator Mode]
+[02:32:39] [User Authenticator #19/INFO]: UUID of player volcon2 is 9c42fa87-f091-3883-9bf4-db229d9050dc
+[02:32:39] [Server thread/INFO]: [Volcanos] volcon2 joined the game
+[02:32:39] [Server thread/INFO]: volcon2[/127.125.214.129:37777] logged in with entity id 105624 at ([minecraft:the_nether]-26.77272092205234, 49.0, 40.60038391544337)
+[02:32:43] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> se me lagueo tdo
+[02:32:51] [Server thread/INFO]: OPlechStyles issued server command: /attribute OPlechStyles minecraft:scale base set 0.000001
+[02:32:55] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> penesotes asi de grandes
+[02:32:56] [Server thread/INFO]: OPlechStyles issued server command: /tp OPlechStyles volcon2
+[02:32:56] [Server thread/INFO]: [[OP] OPlechStyles: Teleported [OP] OPlechStyles to [Volcanos] volcon2]
+[02:33:03] [Server thread/INFO]: Xautral issued server command: /tp FireEmblem
+[02:33:03] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] FireEmblem]
+[02:33:06] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> te enojaste w?
+[02:33:11] [Server thread/INFO]: OPlechStyles issued server command: /tp OPlechStyles FireEmblem
+[02:33:11] [Server thread/INFO]: [[OP] OPlechStyles: Teleported [OP] OPlechStyles to [Flame Horde] FireEmblem]
+[02:33:17] [Async Chat Thread - #11/INFO]: [Not Secure] <FireEmblem> cierra el orto
+[02:33:19] [Async Chat Thread - #11/INFO]: [Not Secure] <FireEmblem> saudos
+[02:33:21] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> tu que
+[02:33:21] [Async Chat Thread - #11/INFO]: [Not Secure] <FireEmblem> saludos
+[02:33:23] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> hola
+[02:34:11] [Server thread/INFO]: [[OP] OPlechStyles: Set own game mode to Creative Mode]
+[02:34:18] [Async Chat Thread - #11/INFO]: [Not Secure] <FireEmblem> hola chicas
+[02:34:32] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives add d minecraft.used:minecraft.netherite_spear
+[02:34:32] [Server thread/INFO]: [[OP] Xautral: Created new objective [d]]
+[02:34:36] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives setdisplay sidebar d
+[02:34:36] [Server thread/INFO]: [[OP] Xautral: Set display slot sidebar to show objective d]
+[02:34:44] [Server thread/INFO]: OPlechStyles issued server command: /ride OPlechStyles mount
+[02:34:45] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> mierda
+[02:34:49] [Server thread/INFO]: OPlechStyles issued server command: /ride OPlechStyles mount e789885c-afe6-45e9-b2d8-0e2fffa1c1ba
+[02:34:49] [Server thread/INFO]: [[OP] OPlechStyles: [OP] OPlechStyles started riding Chicken]
+[02:35:10] [Server thread/INFO]: OPlechStyles issued server command: /attribute e789885c-afe6-45e9-b2d8-0e2fffa1c1ba minecraft:scale base set 0.00001
+[02:35:11] [Async Chat Thread - #11/INFO]: [Not Secure] <volcon2> aca no es
+[02:35:45] [Server thread/INFO]: OPlechStyles issued server command: /tp e789885c-afe6-45e9-b2d8-0e2fffa1c1ba
+[02:35:45] [Server thread/INFO]: [[OP] OPlechStyles: Teleported [OP] OPlechStyles to Chicken]
+[02:35:57] [Server thread/INFO]: OPlechStyles issued server command: /ride OPlechStyles mount e789885c-afe6-45e9-b2d8-0e2fffa1c1ba
+[02:35:57] [Server thread/INFO]: [[OP] OPlechStyles: [OP] OPlechStyles started riding Chicken]
+[02:36:08] [Async Chat Thread - #12/INFO]: [Not Secure] <FireEmblem> me das mis ender chests pfa Xautral
+[02:36:10] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> dios
+[02:36:11] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> JAJAJAJA
+[02:36:21] [Async Chat Thread - #12/INFO]: [Not Secure] <FireEmblem> tenia como 40
+[02:36:22] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> me di contra el techo
+[02:36:53] [Async Chat Thread - #12/INFO]: [Not Secure] <FireEmblem> OPlechStyles
+[02:36:56] [Async Chat Thread - #12/INFO]: [Not Secure] <FireEmblem> me das mis ender chests
+[02:36:57] [Async Chat Thread - #12/INFO]: [Not Secure] <OPlechStyles> si?
+[02:36:59] [Async Chat Thread - #12/INFO]: [Not Secure] <FireEmblem> tenia 40 pfa
+[02:37:00] [Async Chat Thread - #12/INFO]: [Not Secure] <volcon2> denuevo
+[02:37:06] [Async Chat Thread - #12/INFO]: [Not Secure] <OPlechStyles> nose wei
+[02:37:08] [Async Chat Thread - #12/INFO]: [Not Secure] <FireEmblem> me los habia dado xau al inicio
+[02:37:12] [Async Chat Thread - #12/INFO]: [Not Secure] <FireEmblem> del serv
+[02:37:17] [Async Chat Thread - #12/INFO]: [Not Secure] <OPlechStyles> si te doy capaz y xau me linche :c
+[02:37:21] [Async Chat Thread - #12/INFO]: [Not Secure] <OPlechStyles> Xautral
+[02:37:22] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> Xautral
+[02:37:23] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> Xautral
+[02:37:23] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> Xautral
+[02:37:24] [Async Chat Thread - #11/INFO]: [Not Secure] <OPlechStyles> Xautral
+[02:37:25] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> qqqq
+[02:37:35] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> t
+[02:37:35] [Async Chat Thread - #12/INFO]: [Not Secure] <OPlechStyles> responde al FireEmblem god w
+[02:37:40] [Server thread/INFO]: Xautral issued server command: /enchant Xautral minecraft:lunge
+[02:37:40] [Server thread/INFO]: [[OP] Xautral: Applied enchantment Lunge I to [OP] Xautral's item]
+[02:37:40] [Async Chat Thread - #12/INFO]: [Not Secure] <FireEmblem> me das mis ender chests
+[02:37:41] [Async Chat Thread - #12/INFO]: [Not Secure] <FireEmblem> pfa
+[02:37:47] [Async Chat Thread - #11/INFO]: [Not Secure] <FireEmblem> tenia 40 pero si me das menos ta bien
+[02:37:54] [Server thread/INFO]: Xautral issued server command: /give FireEmblem minecraft:ender_chest 20
+[02:37:54] [Server thread/INFO]: [[OP] Xautral: Gave 20 [Ender Chest] to [Flame Horde] FireEmblem]
+[02:37:57] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> así testa bien w
+[02:37:57] [Async Chat Thread - #11/INFO]: [Not Secure] <FireEmblem> grac
+[02:37:58] [Server thread/INFO]: Xautral issued server command: /give FireEmblem minecraft:ender_chest 20
+[02:37:58] [Server thread/INFO]: [[OP] Xautral: Gave 20 [Ender Chest] to [Flame Horde] FireEmblem]
+[02:38:09] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> no xcomo itz_gangle que me lo pide pero en fa y para ayer
+[02:38:11] [Server thread/INFO]: OPlechStyles issued server command: /tp e789885c-afe6-45e9-b2d8-0e2fffa1c1ba Xautral
+[02:38:11] [Server thread/INFO]: [[OP] OPlechStyles: Teleported Chicken to [OP] Xautral]
+[02:38:28] [Server thread/INFO]: OPlechStyles issued server command: /tp e789885c-afe6-45e9-b2d8-0e2fffa1c1ba Xautral
+[02:38:28] [Server thread/INFO]: [[OP] OPlechStyles: Teleported Chicken to [OP] Xautral]
+[02:39:11] [Server thread/INFO]: OPlechStyles issued server command: /enchant OPlechStyles minecraft:lunge 1
+[02:39:11] [Server thread/INFO]: [[OP] OPlechStyles: Applied enchantment Lunge I to [OP] OPlechStyles's item]
+[02:39:22] [Async Chat Thread - #13/INFO]: [Not Secure] <_Brvnno> me cai
+[02:39:22] [Server thread/INFO]: Xautral issued server command: /ie enchant lunge 3
+[02:39:25] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> donde
+[02:39:25] [Async Chat Thread - #13/INFO]: [Not Secure] <Xautral> jiji
+[02:39:37] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:entity.husk.converted_to_zombie
+[02:39:37] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:entity.husk.converted_to_zombie to [OP] Xautral]
+[02:39:45] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[02:39:45] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
+[02:39:45] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> donde
+[02:39:48] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives remove d
+[02:39:48] [Server thread/INFO]: [[OP] Xautral: Removed objective [d]]
+[02:39:51] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> en la lava?
+[02:39:54] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> por eso no hablas
+[02:39:58] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives add Phalanx minecraft.used:minecraft.netherite_spear
+[02:39:58] [Server thread/INFO]: [[OP] Xautral: Created new objective [Phalanx]]
+[02:40:05] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> te veo
+[02:40:12] [Server thread/INFO]: Xautral issued server command: /fill -3 0 21
+[02:40:17] [Server thread/INFO]: Xautral issued server command: /fill -3 0 21 4 -8 31 light
+[02:40:17] [Server thread/INFO]: [[OP] Xautral: Successfully filled 792 block(s)]
+[02:40:46] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> pues creo que tenemos que encerrar a los aldeanos
+[02:40:48] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> o que hacemos
+[02:40:50] [Async Chat Thread - #13/INFO]: [Not Secure] <_Brvnno> si oye
+[02:40:55] [Async Chat Thread - #13/INFO]: [Not Secure] <_Brvnno> de dnd sacaste tantos
+[02:40:55] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> mande
+[02:40:57] [Server thread/INFO]: OPlechStyles issued server command: /msg FireEmblem q paso emblem pq se fue _bruno de fire horde
+[02:41:02] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> no se
+[02:41:03] [Server thread/INFO]: FireEmblem issued server command: /msg OPlechStyles no se
+[02:41:05] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> morian
+[02:41:06] [Server thread/INFO]: FireEmblem issued server command: /msg OPlechStyles eso voy a ver
+[02:41:10] [Async Chat Thread - #13/INFO]: [Not Secure] <_Brvnno> que?
+[02:41:13] [Server thread/INFO]: FireEmblem issued server command: /msg OPlechStyles le dije a gan en discord
+[02:41:16] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> morian y spawneaba mas xautral
+[02:41:19] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> y se reproducian
+[02:41:20] [Async Chat Thread - #14/INFO]: [Not Secure] <_Brvnno> A
+[02:41:31] [Server thread/INFO]: FireEmblem issued server command: /msg OPlechStyles voy ir a la base de westhelm porq segun yo viven ahi cercas
+[02:41:53] [Server thread/INFO]: OPlechStyles issued server command: /msg FireEmblem viven lejos
+[02:42:01] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> aca fornican
+[02:42:01] [Server thread/INFO]: OPlechStyles issued server command: /msg FireEmblem creo
+[02:42:09] [Server thread/INFO]: OPlechStyles issued server command: /tp OPlechStyles FireEmblem
+[02:42:09] [Server thread/INFO]: [[OP] OPlechStyles: Teleported [OP] OPlechStyles to [Flame Horde] FireEmblem]
+[02:42:09] [Server thread/INFO]: FireEmblem issued server command: /msg OPlechStyles si sabes donde vivian o se mudaron
+[02:42:28] [Server thread/INFO]: Xautral issued server command: /fill -3 0 21 4 -8 31 light
+[02:42:28] [Server thread/INFO]: [[OP] Xautral: Successfully filled 27 block(s)]
+[02:42:28] [Server thread/INFO]: OPlechStyles issued server command: /tp OPlechStyles volcon2
+[02:42:28] [Server thread/INFO]: [[OP] OPlechStyles: Teleported [OP] OPlechStyles to [Volcanos] volcon2]
+[02:42:48] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> mira aca
+[02:43:05] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> JAJAJA
+[02:43:07] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> ni uno tiene nada
+[02:43:10] [Async Chat Thread - #13/INFO]: [Not Secure] <_Brvnno> abro
+[02:43:19] [Async Chat Thread - #13/INFO]: [Not Secure] <_Brvnno> 1
+[02:43:23] [Async Chat Thread - #13/INFO]: [Not Secure] <_Brvnno> hqhahah
+[02:43:24] [Async Chat Thread - #13/INFO]: [Not Secure] <_Brvnno> 2
+[02:43:28] [Async Chat Thread - #13/INFO]: [Not Secure] <_Brvnno> 3
+[02:43:35] [Async Chat Thread - #13/INFO]: [Not Secure] <_Brvnno> ash
+[02:43:35] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> les gusta fortnicar
+[02:43:37] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> por eso no se van
+[02:43:42] [Async Chat Thread - #13/INFO]: [Not Secure] <_Brvnno> hahahah
+[02:43:53] [Async Chat Thread - #13/INFO]: [Not Secure] <_Brvnno> si todos son hombres
+[02:43:58] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> JAJA
+[02:43:59] [Async Chat Thread - #13/INFO]: [Not Secure] <_Brvnno> pelea de espadas
+[02:43:59] [Async Chat Thread - #13/INFO]: [Not Secure] <Xautral> ¿?
+[02:44:02] [Async Chat Thread - #13/INFO]: [Not Secure] <Xautral> qie
+[02:44:04] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> lo hacen hasta con bebes...
+[02:44:10] [Async Chat Thread - #14/INFO]: [Not Secure] <Xautral> ey ey ey
+[02:44:10] [Async Chat Thread - #14/INFO]: [Not Secure] <FireEmblem> no digas mamadas we
+[02:44:11] [Async Chat Thread - #14/INFO]: [Not Secure] <OPlechStyles> oye volcon
+[02:44:14] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> mande
+[02:44:15] [Async Chat Thread - #14/INFO]: [Not Secure] <Xautral> no mames
+[02:44:18] [Async Chat Thread - #14/INFO]: [Not Secure] <OPlechStyles> eso de la murralla de golems
+[02:44:24] [Async Chat Thread - #14/INFO]: [Not Secure] <OPlechStyles> si sirve xd?
+[02:44:26] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> si
+[02:44:27] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> JAJA
+[02:44:30] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> me ayudan en la tormenta
+[02:44:32] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> demasiado
+[02:44:36] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> se fornicaban a todos ellos
+[02:44:39] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> yo a lo mucho a 3
+[02:44:49] [Async Chat Thread - #14/INFO]: [Not Secure] <_Brvnno> y si hacemos una muralla y adrntro un tradin hall
+[02:44:54] [Async Chat Thread - #14/INFO]: [Not Secure] <_Brvnno> o como se llame
+[02:44:59] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> en toda la aldea?
+[02:45:01] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> o en una area
+[02:45:06] [Async Chat Thread - #14/INFO]: [Not Secure] <_Brvnno> nono en una zona
+[02:45:20] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> de piedra?
+[02:45:27] [Async Chat Thread - #14/INFO]: [Not Secure] <_Brvnno> sip
+[02:45:30] [Async Chat Thread - #13/INFO]: [Not Secure] <_Brvnno> o nether rack
+[02:45:32] [Async Chat Thread - #13/INFO]: [Not Secure] <FireEmblem> Xautral quitaste mi trono de spawn?
+[02:45:37] [Async Chat Thread - #13/INFO]: [Not Secure] <FireEmblem> voy ir a verlo
+[02:45:42] [Async Chat Thread - #13/INFO]: [Not Secure] <FireEmblem> si no esta,
+[02:45:43] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> de netherrack
+[02:45:45] [Async Chat Thread - #14/INFO]: [Not Secure] <FireEmblem> te la voy a meter
+[02:45:45] [Async Chat Thread - #13/INFO]: [Not Secure] <volcon2> mas facil
+[02:45:46] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> y mejor
+[02:45:57] [Async Chat Thread - #14/INFO]: [Not Secure] <_Brvnno> cale
+[02:45:59] [Async Chat Thread - #14/INFO]: [Not Secure] <_Brvnno> vale
+[02:46:03] [Async Chat Thread - #13/INFO]: [Not Secure] <Xautral> w
+[02:46:04] [Async Chat Thread - #13/INFO]: [Not Secure] <FireEmblem> grac bb
+[02:46:10] [Async Chat Thread - #13/INFO]: [Not Secure] <Xautral> que hacen ustedes cuando estan deprimidos?
+[02:46:15] [User Authenticator #20/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
+[02:46:16] [Server thread/INFO]: [Kawesar Tribe] PlechStyles joined the game
+[02:46:16] [Server thread/INFO]: PlechStyles[/127.229.163.226:39909] logged in with entity id 117216 at ([minecraft:overworld]53.94700189172159, 66.05841743583723, 2933.1149158764338)
+[02:46:24] [Async Chat Thread - #13/INFO]: [Not Secure] <FireEmblem> jalarmela hazta que se me caiga
+[02:46:26] [Async Chat Thread - #13/INFO]: [Not Secure] <PlechStyles> una paja
+[02:46:52] [Async Chat Thread - #13/INFO]: [Not Secure] <FireEmblem> oye bb xau
+[02:47:01] [Async Chat Thread - #13/INFO]: [Not Secure] <Xautral> qie
+[02:47:02] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~ 0 0 0 1 155
+[02:47:02] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:47:02] [Async Chat Thread - #13/INFO]: [Not Secure] <FireEmblem> por 16 diamantes cuantas manzanas doradas me das
+[02:47:03] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~ 0 0 0 1 155
+[02:47:03] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:47:09] [Server thread/INFO]: Xautral issued server command: /effect clear Xautral minecraft:invisibility
+[02:47:09] [Server thread/INFO]: [[OP] Xautral: Removed effect Invisibility from [OP] Xautral]
+[02:47:11] [Async Chat Thread - #13/INFO]: [Not Secure] <Xautral> 8
+[02:47:15] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~ 0 0 0 1 155
+[02:47:15] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:47:18] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~ 0 0 0 1 155
+[02:47:18] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:47:19] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~ 0 0 0 1 155
+[02:47:19] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:47:22] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~1 0 0 0 1 155
+[02:47:22] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:47:22] [Async Chat Thread - #14/INFO]: [Not Secure] <FireEmblem> el bro me esta estafando
+[02:47:24] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~1 0 0 0 1 155
+[02:47:24] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:47:24] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~1 0 0 0 1 155
+[02:47:24] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:47:25] [Async Chat Thread - #14/INFO]: [Not Secure] <FireEmblem> no te creas bro
+[02:47:26] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~1 0 0 1 1 155
+[02:47:26] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:47:30] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~1 0 0 0.2 1 155
+[02:47:30] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:47:32] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~1 0 0 0.2 1 155
+[02:47:32] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:47:37] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~ 0 0 0.5 1 155
+[02:47:37] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:47:40] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~ 0 0 0.5 1 155
+[02:47:40] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:48:06] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> con eso
+[02:48:07] [Async Chat Thread - #13/INFO]: [Not Secure] <FireEmblem> _Brvnno porque radeaste la base bro
+[02:48:10] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~ 0 0 0.5 1 155
+[02:48:10] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:48:12] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~ 0 0 0.5 1 155
+[02:48:12] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:48:14] [Async Chat Thread - #13/INFO]: [Not Secure] <Xautral> no la raideo
+[02:48:16] [Async Chat Thread - #13/INFO]: [Not Secure] <Xautral> fue la tormenta
+[02:48:19] [Async Chat Thread - #14/INFO]: [Not Secure] <_Brvnno> FireEmblem mucho mob
+[02:48:20] [Async Chat Thread - #14/INFO]: [Not Secure] <Xautral> y itz_gan
+[02:48:28] [Async Chat Thread - #14/INFO]: [Not Secure] <Xautral> de hecho le debo un i
+[02:48:30] [Async Chat Thread - #14/INFO]: [Not Secure] <Xautral> de hecho le debo un item c
+[02:48:31] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> donde?
+[02:48:34] [Async Chat Thread - #14/INFO]: [Not Secure] <Xautral> utomtese wey rompio record
+[02:48:39] [Async Chat Thread - #14/INFO]: [Not Secure] <Xautral> 35 minutos de puro caos sin descanso
+[02:48:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/119977, uuid='c738c24c-df2b-4974-b28c-dd56777bd011', l='ServerLevel[world]', x=-436.49, y=33.88, z=475.86, cpos=[-28, 29], tl=846, v=true] died: Corpse was slain by [Kawesar Tribe] PlechStyles
+[02:48:46] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~ 0 0 0.5 1 155
+[02:48:46] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:48:49] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~ 0 0 0.5 1 155
+[02:48:49] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:48:51] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~ 0 0 0.5 1 155
+[02:48:51] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:48:56] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~ ~ 0 0 0.5 1 155
+[02:48:56] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:00] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0 0 0.5 1 155
+[02:49:00] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:01] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0 0 0.5 1 155
+[02:49:01] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:04] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0.5 0 0.5 1 155
+[02:49:04] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:06] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0.5 0 0.5 1 155
+[02:49:06] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:08] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0.5 0 0.5 1 155
+[02:49:08] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:09] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0.5 0 0.5 1 155
+[02:49:09] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:11] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0.3 0 0.5 1 155
+[02:49:11] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:12] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0.3 0 0.5 1 155
+[02:49:12] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:12] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0.3 0 0.5 1 155
+[02:49:12] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:13] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0.3 0 0.5 1 155
+[02:49:13] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:13] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0.3 0 0.5 1 155
+[02:49:13] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:14] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles q haces bb
+[02:49:17] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0.3 0.3 0.5 1 155
+[02:49:17] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:19] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0.3 0.3 0.5 1 155
+[02:49:19] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:21] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0.3 0.3 0.5 1 155
+[02:49:21] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:21] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0.3 0.3 0.5 1 155
+[02:49:21] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:22] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0.3 0.3 0.5 1 155
+[02:49:22] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:24] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ~ ~1 ~-1 0.3 0.3 0.5 1 155
+[02:49:24] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:29] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem intento buscar su portal nether
+[02:49:34] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:49:34] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:35] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:49:35] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:36] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:49:36] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:37] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:49:37] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:39] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:49:39] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:39] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem con la locator bar
+[02:49:40] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:49:40] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:41] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:49:41] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:43] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:49:43] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:44] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:49:44] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:47] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ^ ^1 ^-1 0.3 1.3 0.5 1 155
+[02:49:47] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:51] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:49:51] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:49:53] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem tienes cohetes?
+[02:49:55] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles solo esta activado en el nether?
+[02:49:58] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles si
+[02:50:00] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles muchoss
+[02:50:05] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem me das xd?
+[02:50:10] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles sip
+[02:50:17] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:50:17] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:17] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles acercate a mi cuadra
+[02:50:18] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:50:18] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:19] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:50:19] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:20] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:1} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:50:20] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:23] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:3} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:50:23] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:24] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:3} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:50:24] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:27] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:3} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:50:27] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:31] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles tienes pico toque de seda?
+[02:50:34] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:0.5} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:50:34] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:35] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:0.5} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:50:35] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:37] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:0.5} ^ ^1 ^-1 0.3 0.3 0.5 1 15535
+[02:50:37] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:38] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles esq necesito para los ender chests
+[02:50:39] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:0.5} ^ ^1 ^-1 0.3 0.3 0.5 1 1553
+[02:50:39] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:40] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:0.5} ^ ^1 ^-1 0.3 0.3 0.5 1 1553
+[02:50:40] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:42] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:0.5} ^ ^1 ^-1 0.3 0.3 0.5 1 1553
+[02:50:42] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:43] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:0.5} ^ ^1 ^-1 0.3 0.3 0.5 1 1553
+[02:50:43] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:44] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:0.5} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:50:44] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:47] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:2} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:50:47] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:53] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:2} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:50:53] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:54] [Server thread/INFO]: Xautral issued server command: /particle dust_color_transition{from_color:[0.1,0.1,0.1],to_color:[0.07,0.0,0.3],scale:2} ^ ^1 ^-1 0.3 0.3 0.5 1 155
+[02:50:54] [Server thread/INFO]: [[OP] Xautral: Displaying particle minecraft:dust_color_transition]
+[02:50:56] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem lo perdi en las lluvias :c
+[02:51:01] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles o xd
+[02:51:30] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem gracias
+[02:51:50] [Async Chat Thread - #13/INFO]: [Not Secure] <FireEmblem> ven
+[02:52:13] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles para q aparezcamos en el locator
+[02:52:33] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles yo tambien voy a buscarlos
+[02:52:41] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles para tener doble eficiciencia
+[02:52:41] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem era para ahi donde estoy viendo
+[02:53:06] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles ok yo busco la otra parte del mundo por si acaso
+[02:53:09] [Server thread/INFO]: Xautral issued server command: /ie enchant lunge 10
+[02:54:15] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles si ves q la lava fluye, significa que son chunks nuevos no busques mucho por ahi
+[02:54:50] [Server thread/INFO]: Xautral issued server command: /fill 4 1 21
+[02:54:54] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem mucha lava x aca
+[02:54:56] [Server thread/INFO]: Xautral issued server command: /fill 4 1 21 -3 12 24 light
+[02:54:56] [Server thread/INFO]: [[OP] Xautral: Successfully filled 384 block(s)]
+[02:55:08] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem y un puente
+[02:55:09] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles significa que personas han pasado por ahi
+[02:55:41] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[02:55:41] [Server thread/INFO]: [[OP] Xautral: Summoned new Mannequin]
+[02:55:55] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives setdisplay sidebar Phalanx
+[02:55:55] [Server thread/INFO]: [[OP] Xautral: Set display slot sidebar to show objective Phalanx]
+[02:56:12] [Async Chat Thread - #17/INFO]: [Not Secure] <_Brvnno> tenes nether rack vos?
+[02:56:14] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> que carajo
+[02:56:18] [Async Chat Thread - #17/INFO]: [Not Secure] <volcon2> poca
+[02:56:21] [Async Chat Thread - #17/INFO]: [Not Secure] <_Brvnno> pasa
+[02:56:42] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem segui el tunel y enconte un portal
+[02:56:57] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles quitate la armadura mientras estes invisible y pasate adentro
+[02:57:02] [Async Chat Thread - #17/INFO]: [Not Secure] <_Brvnno> loteral OPlechStyles es ese amigo q esta bien enano
+[02:57:11] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem -842 483
+[02:57:21] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles ok vengo
+[02:57:27] [Server thread/INFO]: FireEmblem issued server command: /msg FireEmblem -842 483
+[02:58:03] [Async Chat Thread - #18/INFO]: [Not Secure] <volcon2> 1 cama para 100
+[02:58:10] [Async Chat Thread - #18/INFO]: [Not Secure] <_Brvnno> tcomo podremos hacer la entarda
+[02:58:12] [Async Chat Thread - #18/INFO]: [Not Secure] <_Brvnno> entrada
+[02:58:16] [Async Chat Thread - #18/INFO]: [Not Secure] <volcon2> grande
+[02:58:17] [Async Chat Thread - #18/INFO]: [Not Secure] <volcon2> por que
+[02:58:24] [Async Chat Thread - #18/INFO]: [Not Secure] <volcon2> ay demasiado
+[02:58:42] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem y q les haremos?
+[02:58:47] [Async Chat Thread - #18/INFO]: [Not Secure] <volcon2> aunque claro
+[02:58:50] [Async Chat Thread - #17/INFO]: [Not Secure] <volcon2> si queremos sacar a uno
+[02:58:52] [Async Chat Thread - #17/INFO]: [Not Secure] <volcon2> como lo hariamos
+[02:58:53] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles notaremos las cordenadas
+[02:58:56] [Async Chat Thread - #18/INFO]: [Not Secure] <volcon2> lo tendriamos que separar
+[02:59:13] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles pero ataquemos mas tarde para ser de sorpresa y obtenemos mas loot
+[02:59:21] [Async Chat Thread - #17/INFO]: [Not Secure] <volcon2> estos aldeanos me recuerdan a los judios
+[02:59:22] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem daledale
+[02:59:26] [Async Chat Thread - #18/INFO]: [Not Secure] <_Brvnno> hahahah
+[03:00:32] [Async Chat Thread - #19/INFO]: [Not Secure] <FireEmblem> AI GUEY
+[03:00:38] [Async Chat Thread - #19/INFO]: [Not Secure] <PlechStyles> orale
+[03:00:52] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles culpa mia we
+[03:01:15] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem entramos?
+[03:01:23] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles sip
+[03:01:30] [Async Chat Thread - #20/INFO]: [Not Secure] <_Brvnno> volvi
+[03:01:41] [Server thread/INFO]: [Flame Horde] FireEmblem has completed the challenge [Subspace Bubble]
+[03:01:47] [Server thread/INFO]: [Kawesar Tribe] PlechStyles has completed the challenge [Subspace Bubble]
+[03:01:53] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> soy idiota
+[03:01:58] [Async Chat Thread - #20/INFO]: [Not Secure] <FireEmblem> ahora podremos ser base ahuev
+[03:02:03] [Server thread/INFO]: Xautral issued server command: /give @p netherite_spear[max_damage=25,use_cooldown={seconds:2},tags=1b]
+[03:02:14] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> le pegue a los chalanes de los aldeanos
+[03:02:16] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> por accidente
+[03:02:18] [Async Chat Thread - #20/INFO]: [Not Secure] <_Brvnno> ahhahaha
+[03:02:20] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem atacamos?
+[03:02:32] [Server thread/INFO]: volcon2 lost connection: Disconnected
+[03:02:32] [Server thread/INFO]: [Volcanos] volcon2 left the game
+[03:02:34] [Server thread/INFO]: Xautral issued server command: /give @p netherite_spear[max_damage=25,use_cooldown={seconds:2}]
+[03:02:34] [Server thread/INFO]: [[OP] Xautral: Gave 1 [Netherite Spear] to [OP] Xautral]
+[03:02:35] [User Authenticator #21/INFO]: UUID of player volcon2 is 9c42fa87-f091-3883-9bf4-db229d9050dc
+[03:02:35] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles mejor esperamos manana que obtengan mas loots y luego ataquemos para obtener mas
+[03:02:36] [Server thread/INFO]: [Volcanos] volcon2 joined the game
+[03:02:36] [Server thread/INFO]: volcon2[/127.125.214.129:45773] logged in with entity id 132875 at ([minecraft:overworld]-7276.178523575362, 119.0, 3914.7194838402947)
+[03:02:40] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[03:02:40] [Server thread/INFO]: [[OP] Xautral: Summoned new Mannequin]
+[03:02:40] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> sigue enojado
+[03:02:42] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> como le hago
+[03:02:44] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Survival Mode]
+[03:02:45] [Server thread/INFO]: PlechStyles issued server command: /msg FireEmblem okok
+[03:02:49] [Async Chat Thread - #19/INFO]: [Not Secure] <FireEmblem> espera luego se les quita volcon2
+[03:03:00] [Server thread/INFO]: Xautral issued server command: /effect give Xautral minecraft:saturation infinite 25 true
+[03:03:00] [Server thread/INFO]: [[OP] Xautral: Applied effect Saturation to [OP] Xautral]
+[03:03:04] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[03:03:10] [Server thread/INFO]: FireEmblem issued server command: /skin Naparizel
+[03:03:11] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin
+[03:03:11] [Server thread/INFO]: [[OP] Xautral: Summoned new Mannequin]
+[03:03:54] [Server thread/INFO]: Xautral issued server command: /msg PlechStyles me siento dlv w
+[03:04:06] [Server thread/INFO]: PlechStyles issued server command: /msg Xautral pq wei
+[03:04:13] [Server thread/INFO]: Xautral issued server command: /tell PlechStyles lode siempre
+[03:04:17] [Server thread/INFO]: Xautral issued server command: /tell PlechStyles checa el dc
+[03:04:26] [Server thread/INFO]: Xautral issued server command: /tell PlechStyles ahí otra prueba de que soy castroso
+[03:04:28] [Async Chat Thread - #22/INFO]: [Not Secure] <Xautral> oigan
+[03:04:32] [Async Chat Thread - #22/INFO]: [Not Secure] <Xautral> ya me voy
+[03:04:36] [Async Chat Thread - #22/INFO]: [Not Secure] <FireEmblem> no
+[03:04:37] [Async Chat Thread - #22/INFO]: [Not Secure] <volcon2> no...
+[03:04:39] [Async Chat Thread - #22/INFO]: [Not Secure] <FireEmblem> aqui te quedas
+[03:04:41] [Server thread/INFO]: Villager Villager['Villager'/109499, uuid='bdbe355c-a850-4300-b15c-1415c360522d', l='ServerLevel[world]', x=-7286.20, y=110.00, z=3915.27, cpos=[-456, 244], tl=28975, v=true] died, message: 'Villager hit the ground too hard'
+[03:04:52] [Async Chat Thread - #21/INFO]: [Not Secure] <_Brvnno> pq no dejas el serer on
+[03:04:55] [Server thread/INFO]: PlechStyles issued server command: /msg Xautral no viejo
+[03:05:02] [Async Chat Thread - #22/INFO]: [Not Secure] <Xautral> dejo el server prendid
+[03:05:05] [Server thread/INFO]: PlechStyles issued server command: /msg Xautral sabes como es el femboy del blime
+[03:05:07] [Async Chat Thread - #22/INFO]: [Not Secure] <volcon2> yes
+[03:05:15] [Async Chat Thread - #21/INFO]: [Not Secure] <FireEmblem> sip pfa
+[03:05:19] [Async Chat Thread - #22/INFO]: [Not Secure] <Xautral> bye
+[03:05:25] [Server thread/INFO]: Xautral issued server command: /tell PlechStyles no quiero hablar de eso
+[03:05:29] [Server thread/INFO]: Xautral issued server command: /tell PlechStyles solo es para avisarte
+[03:05:32] [Async Chat Thread - #22/INFO]: [Not Secure] <FireEmblem> adios bb
+[03:05:38] [Async Chat Thread - #22/INFO]: [Not Secure] <_Brvnno> volcon2
+[03:05:39] [Server thread/INFO]: Xautral lost connection: Disconnected
+[03:05:39] [Server thread/INFO]: [OP] Xautral left the game
+[03:05:41] [Async Chat Thread - #22/INFO]: [Not Secure] <volcon2> mande
+[03:05:58] [Async Chat Thread - #22/INFO]: [Not Secure] <_Brvnno> podes aplanar afuuera dos bloques asi afuera
+[03:06:18] [Async Chat Thread - #21/INFO]: [Not Secure] <_Brvnno> tipo asi
+[03:06:28] [Async Chat Thread - #21/INFO]: [Not Secure] <volcon2> ahhh okk
+[03:06:32] [Async Chat Thread - #21/INFO]: [Not Secure] <_Brvnno> para poner esto
+[03:06:32] [Async Chat Thread - #22/INFO]: [Not Secure] <volcon2> todo al rededor?
+[03:06:34] [Async Chat Thread - #21/INFO]: [Not Secure] <_Brvnno> si
+[03:06:45] [Async Chat Thread - #22/INFO]: [Not Secure] <_Brvnno> ahora vuelvo
+[03:06:49] [Server thread/INFO]: _Brvnno lost connection: Disconnected
+[03:06:49] [Server thread/INFO]: [Volcanos] _Brvnno left the game
+[03:08:00] [Server thread/INFO]: FireEmblem issued server command: /msg PlechStyles tengo una idea para conseguir muchas esmes
+[03:08:44] [Async Chat Thread - #24/INFO]: [Not Secure] <FireEmblem> como estan chicas
+[03:08:46] [Server thread/INFO]: Villager Villager['Villager'/138060, uuid='87882964-bd0c-4b54-83e5-543c2b7c6789', l='ServerLevel[world]', x=-33.38, y=49.00, z=53.44, cpos=[-3, 3], tl=2741, v=true] died, message: 'Villager hit the ground too hard'
+[03:08:55] [Async Chat Thread - #23/INFO]: [Not Secure] <OPlechStyles> bnbn
+[03:12:03] [Server thread/INFO]: OPlechStyles issued server command: /tp OPlechStyles FireEmblem
+[03:12:03] [Server thread/INFO]: [[OP] OPlechStyles: Teleported [OP] OPlechStyles to [Flame Horde] FireEmblem]
+[03:12:20] [Async Chat Thread - #25/INFO]: [Not Secure] <FireEmblem> hola
+[03:12:20] [Async Chat Thread - #25/INFO]: [Not Secure] <FireEmblem> :#
+[03:12:22] [Async Chat Thread - #25/INFO]: [Not Secure] <FireEmblem> :3
+[03:12:23] [Async Chat Thread - #25/INFO]: [Not Secure] <OPlechStyles> ola
+[03:15:10] [Server thread/INFO]: Villager Villager['Leatherworker'/109424, uuid='15668bb9-f08a-449f-9633-576ec8204bac', l='ServerLevel[world]', x=-7248.20, y=112.50, z=3925.70, cpos=[-454, 245], tl=41532, v=true] died, message: 'Leatherworker was slain by Zombie'
+[03:15:18] [Server thread/INFO]: Villager Villager['Leatherworker'/109525, uuid='8aec7e7c-6860-4904-ac41-6800a61f3ea7', l='ServerLevel[world]', x=-7248.20, y=112.50, z=3925.30, cpos=[-454, 245], tl=41677, v=true] died, message: 'Leatherworker was slain by Zombie Villager'
+[03:28:08] [Async Chat Thread - #27/INFO]: [Not Secure] <volcon2> ya no se que hacer
+[03:28:10] [Async Chat Thread - #27/INFO]: [Not Secure] <volcon2> joder
+[03:29:50] [Server thread/INFO]: OPlechStyles issued server command: /tp OPlechStyles FireEmblem
+[03:29:50] [Server thread/INFO]: [[OP] OPlechStyles: Teleported [OP] OPlechStyles to [Flame Horde] FireEmblem]
+[03:30:07] [Server thread/INFO]: OPlechStyles issued server command: /msg FireEmblem bunker?
+[03:30:11] [Server thread/INFO]: FireEmblem issued server command: /msg OPlechStyles base
+[03:30:18] [Server thread/INFO]: OPlechStyles issued server command: /msg FireEmblem raid?
+[03:30:32] [Server thread/INFO]: There are 4 of a max of 20 players online: [OP] OPlechStyles, [Flame Horde] FireEmblem, [Kawesar Tribe] PlechStyles, [Volcanos] volcon2
+[03:30:38] [Server thread/INFO]: FireEmblem issued server command: /msg OPlechStyles no ando haciendo una base
+[03:31:04] [Server thread/INFO]: OPlechStyles issued server command: /msg FireEmblem para la raid a volcanos :v? queda cerca creo xd
+[03:31:13] [Server thread/INFO]: FireEmblem issued server command: /msg OPlechStyles manana
+[03:31:47] [Server thread/INFO]: OPlechStyles issued server command: /tp OPlechStyles volcon2
+[03:31:47] [Server thread/INFO]: [[OP] OPlechStyles: Teleported [OP] OPlechStyles to [Volcanos] volcon2]
+[03:33:55] [Async Chat Thread - #31/INFO]: [Not Secure] <FireEmblem> que version es el servidor
+[03:34:08] [Async Chat Thread - #31/INFO]: [Not Secure] <volcon2> 1.21
+[03:34:12] [Async Chat Thread - #32/INFO]: [Not Secure] <PlechStyles> cualquiera
+[03:34:28] [Server thread/INFO]: [Not Secure] [Server] 26.1.2
+[03:40:18] [Server thread/INFO]: OPlechStyles lost connection: Disconnected
+[03:40:18] [Server thread/INFO]: [OP] OPlechStyles left the game
+[03:41:12] [Server thread/INFO]: There are 3 of a max of 20 players online: [Flame Horde] FireEmblem, [Kawesar Tribe] PlechStyles, [Volcanos] volcon2
+[03:42:18] [Server thread/INFO]: [Volcanos] volcon2 blew up
+[03:42:21] [Async Chat Thread - #33/INFO]: [Not Secure] <volcon2> bro
+[03:42:26] [Server thread/INFO]: [Not Secure] [Server] revivanlo
+[03:42:27] [Async Chat Thread - #34/INFO]: [Not Secure] <volcon2> no quitaron los cosos de blime
+[03:42:31] [User Authenticator #22/INFO]: UUID of player OPlechStyles is 9c5026b5-1602-34df-9cd4-1dd4d84122b4
+[03:42:31] [Server thread/INFO]: [Not Secure] [Server] no
+[03:42:31] [Server thread/INFO]: [OP] OPlechStyles joined the game
+[03:42:31] [Server thread/INFO]: OPlechStyles[/127.229.163.226:55141] logged in with entity id 179203 at ([minecraft:overworld]-7103.816277621665, 69.9931370059502, 4250.638334308764)
+[03:42:35] [Async Chat Thread - #34/INFO]: [Not Secure] <volcon2> mori
+[03:42:38] [Server thread/INFO]: Named entity Skeleton['Corpse'/179101, uuid='8b48ef6f-3205-413b-b4da-bdc00d1cb7d5', l='ServerLevel[world]', x=-7274.93, y=146.61, z=3941.85, cpos=[-455, 246], tl=398, v=true] died: Corpse was killed
+[03:42:38] [Server thread/INFO]: volcon2 lost connection: You are banned from this server
+[03:42:38] [Server thread/INFO]: volcon2 left the game
+[03:42:42] [Server thread/INFO]: Unbanned volcon2
+[03:44:12] [User Authenticator #23/INFO]: UUID of player volcon2 is 9c42fa87-f091-3883-9bf4-db229d9050dc
+[03:44:13] [Server thread/INFO]: [Volcanos] volcon2 joined the game
+[03:44:13] [Server thread/INFO]: volcon2[/127.125.214.129:41375] logged in with entity id 180549 at ([minecraft:overworld]-7338.854485034492, 124.88051521700353, 3906.5184837803195)
+[03:44:13] [Server thread/INFO]: volcon2 lost connection: Disconnected
+[03:44:13] [Server thread/INFO]: [Volcanos] volcon2 left the game
+[03:44:36] [Server thread/INFO]: OPlechStyles issued server command: /gamemode survival volcon2
+[03:44:38] [Server thread/INFO]: No player was found
+[03:44:43] [User Authenticator #24/INFO]: UUID of player volcon2 is 9c42fa87-f091-3883-9bf4-db229d9050dc
+[03:44:44] [Server thread/INFO]: [Volcanos] volcon2 joined the game
+[03:44:44] [Server thread/INFO]: volcon2[/127.125.214.129:43433] logged in with entity id 180766 at ([minecraft:overworld]-7338.854485034492, 124.88051521700353, 3906.5184837803195)
+[03:44:47] [Server thread/INFO]: OPlechStyles issued server command: /gamemode survival volcon2
+[03:44:47] [Server thread/INFO]: [[OP] OPlechStyles: Set [Volcanos] volcon2's game mode to Survival Mode]
+[03:45:06] [Async Chat Thread - #35/INFO]: [Not Secure] <volcon2> hola plechito
+[03:45:09] [Async Chat Thread - #35/INFO]: [Not Secure] <OPlechStyles> ola
+[03:45:18] [Async Chat Thread - #35/INFO]: [Not Secure] <volcon2> no quitaron tus
+[03:45:19] [Async Chat Thread - #35/INFO]: [Not Secure] <volcon2> cosos
+[03:45:22] [Async Chat Thread - #35/INFO]: [Not Secure] <volcon2> ah no
+[03:45:24] [Async Chat Thread - #35/INFO]: [Not Secure] <volcon2> son de slime
+[03:45:25] [Async Chat Thread - #35/INFO]: [Not Secure] <OPlechStyles> cuales
+[03:45:33] [Async Chat Thread - #36/INFO]: [Not Secure] <volcon2> phantoms
+[03:45:37] [Async Chat Thread - #35/INFO]: [Not Secure] <volcon2> me detonaron
+[03:46:34] [Async Chat Thread - #35/INFO]: [Not Secure] <FireEmblem> adiso
+[03:46:35] [Async Chat Thread - #35/INFO]: [Not Secure] <FireEmblem> adios
+[03:46:36] [Server thread/INFO]: FireEmblem lost connection: Disconnected
+[03:46:36] [Server thread/INFO]: [Flame Horde] FireEmblem left the game

@@ -2,13 +2,13 @@
   "stats": {
     "minecraft:custom": {
       "minecraft:talked_to_villager": 4,
-      "minecraft:time_since_rest": 42215,
-      "minecraft:leave_game": 44,
+      "minecraft:time_since_rest": 64370,
+      "minecraft:leave_game": 45,
       "minecraft:damage_taken": 2147483647,
       "minecraft:mob_kills": 136,
       "minecraft:damage_absorbed": 3675,
-      "minecraft:time_since_death": 42211,
-      "minecraft:total_world_time": 621127,
+      "minecraft:time_since_death": 64366,
+      "minecraft:total_world_time": 643282,
       "minecraft:swim_one_cm": 14435,
       "minecraft:crouch_one_cm": 34960,
       "minecraft:deaths": 22,
@@ -18,16 +18,16 @@
       "minecraft:walk_one_cm": 642974,
       "minecraft:horse_one_cm": 18873,
       "minecraft:walk_under_water_one_cm": 26747,
-      "minecraft:play_time": 621127,
+      "minecraft:play_time": 643282,
       "minecraft:damage_dealt": 9883,
       "minecraft:jump": 2158,
       "minecraft:drop": 111,
       "minecraft:sprint_one_cm": 458788,
       "minecraft:open_chest": 1,
       "minecraft:fall_one_cm": 9878,
-      "minecraft:fly_one_cm": 1168989,
+      "minecraft:fly_one_cm": 1219989,
       "minecraft:walk_on_water_one_cm": 27339,
-      "minecraft:sneak_time": 23243
+      "minecraft:sneak_time": 23480
     },
     "minecraft:used": {
       "minecraft:grass_block": 18,
