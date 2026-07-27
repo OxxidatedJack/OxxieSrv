@@ -1,371 +1,685 @@
-[20:34:24] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
-[20:34:24] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) for Minecraft 26.1.2
-[20:34:24] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:34:25] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[20:34:25] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
- - ItemEdit (3.7.10), LoginSecurity (3.2.0), OpenInv (5.3.3), SkinsRestorer (15.12.5), ViaBackwards (5.11.0), ViaVersion (5.11.0)
-[20:34:30] [ServerMain/WARN]: Failed to parse resource pack prompt '§6Música §lJungle§r§6 obligatoria para §lTheSMP'
-com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
-See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
-	at com.google.gson.internal.Streams.parse(Streams.java:58) ~[gson-2.13.2.jar:?]
-	at com.google.gson.JsonParser.parseReader(JsonParser.java:144) ~[gson-2.13.2.jar:?]
-	at net.minecraft.util.StrictJsonParser.parse(StrictJsonParser.java:20) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.util.StrictJsonParser.parse(StrictJsonParser.java:34) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.parseResourcePackPrompt(DedicatedServerProperties.java:179) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.getServerPackInfo(DedicatedServerProperties.java:225) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.<init>(DedicatedServerProperties.java:145) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.fromFile(DedicatedServerProperties.java:165) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.DedicatedServerSettings.<init>(DedicatedServerSettings.java:13) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.Main.main(Main.java:112) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
-See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
-	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1817) ~[gson-2.13.2.jar:?]
-	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1613) ~[gson-2.13.2.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:729) ~[gson-2.13.2.jar:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:547) ~[gson-2.13.2.jar:?]
-	at com.google.gson.internal.Streams.parse(Streams.java:44) ~[gson-2.13.2.jar:?]
-	... 13 more
-[20:34:30] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
-[20:34:30] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
-[20:34:30] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
-[20:34:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[20:34:33] [ServerMain/INFO]: Loaded 1515 recipes
-[20:34:33] [ServerMain/INFO]: Loaded 1617 advancements
-[20:34:33] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[20:34:33] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 573.1ms
-[20:34:33] [ServerMain/WARN]: Failed to parse resource pack prompt '§6Música §lJungle§r§6 obligatoria para §lTheSMP'
-com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
-See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
-	at com.google.gson.internal.Streams.parse(Streams.java:58) ~[gson-2.13.2.jar:?]
-	at com.google.gson.JsonParser.parseReader(JsonParser.java:144) ~[gson-2.13.2.jar:?]
-	at net.minecraft.util.StrictJsonParser.parse(StrictJsonParser.java:20) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.util.StrictJsonParser.parse(StrictJsonParser.java:34) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.parseResourcePackPrompt(DedicatedServerProperties.java:179) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.getServerPackInfo(DedicatedServerProperties.java:225) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.<init>(DedicatedServerProperties.java:145) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.reload(DedicatedServerProperties.java:172) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.DedicatedServerProperties.reload(DedicatedServerProperties.java:49) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.Settings$MutableValue.update(Settings.java:277) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.DedicatedServer.lambda$setMotd$0(DedicatedServer.java:774) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.DedicatedServerSettings.update(DedicatedServerSettings.java:26) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.DedicatedServer.setMotd(DedicatedServer.java:774) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.dedicated.DedicatedServer.<init>(DedicatedServer.java:125) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.Main.lambda$main$2(Main.java:312) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.MinecraftServer.spin(MinecraftServer.java:311) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at net.minecraft.server.Main.main(Main.java:300) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at org.bukkit.craftbukkit.Main.main(Main.java:204) ~[paper-26.1.2.jar:26.1.2-74-e4e17fc]
-	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
-Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setStrictness(Strictness.LENIENT) to accept malformed JSON at line 1 column 1 path $
-See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
-	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1817) ~[gson-2.13.2.jar:?]
-	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1613) ~[gson-2.13.2.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:729) ~[gson-2.13.2.jar:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:547) ~[gson-2.13.2.jar:?]
-	at com.google.gson.internal.Streams.parse(Streams.java:44) ~[gson-2.13.2.jar:?]
-	... 20 more
-[20:34:33] [Server thread/INFO]: Starting minecraft server version 26.1.2
-[20:34:33] [Server thread/INFO]: Loading properties
-[20:34:33] [Server thread/INFO]: This server is running Paper version 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) (Implementing API version 26.1.2.build.74-stable)
-[20:34:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:34:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:34:34] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:34:34] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[20:34:34] [Server thread/INFO]: Default game type: SURVIVAL
-[20:34:34] [Server thread/INFO]: Generating keypair
-[20:34:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:34:34] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:34:34] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loading 1 libraries... please wait
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loaded library /workspaces/MotlaSrv/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-api/5.1.1/adventure-api-5.1.1.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-key/5.1.1/adventure-key-5.1.1.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/org/jetbrains/annotations/26.1.0/annotations-26.1.0.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-platform-bukkit/4.4.1/adventure-platform-bukkit-4.4.1.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-platform-api/4.4.1/adventure-platform-api-4.4.1.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-bungeecord/4.4.1/adventure-text-serializer-bungeecord-4.4.1.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-nbt/4.21.0/adventure-nbt-4.21.0.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.21.0/adventure-text-serializer-gson-legacy-impl-4.21.0.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-json-legacy-impl/4.21.0/adventure-text-serializer-json-legacy-impl-4.21.0.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-platform-facet/4.4.1/adventure-platform-facet-4.4.1.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-platform-viaversion/4.4.1/adventure-platform-viaversion-4.4.1.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-minimessage/5.1.1/adventure-text-minimessage-5.1.1.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-gson/5.1.1/adventure-text-serializer-gson-5.1.1.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-json/5.1.1/adventure-text-serializer-json-5.1.1.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-commons/5.1.1/adventure-text-serializer-commons-5.1.1.jar
-[20:34:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MotlaSrv/libraries/net/kyori/adventure-text-serializer-legacy/5.1.1/adventure-text-serializer-legacy-5.1.1.jar
-[20:34:35] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
-[20:34:35] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
-[20:34:36] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:34:36] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[20:34:36] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
-[20:34:36] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
-[20:34:36] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.3.3
-[20:34:36] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.10
-[20:34:36] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
-[20:34:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:34:36] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
-[20:34:37] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.1.2.
-[20:34:37] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[20:34:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:34:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:34:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:34:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:34:38] [Server thread/INFO]: Preparing level "world"
-[20:34:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:34:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[20:34:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
-[20:34:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
-[20:34:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
-[20:34:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[20:34:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:34:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.5
-[20:34:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 98b9488
-[20:34:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[20:34:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[20:34:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[20:34:38] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
-[20:34:38] [Server thread/INFO]: Loading 41 persistent chunks for level 'minecraft:overworld'...
-[20:34:38] [Server thread/INFO]: Preparing spawn area: 19%
-[20:34:39] [Server thread/INFO]: Prepared spawn area in 1182 ms
-[20:34:39] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[20:34:39] [Server thread/INFO]: Preparing spawn area: 100%
-[20:34:39] [Server thread/INFO]: Prepared spawn area in 5 ms
-[20:34:39] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[20:34:39] [Server thread/INFO]: Prepared spawn area in 1 ms
-[20:34:39] [Server thread/INFO]: Done preparing level "world" (1.860s)
-[20:34:39] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
-[20:34:39] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
-[20:34:40] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
-[20:34:40] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.3.3
-[20:34:40] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.10
-[20:34:40] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
-[20:34:40] [Server thread/INFO]: [ItemEdit] Unable to hook into Vault
-[20:34:40] [Server thread/INFO]: [ItemEdit] # Enabled (took 351 ms)
-[20:34:40] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[20:34:41] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[20:34:41] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[20:34:41] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[20:34:41] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[20:34:41] [Server thread/WARN]: [LoginSecurity] "LoginSecurity v3.2.0" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "public void com.lenis0012.bukkit.loginsecurity.modules.general.PlayerListener.onPlayerSpawn(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [lenis0012].
-[20:34:41] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[20:34:41] [Server thread/INFO]: [spark] Starting background profiler...
-[20:34:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:34:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:34:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:34:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:34:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:34:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:34:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:34:42] [Server thread/INFO]: Running delayed init tasks
-[20:34:42] [Server thread/INFO]: Done (18.827s)! For help, type "help"
-[20:34:42] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[20:34:42] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[20:34:42] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (26.1.2)
-[20:34:42] [Paper Async Task Handler Thread - 1/WARN]: However, you are 2 release(s) behind the latest stable release (26.2)!
-[20:34:42] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
-[20:34:42] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
-[20:34:42] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
-[20:34:45] [User Authenticator #0/INFO]: UUID of player fafafaxdfa is f258345e-3b57-30ad-bf76-8e8a94d40a00
-[20:34:45] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LoginSecurity]
-[20:34:50] [User Authenticator #1/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
-[20:35:01] [Server thread/INFO]: [Flame Horde] fafafaxdfa joined the game
-[20:35:01] [Server thread/INFO]: fafafaxdfa[/127.253.200.228:56763] logged in with entity id 9 at ([minecraft:the_nether]-461.30000001192093, 36.341626062697266, 687.3000000119209)
-[20:35:08] [Server thread/INFO]: [OP] Xautral joined the game
-[20:35:08] [Server thread/INFO]: Xautral[/127.9.216.32:34765] logged in with entity id 10 at ([minecraft:the_nether]-518.9731514803789, 33.0, 703.7644786945136)
-[20:35:20] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> 777
-[20:35:36] [Server thread/INFO]: fafafaxdfa lost connection: Disconnected
-[20:35:36] [Server thread/INFO]: [Flame Horde] fafafaxdfa left the game
-[20:35:51] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.xtal
-[20:35:51] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:custom.xtal to [OP] Xautral]
-[20:35:56] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.createmode
-[20:35:56] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:custom.createmode to [OP] Xautral]
-[20:36:00] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.createmode ui Xautral
-[20:36:00] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:custom.createmode to [OP] Xautral]
-[20:36:02] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.createmode ui Xautral
-[20:36:02] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:custom.createmode to [OP] Xautral]
-[20:36:05] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
-[20:36:05] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to 0.500000, 0.000000, 0.500000]
-[20:36:07] [Server thread/INFO]: Xautral issued server command: /kill
-[20:36:07] [Server thread/INFO]: [OP] Xautral was killed
-[20:36:07] [Server thread/INFO]: [[OP] Xautral: Killed [OP] Xautral]
-[20:36:12] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives remove RevTime
-[20:36:12] [Server thread/INFO]: [[OP] Xautral: Removed objective [RevTime]]
-[20:36:18] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.createmode ui Xautral ~ ~ ~ 23478 0 1
-[20:36:18] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:custom.createmode to [OP] Xautral]
-[20:36:19] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
-[20:36:23] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.createmode master Xautral ~ ~ ~ 23478 0 1
-[20:36:23] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:custom.createmode to [OP] Xautral]
-[20:36:28] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.logic master Xautral ~ ~ ~ 23478 0 1
-[20:36:28] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:custom.logic to [OP] Xautral]
-[20:39:06] [User Authenticator #2/INFO]: UUID of player sweetily is ce85d91a-40e8-3a50-b65b-223c1e5293e4
-[20:39:15] [Server thread/INFO]: [OP] sweetily joined the game
-[20:39:15] [Server thread/INFO]: sweetily[/127.83.245.114:59109] logged in with entity id 1003 at ([minecraft:overworld]-4245.848042795153, 70.98997442433897, 5753.751207498962)
-[20:40:04] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> cabrn
-[20:40:10] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> el problema todo este tiempo fueron el codec
-[20:40:13] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> no el plugin
-[20:40:13] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> q pasa xau
-[20:40:16] [User Authenticator #3/INFO]: UUID of player fafafaxdfa is f258345e-3b57-30ad-bf76-8e8a94d40a00
-[20:40:16] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> puta madreeee
-[20:40:19] [Server thread/INFO]: [[OP] sweetily: Set own game mode to Creative Mode]
-[20:40:23] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> te voy a matar hijo de tu pinche madre
-[20:40:23] [Server thread/INFO]: [Flame Horde] fafafaxdfa joined the game
-[20:40:23] [Server thread/INFO]: fafafaxdfa[/127.253.200.228:60971] logged in with entity id 1398 at ([minecraft:overworld]-4177.4356914203, 40.0, 5662.699999988079)
-[20:40:24] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> depresion
-[20:40:31] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> como funciona el plugin
-[20:40:36] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> ya abrí audacity cagada para modificarlos
-[20:40:39] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> ya no use ningun plugin
-[20:40:42] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> solo meti el txtpack
-[20:41:22] [Server thread/INFO]: fafafaxdfa lost connection: Disconnected
-[20:41:22] [Server thread/INFO]: [Flame Horde] fafafaxdfa left the game
-[20:41:27] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> a xd
-[20:41:36] [Server thread/INFO]: [[OP] sweetily: Set own game mode to Spectator Mode]
-[20:41:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> en lo que se descomprime
-[20:41:52] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> que hacemos
-[20:42:49] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> vete a la ver
-[20:42:55] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> vete a la verga entonces
-[20:42:58] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> nose
-[20:43:00] [Server thread/INFO]: [[OP] sweetily: Set own game mode to Creative Mode]
-[20:43:03] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> que quieres hacer tu
-[20:43:03] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> si sbaes culer
-[20:43:09] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> yo quiero escuchar musica en mc
-[20:43:19] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> la m´úsica jungle queda vergas con mc
-[20:43:22] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> en SMPs
-[20:43:26] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> enano puto
-[20:43:34] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> es esta cuenta mido 1.50
-[20:43:36] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> no mames
-[20:43:41] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> ni me di cuenta
-[20:44:16] [User Authenticator #4/INFO]: UUID of player Slimegolembros is fb02b546-7f6c-3666-aaca-2e861bcf597e
-[20:44:24] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> carnal est sonará como secuestrad
-[20:44:26] [Server thread/INFO]: [OP] Slimegolembros joined the game
-[20:44:26] [Server thread/INFO]: Slimegolembros[/127.41.52.39:57893] logged in with entity id 2093 at ([minecraft:overworld]-1021.5975311294204, 17.0, 3663.2027044690008)
-[20:44:26] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> este es para el zombie ese que tiene el spearman
-[20:44:28] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> pero cuanto mides en la vida real w?
-[20:44:40] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> 1:70
-[20:44:45] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> QUE
-[20:44:46] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> uy
-[20:44:47] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> cuantos anos tienes w?
-[20:44:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> que
-[20:44:51] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> 16
-[20:44:53] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> bruh
-[20:44:56] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> yo mido similar
-[20:44:59] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> creo que un poco más
-[20:45:01] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> oh hell nah
-[20:45:03] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> tu tienes como 14
-[20:45:03] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> no neta
-[20:45:05] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> tengo 13
-[20:45:09] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> peor
-[20:45:10] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> de hecho si me confunden
-[20:45:15] [Async Chat Thread - #1/INFO]: [Not Secure] <Slimegolembros> yo tengo 11 y mido 1:60
-[20:45:17] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> piensan que soy de 3ero que reprobé
-[20:45:21] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> sweetily
-[20:45:24] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> eres un enano
-[20:45:28] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> en ambos lugares
-[20:45:30] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> ya ves es un enano
-[20:45:35] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
-[20:45:38] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> NO MAMES
-[20:45:38] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
-[20:45:48] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> voy a decirle a bliem que fusite tu alch
-[20:45:54] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> que cosa
-[20:45:59] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> nada
-[20:46:03] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> bro enserio lo rompiste
-[20:46:03] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> para que no te puedas defender
-[20:46:07] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> bro
-[20:46:20] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
-[20:46:20] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> porq rompiste lo del ahogado con spearman
-[20:46:24] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
-[20:46:30] [Async Chat Thread - #2/INFO]: [Not Secure] <sweetily> slime saca screenshot del chat
-[20:46:36] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> no no es cierto :v
-[20:46:45] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> eso se usa para UUID de Comandos
-[20:47:19] [Async Chat Thread - #2/INFO]: [Not Secure] <Slimegolembros> por
-[20:47:21] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> no
-[20:47:34] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> ya tengo screenshot
-[20:47:43] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> por si las dudas
-[20:47:44] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> ya va a ir la chillona a acusarme con mi novio
-[20:47:48] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> se w
-[20:47:55] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> novio¡
-[20:47:59] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> no
-[20:47:59] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> ?
-[20:48:02] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> novio¡
-[20:48:03] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> novio
-[20:48:03] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> nadamas lo hago para joderlo
-[20:48:04] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> novio
-[20:48:04] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> novio
-[20:48:04] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> ah si cieto
-[20:48:05] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> novio
-[20:48:05] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> novio
-[20:48:05] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> novio
-[20:48:06] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> novio
-[20:48:06] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> noviot
-[20:48:06] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> hablando de novio
-[20:48:10] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> que pedo con marlowy
-[20:48:13] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> marlow*
-[20:48:18] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> idk bro me dejo y se llevo a los niños
-[20:48:24] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> y por eso te volviste travesti?
-[20:48:27] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> te dió envidia?
-[20:48:42] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> que verga
-[20:48:46] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> chupo
-[20:48:48] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> ijiji te trolié
-[20:48:57] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> que haces w
-[20:49:03] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> que verga
-[20:49:05] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
-[20:49:08] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
-[20:49:17] [Async Chat Thread - #1/INFO]: [Not Secure] <sweetily> nose eso ta raro
-[20:49:32] [Async Chat Thread - #1/INFO]: [Not Secure] <Xautral> caes y rebotas de pendejo
-[20:50:33] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
-[20:50:58] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
-[20:51:07] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
-[20:51:31] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> seben seben seb
-[20:51:35] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> sex sex sex
-[20:51:52] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> usted y su puta madre me pelan toda la verguita
-[20:52:04] [User Authenticator #5/INFO]: UUID of player fafafaxdfa is f258345e-3b57-30ad-bf76-8e8a94d40a00
-[20:52:08] [Async Chat Thread - #4/INFO]: [Not Secure] <sweetily> esquisofrenia on top
-[20:52:10] [Server thread/INFO]: [Flame Horde] fafafaxdfa joined the game
-[20:52:10] [Server thread/INFO]: fafafaxdfa[/127.253.200.228:37139] logged in with entity id 4494 at ([minecraft:overworld]-4176.844515723296, 40.0, 5662.1781168278585)
-[20:52:12] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> deepseek chinga tu madre
-[20:52:19] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> aprovechando que fafa ya se metio
-[20:52:22] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> tvoy a reiniciar
-[20:52:22] [Async Chat Thread - #4/INFO]: [Not Secure] <sweetily> deep sex
-[20:52:24] [Async Chat Thread - #4/INFO]: [Not Secure] <fafafaxdfa> q
-[20:52:24] [Async Chat Thread - #4/INFO]: [Not Secure] <sweetily> asi no era
-[20:52:27] [Async Chat Thread - #4/INFO]: [Not Secure] <fafafaxdfa> ala o
-[20:52:47] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
-[20:53:17] [Server thread/INFO]: Named entity Skeleton['Corpse'/4503, uuid='479da159-3d1c-412d-997e-91dc24616845', l='ServerLevel[world]', x=-4211.32, y=64.00, z=5645.61, cpos=[-264, 352], tl=1347, v=true] died: Corpse was slain by [Flame Horde] fafafaxdfa
-[20:53:20] [Async Chat Thread - #4/INFO]: [Not Secure] <sweetily> te vi
-[20:53:23] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> apoco
-[20:53:30] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> yo pensé que eras tremendo ceguetas
-[20:53:46] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
-[20:53:47] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
-[20:53:59] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> nexus tienes como 188 cuentas
-[20:54:03] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> y en toads tienes nombre de mujer
-[20:54:04] [Async Chat Thread - #4/INFO]: [Not Secure] <sweetily> de hecho son 90
-[20:54:06] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> que te crees blime o que pedo
-[20:54:12] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> sweetily yo tengo mas cuentas de gmail que tu
-[20:54:16] [Async Chat Thread - #4/INFO]: [Not Secure] <sweetily> XD
-[20:55:43] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> tya mero carga el txt pack
-[20:55:52] [User Authenticator #6/INFO]: UUID of player OPlechStyles is 9c5026b5-1602-34df-9cd4-1dd4d84122b4
-[20:55:53] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
-[20:55:56] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
-[20:56:05] [Server thread/INFO]: [OP] OPlechStyles joined the game
-[20:56:05] [Server thread/INFO]: OPlechStyles[/127.229.163.226:48145] logged in with entity id 6283 at ([minecraft:overworld]-1032.981249999255, 18.15584271202998, 3673.9638486661756)
-[20:56:09] [Async Chat Thread - #5/INFO]: [Not Secure] <Slimegolembros> plech
-[20:56:10] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
-[20:56:12] [Async Chat Thread - #5/INFO]: [Not Secure] <OPlechStyles> ola
-[20:56:14] [Async Chat Thread - #5/INFO]: [Not Secure] <sweetily> a chinga
-[20:56:17] [Async Chat Thread - #5/INFO]: [Not Secure] <Slimegolembros> mira los cofres xd
-[20:56:32] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
-[20:56:37] [Async Chat Thread - #5/INFO]: [Not Secure] <OPlechStyles> alv
-[20:56:42] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> que te pasa imbecil
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 305)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 306)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 307)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 308)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 309)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 310)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 311)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 312)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 313)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 314)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 315)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 316)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 317)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 318)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 319)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 320)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 321)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 322)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 323)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:00] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 324)]
+[00:00:00] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:01] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 325)]
+[00:00:01] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:01] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 326)]
+[00:00:01] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:01] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 327)]
+[00:00:01] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:01] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 328)]
+[00:00:01] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:01] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 329)]
+[00:00:01] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:01] [Server thread/INFO]: [@: Added 1 to [RevTime] for [OP] OPlechStyles (now 330)]
+[00:00:01] [Server thread/INFO]: [@: Showing new actionbar title for [OP] OPlechStyles]
+[00:00:01] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives remove RevTime
+[00:00:01] [Server thread/INFO]: [[OP] Xautral: Removed objective [RevTime]]
+[00:00:01] [Async Chat Thread - #15/INFO]: [Not Secure] <soydiosxd> las esquinas no importan .-.
+[00:00:01] [Server thread/INFO]: [@: Reset [SneakRev] for 7 entities]
+[00:00:03] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> OPlechStyles
+[00:00:06] [Async Chat Thread - #15/INFO]: [Not Secure] <_Brvnno> si
+[00:00:10] [Async Chat Thread - #15/INFO]: [Not Secure] <PlechStyles> si?
+[00:00:13] [Server thread/INFO]: Xautral issued server command: /tp OPlechStyles
+[00:00:13] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [OP] OPlechStyles]
+[00:00:14] [Server thread/INFO]: [@: Displaying particle minecraft:trial_spawner_detection]
+[00:00:14] [Server thread/INFO]: [@: Displaying particle minecraft:firefly]
+[00:00:14] [Server thread/INFO]: [@: Played sound minecraft:block.end_portal.spawn to 7 players]
+[00:00:14] [Server thread/INFO]: Named entity Skeleton['Corpse'/87850, uuid='bb1b1d21-7b2a-4ba8-b047-a34ccd5bc729', l='ServerLevel[world]', x=-4179.53, y=41.25, z=5658.97, cpos=[-262, 353], tl=588, v=true] died: Corpse was killed
+[00:00:14] [Server thread/INFO]: [@: Killed Corpse]
+[00:00:14] [Server thread/INFO]: [@: Reset [SneakRev] for 7 entities]
+[00:00:16] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> te lo digo en buen pedo
+[00:00:19] [Async Chat Thread - #15/INFO]: [Not Secure] <soydiosxd> tenes o no
+[00:00:19] [Server thread/INFO]: OPlechStyles was kicked due to keepalive timeout!
+[00:00:19] [Server thread/INFO]: OPlechStyles lost connection: Timed out
+[00:00:19] [Server thread/INFO]: OPlechStyles left the game
+[00:00:22] [Async Chat Thread - #15/INFO]: [Not Secure] <soydiosxd> lapiz ?
+[00:00:26] [Server thread/INFO]: _Brvnno issued server command: /msg soydiosxd oye vamos a la base de itz a buscar cosas
+[00:00:28] [Async Chat Thread - #16/INFO]: [Not Secure] <PlechStyles> q cosa Xaut
+[00:00:29] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> quita ese bloque de comandos o te baneo del servidor entero por conspiración
+[00:00:38] [Server thread/WARN]: PlechStyles moved wrongly!
+[00:00:41] [Server thread/INFO]: soydiosxd issued server command: /msg _Brvnno no tengo comida
+[00:00:42] [Server thread/INFO]: [@: Reset [SneakRev] for 6 entities]
+[00:00:42] [Server thread/INFO]: _Brvnno issued server command: /msg soydiosxd por libro q tienen tmb
+[00:00:43] [Server thread/WARN]: PlechStyles moved wrongly!
+[00:00:49] [Server thread/INFO]: Xautral issued server command: /banlist
+[00:00:50] [Async Chat Thread - #16/INFO]: [Not Secure] <_Brvnno> ven
+[00:00:54] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> 40
+[00:00:56] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> 39
+[00:00:58] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> 38
+[00:01:00] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> 37
+[00:01:02] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> 36
+[00:01:03] [Async Chat Thread - #16/INFO]: [Not Secure] <PlechStyles> cual bloque
+[00:01:04] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> 35
+[00:01:05] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> 34
+[00:01:05] [Async Chat Thread - #16/INFO]: [Not Secure] <PlechStyles> me sacooo
+[00:01:06] [Server thread/INFO]: [@: Showing new actionbar title for [Volcanos] soydiosxd]
+[00:01:06] [Server thread/INFO]: [@: Reset [Dealt] for 6 entities]
+[00:01:07] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> 33
+[00:01:08] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> 32
+[00:01:09] [User Authenticator #70/INFO]: UUID of player OPlechStyles is 9c5026b5-1602-34df-9cd4-1dd4d84122b4
+[00:01:10] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> 31
+[00:01:11] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> 30
+[00:01:13] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> 29
+[00:01:14] [Server thread/INFO]: Villager Villager['Villager'/87858, uuid='94d6ad37-4a07-46a6-9094-bf75b94723ae', l='ServerLevel[world]', x=1318.29, y=70.00, z=622.78, cpos=[82, 38], tl=1766, v=true] died, message: 'Villager was slain by Zombie'
+[00:01:14] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> 28
+[00:01:15] [Server thread/INFO]: [OP] OPlechStyles joined the game
+[00:01:15] [Server thread/INFO]: OPlechStyles[/127.229.163.226:53177] logged in with entity id 88973 at ([minecraft:overworld]1329.5, 88.59826117938645, 629.5)
+[00:01:15] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> 27
+[00:01:17] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> 26
+[00:01:18] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 25
+[00:01:19] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 24
+[00:01:21] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 23
+[00:01:24] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 22
+[00:01:25] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 21
+[00:01:25] [Server thread/INFO]: [@: Showing new actionbar title for 2 players]
+[00:01:25] [Server thread/INFO]: [@: Reset [Dealt] for 7 entities]
+[00:01:26] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 20
+[00:01:28] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 19
+[00:01:29] [Async Chat Thread - #15/INFO]: [Not Secure] <OPlechStyles> xau cual bloq
+[00:01:29] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 18
+[00:01:31] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 17
+[00:01:32] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 16
+[00:01:34] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 15
+[00:01:35] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 14
+[00:01:36] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 13
+[00:01:38] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 12
+[00:01:39] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> t11
+[00:01:40] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 10
+[00:01:41] [Server thread/INFO]: [@: Showing new actionbar title for 2 players]
+[00:01:41] [Server thread/INFO]: [@: Reset [Dealt] for 7 entities]
+[00:01:42] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 9
+[00:01:43] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 8
+[00:01:44] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 7
+[00:01:46] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 6
+[00:01:47] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 5
+[00:01:48] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 4
+[00:01:50] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> a3
+[00:01:51] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 2
+[00:01:53] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> 1
+[00:01:57] [Server thread/INFO]: Xautral issued server command: /ban Slimegolembross
+[00:01:57] [Server thread/INFO]: [[OP] Xautral: Banned Slimegolembross: Banned by an operator.]
+[00:02:01] [Server thread/INFO]: Xautral issued server command: /banlist
+[00:02:03] [Server thread/INFO]: Xautral issued server command: /pardon Slimegolembross
+[00:02:03] [Server thread/INFO]: [[OP] Xautral: Unbanned Slimegolembross]
+[00:02:09] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> si fuiste tu w
+[00:02:12] [Server thread/INFO]: [@: Showing new actionbar title for 2 players]
+[00:02:12] [Server thread/INFO]: [@: Reset [Dealt] for 7 entities]
+[00:02:13] [Async Chat Thread - #15/INFO]: [Not Secure] <PlechStyles> no w
+[00:02:15] [Server thread/INFO]: Villager Villager['Farmer'/821, uuid='177f537f-264e-4767-93a3-a86eaa95fb4f', l='ServerLevel[world]', x=-7280.67, y=116.00, z=3932.58, cpos=[-456, 245], tl=145229, v=true] died, message: 'Farmer was slain by Zombie'
+[00:02:17] [Async Chat Thread - #15/INFO]: [Not Secure] <PlechStyles> me puso java nose q
+[00:02:27] [Async Chat Thread - #15/INFO]: [Not Secure] <PlechStyles> mi wifi ta mal pq ta lloviendo
+[00:02:31] [Server thread/WARN]: _Brvnno moved too quickly! 9.624171618409491,-2.8120107107464207,3.386069328027588
+[00:02:35] [Server thread/INFO]: Xautral issued server command: /ban-ip PlechStyles Conspiración (Ejecutar un Bloque de Comandos para Anti-Ban) - Perma-Ban
+[00:02:35] [Server thread/INFO]: [[OP] Xautral: Banned IP 127.229.163.226: Conspiración (Ejecutar un Bloque de Comandos para Anti-Ban) - Perma-Ban]
+[00:02:35] [Server thread/INFO]: [[OP] Xautral: This ban affects 2 player(s): [Kawesar Tribe] PlechStyles, [OP] OPlechStyles]
+[00:02:35] [Server thread/INFO]: PlechStyles lost connection: You have been IP banned from this server
+[00:02:35] [Server thread/INFO]: PlechStyles left the game
+[00:02:35] [Server thread/INFO]: OPlechStyles lost connection: You have been IP banned from this server
+[00:02:35] [Server thread/INFO]: OPlechStyles left the game
+[00:02:41] [Server thread/INFO]: [@: Reset [SneakRev] for 5 entities]
+[00:02:55] [Server thread/INFO]: [@: Showing new actionbar title for [Volcanos] _Brvnno]
+[00:02:55] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:02:56] [Server thread/INFO]: [@: Showing new actionbar title for [Volcanos] _Brvnno]
+[00:02:56] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:02:59] [Server thread/INFO]: [@: Showing new actionbar title for 2 players]
+[00:02:59] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:02:59] [Server thread/INFO]: [@: Showing new actionbar title for 2 players]
+[00:02:59] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:00] [Server thread/INFO]: [@: Showing new actionbar title for 2 players]
+[00:03:00] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:01] [Server thread/INFO]: [@: Showing new actionbar title for 2 players]
+[00:03:01] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:02] [Server thread/INFO]: [@: Showing new actionbar title for 2 players]
+[00:03:02] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:02] [Server thread/INFO]: [@: Showing new actionbar title for 2 players]
+[00:03:02] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:03] [Server thread/INFO]: [@: Showing new actionbar title for 2 players]
+[00:03:03] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:03] [Server thread/INFO]: [@: Showing new actionbar title for 2 players]
+[00:03:03] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:04] [Server thread/INFO]: [@: Showing new actionbar title for [OP] Xautral]
+[00:03:04] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:04] [Server thread/INFO]: [@: Showing new actionbar title for 2 players]
+[00:03:04] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:05] [Server thread/INFO]: [@: Showing new actionbar title for [OP] Xautral]
+[00:03:05] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:05] [Server thread/INFO]: [@: Showing new actionbar title for 2 players]
+[00:03:05] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:05] [Server thread/INFO]: [@: Showing new actionbar title for [OP] Xautral]
+[00:03:05] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:06] [Server thread/INFO]: [@: Showing new actionbar title for [OP] Xautral]
+[00:03:06] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:17] [Server thread/INFO]: Xautral issued server command: /gamerule command_block_output true
+[00:03:17] [Server thread/INFO]: [[OP] Xautral: Gamerule command_block_output is now set to: true]
+[00:03:20] [Server thread/INFO]: [@: Showing new actionbar title for [OP] Xautral]
+[00:03:20] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:21] [Server thread/INFO]: [@: Showing new actionbar title for [OP] Xautral]
+[00:03:21] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:24] [Server thread/INFO]: [@: Showing new actionbar title for [OP] Xautral]
+[00:03:24] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:26] [Server thread/INFO]: [@: Showing new actionbar title for [OP] Xautral]
+[00:03:26] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:29] [Server thread/INFO]: [@: Showing new actionbar title for [OP] Xautral]
+[00:03:29] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:30] [Server thread/INFO]: [@: Showing new actionbar title for [OP] Xautral]
+[00:03:30] [Server thread/INFO]: [@: Reset [Dealt] for 5 entities]
+[00:03:33] [Server thread/INFO]: Xautral issued server command: /gamerule command_block_output false
+[00:03:33] [Server thread/INFO]: [[OP] Xautral: Gamerule command_block_output is now set to: false]
+[00:03:45] [Server thread/INFO]: Xautral issued server command: /tp fi
+[00:03:47] [Server thread/INFO]: Xautral issued server command: /tp FireEmblem
+[00:03:47] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] FireEmblem]
+[00:03:53] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> ya plechy ya no va a estar en este sever
+[00:03:54] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[00:03:57] [Async Chat Thread - #17/INFO]: [Not Secure] <FireEmblem> porq
+[00:04:01] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> conspiración
+[00:04:19] [Async Chat Thread - #17/INFO]: [Not Secure] <FireEmblem> de q
+[00:04:25] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> se puso un bloque de comandos en repetición con /pardon OPlechStyles
+[00:04:38] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> y soy el único que puede aplicar anti-bans
+[00:04:45] [Server thread/INFO]: [Volcanos] soydiosxd tried to swim in lava
+[00:04:47] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> el wey estaba poniendo un comando que le anulaba el baneo
+[00:04:48] [Async Chat Thread - #17/INFO]: [Not Secure] <soydiosxd> q mrd
+[00:04:52] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives remove RevTime
+[00:04:52] [Server thread/INFO]: [[OP] Xautral: Removed objective [RevTime]]
+[00:04:54] [Async Chat Thread - #17/INFO]: [Not Secure] <soydiosxd> apareci en la lava
+[00:04:58] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> y cree que soy pendej
+[00:04:59] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> y cree que soy pendejo
+[00:05:03] [Async Chat Thread - #17/INFO]: [Not Secure] <_Brvnno> ven
+[00:05:04] [Server thread/INFO]: Xautral issued server command: /gamemode survival soydiosxd
+[00:05:04] [Server thread/INFO]: [[OP] Xautral: Set [Volcanos] soydiosxd's game mode to Survival Mode]
+[00:05:06] [Async Chat Thread - #17/INFO]: [Not Secure] <_Brvnno> hahahah
+[00:05:16] [Server thread/INFO]: [Volcanos] soydiosxd suffocated in a wall
+[00:05:20] [Async Chat Thread - #17/INFO]: [Not Secure] <soydiosxd> nanana
+[00:05:22] [Async Chat Thread - #17/INFO]: [Not Secure] <_Brvnno> pero q le hacen al soydiosxd
+[00:05:23] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives remove RevTime
+[00:05:23] [Server thread/INFO]: [[OP] Xautral: Removed objective [RevTime]]
+[00:05:24] [Server thread/INFO]: Xautral issued server command: /gamemode survival soydiosxd
+[00:05:24] [Server thread/INFO]: [[OP] Xautral: Set [Volcanos] soydiosxd's game mode to Survival Mode]
+[00:05:25] [Server thread/INFO]: Villager Villager['Cartographer'/80013, uuid='62f04930-0a0d-4779-b330-42c6d7ac88fb', l='ServerLevel[world]', x=-4180.06, y=40.00, z=5654.49, cpos=[-262, 353], tl=20797, v=true] died, message: 'Cartographer was slain by Juanito'
+[00:05:27] [Async Chat Thread - #17/INFO]: [Not Secure] <FireEmblem> te voy a abusar fafafaxdfa
+[00:05:27] [Server thread/INFO]: Xautral issued server command: /tp soydiosxd _Brvnno
+[00:05:27] [Server thread/INFO]: [[OP] Xautral: Teleported [Volcanos] soydiosxd to [Volcanos] _Brvnno]
+[00:05:32] [Async Chat Thread - #17/INFO]: [Not Secure] <fafafaxdfa> xq? XD
+[00:05:37] [Async Chat Thread - #17/INFO]: [Not Secure] <FireEmblem> no mas
+[00:05:44] [Server thread/INFO]: Named entity Skeleton['Corpse'/91266, uuid='8661162c-b302-4163-96c9-9b54d7d1163f', l='ServerLevel[world]', x=-209.57, y=26.24, z=461.06, cpos=[-14, 28], tl=1169, v=true] died: Corpse tried to swim in lava
+[00:06:18] [Async Chat Thread - #17/INFO]: [Not Secure] <FireEmblem> stop we
+[00:06:23] [Async Chat Thread - #17/INFO]: [Not Secure] <FireEmblem> no esta listo el camino
+[00:06:32] [Server thread/INFO]: _Brvnno issued server command: /msg soydiosxd si los ves corre
+[00:07:12] [Server thread/INFO]: Villager Villager['Cartographer'/91966, uuid='f660c5f3-2c53-478b-ba03-0157e0e51fe8', l='ServerLevel[world]', x=-4180.01, y=40.00, z=5654.49, cpos=[-262, 353], tl=1605, v=true] died, message: 'Cartographer was slain by Juanito'
+[00:08:31] [Server thread/INFO]: Villager Villager['Cartographer'/80021, uuid='964b3e80-137c-4f39-93dc-3a73a163db86', l='ServerLevel[world]', x=-4180.01, y=40.00, z=5654.50, cpos=[-262, 353], tl=24481, v=true] died, message: 'Cartographer was slain by Juanito'
+[00:08:39] [Async Chat Thread - #19/INFO]: [Not Secure] <FireEmblem> espera te we
+[00:08:44] [Server thread/INFO]: Xautral lost connection: Disconnected
+[00:08:44] [Server thread/INFO]: [OP] Xautral left the game
+[00:08:49] [Async Chat Thread - #19/INFO]: [Not Secure] <fafafaxdfa> JASJSAJSAJ
+[00:09:32] [Async Chat Thread - #19/INFO]: [Not Secure] <soydiosxd> tienes libros
+[00:10:14] [Server thread/INFO]: _Brvnno issued server command: /msg soydiosxd veamos si se mudarojn aca
+[00:10:25] [Async Chat Thread - #20/INFO]: [Not Secure] <FireEmblem> afk
+[00:10:30] [Server thread/INFO]: soydiosxd issued server command: /msg _Brvnno sin food
+[00:11:52] [Server thread/INFO]: Named entity Skeleton['Corpse'/91623, uuid='18c472f5-f906-4d6e-b210-214e3dffef74', l='ServerLevel[world]', x=-203.30, y=59.00, z=196.70, cpos=[-13, 12], tl=658, v=true] died: Corpse suffocated in a wall
+[00:12:44] [Async Chat Thread - #21/INFO]: [Not Secure] <FireEmblem> hola chicas
+[00:13:25] [Server thread/INFO]: soydiosxd issued server command: /msg _Brvnno onde estas
+[00:14:04] [Server thread/INFO]: _Brvnno issued server command: /msg soydiosxd dnd estas tu
+[00:14:10] [Server thread/WARN]: _Brvnno moved too quickly! -1.460036780874077,-0.1647732818260721,-10.078109757462727
+[00:14:13] [Server thread/INFO]: soydiosxd issued server command: /msg _Brvnno en el portal
+[00:14:41] [Server thread/INFO]: soydiosxd issued server command: /msg _Brvnno del end
+[00:14:44] [Async Chat Thread - #22/INFO]: [Not Secure] <fafafaxdfa> emmm fire
+[00:14:46] [Async Chat Thread - #22/INFO]: [Not Secure] <FireEmblem> ey
+[00:14:46] [Server thread/INFO]: soydiosxd issued server command: /msg _Brvnno nether
+[00:14:53] [Async Chat Thread - #21/INFO]: [Not Secure] <fafafaxdfa> tengo q mostrarte algo
+[00:15:10] [Async Chat Thread - #21/INFO]: [Not Secure] <FireEmblem> ontas
+[00:15:18] [Async Chat Thread - #21/INFO]: [Not Secure] <fafafaxdfa> ya voy
+[00:16:05] [Server thread/INFO]: _Brvnno issued server command: /msg soydiosxd ni idea
+[00:16:11] [Async Chat Thread - #22/INFO]: [Not Secure] <soydiosxd> mira arriba
+[00:16:17] [Async Chat Thread - #21/INFO]: [Not Secure] <_Brvnno> voy
+[00:16:50] [Async Chat Thread - #22/INFO]: [Not Secure] <_Brvnno> dnd estaaas
+[00:16:54] [Async Chat Thread - #22/INFO]: [Not Secure] <soydiosxd> arriba mrd
+[00:16:59] [Async Chat Thread - #22/INFO]: [Not Secure] <_Brvnno> no te veo
+[00:17:19] [Server thread/INFO]: _Brvnno issued server command: /msg soydiosxd tas en over o nether?
+[00:17:39] [Async Chat Thread - #23/INFO]: [Not Secure] <fafafaxdfa> fire me pasas las cords del porta
+[00:17:42] [Async Chat Thread - #23/INFO]: [Not Secure] <fafafaxdfa> fire me pasas las cords del portal
+[00:17:43] [Server thread/INFO]: soydiosxd issued server command: /msg _Brvnno nether
+[00:17:44] [Async Chat Thread - #22/INFO]: [Not Secure] <fafafaxdfa> me perdi
+[00:17:52] [Async Chat Thread - #22/INFO]: [Not Secure] <fafafaxdfa> XD
+[00:17:53] [Async Chat Thread - #22/INFO]: [Not Secure] <FireEmblem> ok
+[00:17:58] [Server thread/INFO]: [Volcanos] soydiosxd tried to swim in lava
+[00:18:02] [Async Chat Thread - #22/INFO]: [Not Secure] <soydiosxd> ,mmmm
+[00:18:04] [Server thread/INFO]: FireEmblem issued server command: /msg fafafaxdfa -4176 5655
+[00:18:06] [Server thread/INFO]: Named entity Skeleton['Corpse'/98804, uuid='3d436e5f-6efe-4c52-83d9-69c194a68a6d', l='ServerLevel[world]', x=-27.62, y=26.95, z=36.66, cpos=[-2, 2], tl=152, v=true] died: Corpse was killed
+[00:18:16] [Server thread/INFO]: [Not Secure] [Server] gente
+[00:18:23] [Server thread/INFO]: [Not Secure] [Server] yo creo que por el incidente de plechy voy a reiniciar el mundo
+[00:18:29] [Async Chat Thread - #22/INFO]: [Not Secure] <_Brvnno> wtf
+[00:18:30] [Async Chat Thread - #23/INFO]: [Not Secure] <soydiosxd> .-.
+[00:18:31] [Server thread/INFO]: [Not Secure] [Server] por su pinche jalada la vamos a pagar todos
+[00:18:31] [Async Chat Thread - #22/INFO]: [Not Secure] <FireEmblem> bro
+[00:18:32] [Async Chat Thread - #22/INFO]: [Not Secure] <fafafaxdfa> xq?
+[00:18:41] [Async Chat Thread - #23/INFO]: [Not Secure] <fafafaxdfa> bro
+[00:18:54] [Server thread/INFO]: [Not Secure] [Server] ese wey o no se quien chingados se le ocurrió poner un bolque de comandos para autodesbanearse
+[00:19:00] [Async Chat Thread - #23/INFO]: [Not Secure] <FireEmblem> no pasa nada we creo que es la unica cosa q puso
+[00:19:03] [Server thread/INFO]: [Not Secure] [Server] ya lo estoy hablando con los admisn si si borrarlo o no
+[00:19:05] [Async Chat Thread - #23/INFO]: [Not Secure] <_Brvnno> corrreeeee
+[00:19:22] [Server thread/INFO]: [Volcanos] _Brvnno has completed the challenge [Return to Sender]
+[00:19:40] [Async Chat Thread - #22/INFO]: [Not Secure] <soydiosxd> y no puede usar otra cuenta ?
+[00:19:45] [Async Chat Thread - #22/INFO]: [Not Secure] <FireEmblem> oye xau
+[00:19:52] [Async Chat Thread - #22/INFO]: [Not Secure] <FireEmblem> solo desactive los bloques de comandos
+[00:19:58] [Server thread/INFO]: [Not Secure] [Server] no se puede
+[00:20:03] [Server thread/INFO]: [Not Secure] [Server] toda la estructura del servidor esta en ella
+[00:20:08] [Server thread/INFO]: [Not Secure] [Server] y el wey sigue casrte con que no es el
+[00:20:14] [Server thread/INFO]: [Not Secure] [Server] y no se dodne carajos queda el comando
+[00:20:20] [Server thread/INFO]: [Not Secure] [Server] por eso dividi entre los que pueden usar comandos y los que no
+[00:20:27] [Server thread/INFO]: [Not Secure] [Server] voy a empezar a eliminar administradores
+[00:20:43] [Server thread/INFO]: _Brvnno issued server command: /msg soydiosxd pera
+[00:20:45] [Server thread/INFO]: [Not Secure] [Server] tomen captura de pantalla de csus cosas, peden seguir jugando, slo tomen captura de pantalla de su progreso para reponerlo en el siguiente mundo
+[00:20:58] [Async Chat Thread - #23/INFO]: [Not Secure] <FireEmblem> ok xau tonces te esperas un rato
+[00:21:02] [Async Chat Thread - #23/INFO]: [Not Secure] <FireEmblem> para instalar un mod de captura
+[00:21:05] [Async Chat Thread - #23/INFO]: [Not Secure] <soydiosxd> esq no estamos en base server
+[00:21:44] [Async Chat Thread - #23/INFO]: [Not Secure] <soydiosxd> server nos haces tp a nuestra base
+[00:21:56] [Async Chat Thread - #22/INFO]: [Not Secure] <FireEmblem> yo te hago tp en mi cuenta admin
+[00:22:05] [Server thread/INFO]: FireEmblem lost connection: Disconnected
+[00:22:05] [Server thread/INFO]: [Flame Horde] FireEmblem left the game
+[00:22:17] [User Authenticator #71/INFO]: UUID of player ShanayX2 is d66cd3e6-f582-3816-97ee-20d5393d01c6
+[00:22:22] [Server thread/INFO]: [OP] ShanayX2 joined the game
+[00:22:22] [Server thread/INFO]: ShanayX2[/127.189.106.131:33579] logged in with entity id 100733 at ([minecraft:overworld]-223.04590657910077, 63.0, 199.63656536674588)
+[00:22:44] [Server thread/INFO]: ShanayX2 issued server command: /tp @s -7227 -56.5 4004
+[00:22:44] [Server thread/INFO]: [[OP] ShanayX2: Teleported [OP] ShanayX2 to -7226.500000, -56.500000, 4004.500000]
+[00:22:48] [Server thread/INFO]: ShanayX2 issued server command: /gamemode creative
+[00:22:48] [Server thread/INFO]: [[OP] ShanayX2: Set own game mode to Creative Mode]
+[00:23:01] [Async Chat Thread - #24/INFO]: [Not Secure] <fafafaxdfa> fire
+[00:23:01] [Server thread/INFO]: ShanayX2 issued server command: /tp _Brvnno fafafaxdfa
+[00:23:01] [Server thread/INFO]: [[OP] ShanayX2: Teleported [Volcanos] _Brvnno to [Flame Horde] fafafaxdfa]
+[00:23:04] [Server thread/INFO]: ShanayX2 issued server command: /tp _Brvnno ShanayX2
+[00:23:04] [Server thread/INFO]: [[OP] ShanayX2: Teleported [Volcanos] _Brvnno to [OP] ShanayX2]
+[00:23:06] [Async Chat Thread - #24/INFO]: [Not Secure] <ShanayX2> EQUIVOCE
+[00:23:08] [Async Chat Thread - #24/INFO]: [Not Secure] <fafafaxdfa> chamare
+[00:23:09] [Async Chat Thread - #24/INFO]: [Not Secure] <ShanayX2> perdon
+[00:23:09] [Async Chat Thread - #24/INFO]: [Not Secure] <ShanayX2> perdon
+[00:23:12] [Async Chat Thread - #24/INFO]: [Not Secure] <soydiosxd> no esta bien
+[00:23:12] [Async Chat Thread - #24/INFO]: [Not Secure] <fafafaxdfa> lo queria matar
+[00:23:14] [Async Chat Thread - #24/INFO]: [Not Secure] <soydiosxd> a el tambien
+[00:23:17] [Server thread/INFO]: ShanayX2 issued server command: /tp soydiosxd ShanayX2
+[00:23:17] [Server thread/INFO]: [[OP] ShanayX2: Teleported [Volcanos] soydiosxd to [OP] ShanayX2]
+[00:23:20] [Async Chat Thread - #24/INFO]: [Not Secure] <_Brvnno> q haceees
+[00:23:31] [Async Chat Thread - #25/INFO]: [Not Secure] <fafafaxdfa> tan cerca
+[00:23:37] [Async Chat Thread - #25/INFO]: [Not Secure] <fafafaxdfa> y a la vez tan lejos
+[00:23:38] [Async Chat Thread - #24/INFO]: [Not Secure] <_Brvnno> nononono
+[00:23:49] [Async Chat Thread - #24/INFO]: [Not Secure] <soydiosxd> estabas serca de nosotros fafa ?
+[00:23:53] [Async Chat Thread - #24/INFO]: [Not Secure] <ShanayX2> no seas cuyeyo
+[00:23:59] [Async Chat Thread - #24/INFO]: [Not Secure] <_Brvnno> dame 5m
+[00:24:04] [Async Chat Thread - #24/INFO]: [Not Secure] <fafafaxdfa> fire tp a la base ps
+[00:24:09] [Async Chat Thread - #24/INFO]: [Not Secure] <fafafaxdfa> tengo q mostrarte algo xd
+[00:24:14] [Server thread/INFO]: ShanayX2 issued server command: /tp fafafaxdfa -4000 100 -5500
+[00:24:14] [Server thread/INFO]: [[OP] ShanayX2: Teleported [Flame Horde] fafafaxdfa to -3999.500000, 100.000000, -5499.500000]
+[00:24:15] [Server thread/WARN]: fafafaxdfa moved too quickly! 0.0,-10.806526110008988,0.0
+[00:24:22] [Server thread/INFO]: ShanayX2 issued server command: /tp ShanayX2 fafafaxdfa
+[00:24:22] [Server thread/INFO]: [[OP] ShanayX2: Teleported [OP] ShanayX2 to [Flame Horde] fafafaxdfa]
+[00:24:28] [Async Chat Thread - #25/INFO]: [Not Secure] <fafafaxdfa> em
+[00:24:31] [Server thread/INFO]: ShanayX2 issued server command: /tp @s -4180 72.5 5657
+[00:24:31] [Server thread/INFO]: [[OP] ShanayX2: Teleported [OP] ShanayX2 to -4179.500000, 72.500000, 5657.500000]
+[00:24:34] [Server thread/INFO]: ShanayX2 issued server command: /tp fafafaxdfa ShanayX2
+[00:24:34] [Server thread/INFO]: [[OP] ShanayX2: Teleported [Flame Horde] fafafaxdfa to [OP] ShanayX2]
+[00:24:38] [Server thread/INFO]: ShanayX2 lost connection: Disconnected
+[00:24:38] [Server thread/INFO]: [OP] ShanayX2 left the game
+[00:25:09] [Async Chat Thread - #25/INFO]: [Not Secure] <soydiosxd> oye server
+[00:25:18] [Async Chat Thread - #25/INFO]: [Not Secure] <soydiosxd> sigue ahi =
+[00:26:57] [Async Chat Thread - #26/INFO]: [Not Secure] <_Brvnno> voolvi
+[00:28:20] [Async Chat Thread - #28/INFO]: [Not Secure] <_Brvnno> serever
+[00:28:29] [Async Chat Thread - #28/INFO]: [Not Secure] <_Brvnno> server
+[00:28:35] [Async Chat Thread - #28/INFO]: [Not Secure] <_Brvnno> xau
+[00:28:48] [Async Chat Thread - #28/INFO]: [Not Secure] <soydiosxd> van a la base
+[00:28:54] [Async Chat Thread - #28/INFO]: [Not Secure] <soydiosxd> tengo todo
+[00:28:54] [User Authenticator #72/INFO]: UUID of player FireEmblem is 5a48378f-9425-393f-a12b-7c3bfb2ee2e1
+[00:28:57] [Async Chat Thread - #28/INFO]: [Not Secure] <soydiosxd> creo
+[00:29:06] [Server thread/INFO]: [Flame Horde] FireEmblem joined the game
+[00:29:06] [Server thread/INFO]: FireEmblem[/127.189.106.131:43933] logged in with entity id 103231 at ([minecraft:overworld]-4155.61520265356, 40.0, 5663.699999988079)
+[00:29:14] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> fire
+[00:29:21] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> tengo q mostrarte algo
+[00:29:22] [Async Chat Thread - #28/INFO]: [Not Secure] <FireEmblem> q
+[00:29:26] [Async Chat Thread - #28/INFO]: [Not Secure] <soydiosxd> fire van a reiniciaar ?
+[00:29:34] [Async Chat Thread - #28/INFO]: [Not Secure] <FireEmblem> yo creo q si
+[00:29:38] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> em
+[00:29:55] [Async Chat Thread - #28/INFO]: [Not Secure] <FireEmblem> alv
+[00:29:57] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> XD
+[00:30:03] [Async Chat Thread - #28/INFO]: [Not Secure] <soydiosxd> bruno onde tas
+[00:30:23] [Async Chat Thread - #29/INFO]: [Not Secure] <fafafaxdfa> q hago con eso xd
+[00:30:30] [Async Chat Thread - #29/INFO]: [Not Secure] <FireEmblem> tomele captura
+[00:30:36] [Async Chat Thread - #29/INFO]: [Not Secure] <fafafaxdfa> ven
+[00:30:38] [Async Chat Thread - #29/INFO]: [Not Secure] <fafafaxdfa> foto
+[00:30:45] [Async Chat Thread - #29/INFO]: [Not Secure] <soydiosxd> BRUNOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
+[00:30:48] [Async Chat Thread - #29/INFO]: [Not Secure] <_Brvnno> vooy
+[00:31:05] [Async Chat Thread - #29/INFO]: [Not Secure] <soydiosxd> HAGARRETE EL SULKER
+[00:31:06] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> foto
+[00:31:29] [Async Chat Thread - #29/INFO]: [Not Secure] <fafafaxdfa> elegante
+[00:31:35] [Async Chat Thread - #29/INFO]: [Not Secure] <_Brvnno> tomale foto a esto no
+[00:31:36] [Async Chat Thread - #29/INFO]: [Not Secure] <fafafaxdfa> ahora q hago con esto
+[00:31:36] [Async Chat Thread - #29/INFO]: [Not Secure] <_Brvnno> o no
+[00:31:48] [Async Chat Thread - #29/INFO]: [Not Secure] <soydiosxd> TRAETE UN CUBO DE LAVA
+[00:31:51] [Async Chat Thread - #29/INFO]: [Not Secure] <FireEmblem> toemele captura
+[00:31:52] [Async Chat Thread - #29/INFO]: [Not Secure] <fafafaxdfa> lo pongo
+[00:31:54] [Async Chat Thread - #29/INFO]: [Not Secure] <FireEmblem> para q te lo de
+[00:31:57] [Async Chat Thread - #29/INFO]: [Not Secure] <FireEmblem> cuando reinicie
+[00:32:01] [Async Chat Thread - #29/INFO]: [Not Secure] <FireEmblem> o si no guardlo
+[00:32:08] [Async Chat Thread - #29/INFO]: [Not Secure] <fafafaxdfa> no creo q me lo de
+[00:32:17] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> toma
+[00:32:24] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> tambien encontre esto
+[00:32:39] [Async Chat Thread - #28/INFO]: [Not Secure] <FireEmblem> necesitaba comida
+[00:32:48] [Async Chat Thread - #28/INFO]: [Not Secure] <_Brvnno> no haaay'w
+[00:32:49] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> aca tengo
+[00:32:54] [Async Chat Thread - #28/INFO]: [Not Secure] <_Brvnno> usa mecherooo
+[00:33:01] [Server thread/INFO]: FireEmblem lost connection: Disconnected
+[00:33:01] [Server thread/INFO]: [Flame Horde] FireEmblem left the game
+[00:33:02] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> XD
+[00:33:18] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> bruno
+[00:33:21] [Async Chat Thread - #28/INFO]: [Not Secure] <_Brvnno> que
+[00:33:34] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> oficialmente soy el player mas ilegal
+[00:33:39] [Async Chat Thread - #28/INFO]: [Not Secure] <_Brvnno> pq
+[00:33:55] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> tengo spawner, cabeza de player y ns q mas
+[00:33:55] [Server thread/INFO]: _Brvnno issued server command: /msg soydiosxd pq lo quemaaaas
+[00:34:02] [Async Chat Thread - #29/INFO]: [Not Secure] <_Brvnno> hahaha
+[00:34:08] [Server thread/INFO]: soydiosxd issued server command: /msg _Brvnno para poner mas cosas
+[00:34:08] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> tengo q ir a reportar creo
+[00:34:48] [Async Chat Thread - #28/INFO]: [Not Secure] <_Brvnno> mi espadaa
+[00:35:11] [Async Chat Thread - #29/INFO]: [Not Secure] <_Brvnno> cuando reinicia
+[00:35:15] [Server thread/INFO]: [Not Secure] [Server] mañana
+[00:35:20] [Server thread/INFO]: [Not Secure] [Server] sigan jugando normal
+[00:35:41] [Server thread/INFO]: _Brvnno issued server command: /fe
+[00:35:50] [Async Chat Thread - #29/INFO]: [Not Secure] <_Brvnno> sever
+[00:36:04] [Async Chat Thread - #29/INFO]: [Not Secure] <_Brvnno> xau
+[00:36:22] [Server thread/INFO]: [Volcanos] soydiosxd was slain by [Volcanos] _Brvnno
+[00:36:25] [Server thread/INFO]: Named entity Skeleton['Corpse'/105308, uuid='1fc1fc2b-15a0-492b-aa8d-5d09e6faa550', l='ServerLevel[world]', x=-7216.19, y=-57.00, z=4003.54, cpos=[-452, 250], tl=67, v=true] died: Corpse was killed
+[00:36:26] [Async Chat Thread - #29/INFO]: [Not Secure] <soydiosxd> mldt
+[00:36:33] [Server thread/INFO]: [Volcanos] soydiosxd was slain by [Volcanos] _Brvnno
+[00:36:38] [Server thread/INFO]: Named entity Skeleton['Corpse'/105408, uuid='63d200a6-c59a-4142-a311-3cccbe8034f5', l='ServerLevel[world]', x=-7217.95, y=-57.00, z=4002.35, cpos=[-452, 250], tl=103, v=true] died: Corpse was killed
+[00:37:28] [Server thread/INFO]: [Volcanos] _Brvnno was slain by [Volcanos] soydiosxd
+[00:37:34] [Server thread/INFO]: Named entity Skeleton['Corpse'/105626, uuid='eaad1e5f-d30f-49d8-ab37-5908675b6df6', l='ServerLevel[world]', x=-7234.34, y=-57.00, z=3999.55, cpos=[-453, 249], tl=123, v=true] died: Corpse was killed
+[00:38:28] [Server thread/INFO]: [Volcanos] _Brvnno was slain by [Volcanos] soydiosxd
+[00:38:40] [Server thread/INFO]: Named entity Skeleton['Corpse'/105902, uuid='11acee35-944a-4afe-bad6-a993ee69726a', l='ServerLevel[world]', x=-7226.54, y=-57.00, z=4004.77, cpos=[-452, 250], tl=231, v=true] died: Corpse was killed
+[00:39:03] [Server thread/INFO]: [Volcanos] soydiosxd was slain by [Volcanos] _Brvnno
+[00:39:07] [Server thread/INFO]: Named entity Skeleton['Corpse'/106170, uuid='1de8cb44-bc3c-46c3-95a2-6cadbe3c639a', l='ServerLevel[world]', x=-7227.53, y=-56.42, z=4003.30, cpos=[-452, 250], tl=89, v=true] died: Corpse was killed
+[00:39:07] [Async Chat Thread - #30/INFO]: [Not Secure] <soydiosxd> putooooooooooo
+[00:39:57] [Async Chat Thread - #30/INFO]: [Not Secure] <_Brvnno> y ahora
+[00:40:04] [Async Chat Thread - #30/INFO]: [Not Secure] <_Brvnno> si todo lo q hagamos se va a borrar
+[00:40:14] [Server thread/INFO]: [Not Secure] [Server] no se va a aborrar
+[00:40:16] [Server thread/INFO]: [Volcanos] soydiosxd has reached the goal [Postmortal]
+[00:40:21] [Server thread/INFO]: [Volcanos] soydiosxd was slain by [Volcanos] _Brvnno
+[00:40:22] [Server thread/INFO]: [Not Secure] [Server] tomenle captura de pantalla a sus cosas para que mañana los reoponga
+[00:40:26] [Server thread/INFO]: Named entity Skeleton['Corpse'/106476, uuid='4bfc9551-773b-4097-8ed8-807acf2e40be', l='ServerLevel[world]', x=-7230.79, y=-55.22, z=4004.42, cpos=[-452, 250], tl=98, v=true] died: Corpse was killed
+[00:40:34] [Async Chat Thread - #30/INFO]: [Not Secure] <_Brvnno> si pero las contrusciones
+[00:40:42] [Server thread/INFO]: [Not Secure] [Server] probablemente como van los admins mañana no se borrará nada
+[00:40:50] [Async Chat Thread - #30/INFO]: [Not Secure] <_Brvnno> soydiosxd
+[00:40:53] [Async Chat Thread - #30/INFO]: [Not Secure] <soydiosxd> a
+[00:40:58] [Async Chat Thread - #30/INFO]: [Not Secure] <_Brvnno> mejor juguemos mañana no?
+[00:41:01] [Async Chat Thread - #30/INFO]: [Not Secure] <soydiosxd> si
+[00:41:09] [Async Chat Thread - #30/INFO]: [Not Secure] <_Brvnno> unos mctiers?
+[00:41:34] [Async Chat Thread - #30/INFO]: [Not Secure] <soydiosxd> server donde paso cap ¿?
+[00:41:45] [Async Chat Thread - #30/INFO]: [Not Secure] <_Brvnno> que?
+[00:41:45] [Server thread/INFO]: [Not Secure] [Server] en el discord
+[00:41:56] [Async Chat Thread - #30/INFO]: [Not Secure] <soydiosxd> si pero van a saber todos
+[00:42:59] [Server thread/INFO]: [Not Secure] [Server] entonces al md
+[00:43:04] [Async Chat Thread - #33/INFO]: [Not Secure] <soydiosxd> como te llamas
+[00:44:27] [Server thread/INFO]: [Not Secure] [Server] Xautral pendejo
+[00:44:30] [Server thread/INFO]: [Not Secure] [Server] no mames we
+[00:44:34] [Server thread/INFO]: [Not Secure] [Server] :vvv
+[00:44:37] [Async Chat Thread - #34/INFO]: [Not Secure] <soydiosxd> q ps ahora
+[00:44:38] [Server thread/INFO]: [Not Secure] [Server] cfff
+[00:44:43] [Server thread/INFO]: soydiosxd issued server command: /cf
+[00:45:45] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> fafa
+[00:46:05] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> nadie me responde
+[00:46:09] [Async Chat Thread - #36/INFO]: [Not Secure] <fafafaxdfa> q
+[00:46:30] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> jugamos el de vegueta ?
+[00:46:44] [Async Chat Thread - #36/INFO]: [Not Secure] <fafafaxdfa> q mods lleva? xd
+[00:46:49] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> noseeeeeeeeeeee
+[00:46:52] [Async Chat Thread - #36/INFO]: [Not Secure] <fafafaxdfa> XD
+[00:46:54] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> buscaste
+[00:46:56] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> ?
+[00:46:58] [Async Chat Thread - #37/INFO]: [Not Secure] <fafafaxdfa> no
+[00:46:59] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> tu dihiste
+[00:47:01] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> dijiste
+[00:47:04] [Async Chat Thread - #37/INFO]: [Not Secure] <fafafaxdfa> ,e quede dormido
+[00:47:07] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> XD
+[00:47:08] [Async Chat Thread - #37/INFO]: [Not Secure] <fafafaxdfa> y despues entre aca
+[00:47:13] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> puto gordo
+[00:47:23] [Async Chat Thread - #37/INFO]: [Not Secure] <fafafaxdfa> yo salgo mas q tu
+[00:47:25] [Server thread/INFO]: There are 3 of a max of 20 players online: [Flame Horde] fafafaxdfa, [Volcanos] _Brvnno, [Volcanos] soydiosxd
+[00:47:25] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> aver deja ver
+[00:47:28] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> mentira XD
+[00:47:32] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> deja busco
+[00:47:35] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> ya te aviso
+[00:47:37] [Async Chat Thread - #37/INFO]: [Not Secure] <fafafaxdfa> ultima vez q saliste?
+[00:47:39] [Async Chat Thread - #37/INFO]: [Not Secure] <fafafaxdfa> XD
+[00:47:46] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> eehhh la semana pasada
+[00:47:47] [Server thread/INFO]: [Volcanos] soydiosxd was slain by [Volcanos] _Brvnno
+[00:47:48] [Server thread/INFO]: [Volcanos] _Brvnno was slain by Corpse
+[00:47:53] [Async Chat Thread - #37/INFO]: [Not Secure] <fafafaxdfa> yo sali ayer
+[00:47:54] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> la ptmdr
+[00:47:54] [Async Chat Thread - #37/INFO]: [Not Secure] <_Brvnno> bro
+[00:47:57] [Async Chat Thread - #37/INFO]: [Not Secure] <fafafaxdfa> AHSAHSAHASHSA
+[00:47:59] [Async Chat Thread - #37/INFO]: [Not Secure] <fafafaxdfa> GG
+[00:48:04] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> me mato el esqueleto de la muete de soy dios
+[00:48:04] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> reviveeeeeeee
+[00:48:07] [Server thread/INFO]: soydiosxd lost connection: You are banned from this server
+[00:48:07] [Server thread/INFO]: soydiosxd left the game
+[00:48:13] [Server thread/INFO]: Unbanned soydiosxd
+[00:48:20] [Server thread/INFO]: Set [Volcanos] _Brvnno's game mode to Survival Mode
+[00:48:20] [Async Chat Thread - #36/INFO]: [Not Secure] <fafafaxdfa> no puedo gg
+[00:48:26] [User Authenticator #73/INFO]: UUID of player soydiosxd is 200d2371-c7c1-3af1-b1f5-0271b50b95ab
+[00:48:27] [Async Chat Thread - #37/INFO]: [Not Secure] <fafafaxdfa> pasa cords bruno
+[00:48:35] [Server thread/INFO]: [Volcanos] soydiosxd joined the game
+[00:48:35] [Server thread/INFO]: soydiosxd[/127.146.24.98:43803] logged in with entity id 108290 at ([minecraft:overworld]-201.53708888082667, 30.22553311551117, 189.53492508968213)
+[00:48:35] [Async Chat Thread - #37/INFO]: [Not Secure] <fafafaxdfa> como reviviste
+[00:48:37] [Server thread/INFO]: [Not Secure] [Server] todava no se borra eh
+[00:48:38] [Server thread/INFO]: Set [Volcanos] soydiosxd's game mode to Survival Mode
+[00:48:38] [Server thread/WARN]: soydiosxd moved wrongly!
+[00:48:46] [Async Chat Thread - #37/INFO]: [Not Secure] <_Brvnno> tp a mi basee plz
+[00:48:46] [Server thread/INFO]: [Not Secure] [Server] por como van no se borrará el mundo mañana
+[00:48:57] [Server thread/INFO]: [Volcanos] soydiosxd suffocated in a wall
+[00:49:02] [Server thread/INFO]: Named entity Skeleton['Corpse'/108374, uuid='bd44dfcd-59ad-426f-9709-f2a32ccce863', l='ServerLevel[world]', x=-200.70, y=31.00, z=191.70, cpos=[-13, 11], tl=118, v=true] died: Corpse was killed
+[00:49:03] [Server thread/WARN]: soydiosxd moved wrongly!
+[00:49:06] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> tp
+[00:49:07] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> to
+[00:49:07] [Async Chat Thread - #37/INFO]: [Not Secure] <_Brvnno> sever llevenos a la basee
+[00:49:09] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> a brno
+[00:49:11] [Server thread/INFO]: Unknown scoreboard objective 'RevTime'
+[00:49:12] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> nononoo
+[00:49:13] [Server thread/INFO]: Unknown scoreboard objective 'RevTime'
+[00:49:15] [Server thread/INFO]: [Volcanos] soydiosxd suffocated in a wall
+[00:49:15] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> noseeeeee
+[00:49:17] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> primero llevenos a la base
+[00:49:19] [Server thread/INFO]: Removed objective [RevTime]
+[00:49:21] [Server thread/INFO]: Named entity Skeleton['Corpse'/108469, uuid='3eec8896-fef6-450c-a57b-ad4d2288d9c7', l='ServerLevel[world]', x=-200.70, y=31.00, z=191.51, cpos=[-13, 11], tl=125, v=true] died: Corpse was killed
+[00:49:24] [Server thread/INFO]: Set [Volcanos] soydiosxd's game mode to Survival Mode
+[00:49:53] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> serveeeer
+[00:49:53] [Server thread/INFO]: [Volcanos] _Brvnno was slain by [Volcanos] soydiosxd
+[00:49:56] [Server thread/INFO]: Named entity Skeleton['Corpse'/108643, uuid='80b25dfa-98bd-4f8d-a469-1be782cfca85', l='ServerLevel[world]', x=-201.30, y=23.00, z=174.70, cpos=[-13, 10], tl=51, v=true] died: Corpse was killed while fighting [Volcanos] soydiosxd
+[00:49:56] [Server thread/WARN]: _Brvnno moved wrongly!
+[00:50:05] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> server llevenos a la baseeee
+[00:50:11] [Server thread/INFO]: [Not Secure] [Server] dame cords
+[00:50:11] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> pdnk
+[00:50:13] [Async Chat Thread - #36/INFO]: [Not Secure] <fafafaxdfa> andan por el trono de hielo?
+[00:50:20] [Server thread/INFO]: Unknown scoreboard objective 'RevTime'
+[00:50:22] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> PONEME EN ESPECTEADOR 5S
+[00:50:26] [Server thread/INFO]: [Not Secure] [Server] no
+[00:50:33] [Server thread/INFO]: [Not Secure] [Server] todavia no sse acaba el srv que hacen
+[00:50:34] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> esq no se dnd eees
+[00:50:37] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> fafa salite del server un segundo para pasarle las coords
+[00:50:48] [Async Chat Thread - #36/INFO]: [Not Secure] <fafafaxdfa> pasale por msg
+[00:50:52] [Async Chat Thread - #36/INFO]: [Not Secure] <fafafaxdfa> XD
+[00:50:53] [Server thread/INFO]: fafafaxdfa lost connection: Disconnected
+[00:50:53] [Server thread/INFO]: [Flame Horde] fafafaxdfa left the game
+[00:50:53] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> esq no me las see
+[00:51:01] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> eres una mrd
+[00:51:01] [User Authenticator #74/INFO]: UUID of player fafafaxdfa is f258345e-3b57-30ad-bf76-8e8a94d40a00
+[00:51:12] [Server thread/INFO]: [Flame Horde] fafafaxdfa joined the game
+[00:51:12] [Server thread/INFO]: fafafaxdfa[/127.253.200.228:48837] logged in with entity id 108895 at ([minecraft:overworld]-4163.889563433758, 81.0, 5664.267677038028)
+[00:51:24] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> fafa no se sabe las coods este pdnik
+[00:51:31] [Async Chat Thread - #36/INFO]: [Not Secure] <fafafaxdfa> xd
+[00:51:35] [Async Chat Thread - #36/INFO]: [Not Secure] <fafafaxdfa> GG SU BASE
+[00:51:58] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> SERVER
+[00:52:03] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> a dnd le mando las cords
+[00:52:06] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> en q msg :v
+[00:52:13] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> salte fafa
+[00:52:15] [Server thread/INFO]: fafafaxdfa lost connection: Disconnected
+[00:52:15] [Server thread/INFO]: [Flame Horde] fafafaxdfa left the game
+[00:52:16] [User Authenticator #75/INFO]: UUID of player fafafaxdfa is f258345e-3b57-30ad-bf76-8e8a94d40a00
+[00:52:19] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> manda
+[00:52:29] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> sson -7250 4000
+[00:52:33] [Server thread/INFO]: [Flame Horde] fafafaxdfa joined the game
+[00:52:33] [Server thread/INFO]: fafafaxdfa[/127.253.200.228:53725] logged in with entity id 109331 at ([minecraft:overworld]-4179.6881193807885, 40.0, 5660.699999988079)
+[00:52:36] [Async Chat Thread - #37/INFO]: [Not Secure] <_Brvnno> tp plz
+[00:52:46] [Server thread/INFO]: [Not Secure] [Server] pon /cords
+[00:52:50] [Server thread/INFO]: [Not Secure] [Server] leere tus comandos
+[00:53:02] [Server thread/INFO]: _Brvnno issued server command: /cords -7250 4000
+[00:53:07] [Server thread/INFO]: soydiosxd issued server command: /cords -7250 4000
+[00:53:09] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> no deja
+[00:53:15] [Async Chat Thread - #37/INFO]: [Not Secure] <_Brvnno> esq el ve todo el chat
+[00:53:16] [Server thread/INFO]: soydiosxd issued server command: /gamemode creatiov
+[00:53:17] [Async Chat Thread - #37/INFO]: [Not Secure] <_Brvnno> asi q lo gvera
+[00:53:28] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> fafa ya te aviso mejor cuando te unas XD
+[00:53:36] [Async Chat Thread - #37/INFO]: [Not Secure] <_Brvnno> nononono
+[00:53:37] [Async Chat Thread - #37/INFO]: [Not Secure] <fafafaxdfa> tmr o
+[00:53:42] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> dakleee
+[00:53:42] [Async Chat Thread - #37/INFO]: [Not Secure] <_Brvnno> si se peude asi
+[00:53:47] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> q no deja mrd
+[00:53:48] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> server tpenoos
+[00:53:50] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> bueno a mi
+[00:53:52] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> no
+[00:54:05] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> serveeeer
+[00:54:06] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> server sirve para algo
+[00:54:07] [Async Chat Thread - #36/INFO]: [Not Secure] <fafafaxdfa> andan en un trono de hielo?
+[00:54:09] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> tp tp tpt pt tp tppt pt pt p
+[00:54:13] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> fafafaxdfa no
+[00:54:16] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> nosotros ? no
+[00:54:20] [Server thread/INFO]: [Volcanos] _Brvnno was slain by [Volcanos] soydiosxd
+[00:54:23] [Async Chat Thread - #36/INFO]: [Not Secure] <fafafaxdfa> seguros? xd
+[00:54:27] [Server thread/INFO]: Named entity Skeleton['Corpse'/109935, uuid='a9e7bd4e-32cb-4894-8f34-850c9f3ad5a8', l='ServerLevel[world]', x=-203.70, y=24.00, z=173.49, cpos=[-13, 10], tl=132, v=true] died: Corpse was killed
+[00:54:33] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> andamos en cueva
+[00:54:35] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> tpoeeeee
+[00:54:38] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> tepee
+[00:54:41] [Async Chat Thread - #36/INFO]: [Not Secure] <fafafaxdfa> aya
+[00:54:42] [Server thread/INFO]: [Volcanos] _Brvnno was slain by [Volcanos] soydiosxd
+[00:54:44] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> dejaaaa
+[00:54:47] [Server thread/INFO]: Named entity Skeleton['Corpse'/110029, uuid='d227b216-c95d-49cc-87e1-45403cf1083e', l='ServerLevel[world]', x=-203.70, y=24.00, z=173.30, cpos=[-13, 10], tl=112, v=true] died: Corpse was killed
+[00:54:47] [Server thread/WARN]: _Brvnno moved wrongly!
+[00:54:53] [Server thread/INFO]: [Volcanos] _Brvnno was slain by [Volcanos] soydiosxd
+[00:54:57] [Server thread/INFO]: Named entity Skeleton['Corpse'/110258, uuid='0ad67b59-b4dc-461a-a0d4-2a166252b49d', l='ServerLevel[world]', x=-203.70, y=24.00, z=173.30, cpos=[-13, 10], tl=81, v=true] died: Corpse was killed
+[00:55:10] [Server thread/INFO]: [Volcanos] _Brvnno was slain by [Volcanos] soydiosxd
+[00:55:11] [Server thread/INFO]: Named entity Skeleton['Corpse'/110404, uuid='2fdf98ba-3c1d-46f3-aa37-f8430595bf43', l='ServerLevel[world]', x=-203.70, y=24.00, z=173.30, cpos=[-13, 10], tl=19, v=true] died: Corpse was killed
+[00:55:15] [Server thread/INFO]: [Volcanos] _Brvnno was slain by [Volcanos] soydiosxd
+[00:55:19] [Server thread/INFO]: Named entity Skeleton['Corpse'/110409, uuid='82c32791-faeb-4a13-bfe6-bae62259660b', l='ServerLevel[world]', x=-203.70, y=24.00, z=173.30, cpos=[-13, 10], tl=75, v=true] died: Corpse was killed while fighting [Volcanos] soydiosxd
+[00:55:22] [Server thread/INFO]: [Volcanos] _Brvnno was slain by [Volcanos] soydiosxd
+[00:55:26] [Server thread/INFO]: Named entity Skeleton['Corpse'/110423, uuid='1e5d5b2c-3989-49c7-92be-2a1b17449bdf', l='ServerLevel[world]', x=-203.70, y=24.00, z=173.30, cpos=[-13, 10], tl=93, v=true] died: Corpse was killed
+[00:55:29] [Server thread/INFO]: [Volcanos] _Brvnno was slain by [Volcanos] soydiosxd
+[00:55:31] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> ya dejaaa
+[00:55:35] [Server thread/INFO]: Named entity Skeleton['Corpse'/110445, uuid='d8c983c3-c592-4b3f-956f-e4801ec70b68', l='ServerLevel[world]', x=-203.30, y=24.00, z=173.63, cpos=[-13, 10], tl=107, v=true] died: Corpse was killed
+[00:55:40] [Async Chat Thread - #36/INFO]: [Not Secure] <soydiosxd> farmer infinito
+[00:55:43] [Async Chat Thread - #36/INFO]: [Not Secure] <_Brvnno> serveeer
+[00:56:12] [Server thread/INFO]: [Volcanos] _Brvnno was slain by [Volcanos] soydiosxd
+[00:56:13] [Server thread/INFO]: Named entity Skeleton['Corpse'/110626, uuid='03e6d520-3605-4c25-bb4d-1c2e660708f3', l='ServerLevel[world]', x=-199.67, y=18.00, z=168.88, cpos=[-13, 10], tl=21, v=true] died: Corpse was killed
+[00:56:14] [Server thread/INFO]: [Not Secure] [Server] dlnde te tepeo w
+[00:56:20] [Server thread/INFO]: [Volcanos] _Brvnno was slain by [Volcanos] soydiosxd
+[00:56:26] [Server thread/INFO]: Named entity Skeleton['Corpse'/110653, uuid='36f35a39-88ae-4892-87d9-00c89c5540dc', l='ServerLevel[world]', x=-200.30, y=18.00, z=171.70, cpos=[-13, 10], tl=119, v=true] died: Corpse was killed
+[00:56:42] [Async Chat Thread - #37/INFO]: [Not Secure] <fafafaxdfa> server hazme tp a ellos y los mato XD
+[00:56:48] [Async Chat Thread - #37/INFO]: [Not Secure] <soydiosxd> shh fafa
+[00:56:59] [Server thread/INFO]: [Flame Horde] fafafaxdfa has made the advancement [Local Brewery]
+[00:57:04] [Server thread/INFO]: [Volcanos] _Brvnno was slain by [Volcanos] soydiosxd
+[00:57:11] [Server thread/INFO]: Named entity Skeleton['Corpse'/110803, uuid='3baea48e-aa67-43ee-a570-890d9f0feb51', l='ServerLevel[world]', x=-203.70, y=21.00, z=172.70, cpos=[-13, 10], tl=137, v=true] died: Corpse was killed
+[00:57:11] [Server thread/WARN]: _Brvnno moved wrongly!
+[00:57:34] [Server thread/INFO]: [Volcanos] _Brvnno was slain by [Volcanos] soydiosxd
+[00:57:39] [Server thread/INFO]: Named entity Skeleton['Corpse'/110902, uuid='b6e726ea-38db-48ac-b9cf-5e945e63032b', l='ServerLevel[world]', x=-203.70, y=21.00, z=171.30, cpos=[-13, 10], tl=111, v=true] died: Corpse was killed while fighting [Volcanos] soydiosxd
+[00:57:51] [Async Chat Thread - #38/INFO]: [Not Secure] <soydiosxd> correme perrita
+[00:58:06] [Server thread/INFO]: [Volcanos] soydiosxd was slain by [Volcanos] _Brvnno
+[00:58:08] [Async Chat Thread - #38/INFO]: [Not Secure] <soydiosxd> XD
+[00:58:10] [Server thread/INFO]: Named entity Skeleton['Corpse'/111009, uuid='ea0557e3-ed0e-4e22-96c2-cae264343d56', l='ServerLevel[world]', x=-202.18, y=21.00, z=171.04, cpos=[-13, 10], tl=92, v=true] died: Corpse was killed
+[00:58:14] [Async Chat Thread - #38/INFO]: [Not Secure] <fafafaxdfa> server hazme tp a ellos y los mato XD
+[00:58:31] [Async Chat Thread - #38/INFO]: [Not Secure] <soydiosxd> server de mrd
+[00:58:41] [Server thread/INFO]: [Volcanos] soydiosxd was slain by [Volcanos] _Brvnno
+[00:58:43] [Server thread/INFO]: Named entity Skeleton['Corpse'/111168, uuid='efd73de5-e372-4e30-988f-01fa8c87895e', l='ServerLevel[world]', x=-200.37, y=20.00, z=170.61, cpos=[-13, 10], tl=54, v=true] died: Corpse was killed
+[00:59:15] [Server thread/INFO]: [Volcanos] soydiosxd was slain by [Volcanos] _Brvnno
+[00:59:17] [Server thread/INFO]: [Not Secure] [Server] ya vy a aagar el sr alch
+[00:59:17] [Server thread/INFO]: Named entity Skeleton['Corpse'/111356, uuid='6ae46ade-6e9d-4a59-9252-b17007a15fe8', l='ServerLevel[world]', x=-200.70, y=18.69, z=171.09, cpos=[-13, 10], tl=38, v=true] died: Corpse was killed
+[00:59:17] [Server thread/WARN]: soydiosxd moved wrongly!
+[00:59:22] [Server thread/INFO]: Stopping the server
+[00:59:22] [Server thread/INFO]: Stopping server
+[00:59:22] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[00:59:22] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[00:59:22] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[00:59:22] [Server thread/INFO]: [sMusic] Disabling sMusic v1.0
+[00:59:22] [Server thread/INFO]:  sMusic [Disabled ✗]
+[00:59:22] [Server thread/INFO]: [ItemEdit] Disabling ItemEdit v3.7.10
+[00:59:22] [Server thread/INFO]: [OpenInv] Disabling OpenInv v5.3.3
+[00:59:22] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.5
+[00:59:22] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.11.0
+[00:59:22] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.11.0
+[00:59:22] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[00:59:22] [Server thread/INFO]: Saving players
+[00:59:22] [Server thread/INFO]: _Brvnno lost connection: Server closed
+[00:59:22] [Server thread/INFO]: _Brvnno left the game
+[00:59:22] [Server thread/INFO]: soydiosxd lost connection: Server closed
+[00:59:22] [Server thread/INFO]: soydiosxd left the game
+[00:59:22] [Server thread/INFO]: fafafaxdfa lost connection: Server closed
+[00:59:22] [Server thread/INFO]: fafafaxdfa left the game
+[00:59:22] [Server thread/INFO]: Saving worlds
+[00:59:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:59:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[00:59:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[00:59:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[00:59:23] [Server thread/INFO]: [ChunkHolderManager] Saved 87 block chunks, 409 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.36s
+[00:59:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[00:59:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[00:59:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:59:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[00:59:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[00:59:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[00:59:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.01s
+[00:59:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[00:59:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[00:59:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:59:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[00:59:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[00:59:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[00:59:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[00:59:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[00:59:24] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[00:59:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:59:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:59:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:59:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:59:24] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[00:59:24] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[00:59:24] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[00:59:24] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
