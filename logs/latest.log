@@ -348,3 +348,242 @@ See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
 [16:08:05] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> honestamente
 [16:08:15] [Async Chat Thread - #15/INFO]: [Not Secure] <blime2009> comun
 [16:08:21] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> buen
+[16:09:11] [Server thread/INFO]: blime2009 issued server command: /setblock ~ ~ ~ minecraft:nether_portal
+[16:09:11] [Server thread/INFO]: [[OP] blime2009: Changed the block at 23, 0, -4]
+[16:09:14] [Server thread/INFO]: blime2009 issued server command: /tp Xautral
+[16:09:14] [Server thread/INFO]: [[OP] blime2009: Teleported [OP] blime2009 to [OP] Xautral]
+[16:10:36] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> ese w
+[16:11:33] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> tu me odias?
+[16:11:38] [Async Chat Thread - #17/INFO]: [Not Secure] <blime2009> nah
+[16:11:47] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> entonces?
+[16:12:00] [Server thread/INFO]: Xautral issued server command: /ie enchant lunge 3
+[16:12:15] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin ~ ~ ~
+[16:12:15] [Server thread/INFO]: [[OP] Xautral: Summoned new Mannequin]
+[16:12:15] [Async Chat Thread - #17/INFO]: [Not Secure] <blime2009> entonces q
+[16:12:26] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin ~ ~ ~
+[16:12:26] [Server thread/INFO]: [[OP] Xautral: Summoned new Mannequin]
+[16:12:27] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Survival Mode]
+[16:12:36] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> que opinas de mi
+[16:12:42] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[16:12:44] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin ~ ~ ~
+[16:12:44] [Server thread/INFO]: [[OP] Xautral: Summoned new Mannequin]
+[16:12:52] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin ~ ~ ~
+[16:12:52] [Server thread/INFO]: [[OP] Xautral: Summoned new Mannequin]
+[16:12:58] [Async Chat Thread - #17/INFO]: [Not Secure] <blime2009> eres una persona normal que solo vive la vida como quiere, osea una persona comun
+[16:12:58] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin ~ ~ ~
+[16:12:58] [Server thread/INFO]: [[OP] Xautral: Summoned new Mannequin]
+[16:13:12] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> bueno
+[16:13:14] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> gracias
+[16:13:26] [Server thread/INFO]: Xautral issued server command: /ie enchant lunge 25
+[16:13:32] [Server thread/WARN]: Xautral moved too quickly! 10.723899171024906,-0.07855704083501247,3.9135038709590346
+[16:13:43] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin ~ ~ ~
+[16:13:43] [Server thread/INFO]: [[OP] Xautral: Summoned new Mannequin]
+[16:13:44] [Server thread/WARN]: Xautral moved too quickly! -2.6736588745197913,0.0,10.30606898743032
+[16:13:52] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> si tuvieras que describirte en una palabra
+[16:13:55] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> cual elegirías
+[16:13:59] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> si tuvieras que describirte en una palabra
+[16:14:01] [Server thread/INFO]: Xautral issued server command: /summon minecraft:mannequin ~ ~ ~
+[16:14:01] [Server thread/INFO]: [[OP] Xautral: Summoned new Mannequin]
+[16:14:02] [Server thread/WARN]: Xautral moved too quickly! 8.458340963193553,0.0,-7.628273210034792
+[16:14:03] [Server thread/WARN]: Xautral moved too quickly! 10.790070451882539,-0.07855704083501269,-0.062347678629029346
+[16:14:05] [Server thread/WARN]: Xautral moved too quickly! 10.913156568600979,0.0,1.1343284478171736
+[16:14:18] [Server thread/WARN]: Xautral moved too quickly! -10.013566058213858,-0.0781297686626381,5.51662697061934
+[16:14:23] [Async Chat Thread - #17/INFO]: [Not Secure] <blime2009> no tengo
+[16:14:28] [Async Chat Thread - #17/INFO]: [Not Secure] <blime2009> no se
+[16:15:07] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> okey
+[16:15:15] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> no te gusta ser catalogado, no?
+[16:15:28] [Async Chat Thread - #17/INFO]: [Not Secure] <blime2009> no me importa, cada quien tiene su opinion
+[16:15:30] [User Authenticator #3/INFO]: UUID of player FireEmblem is 5a48378f-9425-393f-a12b-7c3bfb2ee2e1
+[16:15:46] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> ya vien efireemblem
+[16:15:48] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> luego hablamos
+[16:15:50] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> si quieres
+[16:15:50] [Server thread/WARN]: Xautral moved too quickly! 10.53767715723075,0.0,-4.520162688700007
+[16:16:01] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> disculpa si fue incómodo
+[16:16:15] [Async Chat Thread - #17/INFO]: [Not Secure] <blime2009> no me incomoda nada
+[16:16:35] [Server thread/INFO]: [Flame Horde] FireEmblem joined the game
+[16:16:35] [Server thread/INFO]: FireEmblem[/127.86.52.153:52305] logged in with entity id 8347 at ([minecraft:overworld]-4175.775274302079, 41.37815562776066, 5658.437041918224)
+[16:16:47] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> hola FuegoEmblema
+[16:16:49] [Server thread/INFO]: Xautral issued server command: /tp FireEmblem
+[16:16:49] [Server thread/INFO]: [[OP] Xautral: Teleported [OP] Xautral to [Flame Horde] FireEmblem]
+[16:17:20] [Async Chat Thread - #17/INFO]: [Not Secure] <FireEmblem> Hola gaytral
+[16:17:42] [Async Chat Thread - #17/INFO]: [Not Secure] <FireEmblem> hola goodtral
+[16:18:04] [Async Chat Thread - #17/INFO]: [Not Secure] <blime2009> despues vuelvo
+[16:18:11] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> vale
+[16:18:21] [Server thread/INFO]: blime2009 lost connection: Disconnected
+[16:18:21] [Server thread/INFO]: [OP] blime2009 left the game
+[16:18:29] [Async Chat Thread - #17/INFO]: [Not Secure] <FireEmblem> hoal bebe
+[16:18:33] [Async Chat Thread - #17/INFO]: [Not Secure] <Xautral> hola FireGayblem
+[16:18:44] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[16:19:14] [Async Chat Thread - #18/INFO]: [Not Secure] <Xautral> me siento de la verga
+[16:19:19] [Async Chat Thread - #18/INFO]: [Not Secure] <Xautral> me siento inquieto
+[16:19:36] [Async Chat Thread - #18/INFO]: [Not Secure] <FireEmblem> SOY UN ONICHAN OTAKU!
+[16:19:40] [Async Chat Thread - #18/INFO]: [Not Secure] <FireEmblem> ARIGATO SENPAI
+[16:20:46] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.createmode master @a ~ ~ ~ 1 1 1
+[16:20:46] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:custom.createmode to 2 players]
+[16:21:23] [Server thread/INFO]: Villager Villager['Villager'/9757, uuid='f0976a5e-6a1d-48c4-81b8-189ec8ab44f0', l='ServerLevel[world]', x=-4180.07, y=40.00, z=5654.49, cpos=[-262, 353], tl=567, v=true] died, message: 'Villager was slain by Juanito'
+[16:21:26] [Async Chat Thread - #19/INFO]: [Not Secure] <FireEmblem> esa se eschucha bien
+[16:22:08] [Async Chat Thread - #19/INFO]: [Not Secure] <Xautral> es de un juego de mi inf
+[16:22:12] [Async Chat Thread - #19/INFO]: [Not Secure] <Xautral> es de un juego de mi infancia
+[16:22:21] [Async Chat Thread - #19/INFO]: [Not Secure] <Xautral> el creador vendió el juego a la empresa de worldbox
+[16:22:25] [Async Chat Thread - #19/INFO]: [Not Secure] <Xautral> y termino siendo un metaverso pendejo
+[16:22:29] [Async Chat Thread - #19/INFO]: [Not Secure] <Xautral> el juego era i
+[16:22:32] [Async Chat Thread - #19/INFO]: [Not Secure] <Xautral> indie
+[16:22:36] [Async Chat Thread - #19/INFO]: [Not Secure] <Xautral> estaba muy vergas
+[16:22:38] [Async Chat Thread - #19/INFO]: [Not Secure] <FireEmblem> yo tambien jugaba un juego q tenia ost buenisima
+[16:22:39] [Async Chat Thread - #19/INFO]: [Not Secure] <Xautral> era sandbox
+[16:22:45] [Async Chat Thread - #19/INFO]: [Not Secure] <Xautral> cual FireEmblem?
+[16:22:50] [Async Chat Thread - #19/INFO]: [Not Secure] <FireEmblem> yo kai watch
+[16:22:54] [Async Chat Thread - #19/INFO]: [Not Secure] <Xautral> ni idea
+[16:22:56] [Async Chat Thread - #19/INFO]: [Not Secure] <Xautral> ni idea
+[16:23:00] [Async Chat Thread - #19/INFO]: [Not Secure] <Xautral> wwwwwwwwwwwww
+[16:23:04] [Server thread/INFO]: Villager Villager['Villager'/9977, uuid='08770126-4ce5-4564-9972-a1911577b3ab', l='ServerLevel[world]', x=-4179.52, y=40.06, z=5654.98, cpos=[-262, 353], tl=499, v=true] died, message: 'Villager was slain by Juanito'
+[16:23:04] [Async Chat Thread - #19/INFO]: [Not Secure] <Xautral> pinche teclado pendejo no carga
+[16:24:04] [Async Chat Thread - #19/INFO]: [Not Secure] <Xautral> oye cabron pendejo
+[16:24:07] [Async Chat Thread - #19/INFO]: [Not Secure] <FireEmblem> ey
+[16:24:12] [Async Chat Thread - #19/INFO]: [Not Secure] <Xautral> como te sientes?
+[16:24:20] [Async Chat Thread - #19/INFO]: [Not Secure] <FireEmblem> no se
+[16:24:24] [Server thread/INFO]: Villager Villager['Villager'/10230, uuid='1fd3ca04-5a60-42b6-afa9-eb519aaa717a', l='ServerLevel[world]', x=-4180.06, y=40.00, z=5654.49, cpos=[-262, 353], tl=505, v=true] died, message: 'Villager was slain by Juanito'
+[16:25:23] [Server thread/INFO]: Xautral lost connection: Timed out
+[16:25:23] [Server thread/INFO]: [OP] Xautral left the game
+[16:26:27] [User Authenticator #4/INFO]: UUID of player Slimegolembros is fb02b546-7f6c-3666-aaca-2e861bcf597e
+[16:26:29] [Server thread/INFO]: [OP] Slimegolembros joined the game
+[16:26:29] [Server thread/INFO]: Slimegolembros[/127.226.32.195:60469] logged in with entity id 10767 at ([minecraft:overworld]4.171533575889147, -5.50609251977052, 26.84752995387435)
+[16:26:43] [Async Chat Thread - #21/INFO]: [Not Secure] <Slimegolembros> hola FireEmblem
+[16:27:06] [Server thread/INFO]: Slimegolembros issued server command: /tp FireEmblem
+[16:27:06] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Flame Horde] FireEmblem]
+[16:27:21] [Server thread/INFO]: Slimegolembros issued server command: /effect give Slimegolembros minecraft:night_vision infinite 1 true
+[16:27:21] [Server thread/INFO]: [[OP] Slimegolembros: Applied effect Night Vision to [OP] Slimegolembros]
+[16:28:09] [Server thread/INFO]: Named entity Slime['chicle'/11047, uuid='ef710d11-5e00-4617-b1b5-d6e80d9e903c', l='ServerLevel[world]', x=-4176.22, y=40.00, z=5660.87, cpos=[-262, 353], tl=89, v=true] died: chicle was slain by [Flame Horde] FireEmblem
+[16:28:11] [Server thread/INFO]: Named entity Slime['chicle'/11069, uuid='8df184d4-e0a4-4b65-bb0b-fd23c06f8f3e', l='ServerLevel[world]', x=-4178.27, y=40.00, z=5657.68, cpos=[-262, 353], tl=17, v=true] died: chicle was slain by [Flame Horde] FireEmblem
+[16:28:11] [Server thread/INFO]: Named entity Slime['chicle'/11070, uuid='d32b7c13-0cc3-4790-ab52-45995ec6c343', l='ServerLevel[world]', x=-4178.27, y=40.00, z=5657.68, cpos=[-262, 353], tl=17, v=true] died: chicle was slain by [Flame Horde] FireEmblem
+[16:28:16] [Server thread/INFO]: Named entity Slime['chicle'/11079, uuid='1234d3fa-ee5f-4f62-be84-ae7cd41692cc', l='ServerLevel[world]', x=-4180.73, y=41.88, z=5664.70, cpos=[-262, 354], tl=77, v=true] died: chicle was slain by [Flame Horde] FireEmblem
+[16:28:17] [Server thread/INFO]: Named entity Slime['chicle'/11080, uuid='86e2a09e-8054-432c-b074-94e93bf3e83f', l='ServerLevel[world]', x=-4181.91, y=41.88, z=5664.70, cpos=[-262, 354], tl=94, v=true] died: chicle was slain by [Flame Horde] FireEmblem
+[16:28:17] [Server thread/INFO]: Named entity Slime['chicle'/11082, uuid='7b1f9896-c8fb-40c6-8103-4c98524fec7d', l='ServerLevel[world]', x=-4181.91, y=41.88, z=5664.70, cpos=[-262, 354], tl=94, v=true] died: chicle was slain by [Flame Horde] FireEmblem
+[16:28:17] [Server thread/INFO]: Named entity Slime['chicle'/11083, uuid='6b545fb9-9270-493e-8c28-c82af96de63d', l='ServerLevel[world]', x=-4181.91, y=41.88, z=5664.70, cpos=[-262, 354], tl=94, v=true] died: chicle was slain by [Flame Horde] FireEmblem
+[16:28:17] [Server thread/INFO]: Named entity Slime['chicle'/11081, uuid='36c6355a-b7ce-4d74-bdd3-517b515ec9d9', l='ServerLevel[world]', x=-4181.91, y=41.88, z=5664.70, cpos=[-262, 354], tl=94, v=true] died: chicle was slain by [Flame Horde] FireEmblem
+[16:28:22] [Async Chat Thread - #23/INFO]: [Not Secure] <Slimegolembros> bruh
+[16:28:54] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Survival Mode]
+[16:28:56] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
+[16:29:07] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Survival Mode]
+[16:29:10] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[16:29:28] [Server thread/INFO]: Slimegolembros issued server command: /tp FireEmblem
+[16:29:28] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Flame Horde] FireEmblem]
+[16:29:52] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Survival Mode]
+[16:29:54] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
+[16:30:00] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Survival Mode]
+[16:30:01] [Server thread/INFO]: [OP] Slimegolembros was slain by Slime
+[16:30:02] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[16:30:05] [Async Chat Thread - #25/INFO]: [Not Secure] <Slimegolembros> XD
+[16:30:08] [Server thread/INFO]: Slimegolembros issued server command: /tp FireEmblem
+[16:30:08] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Flame Horde] FireEmblem]
+[16:30:09] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Spectator Mode]
+[16:30:12] [Server thread/INFO]: [[OP] Slimegolembros: Set own game mode to Creative Mode]
+[16:30:21] [Server thread/INFO]: Named entity Skeleton['Corpse'/11329, uuid='27ef1cc2-469e-40d4-8012-821d62a03108', l='ServerLevel[world]', x=-4172.52, y=29.96, z=5661.30, cpos=[-261, 353], tl=398, v=true] died: Corpse was killed
+[16:30:21] [Server thread/INFO]: Slimegolembros lost connection: You are banned from this server
+[16:30:21] [Server thread/INFO]: Slimegolembros left the game
+[16:30:27] [User Authenticator #5/INFO]: UUID of player Slimegolembros is fb02b546-7f6c-3666-aaca-2e861bcf597e
+[16:30:27] [Server thread/INFO]: Disconnecting Slimegolembros (/127.226.32.195:43615): You are banned from this server.
+Reason: ¡You have perished!
+[16:30:27] [Server thread/INFO]: Slimegolembros (/127.226.32.195:43615) lost connection: You are banned from this server.
+Reason: ¡You have perished!
+[16:31:21] [User Authenticator #6/INFO]: UUID of player Slimegolembros is fb02b546-7f6c-3666-aaca-2e861bcf597e
+[16:31:21] [Server thread/INFO]: Disconnecting Slimegolembros (/127.226.32.195:34709): You are banned from this server.
+Reason: ¡You have perished!
+[16:31:21] [Server thread/INFO]: Slimegolembros (/127.226.32.195:34709) lost connection: You are banned from this server.
+Reason: ¡You have perished!
+[16:31:28] [User Authenticator #7/INFO]: UUID of player itz_gan is ca1bc987-e6c9-3259-9306-9c250204f71d
+[16:31:30] [Server thread/INFO]: itz_gan (/127.248.179.42:50485) lost connection: Disconnected
+[16:31:34] [User Authenticator #8/INFO]: UUID of player itz_gan is ca1bc987-e6c9-3259-9306-9c250204f71d
+[16:31:47] [Server thread/INFO]: Unbanned Slimegolembros
+[16:31:50] [Server thread/INFO]: There are 1 ban(s):
+[16:31:50] [Server thread/INFO]: 127.229.163.226 was banned by Xautral: Conspiración (Ejecutar un Bloque de Comandos para Anti-Ban) - Perma-Ban
+[16:31:52] [User Authenticator #9/INFO]: UUID of player Slimegolembros is fb02b546-7f6c-3666-aaca-2e861bcf597e
+[16:31:54] [Server thread/INFO]: [OP] Slimegolembros joined the game
+[16:31:55] [Server thread/INFO]: Slimegolembros[/127.226.32.195:54435] logged in with entity id 11746 at ([minecraft:overworld]-4171.687573009856, 30.0, 5660.87104665488)
+[16:31:56] [Server thread/INFO]: itz_gan (ca1bc987-e6c9-3259-9306-9c250204f71d) lost connection: Disconnected
+[16:31:57] [Server thread/INFO]: Unbanned IP 127.229.163.226
+[16:32:09] [User Authenticator #10/INFO]: UUID of player itz_gan is ca1bc987-e6c9-3259-9306-9c250204f71d
+[16:32:25] [Server thread/INFO]: Slimegolembros issued server command: /effect give Slimegolembros minecraft:night_vision infinite 1 true
+[16:32:25] [Server thread/INFO]: [[OP] Slimegolembros: Applied effect Night Vision to [OP] Slimegolembros]
+[16:32:30] [Async Chat Thread - #27/INFO]: [Not Secure] <FireEmblem> hola
+[16:32:30] [Server thread/INFO]: [Flame Horde] itz_gan joined the game
+[16:32:30] [Server thread/INFO]: itz_gan[/127.248.179.42:48563] logged in with entity id 11775 at ([minecraft:overworld]-4175.300000011921, 40.0, 5659.283063341067)
+[16:32:32] [Async Chat Thread - #27/INFO]: [Not Secure] <Slimegolembros> hola
+[16:32:45] [Async Chat Thread - #27/INFO]: [Not Secure] <FireEmblem> nmms ya llego mi fan
+[16:32:49] [Server thread/INFO]: Slimegolembros issued server command: /tp FireEmblem
+[16:32:49] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Flame Horde] FireEmblem]
+[16:32:55] [Server thread/INFO]: Slimegolembros issued server command: /tp itz_gan
+[16:32:55] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [Flame Horde] itz_gan]
+[16:33:03] [Async Chat Thread - #27/INFO]: [Not Secure] <itz_gan> q dices
+[16:33:14] [Async Chat Thread - #27/INFO]: [Not Secure] <Slimegolembros> hola gay pasivo
+[16:33:22] [Async Chat Thread - #27/INFO]: [Not Secure] <FireEmblem> Slimegolembros no le hables asi a mi novia
+[16:33:28] [Async Chat Thread - #27/INFO]: [Not Secure] <itz_gan> bro cállate o destruyo la tienda:v
+[16:33:35] [Async Chat Thread - #27/INFO]: [Not Secure] <Slimegolembros> :V
+[16:33:39] [Async Chat Thread - #27/INFO]: [Not Secure] <itz_gan> le digo a slime FireEmblem
+[16:33:40] [Async Chat Thread - #27/INFO]: [Not Secure] <Slimegolembros> sabes que seria ban por mucho
+[16:33:47] [Async Chat Thread - #27/INFO]: [Not Secure] <Slimegolembros> tiempo
+[16:33:53] [Async Chat Thread - #27/INFO]: [Not Secure] <itz_gan> slime pero me tratan mal:(
+[16:33:59] [Async Chat Thread - #27/INFO]: [Not Secure] <Slimegolembros> es humor
+[16:34:08] [Async Chat Thread - #27/INFO]: [Not Secure] <itz_gan> pero no moda gracia:(
+[16:34:12] [Async Chat Thread - #27/INFO]: [Not Secure] <Slimegolembros> tu cres que a mi no me paso algo parecido?
+[16:34:18] [Async Chat Thread - #27/INFO]: [Not Secure] <itz_gan> yo jodo dsp y mute sancion demote
+[16:34:23] [Server thread/INFO]: itz_gan lost connection: Disconnected
+[16:34:23] [Server thread/INFO]: [Flame Horde] itz_gan left the game
+[16:34:46] [Server thread/INFO]: [Not Secure] [Server] ya lo baniéa
+[16:35:01] [Async Chat Thread - #27/INFO]: [Not Secure] <Slimegolembros> por cuanto? xd
+[16:35:36] [Async Chat Thread - #27/INFO]: [Not Secure] <FireEmblem> oye we pero no destruyo la tienda
+[16:36:19] [Async Chat Thread - #27/INFO]: [Not Secure] <Slimegolembros> pero si ha amenazado
+[16:37:16] [User Authenticator #11/INFO]: UUID of player itz_gan is ca1bc987-e6c9-3259-9306-9c250204f71d
+[16:37:27] [Server thread/INFO]: [Not Secure] [Server] lo sé
+[16:37:36] [Server thread/INFO]: [Not Secure] [Server] el sigiete en conectarse es gay pasivo
+[16:37:36] [Server thread/INFO]: [Flame Horde] itz_gan joined the game
+[16:37:36] [Server thread/INFO]: itz_gan[/127.248.179.42:56769] logged in with entity id 12836 at ([minecraft:overworld]-4181.107184848785, 40.0, 5657.843423037415)
+[16:37:41] [Server thread/INFO]: [Not Secure] [Server] fah
+[16:37:43] [Async Chat Thread - #30/INFO]: [Not Secure] <Slimegolembros> xd
+[16:37:47] [Async Chat Thread - #30/INFO]: [Not Secure] <FireEmblem> Slimegolembros lo digo de broma we
+[16:37:57] [User Authenticator #12/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[16:38:00] [Async Chat Thread - #30/INFO]: [Not Secure] <Slimegolembros> que digiste de broma FireEmblem?
+[16:38:28] [Async Chat Thread - #30/INFO]: [Not Secure] <itz_gan> ay granja de xp fire?
+[16:38:44] [Async Chat Thread - #30/INFO]: [Not Secure] <FireEmblem> no
+[16:38:49] [Server thread/INFO]: [OP] Xautral joined the game
+[16:38:49] [Server thread/INFO]: Xautral[/127.107.55.168:60383] logged in with entity id 12898 at ([minecraft:overworld]-4174.72988166161, 40.0, 5657.515511362492)
+[16:39:12] [Async Chat Thread - #30/INFO]: [Not Secure] <FireEmblem> quitate pendejete
+[16:39:24] [Server thread/INFO]: Villager Villager['Villager'/13177, uuid='6023d879-ec93-4ed6-bf16-5a89044cbfff', l='ServerLevel[world]', x=-4153.50, y=40.00, z=5661.30, cpos=[-260, 353], tl=437, v=true] died, message: 'Villager was slain by Zombie Villager'
+[16:39:25] [Netty Epoll IO #3/INFO]: Disconnecting Xautral for sending keepalive response (4650245) out-of-order!
+[16:39:25] [Server thread/INFO]: Xautral lost connection: Timed out
+[16:39:25] [Server thread/INFO]: Xautral left the game
+[16:39:35] [Async Chat Thread - #30/INFO]: [Not Secure] <itz_gan> lo cojio
+[16:40:42] [Async Chat Thread - #31/INFO]: [Not Secure] <itz_gan> casi te cojen fire
+[16:40:45] [User Authenticator #13/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[16:41:16] [Server thread/INFO]: [OP] Xautral joined the game
+[16:41:16] [Server thread/INFO]: Xautral[/127.107.55.168:36939] logged in with entity id 13351 at ([minecraft:overworld]-4174.72988166161, 40.0, 5657.515511362492)
+[16:41:37] [Async Chat Thread - #31/INFO]: [Not Secure] <itz_gan> xautral negro culiado tp
+[16:41:47] [Async Chat Thread - #31/INFO]: [Not Secure] <Xautral> y
+[16:41:56] [Async Chat Thread - #31/INFO]: [Not Secure] <Xautral> dios que puto lag
+[16:41:59] [Async Chat Thread - #31/INFO]: [Not Secure] <itz_gan> apurate
+[16:42:00] [Async Chat Thread - #31/INFO]: [Not Secure] <Xautral> se me traba todo
+[16:42:03] [Async Chat Thread - #31/INFO]: [Not Secure] <itz_gan> pos es tu server
+[16:42:03] [Server thread/INFO]: Slimegolembros issued server command: /tp Xautral
+[16:42:03] [Server thread/INFO]: [[OP] Slimegolembros: Teleported [OP] Slimegolembros to [OP] Xautral]
+[16:42:03] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[16:42:10] [Server thread/INFO]: Slimegolembros issued server command: /inv Xautral
+[16:42:14] [Async Chat Thread - #31/INFO]: [Not Secure] <Xautral> cabron
+[16:42:16] [Server thread/WARN]: Slimegolembros moved too quickly! 11.36202160776429,0.0,1.3916865043029247
+[16:42:16] [User Authenticator #14/INFO]: UUID of player blime2009 is ca9a4d06-dddd-395d-87ca-776f889f41ca
+[16:42:16] [Async Chat Thread - #32/INFO]: [Not Secure] <itz_gan> reparame mi pico y elys
+[16:42:18] [Async Chat Thread - #31/INFO]: [Not Secure] <Xautral> no lag de inte
+[16:42:25] [Async Chat Thread - #31/INFO]: [Not Secure] <Xautral> mi pc va de la verga
+[16:42:30] [Async Chat Thread - #31/INFO]: [Not Secure] <Xautral> no wey
+[16:42:30] [Server thread/INFO]: [OP] blime2009 joined the game
+[16:42:30] [Server thread/INFO]: blime2009[/127.158.187.200:54713] logged in with entity id 13612 at ([minecraft:overworld]-1.1153421054599741, -1.766862694961128, -4.699999988079071)
+[16:42:37] [Async Chat Thread - #31/INFO]: [Not Secure] <Xautral> chinga tu madre
+[16:42:39] [Async Chat Thread - #31/INFO]: [Not Secure] <itz_gan> vendela y compra un. nokia
+[16:42:40] [Async Chat Thread - #31/INFO]: [Not Secure] <Slimegolembros> its
+[16:42:43] [Async Chat Thread - #31/INFO]: [Not Secure] <Slimegolembros> hay una cosa llamada
+[16:42:45] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Spectator Mode]
+[16:42:48] [Async Chat Thread - #31/INFO]: [Not Secure] <Slimegolembros> reparacioooon
+[16:42:53] [Async Chat Thread - #31/INFO]: [Not Secure] <Slimegolembros> :V
+[16:43:00] [Async Chat Thread - #31/INFO]: [Not Secure] <itz_gan> amiq quiero q el negro melas reparé
+[16:43:11] [Async Chat Thread - #31/INFO]: [Not Secure] <Slimegolembros> e?
+[16:43:28] [Async Chat Thread - #31/INFO]: [Not Secure] <Slimegolembros> como que el negro te las reparaste?
+[16:43:37] [Async Chat Thread - #31/INFO]: [Not Secure] <FireEmblem> ez!
