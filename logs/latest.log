@@ -198,3 +198,153 @@ See https://github.com/google/gson/blob/main/Troubleshooting.md#malformed-json
 [15:33:09] [User Authenticator #0/INFO]: UUID of player GG_cocacola is 2af14422-726f-3180-9c54-c6416eeeb196
 [15:33:09] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LoginSecurity]
 [15:33:15] [Server thread/INFO]: GG_cocacola (2af14422-726f-3180-9c54-c6416eeeb196) lost connection: Disconnected
+[15:37:51] [User Authenticator #1/INFO]: UUID of player blime2009 is ca9a4d06-dddd-395d-87ca-776f889f41ca
+[15:38:07] [Server thread/INFO]: [OP] blime2009 joined the game
+[15:38:07] [Server thread/INFO]: blime2009[/127.158.187.200:40639] logged in with entity id 733 at ([minecraft:overworld]-12.961951770628804, 1.0, 0.7146800002600291)
+[15:39:43] [Server thread/INFO]: [Not Secure] [Server] hola bb
+[15:39:50] [Async Chat Thread - #0/INFO]: [Not Secure] <blime2009> hola bb
+[15:39:56] [Server thread/INFO]: [Not Secure] [Server] que haces w
+[15:40:07] [Async Chat Thread - #0/INFO]: [Not Secure] <blime2009> no se
+[15:40:19] [User Authenticator #2/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[15:40:34] [Server thread/INFO]: [Not Secure] [Server] adivina que cancion me meti
+[15:40:47] [Server thread/INFO]: [OP] Xautral joined the game
+[15:40:47] [Server thread/INFO]: Xautral[/127.107.55.168:36273] logged in with entity id 3095 at ([minecraft:overworld]1.63957263584269, -5.0, 20.944740330933676)
+[15:41:13] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives setdisplay sidebar
+[15:41:13] [Server thread/INFO]: [[OP] Xautral: Cleared any objectives in display slot sidebar]
+[15:41:27] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> wey pa que querías una fot
+[15:41:38] [Async Chat Thread - #0/INFO]: [Not Secure] <blime2009> fue un reto del rka
+[15:41:46] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> y si te la mando o no?
+[15:41:51] [Async Chat Thread - #0/INFO]: [Not Secure] <blime2009> no
+[15:41:54] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> ok
+[15:41:59] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> mira la canción que puse
+[15:42:08] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.snowdream master @a ~ ~ ~ 1 1 1
+[15:42:08] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:custom.snowdream to 2 players]
+[15:42:28] [Async Chat Thread - #0/INFO]: [Not Secure] <blime2009> prq cada que hago dano hace eso
+[15:42:36] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> con la falanje
+[15:42:44] [Server thread/INFO]: blime2009 issued server command: /summon minecraft:slime
+[15:42:44] [Server thread/INFO]: [[OP] blime2009: Summoned new Slime]
+[15:42:55] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> que mamadaaa
+[15:43:04] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> que haremos hoy
+[15:43:25] [Async Chat Thread - #0/INFO]: [Not Secure] <blime2009> yo hiba a construir una "dungueon"
+[15:43:31] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> dungueon
+[15:43:35] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> pues hazlo w
+[15:43:49] [Server thread/INFO]: blime2009 issued server command: /fill 28 1 -13
+[15:43:58] [Server thread/INFO]: blime2009 issued server command: /fill 28 1 -13 13 -8 9 light
+[15:43:58] [Server thread/INFO]: [[OP] blime2009: Successfully filled 3680 block(s)]
+[15:44:31] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.albertobalsalm master @a ~ ~ ~ 1 1 1
+[15:44:31] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:custom.albertobalsalm to 2 players]
+[15:44:33] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> alberto balsam
+[15:44:37] [Async Chat Thread - #0/INFO]: [Not Secure] <Xautral> ttemenda song
+[15:46:09] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> si te ayudo o no carnal
+[15:46:17] [Async Chat Thread - #4/INFO]: [Not Secure] <blime2009> como quieras
+[15:47:10] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> codigo qr
+[15:47:17] [Server thread/INFO]: blime2009 issued server command: /fill 28 -7 -8
+[15:47:40] [Server thread/INFO]: blime2009 issued server command: /fill 28 -7 -8 13 2 -8 minecraft:purple_concrete
+[15:47:40] [Server thread/INFO]: [[OP] blime2009: Successfully filled 160 block(s)]
+[15:48:13] [Server thread/INFO]: blime2009 issued server command: /clone 13 -7 -8
+[15:48:26] [Server thread/INFO]: blime2009 issued server command: /clone 13 -7 -8 28 1 -8
+[15:48:46] [Server thread/INFO]: blime2009 issued server command: /clone 13 -7 -8 28 1 -8 28 1 10
+[15:48:46] [Server thread/INFO]: [[OP] blime2009: Successfully cloned 144 block(s)]
+[15:48:57] [Server thread/INFO]: blime2009 issued server command: /clone 13 -7 -8 28 1 -8 13 -7 10
+[15:48:57] [Server thread/INFO]: [[OP] blime2009: Successfully cloned 144 block(s)]
+[15:49:25] [Server thread/INFO]: blime2009 issued server command: /fill 13 -7 -7
+[15:49:39] [Server thread/INFO]: blime2009 issued server command: /fill 13 -7 -7 13 1 9 minecraft:gray_concrete
+[15:49:39] [Server thread/INFO]: [[OP] blime2009: Successfully filled 153 block(s)]
+[15:49:47] [Server thread/INFO]: blime2009 issued server command: /fill 13 -7 -7 13 1 9 minecraft:purple_concrete
+[15:49:47] [Server thread/INFO]: [[OP] blime2009: Successfully filled 153 block(s)]
+[15:49:57] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> tengo el presentimiento que se van a desmontar la dungueon cuando la encuentrne
+[15:50:18] [Async Chat Thread - #5/INFO]: [Not Secure] <blime2009> que hagan lo que quieran
+[15:50:23] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> que tienes w
+[15:50:27] [Async Chat Thread - #5/INFO]: [Not Secure] <blime2009> nd
+[15:50:36] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.saxlick master @a ~ ~ ~ 1 1 1
+[15:50:36] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:custom.saxlick to 2 players]
+[15:51:01] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> entrada :skull:
+[15:51:22] [Async Chat Thread - #5/INFO]: [Not Secure] <Xautral> no si no se pudo
+[15:53:12] [Async Chat Thread - #7/INFO]: [Not Secure] <Xautral> buuuuh
+[15:53:14] [Async Chat Thread - #7/INFO]: [Not Secure] <Xautral> bruh*
+[15:53:43] [Async Chat Thread - #7/INFO]: [Not Secure] <Xautral> que haces
+[15:53:53] [Async Chat Thread - #7/INFO]: [Not Secure] <blime2009> solo intento dar toc
+[15:55:56] [Async Chat Thread - #9/INFO]: [Not Secure] <Xautral> sabes que es el nihilismo?
+[15:56:15] [Async Chat Thread - #9/INFO]: [Not Secure] <blime2009> no
+[15:56:18] [Async Chat Thread - #9/INFO]: [Not Secure] <Xautral> yo tampoco
+[15:56:20] [Server thread/INFO]: blime2009 issued server command: /fill 14 2 -7
+[15:56:35] [Server thread/INFO]: blime2009 issued server command: /fill 14 2 -7 28 2 9 minecraft:waxed_weathered_cut_copper
+[15:56:35] [Server thread/INFO]: [[OP] blime2009: Successfully filled 255 block(s)]
+[15:57:32] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> que sientes cuando estas solo?
+[15:57:39] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> nada
+[15:57:43] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> siempre estoy solo
+[15:57:45] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> bueno
+[15:57:49] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> la mayoria
+[15:57:52] [Async Chat Thread - #12/INFO]: [Not Secure] <blime2009> de tiempo
+[15:57:54] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> crees que deberías sentir algo?
+[15:58:01] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> no
+[15:58:04] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> ya me acostumbre
+[15:58:07] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> alguna vez lo sentiste?
+[15:58:12] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> si
+[15:58:17] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> y por que te acostumbraste
+[15:58:22] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> que suceso te hizo darte cuenta
+[15:58:30] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> no lo se
+[15:58:42] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> no le tomo importancia si despues de todo se va a ir
+[15:58:42] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> que haces cuando estas deprimido
+[15:58:48] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> nda
+[15:58:55] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> alguien te lo ha preguntado?
+[15:58:56] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> se va a pasar de vez en cuando
+[15:59:03] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> no
+[15:59:10] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> por que crees que no te lo han preguntado
+[15:59:23] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> por que no les importa
+[15:59:27] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> como sabes
+[15:59:29] [Server thread/INFO]: blime2009 issued server command: /summon tnt
+[15:59:29] [Server thread/INFO]: [[OP] blime2009: Summoned new Primed TNT]
+[15:59:38] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> intuicion
+[15:59:49] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> no eres muy sociable?
+[15:59:55] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> nah
+[16:00:01] [Async Chat Thread - #11/INFO]: [Not Secure] <Xautral> naciste así o pasó algo?
+[16:00:07] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> asi
+[16:00:10] [Async Chat Thread - #11/INFO]: [Not Secure] <blime2009> creo
+[16:00:11] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> seguro?
+[16:00:14] [Async Chat Thread - #12/INFO]: [Not Secure] <blime2009> no me acuerdo
+[16:00:21] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> no te acuerdas o no lo queires recordar
+[16:00:33] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> ?
+[16:00:36] [Async Chat Thread - #12/INFO]: [Not Secure] <blime2009> solo me acuerdo de lo que paso estos meses lo demas es borroso
+[16:00:41] [Async Chat Thread - #12/INFO]: [Not Secure] <blime2009> no me acuerdo
+[16:00:49] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> haz querido hablar con alguien?
+[16:00:54] [Async Chat Thread - #12/INFO]: [Not Secure] <blime2009> no
+[16:00:57] [Async Chat Thread - #12/INFO]: [Not Secure] <blime2009> no me gusta hablar
+[16:01:05] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> no puedo saber por qué?
+[16:01:14] [Async Chat Thread - #12/INFO]: [Not Secure] <blime2009> solo no me gusta
+[16:01:18] [Async Chat Thread - #12/INFO]: [Not Secure] <blime2009> no hay ninguna razon
+[16:01:20] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> ok
+[16:01:25] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> de dejo en paz entonces
+[16:01:47] [Server thread/INFO]: blime2009 issued server command: /fill 28 2 -7
+[16:02:25] [Server thread/INFO]: blime2009 issued server command: /fill 28 2 -7 14 -30 9 minecraft:purple_concrete replace minecraft:deepslate
+[16:02:25] [Server thread/INFO]: [[OP] blime2009: Successfully filled 3987 block(s)]
+[16:02:32] [Server thread/INFO]: blime2009 issued server command: /fill 28 2 -7 14 -30 9 minecraft:purple_concrete replace minecraft:stone
+[16:02:32] [Server thread/INFO]: [[OP] blime2009: Successfully filled 1211 block(s)]
+[16:02:34] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.xtal master @a ~ ~ ~ 1 1 1
+[16:02:34] [Server thread/INFO]: [[OP] Xautral: Played sound minecraft:custom.xtal to 2 players]
+[16:02:42] [Server thread/INFO]: blime2009 issued server command: /fill 28 2 -7 14 -30 9 minecraft:purple_concrete replace minecraft:gravel
+[16:02:42] [Server thread/INFO]: [[OP] blime2009: Successfully filled 122 block(s)]
+[16:02:47] [Server thread/INFO]: blime2009 issued server command: /fill 28 2 -7 14 -30 9 minecraft:purple_concrete replace minecraft:andesite
+[16:02:49] [Async Chat Thread - #14/INFO]: [Not Secure] <Xautral> me cagué todo
+[16:02:52] [Server thread/INFO]: blime2009 issued server command: /summon tnt
+[16:02:52] [Server thread/INFO]: [[OP] blime2009: Summoned new Primed TNT]
+[16:03:08] [Server thread/INFO]: blime2009 issued server command: /fill 28 2 -7 14 -30 9 minecraft:purple_concrete replace minecraft:deepslate_coal_ore
+[16:03:15] [Server thread/INFO]: blime2009 issued server command: /fill 28 2 -7 14 -30 9 minecraft:purple_concrete replace minecraft:deepslate_copper_ore_ore
+[16:03:18] [Server thread/INFO]: blime2009 issued server command: /fill 28 2 -7 14 -30 9 minecraft:purple_concrete replace minecraft:deepslate_copper_ore
+[16:03:18] [Server thread/INFO]: [[OP] blime2009: Successfully filled 5 block(s)]
+[16:03:26] [Server thread/INFO]: blime2009 issued server command: /fill 28 2 -7 14 -30 9 minecraft:purple_concrete replace minecraft:deepslate_gold_ore_ore
+[16:03:29] [Server thread/INFO]: blime2009 issued server command: /fill 28 2 -7 14 -30 9 minecraft:purple_concrete replace minecraft:deepslate_gold_ore
+[16:03:29] [Server thread/INFO]: [[OP] blime2009: Successfully filled 17 block(s)]
+[16:03:37] [Server thread/INFO]: blime2009 issued server command: /fill 28 2 -7 14 -30 9 minecraft:purple_concrete replace minecraft:deepslate_diamond_ore
+[16:03:37] [Server thread/INFO]: [[OP] blime2009: Successfully filled 6 block(s)]
+[16:03:40] [Server thread/INFO]: blime2009 issued server command: /
+[16:03:42] [Server thread/INFO]: blime2009 issued server command: /summon tnt
+[16:03:42] [Server thread/INFO]: [[OP] blime2009: Summoned new Primed TNT]
+[16:04:05] [Server thread/INFO]: blime2009 issued server command: /fill 28 2 -7 14 -30 9 minecraft:light replace #minecraft:air
+[16:04:05] [Server thread/INFO]: [[OP] blime2009: Successfully filled 547 block(s)]
+[16:07:47] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> blime2009
+[16:07:52] [Async Chat Thread - #15/INFO]: [Not Secure] <blime2009> ?
+[16:07:58] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> si tuvieras que describirme en una palabra cual sería
+[16:08:05] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> honestamente
+[16:08:15] [Async Chat Thread - #15/INFO]: [Not Secure] <blime2009> comun
+[16:08:21] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> buen
