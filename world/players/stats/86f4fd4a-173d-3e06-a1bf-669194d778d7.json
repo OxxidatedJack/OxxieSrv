@@ -22,21 +22,22 @@
       "minecraft:obsidian": 426
     },
     "minecraft:custom": {
-      "minecraft:time_since_rest": 70194,
+      "minecraft:time_since_rest": 76194,
       "minecraft:walk_one_cm": 28297,
       "minecraft:mob_kills": 1,
+      "minecraft:walk_under_water_one_cm": 433,
       "minecraft:damage_dealt": 35,
-      "minecraft:play_time": 70194,
+      "minecraft:play_time": 76194,
       "minecraft:jump": 183,
-      "minecraft:time_since_death": 70194,
+      "minecraft:time_since_death": 76194,
       "minecraft:sprint_one_cm": 9902,
       "minecraft:open_chest": 12,
-      "minecraft:total_world_time": 70194,
-      "minecraft:fly_one_cm": 305546,
+      "minecraft:total_world_time": 76194,
+      "minecraft:fly_one_cm": 310676,
       "minecraft:interact_with_anvil": 1,
-      "minecraft:walk_on_water_one_cm": 528,
+      "minecraft:walk_on_water_one_cm": 794,
       "minecraft:crouch_one_cm": 17538,
-      "minecraft:sneak_time": 6979
+      "minecraft:sneak_time": 7053
     }
   },
   "DataVersion": 4903
