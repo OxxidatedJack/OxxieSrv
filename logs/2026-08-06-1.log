@@ -1,0 +1,294 @@
+[03:29:05] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[03:29:05] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-84-main@26e81c4 (2026-07-26T18:11:33Z) for Minecraft 26.2
+[03:29:05] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:29:10] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[03:29:10] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - ItemEdit (3.7.10), LoginSecurity (3.2.0), OpenInv (5.3.3), SkinsRestorer (15.12.5), ViaBackwards (5.11.0), ViaVersion (5.11.0), sMusic (1.0)
+[03:29:16] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[03:29:16] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 699.5ms
+[03:29:16] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
+[03:29:16] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
+[03:29:16] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[03:29:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[03:29:22] [ServerMain/INFO]: Loaded 1585 recipes
+[03:29:22] [ServerMain/INFO]: Loaded 1688 advancements
+[03:29:23] [Server thread/INFO]: Starting minecraft server version 26.2
+[03:29:23] [Server thread/INFO]: Loading properties
+[03:29:23] [Server thread/INFO]: This server is running Paper version 26.2-84-main@26e81c4 (2026-07-26T18:11:33Z) (Implementing API version 26.2.build.84-stable)
+[03:29:24] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:29:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:29:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:29:25] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[03:29:26] [Server thread/INFO]: Default game type: SURVIVAL
+[03:29:26] [Server thread/INFO]: Generating keypair
+[03:29:26] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:29:26] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:29:26] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[03:29:31] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loading 1 libraries... please wait
+[03:29:31] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loaded library /workspaces/OxxieSrv/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
+[03:29:31] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-api/5.1.1/adventure-api-5.1.1.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-key/5.1.1/adventure-key-5.1.1.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/org/jetbrains/annotations/26.1.0/annotations-26.1.0.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-platform-bukkit/4.4.1/adventure-platform-bukkit-4.4.1.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-platform-api/4.4.1/adventure-platform-api-4.4.1.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-serializer-bungeecord/4.4.1/adventure-text-serializer-bungeecord-4.4.1.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-nbt/4.21.0/adventure-nbt-4.21.0.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.21.0/adventure-text-serializer-gson-legacy-impl-4.21.0.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-serializer-json-legacy-impl/4.21.0/adventure-text-serializer-json-legacy-impl-4.21.0.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-platform-facet/4.4.1/adventure-platform-facet-4.4.1.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-platform-viaversion/4.4.1/adventure-platform-viaversion-4.4.1.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-minimessage/5.1.1/adventure-text-minimessage-5.1.1.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-serializer-gson/5.1.1/adventure-text-serializer-gson-5.1.1.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-serializer-json/5.1.1/adventure-text-serializer-json-5.1.1.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-serializer-commons/5.1.1/adventure-text-serializer-commons-5.1.1.jar
+[03:29:32] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-serializer-legacy/5.1.1/adventure-text-serializer-legacy-5.1.1.jar
+[03:29:33] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[03:29:33] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[03:29:38] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[03:29:39] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[03:29:40] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[03:29:40] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
+[03:29:40] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.3.3
+[03:29:40] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.10
+[03:29:40] [Server thread/INFO]: [sMusic] Loading server plugin sMusic v1.0
+[03:29:40] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
+[03:29:40] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:29:40] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
+[03:29:51] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.2.0.
+[03:29:55] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[03:29:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:29:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:29:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:29:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:29:55] [Server thread/INFO]: Preparing level "world"
+[03:29:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:29:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[03:29:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[03:29:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[03:29:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[03:29:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[03:29:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:29:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.5
+[03:29:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 98b9488
+[03:29:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[03:29:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:29:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[03:29:56] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[03:30:04] [Server thread/INFO]: Loading 41 persistent chunks for level 'minecraft:overworld'...
+[03:30:04] [Server thread/INFO]: Preparing spawn area: 19%
+[03:30:04] [Server thread/INFO]: Preparing spawn area: 19%
+[03:30:05] [Server thread/INFO]: Preparing spawn area: 19%
+[03:30:05] [Server thread/INFO]: Preparing spawn area: 19%
+[03:30:06] [Server thread/INFO]: Preparing spawn area: 19%
+[03:30:11] [Server thread/INFO]: Prepared spawn area in 7576 ms
+[03:30:11] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[03:30:11] [Server thread/INFO]: Prepared spawn area in 0 ms
+[03:30:11] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[03:30:11] [Server thread/INFO]: Prepared spawn area in 0 ms
+[03:30:11] [Server thread/INFO]: Done preparing level "world" (15.714s)
+[03:30:11] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[03:30:13] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
+[03:30:13] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[03:30:13] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.3.3
+[03:30:15] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.10
+[03:30:16] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
+[03:30:16] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[03:30:17] [Server thread/INFO]: [ItemEdit] Unable to hook into Vault
+[03:30:17] [Server thread/INFO]: [ItemEdit] # Enabled (took 1391 ms)
+[03:30:17] [Server thread/INFO]: [sMusic] Enabling sMusic v1.0
+[03:30:17] [Server thread/INFO]:      _____  
+[03:30:17] [Server thread/INFO]:     / ____| 
+[03:30:17] [Server thread/INFO]:    | (___   
+[03:30:17] [Server thread/INFO]:     \___ \  
+[03:30:17] [Server thread/INFO]:     ____) | 
+[03:30:17] [Server thread/INFO]:    |_____/  
+[03:30:17] [Server thread/INFO]: 
+[03:30:17] [Server thread/INFO]:  sMusic [Enabled ✓]
+[03:30:17] [Server thread/INFO]:  by x.com/SunnyAim_
+[03:30:17] [Server thread/INFO]: 
+[03:30:17] [Server thread/INFO]: [sMusic] 🔁 No changes detected (files/config), keeping existing pack.
+[03:30:17] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[03:30:17] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[03:30:17] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[03:30:17] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[03:30:17] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[03:30:17] [Server thread/WARN]: [LoginSecurity] "LoginSecurity v3.2.0" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "public void com.lenis0012.bukkit.loginsecurity.modules.general.PlayerListener.onPlayerSpawn(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [lenis0012].
+[03:30:18] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[03:30:21] [Server thread/INFO]: [spark] Starting background profiler...
+[03:30:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:30:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:30:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:30:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:30:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:30:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:30:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:30:25] [Server thread/INFO]: Running delayed init tasks
+[03:30:25] [Server thread/INFO]: Done (97.555s)! For help, type "help"
+[03:30:25] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[03:30:25] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 14 builds behind ***
+[03:30:25] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[03:35:43] [User Authenticator #0/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
+[03:35:44] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LoginSecurity]
+[03:36:22] [Server thread/INFO]: [OP] Xautral has made the advancement [Diamonds!]
+[03:36:22] [Server thread/INFO]: [OP] Xautral has made the advancement [Stone Age]
+[03:36:22] [Server thread/INFO]: [OP] Xautral has made the advancement [Into Fire]
+[03:36:22] [Server thread/INFO]: [OP] Xautral joined the game
+[03:36:22] [Server thread/INFO]: Xautral[/127.78.182.87:39119] logged in with entity id 24 at ([minecraft:overworld]-7600.952101640937, 99.75174595536181, 7174.075121395715)
+[03:37:33] [Server thread/INFO]: [[OP] Xautral: Set own game mode to Creative Mode]
+[03:39:00] [Server thread/INFO]: Xautral issued server command: /ie enchant lunge 3
+[03:40:00] [Paper I/O Worker #0/ERROR]: [ca.spottedleaf.moonrise.patches.chunk_system.io.MoonriseRegionFileIO] Failed to write chunk data for task: Task for world: 'minecraft:overworld' at (-493,461) type: CHUNK_DATA, hash: 1326643128
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.pwrite(UnixFileDispatcherImp[03:40:30] [Dimension-Data-IO-Worker-1/ERROR]: Could not save data to random_sequences.dat
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.implWrite(FileChannelImpl.java:355) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:335) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:123) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:203) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:184) ~[?:?]
+	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:320) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:190) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:190) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:81) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:74) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.world.level.storage.SavedDataStorage.tryWrite(SavedDataStorage.java:211) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.world.level.storage.SavedDataStorage.lambda$scheduleSave$2(SavedDataStorage.java:179) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1825) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[03:40:30] [Dimension-Data-IO-Worker-1/ERROR]: Could not save data to level_overrides.dat
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.implWrite(FileChannelImpl.java:355) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:335) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:123) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:203) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:184) ~[?:?]
+	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:320) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:193) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:193) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:81) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:74) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.world.level.storage.SavedDataStorage.tryWrite(SavedDataStorage.java:211) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.world.level.storage.SavedDataStorage.lambda$scheduleSave$2(SavedDataStorage.java:179) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:[03:43:03] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[03:43:03] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[03:43:03] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[03:43:03] [Server thread/INFO]: [sMusic] Disabling sMusic v1.0
+[03:43:03] [Server thread/INFO]:  sMusic [Disabled ✗]
+[03:43:03] [Server thread/INFO]: [ItemEdit] Disabling ItemEdit v3.7.10
+[03:43:03] [Server thread/INFO]: [OpenInv] Disabling OpenInv v5.3.3
+[03:43:03] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.5
+[03:43:03] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.11.0
+[03:43:03] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.11.0
+[03:43:03] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[03:43:03] [Server thread/INFO]: Saving players
+[03:43:04] [Server thread/INFO]: Xautral lost connection: Server closed
+[03:43:04] [Server thread/WARN]: Failed to save player data for Xautral
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.implWrite(FileChannelImpl.java:355) ~[?:?]
+	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:335) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+	at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:123) ~[?:?]
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:203) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:184) ~[?:?]
+	at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:323) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:193) ~[?:?]
+	at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:193) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:81) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:74) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.world.level.storage.PlayerDataStorage.save(PlayerDataStorage.java:41) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.server.players.PlayerList.save(PlayerList.java:418) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.server.players.PlayerList.remove(PlayerList.java:467) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.removePlayerFromWorld(ServerGamePacketListenerImpl.java:2295) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.onDisconnect(ServerGamePacketListenerImpl.java:2273) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.network.Connection.handleDisconnection(Connection.java:835) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.server.network.ServerConnectionListener.handleAllDisconnections(ServerConnectionListener.java:313) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1038) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:909) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1385) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:303) ~[paper-26.2.jar:26.2-84-26e81c4]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+	Suppressed: java.io.IOException: No space left on device
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+		at java.base/sun.nio.ch.FileChannelImpl.implWrite(FileChannelImpl.java:355) ~[?:?]
+		at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:335) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:123) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.write(BufferedOutputStream.java:188) ~[?:?]
+		at java.base/java.util.zip.GZIPOutputStream.finish(GZIPOutputStream.java:176)
+		at java.base/java.util.zip.DeflaterOutputStream.close(DeflaterOutputStream.java:311) ~[?:?]
+		... 16 more
+	Suppressed: java.io.IOException: No space left on device
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+		at java.base/sun.nio.ch.FileChannelImpl.implWrite(FileChannelImpl.java:355) ~[?:?]
+		at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:335) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:123) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:203) ~[?:?]
+		at java.base/java.util.zip.DeflaterOutputStream.flush(DeflaterOutputStream.java:378) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:204) ~[?:?]
+		at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:184) ~[?:?]
+		... 15 more
+	Suppressed: java.io.IOException: No space left on device
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+		at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+		at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
+		at java.base/sun.nio.ch.FileChannelImpl.implWrite(FileChannelImpl.java:355) ~[?:?]
+		at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:335) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.writeFully(ChannelOutputStream.java:68) ~[?:?]
+		at java.base/sun.nio.ch.ChannelOutputStream.write(ChannelOutputStream.java:105) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:123) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:203) ~[?:?]
+		at java.base/java.util.zip.DeflaterOutputStream.flush(DeflaterOutputStream.java:378) ~[?:?]
+		at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:204) ~[?:?]
+		at java.base/java.io.DataOutputStream.flush(DataOutputStream.java:142)
+		at java.base/java.io.FilterOutputStream.close(FilterOutputStream.java:184) ~[?:?]
+		... 14 more
+[03:43:04] [Server thread/ERROR]: Couldn't save stats to ./world/players/stats/86f4fd4a-173d-3e06-a1bf-669194d778d7.json
+java.io.IOException: No space left on device
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write0(Native Method) ~[?:?]
+	at java.base/sun.nio.ch.UnixFileDispatcherImpl.write(UnixFileDispatcherImpl.java:65) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:102) ~[?:?]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil

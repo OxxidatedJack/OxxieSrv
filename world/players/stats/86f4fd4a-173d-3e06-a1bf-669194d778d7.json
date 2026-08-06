@@ -1,0 +1,34 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:phantom_spawn_egg": 20,
+      "minecraft:wither_skeleton_spawn_egg": 20,
+      "minecraft:ghast_spawn_egg": 10,
+      "minecraft:cobblestone": 1,
+      "minecraft:iron_bars": 13,
+      "minecraft:shulker_spawn_egg": 7,
+      "minecraft:ender_eye": 12,
+      "minecraft:chest": 8,
+      "minecraft:spawner": 57,
+      "minecraft:end_portal_frame": 12,
+      "minecraft:anvil": 1,
+      "minecraft:polished_andesite_slab": 74,
+      "minecraft:obsidian": 327
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 8855,
+      "minecraft:open_chest": 12,
+      "minecraft:time_since_rest": 29289,
+      "minecraft:walk_one_cm": 22179,
+      "minecraft:total_world_time": 29289,
+      "minecraft:fly_one_cm": 80589,
+      "minecraft:interact_with_anvil": 1,
+      "minecraft:crouch_one_cm": 11032,
+      "minecraft:sneak_time": 3836,
+      "minecraft:play_time": 29289,
+      "minecraft:jump": 123,
+      "minecraft:time_since_death": 29289
+    }
+  },
+  "DataVersion": 4903
+}

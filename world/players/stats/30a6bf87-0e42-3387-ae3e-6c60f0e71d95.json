@@ -1,0 +1,81 @@
+{
+  "stats": {
+    "minecraft:dropped": {
+      "minecraft:leather": 1
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 12,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:stone_shovel": 1,
+      "minecraft:stone_axe": 1,
+      "minecraft:spruce_planks": 16,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:mined": {
+      "minecraft:stripped_spruce_wood": 4,
+      "minecraft:stripped_spruce_log": 2,
+      "minecraft:dirt": 14,
+      "minecraft:spruce_log": 4,
+      "minecraft:grass_block": 7,
+      "minecraft:sugar_cane": 5,
+      "minecraft:spruce_leaves": 2,
+      "minecraft:white_bed": 3,
+      "minecraft:short_grass": 2,
+      "minecraft:dirt_path": 1,
+      "minecraft:snow": 9,
+      "minecraft:potatoes": 3,
+      "minecraft:crafting_table": 1,
+      "minecraft:stone": 10
+    },
+    "minecraft:used": {
+      "minecraft:stone_axe": 10,
+      "minecraft:stone_shovel": 20,
+      "minecraft:crafting_table": 1,
+      "minecraft:snowball": 8,
+      "minecraft:wooden_pickaxe": 6,
+      "minecraft:stone_pickaxe": 4,
+      "minecraft:potato": 5,
+      "minecraft:dirt": 2
+    },
+    "minecraft:picked_up": {
+      "minecraft:dirt": 18,
+      "minecraft:stick": 59,
+      "minecraft:cobblestone": 35,
+      "minecraft:white_bed": 3,
+      "minecraft:sugar_cane": 19,
+      "minecraft:leather": 2,
+      "minecraft:crafting_table": 2,
+      "minecraft:snowball": 8,
+      "minecraft:beef": 3,
+      "minecraft:spruce_log": 4,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:stripped_spruce_wood": 4,
+      "minecraft:potato": 3,
+      "minecraft:stripped_spruce_log": 2
+    },
+    "minecraft:killed": {
+      "minecraft:cow": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 5,
+      "minecraft:time_since_rest": 8377,
+      "minecraft:walk_one_cm": 19248,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 100,
+      "minecraft:play_time": 8377,
+      "minecraft:damage_dealt": 100,
+      "minecraft:jump": 210,
+      "minecraft:time_since_death": 8377,
+      "minecraft:drop": 1,
+      "minecraft:sprint_one_cm": 23906,
+      "minecraft:fall_one_cm": 4087,
+      "minecraft:total_world_time": 8377,
+      "minecraft:fly_one_cm": 66314,
+      "minecraft:crouch_one_cm": 54,
+      "minecraft:sneak_time": 67
+    }
+  },
+  "DataVersion": 4903
+}

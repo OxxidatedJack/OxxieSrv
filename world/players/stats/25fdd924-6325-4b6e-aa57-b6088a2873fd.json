@@ -1,0 +1,41 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 2609,
+      "minecraft:walk_one_cm": 1570,
+      "minecraft:leave_game": 1,
+      "minecraft:mob_kills": 1,
+      "minecraft:damage_taken": 20,
+      "minecraft:damage_dealt": 155,
+      "minecraft:play_time": 2609,
+      "minecraft:jump": 98,
+      "minecraft:time_since_death": 2609,
+      "minecraft:sprint_one_cm": 9823,
+      "minecraft:fall_one_cm": 2395,
+      "minecraft:total_world_time": 2609,
+      "minecraft:fly_one_cm": 21626
+    },
+    "minecraft:killed": {
+      "minecraft:sheep": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_log": 4,
+      "minecraft:poppy": 3,
+      "minecraft:black_wool": 1,
+      "minecraft:sugar_cane": 16,
+      "minecraft:mutton": 1
+    },
+    "minecraft:mined": {
+      "minecraft:spruce_log": 4,
+      "minecraft:poppy": 3,
+      "minecraft:large_fern": 1,
+      "minecraft:sugar_cane": 4
+    },
+    "minecraft:crafted": {
+      "minecraft:stick": 4,
+      "minecraft:spruce_planks": 16,
+      "minecraft:crafting_table": 1
+    }
+  },
+  "DataVersion": 4903
+}
