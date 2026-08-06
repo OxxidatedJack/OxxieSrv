@@ -1130,3 +1130,4 @@
 1786049918852:kill @e[type=shulker_bullet]
 1786049944081:gamerule command_blocks_work false
 1786049956118:tps
+1786057398950:list
