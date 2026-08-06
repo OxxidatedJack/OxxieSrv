@@ -1105,3 +1105,28 @@
 1786035666352:say esta recién hecho el mundo
 1786040527681:say aldeano se sofocó en una pared?
 1786040531631:say que chingados
+1786049562622:kill @e[type=shulker_bullet]
+1786049570014:kill @e[type=spectral_arrow]
+1786049577598:kill @e[type=shulker_bullet]
+1786049578670:kill @e[type=spectral_arrow]
+1786049579442:kill @e[type=shulker_bullet]
+1786049579908:kill @e[type=spectral_arrow]
+1786049580325:kill @e[type=shulker_bullet]
+1786049580841:kill @e[type=spectral_arrow]
+1786049581306:kill @e[type=shulker_bullet]
+1786049581860:kill @e[type=spectral_arrow]
+1786049582728:kill @e[type=shulker_bullet]
+1786049582729:kill @e[type=spectral_arrow]
+1786049585062:kill @e[type=shulker_bullet]
+1786049794696:kill @e[type=spectral_arrow]
+1786049797409:tps
+1786049801282:kill @e[type=shulker_bullet]
+1786049806137:kill @e[type=spectral_arrow]
+1786049809973:kill @e[type=shulker_bullet]
+1786049821407:gamerule command_blocks_work false
+1786049825126:kill @e[type=spectral_arrow]
+1786049897928:kill @e[type=shulker_bullet]
+1786049913276:kill @e[type=llama_spit]
+1786049918852:kill @e[type=shulker_bullet]
+1786049944081:gamerule command_blocks_work false
+1786049956118:tps
