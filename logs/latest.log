@@ -1,957 +1,207 @@
-[16:57:27] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
-[16:57:27] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-84-main@26e81c4 (2026-07-26T18:11:33Z) for Minecraft 26.2
-[16:57:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[16:57:28] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[16:57:28] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
- - ItemEdit (3.7.10), LoginSecurity (3.2.0), OpenInv (5.3.3), SkinsRestorer (15.12.5), ViaBackwards (5.11.0), ViaVersion (5.11.0), sMusic (1.0)
-[16:57:32] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[16:57:32] [ServerMain/WARN]: You have used the Paper command line EULA agreement flag.
-[16:57:32] [ServerMain/WARN]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
-[16:57:32] [ServerMain/WARN]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
-[16:57:32] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[16:57:33] [DataConverter MCTypeRegistry init thread/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 683.6ms
-[16:57:35] [ServerMain/INFO]: Loaded 1585 recipes
-[16:57:35] [ServerMain/INFO]: Loaded 1688 advancements
-[16:57:35] [Server thread/INFO]: Starting minecraft server version 26.2
-[16:57:35] [Server thread/INFO]: Loading properties
-[16:57:35] [Server thread/INFO]: This server is running Paper version 26.2-84-main@26e81c4 (2026-07-26T18:11:33Z) (Implementing API version 26.2.build.84-stable)
-[16:57:35] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[16:57:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:57:35] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:57:36] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[16:57:36] [Server thread/INFO]: Default game type: SURVIVAL
-[16:57:36] [Server thread/INFO]: Generating keypair
-[16:57:36] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:57:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:57:36] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loading 1 libraries... please wait
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [OpenInv] Loaded library /workspaces/OxxieSrv/libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-api/5.1.1/adventure-api-5.1.1.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-key/5.1.1/adventure-key-5.1.1.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/org/jetbrains/annotations/26.1.0/annotations-26.1.0.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-platform-bukkit/4.4.1/adventure-platform-bukkit-4.4.1.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-platform-api/4.4.1/adventure-platform-api-4.4.1.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-serializer-bungeecord/4.4.1/adventure-text-serializer-bungeecord-4.4.1.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-nbt/4.21.0/adventure-nbt-4.21.0.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.21.0/adventure-text-serializer-gson-legacy-impl-4.21.0.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-serializer-json-legacy-impl/4.21.0/adventure-text-serializer-json-legacy-impl-4.21.0.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-platform-facet/4.4.1/adventure-platform-facet-4.4.1.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-platform-viaversion/4.4.1/adventure-platform-viaversion-4.4.1.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-minimessage/5.1.1/adventure-text-minimessage-5.1.1.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-serializer-gson/5.1.1/adventure-text-serializer-gson-5.1.1.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-serializer-json/5.1.1/adventure-text-serializer-json-5.1.1.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/option/1.1.0/option-1.1.0.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-serializer-commons/5.1.1/adventure-text-serializer-commons-5.1.1.jar
-[16:57:37] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/OxxieSrv/libraries/net/kyori/adventure-text-serializer-legacy/5.1.1/adventure-text-serializer-legacy-5.1.1.jar
-[16:57:37] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
-[16:57:37] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
-[16:57:38] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[16:57:38] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[16:57:38] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
-[16:57:38] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
-[16:57:38] [Server thread/INFO]: [OpenInv] Loading server plugin OpenInv v5.3.3
-[16:57:38] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.10
-[16:57:38] [Server thread/INFO]: [sMusic] Loading server plugin sMusic v1.0
-[16:57:38] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.2.0
-[16:57:38] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:57:38] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
-[16:57:39] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.2.0.
-[16:57:39] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[16:57:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:57:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:57:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:57:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:57:39] [Server thread/INFO]: Preparing level "world"
-[16:57:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:57:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[16:57:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
-[16:57:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
-[16:57:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
-[16:57:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
-[16:57:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:57:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.5
-[16:57:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 98b9488
-[16:57:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[16:57:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[16:57:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[16:57:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
-[16:57:40] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
-[16:57:40] [Server thread/INFO]: Preparing spawn area: 100%
-[16:57:40] [Server thread/INFO]: Prepared spawn area in 1 ms
-[16:57:40] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[16:57:40] [Server thread/INFO]: Prepared spawn area in 1 ms
-[16:57:40] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[16:57:40] [Server thread/INFO]: Prepared spawn area in 1 ms
-[16:57:40] [Server thread/INFO]: Done preparing level "world" (0.539s)
-[16:57:40] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
-[16:57:40] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.2 (776)
-[16:57:40] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
-[16:57:40] [Server thread/INFO]: [OpenInv] Enabling OpenInv v5.3.3
-[16:57:40] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.10
-[16:57:40] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
-[16:57:40] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
-[16:57:41] [Server thread/INFO]: [ItemEdit] Unable to hook into Vault
-[16:57:41] [Server thread/INFO]: [ItemEdit] # Enabled (took 259 ms)
-[16:57:41] [Server thread/INFO]: [sMusic] Enabling sMusic v1.0
-[16:57:41] [Server thread/INFO]:      _____  
-[16:57:41] [Server thread/INFO]:     / ____| 
-[16:57:41] [Server thread/INFO]:    | (___   
-[16:57:41] [Server thread/INFO]:     \___ \  
-[16:57:41] [Server thread/INFO]:     ____) | 
-[16:57:41] [Server thread/INFO]:    |_____/  
-[16:57:41] [Server thread/INFO]: 
-[16:57:41] [Server thread/INFO]:  sMusic [Enabled ✓]
-[16:57:41] [Server thread/INFO]:  by x.com/SunnyAim_
-[16:57:41] [Server thread/INFO]: 
-[16:57:41] [Server thread/INFO]: [sMusic] 🔁 No changes detected (files/config), keeping existing pack.
-[16:57:41] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[16:57:41] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[16:57:41] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[16:57:41] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[16:57:41] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[16:57:41] [Server thread/WARN]: [LoginSecurity] "LoginSecurity v3.2.0" has registered a listener for org.spigotmc.event.player.PlayerSpawnLocationEvent on method "public void com.lenis0012.bukkit.loginsecurity.modules.general.PlayerListener.onPlayerSpawn(org.spigotmc.event.player.PlayerSpawnLocationEvent)", but the event is Deprecated. "Listening to this event causes the player to be created early. Using the player from this event will result in undefined behavior. Prefer AsyncPlayerSpawnLocationEvent."; please notify the authors [lenis0012].
-[16:57:41] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[16:57:41] [Server thread/INFO]: [spark] Starting background profiler...
-[16:57:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:57:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:57:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:57:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:57:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:57:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:57:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:57:41] [Server thread/INFO]: Running delayed init tasks
-[16:57:41] [Server thread/INFO]: Done (15.173s)! For help, type "help"
-[16:57:41] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[16:57:41] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 16 builds behind ***
-[16:57:42] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[16:57:46] [User Authenticator #0/INFO]: UUID of player volcon2 is 9c42fa87-f091-3883-9bf4-db229d9050dc
-[16:57:46] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LoginSecurity]
-[16:57:47] [Server thread/INFO]: Disconnecting volcon2 (/127.78.109.241:37899): You are not whitelisted on this server!
-[16:57:47] [Server thread/INFO]: volcon2 (/127.78.109.241:37899) lost connection: You are not whitelisted on this server!
-[16:58:07] [User Authenticator #1/INFO]: UUID of player volcon2 is 9c42fa87-f091-3883-9bf4-db229d9050dc
-[16:58:07] [Server thread/INFO]: Disconnecting volcon2 (/127.78.109.241:32917): You are not whitelisted on this server!
-[16:58:07] [Server thread/INFO]: volcon2 (/127.78.109.241:32917) lost connection: You are not whitelisted on this server!
-[16:58:18] [Server thread/INFO]: Whitelist is now turned off
-[16:58:25] [User Authenticator #2/INFO]: UUID of player volcon2 is 9c42fa87-f091-3883-9bf4-db229d9050dc
-[16:58:33] [Server thread/INFO]: volcon2 joined the game
-[16:58:33] [Server thread/INFO]: volcon2[/127.78.109.241:40913] logged in with entity id 3 at ([minecraft:overworld]1.5, 73.0, -3.5)
-[16:58:33] [Server thread/INFO]: Added volcon2 to the whitelist
-[16:58:38] [User Authenticator #3/INFO]: UUID of player PlechStyles is 30a6bf87-0e42-3387-ae3e-6c60f0e71d95
-[16:58:46] [Server thread/INFO]: PlechStyles joined the game
-[16:58:46] [Server thread/INFO]: PlechStyles[/127.156.5.218:36593] logged in with entity id 274 at ([minecraft:overworld]-7.5, 75.0, 2.5)
-[16:58:47] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> los shaderss
-[16:58:49] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> que lag
-[16:58:57] [User Authenticator #4/INFO]: UUID of player fafafaxdfa is f258345e-3b57-30ad-bf76-8e8a94d40a00
-[16:59:03] [Async Chat Thread - #1/INFO]: [Not Secure] <PlechStyles> xau se reinicio la wea
-[16:59:04] [Async Chat Thread - #1/INFO]: [Not Secure] <PlechStyles> xd
-[16:59:05] [Server thread/INFO]: fafafaxdfa joined the game
-[16:59:05] [Server thread/INFO]: fafafaxdfa[/127.253.200.228:44189] logged in with entity id 369 at ([minecraft:overworld]-7.5, 75.0, 1.5)
-[16:59:08] [Async Chat Thread - #1/INFO]: [Not Secure] <volcon2> si el dijo
-[16:59:21] [Async Chat Thread - #0/INFO]: [Not Secure] <PlechStyles> dije xau no bodriocon2 :v
-[16:59:22] [Server thread/INFO]: Added fafafaxdfa to the whitelist
-[17:00:00] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> mas respeto perrita
-[17:00:01] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> ntc
-[17:00:09] [Async Chat Thread - #0/INFO]: [Not Secure] <PlechStyles> perrita decia
-[17:00:14] [Async Chat Thread - #0/INFO]: [Not Secure] <PlechStyles> xraycon2
-[17:00:21] [Server thread/INFO]: [Not Secure] [Server] gente
-[17:00:23] [Async Chat Thread - #0/INFO]: [Not Secure] <volcon2> bruh si ya me hicieron ss
-[17:00:28] [Async Chat Thread - #0/INFO]: [Not Secure] <fafafaxdfa> puedo matar?
-[17:00:37] [Server thread/INFO]: [Not Secure] [Server] si me dan 250 pesos al paypal, no importa en que momento, borrar el mundo
-[17:00:44] [Server thread/INFO]: fafafaxdfa has made the advancement [Stone Age]
-[17:00:57] [Async Chat Thread - #0/INFO]: [Not Secure] <PlechStyles> q me paguen el 15 y vale vrh
-[17:00:57] [Async Chat Thread - #1/INFO]: [Not Secure] <fafafaxdfa> xuatral puedo matarlos?
-[17:00:59] [Async Chat Thread - #1/INFO]: [Not Secure] <fafafaxdfa> XD
-[17:01:03] [Server thread/INFO]: [Not Secure] [Server] todavia no
-[17:01:06] [Server thread/INFO]: [Not Secure] [Server] esta recién hecho el mundo
-[17:01:08] [Async Chat Thread - #1/INFO]: [Not Secure] <fafafaxdfa> asu o
-[17:01:13] [Server thread/INFO]: volcon2 has made the advancement [Stone Age]
-[17:01:33] [Server thread/INFO]: volcon2 has made the advancement [Getting an Upgrade]
-[17:01:47] [Server thread/INFO]: fafafaxdfa has made the advancement [Getting an Upgrade]
-[17:01:51] [Server thread/INFO]: PlechStyles has made the advancement [Stone Age]
-[17:01:56] [User Authenticator #5/INFO]: UUID of player Xautral is 86f4fd4a-173d-3e06-a1bf-669194d778d7
-[17:02:21] [Server thread/INFO]: PlechStyles has made the advancement [Getting an Upgrade]
-[17:02:31] [Server thread/INFO]: Xautral joined the game
-[17:02:31] [Server thread/INFO]: Xautral[/127.78.182.87:53917] logged in with entity id 1868 at ([minecraft:overworld]-2.5, 72.0, 4.5)
-[17:02:56] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
-[17:03:01] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> sexo bolitas!!!
-[17:03:15] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives add health health
-[17:03:15] [Server thread/INFO]: [Xautral: Created new objective [health]]
-[17:03:22] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives setdisplay list health
-[17:03:22] [Server thread/INFO]: [Xautral: Set display slot list to show objective health]
-[17:03:22] [Server thread/INFO]: volcon2 was slain by Iron Golem
-[17:03:25] [Async Chat Thread - #2/INFO]: [Not Secure] <fafafaxdfa> HSXHASDHSDA
-[17:03:27] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> esa mmd que
-[17:03:27] [Server thread/INFO]: Xautral issued server command: /gamerule keep_inventory true
-[17:03:27] [Server thread/INFO]: [Xautral: Gamerule keep_inventory is now set to: true]
-[17:03:33] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> aquí ya peuden revivir
-[17:03:34] [Async Chat Thread - #2/INFO]: [Not Secure] <PlechStyles> fafafaxdfa acuerda q somos ally :v
-[17:03:34] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> no me importa
-[17:03:43] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> PlechStyles te pogo en kawesar?
-[17:03:45] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> xautral literalmente me mato plech
-[17:03:45] [Server thread/INFO]: fafafaxdfa has made the advancement [Acquire Hardware]
-[17:03:48] [Async Chat Thread - #2/INFO]: [Not Secure] <PlechStyles> zi
-[17:03:51] [Async Chat Thread - #2/INFO]: [Not Secure] <fafafaxdfa> OLA
-[17:03:54] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> estaba matando al golem y me destruyo los bloques
-[17:03:55] [Async Chat Thread - #2/INFO]: [Not Secure] <PlechStyles> OLAAA
-[17:03:58] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> ahorita te baneo plech
-[17:04:00] [Server thread/INFO]: fafafaxdfa has made the advancement [Isn't It Iron Pick]
-[17:04:01] [Async Chat Thread - #2/INFO]: [Not Secure] <PlechStyles> oe
-[17:04:04] [Server thread/INFO]: Xautral issued server command: /gamerule locator_bar false
-[17:04:04] [Server thread/INFO]: [Xautral: Gamerule locator_bar is now set to: false]
-[17:04:05] [Async Chat Thread - #2/INFO]: [Not Secure] <PlechStyles> yo no lo mate
-[17:04:08] [Async Chat Thread - #2/INFO]: [Not Secure] <volcon2> bruuh
-[17:04:09] [Async Chat Thread - #3/INFO]: [Not Secure] <PlechStyles> queria bloques nomas
-[17:04:10] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> o
-[17:04:15] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> fafafaxdfa en flame o en kawesar?
-[17:04:22] [Async Chat Thread - #3/INFO]: [Not Secure] <fafafaxdfa> emm
-[17:04:23] [Async Chat Thread - #3/INFO]: [Not Secure] <PlechStyles> legalmente no lo mate
-[17:04:25] [Async Chat Thread - #3/INFO]: [Not Secure] <fafafaxdfa> flame
-[17:04:26] [Async Chat Thread - #3/INFO]: [Not Secure] <PlechStyles> :V
-[17:04:26] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> lo s
-[17:04:32] [Async Chat Thread - #3/INFO]: [Not Secure] <volcon2> que hambreado que eres plech
-[17:04:38] [Async Chat Thread - #3/INFO]: [Not Secure] <fafafaxdfa> volvon se mato solo XDDD
-[17:04:39] [Async Chat Thread - #3/INFO]: [Not Secure] <PlechStyles> apoco xraycon
-[17:04:45] [Server thread/INFO]: Xautral issued server command: /team add Flame {"text":"[Flame Horde]","color":"gold"}
-[17:04:45] [Server thread/INFO]: [Xautral: Created team [[Flame Horde]]]
-[17:04:46] [Async Chat Thread - #3/INFO]: [Not Secure] <fafafaxdfa> XDDDD
-[17:04:54] [Server thread/INFO]: Xautral issued server command: /team modify Flame prefix {"text":"[Flame Horde] ","color":"gold"}
-[17:04:56] [Async Chat Thread - #3/INFO]: [Not Secure] <PlechStyles> fafafaxdfa tu kma
-[17:04:57] [Server thread/INFO]: Xautral issued server command: /team join Flame fafafaxdfa
-[17:04:57] [Server thread/INFO]: [Xautral: Added [Flame Horde] fafafaxdfa to team [[Flame Horde]]]
-[17:05:03] [Async Chat Thread - #2/INFO]: [Not Secure] <PlechStyles> a xd
-[17:05:16] [Async Chat Thread - #2/INFO]: [Not Secure] <fafafaxdfa> llevate td
-[17:05:19] [Server thread/INFO]: Xautral issued server command: /team add Volcanos {"text":"[Volcanos]","color":"red"}
-[17:05:19] [Server thread/INFO]: [Xautral: Created team [[Volcanos]]]
-[17:05:27] [Async Chat Thread - #2/INFO]: [Not Secure] <PlechStyles> pera
-[17:05:28] [Server thread/INFO]: Xautral issued server command: /team join Volcanos volcon2
-[17:05:28] [Server thread/INFO]: [Xautral: Added volcon2 to team [[Volcanos]]]
-[17:05:29] [Async Chat Thread - #2/INFO]: [Not Secure] <PlechStyles> afk
-[17:05:33] [Async Chat Thread - #2/INFO]: [Not Secure] <PlechStyles> tengo q ir por la koka w
-[17:05:34] [Async Chat Thread - #2/INFO]: [Not Secure] <fafafaxdfa> me pasare el juego de minecraft en menos de un segundo
-[17:05:40] [Async Chat Thread - #2/INFO]: [Not Secure] <PlechStyles> de bolas
-[17:05:43] [Async Chat Thread - #2/INFO]: [Not Secure] <PlechStyles> vuelvo en 15
-[17:05:45] [Server thread/INFO]: PlechStyles lost connection: Disconnected
-[17:05:45] [Server thread/INFO]: PlechStyles left the game
-[17:05:47] [Server thread/INFO]: Xautral issued server command: /team add Kasewar {"text":"[Kasewar]","color":"dark_aqua"}
-[17:05:47] [Server thread/INFO]: [Xautral: Created team [[Kasewar]]]
-[17:05:57] [Server thread/INFO]: Xautral issued server command: /team join Kasewar PlechStyles
-[17:05:57] [Server thread/INFO]: [Xautral: Added PlechStyles to team [[Kasewar]]]
-[17:06:02] [Server thread/INFO]: Xautral issued server command: /team join Volcanos volcon2
-[17:06:02] [Server thread/INFO]: [Xautral: Added volcon2 to team [[Volcanos]]]
-[17:06:03] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
-[17:06:05] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> pro ciert
-[17:06:08] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> esto será mas vanilla
-[17:06:14] [Async Chat Thread - #2/INFO]: [Not Secure] <Xautral> pero aún así haré el end infintamente mas dificil
-[17:06:16] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
-[17:06:16] [Server thread/INFO]: [Xautral: Teleported Xautral to 0.500000, 0.000000, 0.500000]
-[17:06:20] [Async Chat Thread - #2/INFO]: [Not Secure] <fafafaxdfa> ok
-[17:06:25] [Async Chat Thread - #3/INFO]: [Not Secure] <fafafaxdfa> me paso mc hoy
-[17:06:28] [Server thread/INFO]: Xautral issued server command: /fill ~15 ~15 ~15 ~-15 ~-15 ~-15 light
-[17:06:28] [Server thread/INFO]: [Xautral: Successfully filled 29791 block(s)]
-[17:06:32] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
-[17:07:09] [Server thread/INFO]: Xautral has made the advancement [The End?]
-[17:07:11] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[17:07:11] [Server thread/INFO]: Found that the dragon has not yet been killed in this world.
-[17:07:12] [Async Chat Thread - #3/INFO]: [Not Secure] <fafafaxdfa> OE
-[17:07:12] [Async Chat Thread - #3/INFO]: [Not Secure] <Xautral> afk
-[17:07:20] [Server thread/INFO]: Xautral has made the advancement [Ice Bucket Challenge]
-[17:07:23] [Async Chat Thread - #3/INFO]: [Not Secure] <fafafaxdfa> yo queria ser el primero en entrar al end :(
-[17:07:53] [Server thread/INFO]: Xautral issued server command: /attribute @n[type=minecraft:ender_dragon] minecraft:max_health base set 1500
-[17:08:11] [Server thread/INFO]: [Flame Horde] fafafaxdfa has made the advancement [Monster Hunter]
-[17:09:51] [Server thread/INFO]: Villager Villager['Fletcher'/1181, uuid='27094864-21c6-4bad-9778-286928e6df74', l='ServerLevel[world]', x=-212.12, y=66.00, z=98.71, cpos=[-14, 6], tl=11040, v=true] died, message: 'Fletcher was slain by Zombie'
-[17:10:12] [Server thread/INFO]: volcon2 has made the advancement [Acquire Hardware]
-[17:10:35] [Server thread/INFO]: volcon2 has made the advancement [Isn't It Iron Pick]
-[17:12:02] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> ya volvi
-[17:12:09] [Server thread/INFO]: Xautral issued server command: /team join Volcanos volcon2
-[17:12:09] [Server thread/INFO]: [Xautral: Added volcon2 to team [[Volcanos]]]
-[17:12:12] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> que pedo
-[17:12:25] [Server thread/INFO]: Xautral issued server command: /team modify Volcanos prefix {"text":"[Volcanos] ","color":"red"}
-[17:12:50] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> xau
-[17:12:52] [Async Chat Thread - #4/INFO]: [Not Secure] <volcon2> das comida?
-[17:12:52] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> que
-[17:12:56] [Async Chat Thread - #4/INFO]: [Not Secure] <Xautral> no
-[17:13:09] [Server thread/INFO]: Xautral issued server command: /attribute @n[type=minecraft:ender_dragon] minecraft:max_health base set 150
-[17:13:16] [Server thread/INFO]: Xautral issued server command: /attribute @n[type=minecraft:ender_dragon] minecraft:max_health base set 750
-[17:13:21] [Server thread/INFO]: Xautral issued server command: /attribute @n[type=minecraft:ender_dragon] minecraft:max_health base set 550
-[17:13:33] [Server thread/INFO]: Xautral issued server command: /tp Xautral @n[type=ender_dragon]
-[17:13:33] [Server thread/INFO]: [Xautral: Teleported Xautral to Ender Dragon]
-[17:14:30] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> me voy a morir pero de hambre JAJA
-[17:14:37] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> haz videos de sprunki w
-[17:15:11] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> PRTM
-[17:15:40] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> nmms
-[17:15:43] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> que
-[17:15:49] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> ocupo comida
-[17:15:57] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> si te doy tambien le tengo que dar a fafafaxdfa
-[17:16:01] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> esta bien
-[17:16:09] [Server thread/INFO]: Xautral issued server command: /give @a pumpkin_pie 128
-[17:16:09] [Server thread/INFO]: [Xautral: Gave 128 [Pumpkin Pie] to 3 players]
-[17:16:21] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> denada fafa
-[17:16:27] [Async Chat Thread - #6/INFO]: [Not Secure] <fafafaxdfa> ???
-[17:16:31] [Async Chat Thread - #6/INFO]: [Not Secure] <fafafaxdfa> yo ando mejor q tu
-[17:16:33] [Async Chat Thread - #6/INFO]: [Not Secure] <fafafaxdfa> XD
-[17:16:41] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> hahaa
-[17:16:46] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> madurar es aceptar que realmente no odiaban a volcon
-[17:16:53] [Server thread/INFO]: Xautral issued server command: /fill -35 102 -23
-[17:16:54] [Async Chat Thread - #6/INFO]: [Not Secure] <fafafaxdfa> yo no
-[17:16:57] [Async Chat Thread - #6/INFO]: [Not Secure] <fafafaxdfa> ps namas
-[17:16:59] [Async Chat Thread - #6/INFO]: [Not Secure] <fafafaxdfa> quiero pvp
-[17:17:01] [Server thread/INFO]: Xautral issued server command: /fill -35 102 -23 -33 102 -27 minecraft:cobblestone
-[17:17:01] [Server thread/INFO]: [Xautral: Successfully filled 15 block(s)]
-[17:17:08] [Server thread/INFO]: Xautral issued server command: /fill -35 102 -23 -33 -22 -27 minecraft:cobblestone
-[17:17:18] [Server thread/INFO]: Xautral issued server command: /fill -35 102 -23 -33 100 -27 minecraft:cobblestone
-[17:17:18] [Server thread/INFO]: [Xautral: Successfully filled 30 block(s)]
-[17:17:23] [Server thread/INFO]: Xautral has made the advancement [Stone Age]
-[17:17:46] [Server thread/INFO]: [Volcanos] volcon2 has made the advancement [Monster Hunter]
-[17:17:48] [Async Chat Thread - #6/INFO]: [Not Secure] <fafafaxdfa> WARDEN
-[17:18:02] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> gente
-[17:18:07] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> para matar al ender_Dragon neceistan almenos 5 personas
-[17:18:11] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> para que se iamginen lo dificil que es
-[17:18:20] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> si deciden huir habrá un portal atrás de ustedes
-[17:18:23] [Async Chat Thread - #6/INFO]: [Not Secure] <fafafaxdfa> yo solito con un full prote 4
-[17:18:28] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
-[17:18:30] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
-[17:19:03] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> wtf
-[17:19:05] [Async Chat Thread - #6/INFO]: [Not Secure] <Xautral> que
-[17:19:44] [Server thread/INFO]: [Flame Horde] fafafaxdfa has made the advancement [Not Today, Thank You]
-[17:19:48] [Async Chat Thread - #6/INFO]: [Not Secure] <volcon2> hace rato habia visto
-[17:19:52] [Async Chat Thread - #7/INFO]: [Not Secure] <volcon2> hierro en el techo
-[17:19:54] [Async Chat Thread - #7/INFO]: [Not Secure] <volcon2> estoy ciego
-[17:20:39] [Server thread/INFO]: [Volcanos] volcon2 has made the advancement [Suit Up]
-[17:21:39] [Async Chat Thread - #8/INFO]: [Not Secure] <volcon2> bro realmente?
-[17:21:41] [Async Chat Thread - #8/INFO]: [Not Secure] <volcon2> bro sag wallahi
-[17:21:42] [Async Chat Thread - #8/INFO]: [Not Secure] <Xautral> que
-[17:21:44] [Async Chat Thread - #8/INFO]: [Not Secure] <volcon2> say wallahi
-[17:22:45] [Async Chat Thread - #10/INFO]: [Not Secure] <volcon2> bro mas molesto no pueden ser
-[17:25:01] [Server thread/INFO]: Xautral issued server command: /summon minecraft:end_crystal
-[17:25:01] [Server thread/INFO]: [Xautral: Summoned new End Crystal]
-[17:25:08] [Server thread/INFO]: [Flame Horde] fafafaxdfa has made the advancement [Suit Up]
-[17:25:59] [Async Chat Thread - #12/INFO]: [Not Secure] <Xautral> dios si me mamé con esto
-[17:28:01] [Async Chat Thread - #14/INFO]: [Not Secure] <volcon2> estas full iron ya fafa?
-[17:28:10] [Async Chat Thread - #15/INFO]: [Not Secure] <fafafaxdfa> nop
-[17:28:14] [Async Chat Thread - #15/INFO]: [Not Secure] <fafafaxdfa> voy al nether yo
-[17:28:16] [Async Chat Thread - #15/INFO]: [Not Secure] <Xautral> no es cierto
-[17:28:17] [Async Chat Thread - #15/INFO]: [Not Secure] <volcon2> ahh okk
-[17:28:52] [Server thread/INFO]: Xautral issued server command: /kill 4d36a8d8-33ce-401f-8147-56f5f8df5088
-[17:28:52] [Server thread/INFO]: [Xautral: Killed Shulker]
-[17:29:30] [Server thread/INFO]: Xautral has made the advancement [Monster Hunter]
-[17:30:25] [Server thread/INFO]: [Flame Horde] fafafaxdfa has made the advancement [Diamonds!]
-[17:30:40] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.xtal master @a ~ ~ ~ 0.6 1 1
-[17:30:40] [Server thread/INFO]: [Xautral: Played sound minecraft:custom.xtal to Xautral]
-[17:31:01] [Server thread/INFO]: Xautral issued server command: /save-al
-[17:31:03] [Server thread/INFO]: Xautral issued server command: /save-all
-[17:31:03] [Server thread/INFO]: [Xautral: Saved the game]
-[17:31:07] [Server thread/INFO]: Xautral issued server command: /tps
-[17:31:26] [Server thread/INFO]: Xautral issued server command: /kill @e[type=minecraft:phantom]
-[17:31:26] [Server thread/INFO]: [Xautral: Killed 2 entities]
-[17:31:29] [Server thread/INFO]: Xautral issued server command: /kill @e[type=minecraft:item]
-[17:31:29] [Server thread/INFO]: [Xautral: Killed 31 entities]
-[17:31:34] [Server thread/INFO]: Xautral issued server command: /kill @e[type=minecraft:shulker]
-[17:31:34] [Server thread/INFO]: [Xautral: Killed 14 entities]
-[17:31:48] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
-[17:31:48] [Server thread/INFO]: [Xautral: Teleported Xautral to 0.500000, 0.000000, 0.500000]
-[17:31:54] [Server thread/INFO]: [Flame Horde] fafafaxdfa has made the advancement [Sneak 100]
-[17:31:56] [Server thread/INFO]: Xautral issued server command: /setblock ~ ~-1 ~ bedrock
-[17:31:57] [Server thread/INFO]: Xautral issued server command: /setblock ~ ~-1 ~ bedrock
-[17:31:57] [Server thread/INFO]: [Xautral: Changed the block at 0, 0, 0]
-[17:33:33] [Server thread/INFO]: [Flame Horde] fafafaxdfa has made the advancement [Hot Stuff]
-[17:33:36] [Server thread/INFO]: Xautral issued server command: /whitelist
-[17:33:40] [Server thread/INFO]: Xautral issued server command: /whitelist off
-[17:33:43] [Async Chat Thread - #16/INFO]: [Not Secure] <volcon2> musiquita
-[17:33:47] [Async Chat Thread - #16/INFO]: [Not Secure] <Xautral> que
-[17:33:54] [Async Chat Thread - #16/INFO]: [Not Secure] <volcon2> no que puse musica pues
-[17:34:23] [Server thread/INFO]: Xautral issued server command: /summon minecraft:dragon_fireball ~ ~ ~ {Motion:[0b,-1b,0b]}
-[17:34:23] [Server thread/INFO]: [Xautral: Summoned new Dragon Fireball]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:23] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: Xautral issued server command: /summon minecraft:dragon_fireball ~ ~ ~ {Motion:[0b,-1b,0b]}
-[17:34:25] [Server thread/INFO]: [Xautral: Summoned new Dragon Fireball]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:25] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: Xautral issued server command: /summon minecraft:dragon_fireball ~ ~ ~ {Motion:[0b,-1b,1b]}
-[17:34:43] [Server thread/INFO]: [Xautral: Summoned new Dragon Fireball]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:43] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:44] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: Xautral issued server command: /summon minecraft:dragon_fireball ~ ~ ~ {Motion:[0b,-1b,1b]}
-[17:34:47] [Server thread/INFO]: [Xautral: Summoned new Dragon Fireball]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:47] [Server thread/INFO]: [@: Summoned new Shulker Bullet]
-[17:34:51] [Server thread/INFO]: Xautral issued server command: /gamerule command_block_output false
-[17:34:51] [Server thread/INFO]: [Xautral: Gamerule command_block_output is now set to: false]
-[17:34:52] [Server thread/INFO]: Xautral issued server command: /summon minecraft:dragon_fireball ~ ~ ~ {Motion:[0b,-1b,1b]}
-[17:34:52] [Server thread/INFO]: [Xautral: Summoned new Dragon Fireball]
-[17:34:56] [Server thread/INFO]: Xautral issued server command: /summon minecraft:dragon_fireball ~ ~ ~ {Motion:[0b,-1b,1b]}
-[17:34:56] [Server thread/INFO]: [Xautral: Summoned new Dragon Fireball]
-[17:34:59] [Server thread/INFO]: Xautral issued server command: /summon minecraft:dragon_fireball ~ ~ ~ {Motion:[0b,-1b,1b]}
-[17:34:59] [Server thread/INFO]: [Xautral: Summoned new Dragon Fireball]
-[17:35:02] [Server thread/INFO]: Xautral issued server command: /summon minecraft:dragon_fireball ~ ~ ~ {Motion:[0b,-1b,1b]}
-[17:35:02] [Server thread/INFO]: [Xautral: Summoned new Dragon Fireball]
-[17:35:14] [Async Chat Thread - #18/INFO]: [Not Secure] <Xautral> listo
-[17:35:17] [Async Chat Thread - #18/INFO]: [Not Secure] <Xautral> ya termine mi endemoniadura
-[17:35:25] [Async Chat Thread - #18/INFO]: [Not Secure] <volcon2> el que=
-[17:35:27] [Async Chat Thread - #18/INFO]: [Not Secure] <volcon2> ?
-[17:35:33] [Async Chat Thread - #18/INFO]: [Not Secure] <Xautral> el end en modo dificil
-[17:35:34] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
-[17:35:36] [Server thread/INFO]: Xautral issued server command: /tp fafafaxdfa
-[17:35:36] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] fafafaxdfa]
-[17:35:43] [Async Chat Thread - #18/INFO]: [Not Secure] <Xautral> fafa se va a cagar todo
-[17:35:45] [Async Chat Thread - #18/INFO]: [Not Secure] <volcon2> escucho a un esquili
-[17:35:48] [Async Chat Thread - #18/INFO]: [Not Secure] <fafafaxdfa> XD
-[17:36:07] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
-[17:36:07] [Server thread/INFO]: [Xautral: Teleported Xautral to 0.500000, 0.000000, 0.500000]
-[17:36:08] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
-[17:36:15] [Server thread/INFO]: [Flame Horde] fafafaxdfa has made the advancement [Ice Bucket Challenge]
-[17:36:22] [Server thread/INFO]: Xautral issued server command: /fill 91 39 12
-[17:36:26] [Server thread/INFO]: Xautral issued server command: /fill 91 39 12 89 31 10 air
-[17:36:26] [Server thread/INFO]: [Xautral: Successfully filled 72 block(s)]
-[17:36:33] [Server thread/INFO]: Xautral issued server command: /fill 91 31 10
-[17:36:37] [Server thread/INFO]: Xautral issued server command: /fill 91 31 10 89 31 12 minecraft:end_portal
-[17:36:37] [Server thread/INFO]: [Xautral: Successfully filled 9 block(s)]
-[17:36:52] [Server thread/INFO]: Xautral issued server command: /fill 91 39 13
-[17:36:59] [Server thread/INFO]: Xautral issued server command: /fill 91 39 13 89 31 13 bedrock
-[17:36:59] [Server thread/INFO]: [Xautral: Successfully filled 24 block(s)]
-[17:37:10] [Server thread/INFO]: Xautral issued server command: /fill 88 39 12
-[17:37:17] [Server thread/INFO]: Xautral issued server command: /fill 88 39 12 88 31 10 bedrock
-[17:37:17] [Server thread/INFO]: [Xautral: Successfully filled 26 block(s)]
-[17:37:22] [Server thread/INFO]: Xautral issued server command: /fill 89 39 9
-[17:37:28] [Server thread/INFO]: Xautral issued server command: /fill 89 39 9 91 31 9 bedrock
-[17:37:28] [Server thread/INFO]: [Xautral: Successfully filled 26 block(s)]
-[17:37:32] [Server thread/INFO]: Xautral issued server command: /fill 92 39 10
-[17:37:42] [Server thread/INFO]: Xautral issued server command: /fill 92 39 10 92 31 12 bedrock
-[17:37:42] [Server thread/INFO]: [Xautral: Successfully filled 26 block(s)]
-[17:37:44] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> que lag
-[17:37:47] [Server thread/INFO]: Xautral issued server command: /tps
-[17:37:48] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> e dio de repente
-[17:37:48] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> vas
-[17:37:53] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> es que hice un /save-all
-[17:38:20] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> Xautral xq no prende mi portal
-[17:38:20] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> fafafaxdfa:
-[17:38:23] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> no lo sabías afton
-[17:38:24] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> pero yo soy
-[17:38:27] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> el ConquersSMP
-[17:38:30] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> XD
-[17:38:36] [Server thread/INFO]: Xautral issued server command: /tp fafafaxdfa
-[17:38:36] [Server thread/INFO]: [Xautral: Teleported Xautral to [Flame Horde] fafafaxdfa]
-[17:38:42] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> no prende por que estas bien wey
-[17:38:44] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> no prende
-[17:38:49] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> como q no
-[17:39:02] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> no pus equis
-[17:39:03] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> ahi?
-[17:39:05] [Server thread/INFO]: Xautral issued server command: /tp volcon2
-[17:39:05] [Server thread/INFO]: [Xautral: Teleported Xautral to [Volcanos] volcon2]
-[17:39:08] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> creo que si
-[17:39:10] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
-[17:39:10] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> chamare
-[17:39:14] [Server thread/INFO]: Xautral issued server command: /tp ~ ~150 ~
-[17:39:14] [Server thread/INFO]: [Xautral: Teleported Xautral to -133.501600, 176.444332, -21.440741]
-[17:39:15] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
-[17:39:25] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.nautilus master @a ~ ~ ~ 0.5 1 1
-[17:39:25] [Server thread/INFO]: [Xautral: Played sound minecraft:custom.nautilus to 3 players]
-[17:39:39] [Server thread/INFO]: Xautral issued server command: /summon minecraft:dragon_fireball ~ ~ ~ {Motion:[0b,-1b,1b]}
-[17:39:39] [Server thread/INFO]: [Xautral: Summoned new Dragon Fireball]
-[17:39:51] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> y esa musica
-[17:39:54] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> en cada dimension los proyectiels se volverna difenretes
-[17:40:03] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> ...
-[17:40:06] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> me proyecte
-[17:40:06] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> en el end las bolas de dragon dispararan shulkers en rafaga
-[17:40:16] [Server thread/INFO]: Xautral issued server command: /summon minecraft:dragon_fireball ~ ~ ~ {Motion:[0b,-1b,1b]}
-[17:40:16] [Server thread/INFO]: [Xautral: Summoned new Dragon Fireball]
-[17:40:18] [Server thread/INFO]: Xautral issued server command: /summon minecraft:dragon_fireball ~ ~ ~ {Motion:[0b,-1b,1b]}
-[17:40:18] [Server thread/INFO]: [Xautral: Summoned new Dragon Fireball]
-[17:40:18] [Server thread/INFO]: Xautral issued server command: /summon minecraft:dragon_fireball ~ ~ ~ {Motion:[0b,-1b,1b]}
-[17:40:18] [Server thread/INFO]: [Xautral: Summoned new Dragon Fireball]
-[17:40:19] [Server thread/INFO]: Xautral issued server command: /summon minecraft:dragon_fireball ~ ~ ~ {Motion:[0b,-1b,1b]}
-[17:40:19] [Server thread/INFO]: [Xautral: Summoned new Dragon Fireball]
-[17:40:20] [Server thread/INFO]: [Volcanos] volcon2 has made the advancement [Diamonds!]
-[17:40:20] [Server thread/INFO]: Xautral issued server command: /summon minecraft:dragon_fireball ~ ~ ~ {Motion:[0b,-1b,1b]}
-[17:40:20] [Server thread/INFO]: [Xautral: Summoned new Dragon Fireball]
-[17:40:23] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
-[17:40:33] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> volcon2 como no dejas el xray w
-[17:40:36] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> ?
-[17:40:38] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> jaja no te creas
-[17:40:42] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> ah
-[17:40:42] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> xfin
-[17:40:43] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> JAJA
-[17:41:23] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> como ayudaria una eficiencia
-[17:41:32] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> minando mas rápido no w?
-[17:41:34] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> wwww
-[17:41:36] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> sip por eso
-[17:41:38] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> oye xau
-[17:41:40] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> como silencio la musica
-[17:41:42] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> es que tengo una
-[17:42:12] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> no se puede
-[17:42:27] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> si se puedo
-[17:42:28] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> si se puede
-[17:42:31] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> como
-[17:42:39] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> eres de pc no?
-[17:42:42] [Async Chat Thread - #21/INFO]: [Not Secure] <volcon2> sip
-[17:42:47] [Async Chat Thread - #21/INFO]: [Not Secure] <fafafaxdfa> en volumen
-[17:42:49] [Async Chat Thread - #21/INFO]: [Not Secure] <fafafaxdfa> baja
-[17:42:53] [Async Chat Thread - #21/INFO]: [Not Secure] <volcon2> volumen general no?
-[17:42:54] [Async Chat Thread - #21/INFO]: [Not Secure] <volcon2> pero
-[17:42:58] [Async Chat Thread - #21/INFO]: [Not Secure] <volcon2> bueno ni modo
-[17:43:00] [Async Chat Thread - #21/INFO]: [Not Secure] <fafafaxdfa> no osea
-[17:43:08] [Async Chat Thread - #21/INFO]: [Not Secure] <fafafaxdfa> baja a las ultimas opciones
-[17:43:17] [Async Chat Thread - #21/INFO]: [Not Secure] <fafafaxdfa> ahi dice audio direccional
-[17:43:27] [Async Chat Thread - #21/INFO]: [Not Secure] <fafafaxdfa> yo le puse q si y se quito
-[17:43:28] [Async Chat Thread - #21/INFO]: [Not Secure] <fafafaxdfa> xd
-[17:43:31] [Async Chat Thread - #21/INFO]: [Not Secure] <volcon2> ahh
-[17:43:33] [Async Chat Thread - #21/INFO]: [Not Secure] <volcon2> gracias
-[17:43:48] [Server thread/INFO]: [Flame Horde] fafafaxdfa has made the advancement [We Need to Go Deeper]
-[17:43:48] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> ahora te encontrare
-[17:44:25] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> por que
-[17:44:38] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> namas
-[17:45:01] [Server thread/INFO]: Xautral has made the advancement [We Need to Go Deeper]
-[17:45:09] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> ahora haré super bla
-[17:45:13] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> ahora haré super blazes
-[17:45:14] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> bla?
-[17:45:17] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> NOOO
-[17:45:20] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> AUN NOO
-[17:45:23] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> bueno
-[17:45:26] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> gracia
-[17:45:29] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> solo haré las fortress mas peligrosas
-[17:45:34] [Async Chat Thread - #20/INFO]: [Not Secure] <fafafaxdfa> XD
-[17:45:58] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> y haré que el portal del end tenga de ahuevo mas frames para que tengan que ponerle mas ojos
-[17:46:00] [Server thread/INFO]: Xautral issued server command: /tp volcon
-[17:46:02] [Server thread/INFO]: Xautral issued server command: /tp volcon2
-[17:46:02] [Server thread/INFO]: [Xautral: Teleported Xautral to [Volcanos] volcon2]
-[17:46:04] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
-[17:46:04] [Server thread/INFO]: [Xautral: Teleported Xautral to 0.500000, 0.000000, 0.500000]
-[17:46:06] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
-[17:46:23] [Server thread/INFO]: [Volcanos] volcon2 has made the advancement [Cover Me with Diamonds]
-[17:46:58] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> te gusta xau=
-[17:47:35] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> tengo mucho hierro.
-[17:48:14] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> ¿?
-[17:48:15] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
-[17:48:22] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> whats bro talking
-[17:48:23] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> que si t gusta
-[17:48:28] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> que me gusta que
-[17:48:40] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.albertobalsalm master @a ~ ~ ~ 0.8 1 1
-[17:48:40] [Server thread/INFO]: [Xautral: Played sound minecraft:custom.albertobalsalm to 2 players]
-[17:48:47] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> alberto balsamo
-[17:48:52] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> bro
-[17:48:55] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> como es que
-[17:49:00] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> ahora escucho musica
-[17:49:03] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> ¿?
-[17:49:08] [Async Chat Thread - #21/INFO]: [Not Secure] <volcon2> tu musica
-[17:49:09] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> la silencie
-[17:49:09] [Async Chat Thread - #21/INFO]: [Not Secure] <Xautral> por que lo preguntas
-[17:49:11] [Async Chat Thread - #21/INFO]: [Not Secure] <volcon2> y la escucho
-[17:49:19] [Async Chat Thread - #21/INFO]: [Not Secure] <Xautral> que canal silenciaste
-[17:49:24] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> deja veo
-[17:49:31] [Async Chat Thread - #20/INFO]: [Not Secure] <volcon2> ya
-[17:49:36] [Async Chat Thread - #20/INFO]: [Not Secure] <Xautral> es el canal master
-[17:50:22] [Server thread/INFO]: Xautral issued server command: /effect give Xautral minecraft:night_vision infinite 25 true
-[17:50:22] [Server thread/INFO]: [Xautral: Applied effect Night Vision to Xautral]
-[17:50:55] [Async Chat Thread - #22/INFO]: [Not Secure] <volcon2> eres alberto instantaneo?
-[17:51:04] [Async Chat Thread - #22/INFO]: [Not Secure] <Xautral> jeffrey balsamo
-[17:51:21] [Async Chat Thread - #22/INFO]: [Not Secure] <Xautral> se dan cuenta que hay 3 albertos en el server?
-[17:51:27] [Async Chat Thread - #22/INFO]: [Not Secure] <volcon2> tu
-[17:51:28] [Async Chat Thread - #22/INFO]: [Not Secure] <Xautral> alberto insatntanoe
-[17:51:29] [Async Chat Thread - #22/INFO]: [Not Secure] <volcon2> alberto
-[17:51:31] [Async Chat Thread - #23/INFO]: [Not Secure] <volcon2> y qyueb nas
-[17:51:37] [Async Chat Thread - #23/INFO]: [Not Secure] <Xautral> jeffry epstein
-[17:51:41] [Async Chat Thread - #23/INFO]: [Not Secure] <Xautral> y alberto balsamo
-[17:51:43] [Async Chat Thread - #23/INFO]: [Not Secure] <fafafaxdfa> q mrd
-[17:51:48] [Async Chat Thread - #23/INFO]: [Not Secure] <Xautral> q
-[17:51:50] [Async Chat Thread - #23/INFO]: [Not Secure] <volcon2> no da risa
-[17:51:53] [Async Chat Thread - #23/INFO]: [Not Secure] <volcon2> imaginate haber nacido
-[17:51:54] [Async Chat Thread - #23/INFO]: [Not Secure] <fafafaxdfa> XD
-[17:51:55] [Server thread/INFO]: Xautral issued server command: /execute at fafafaxdfa run summon minecraft:lightning_bolt
-[17:51:55] [Server thread/INFO]: [Xautral: Summoned new Lightning Bolt]
-[17:51:56] [Async Chat Thread - #23/INFO]: [Not Secure] <volcon2> en esa epoca
-[17:51:59] [Async Chat Thread - #23/INFO]: [Not Secure] <fafafaxdfa> OE
-[17:51:59] [Async Chat Thread - #23/INFO]: [Not Secure] <volcon2> y que te haya tocado
-[17:52:01] [Async Chat Thread - #23/INFO]: [Not Secure] <volcon2> tenidno 12 años
-[17:52:03] [Async Chat Thread - #22/INFO]: [Not Secure] <Xautral> alberto
-[17:52:16] [Server thread/INFO]: Xautral issued server command: /execute at fafafaxdfa run summon minecraft:lightning_bolt
-[17:52:16] [Server thread/INFO]: [Xautral: Summoned new Lightning Bolt]
-[17:52:17] [Async Chat Thread - #22/INFO]: [Not Secure] <volcon2> ese fafa??
-[17:52:20] [Async Chat Thread - #22/INFO]: [Not Secure] <volcon2> como me piensas buscar
-[17:52:22] [Async Chat Thread - #22/INFO]: [Not Secure] <fafafaxdfa> tmr
-[17:52:26] [Server thread/INFO]: Xautral issued server command: /execute at fafafaxdfa run summon minecraft:lightning_bolt
-[17:52:26] [Server thread/INFO]: [Xautral: Summoned new Lightning Bolt]
-[17:52:26] [Server thread/INFO]: Xautral issued server command: /execute at fafafaxdfa run summon minecraft:lightning_bolt
-[17:52:26] [Server thread/INFO]: [Xautral: Summoned new Lightning Bolt]
-[17:52:26] [Server thread/INFO]: Xautral issued server command: /execute at fafafaxdfa run summon minecraft:lightning_bolt
-[17:52:26] [Server thread/INFO]: [Xautral: Summoned new Lightning Bolt]
-[17:52:26] [Async Chat Thread - #22/INFO]: [Not Secure] <Xautral> t
-[17:52:33] [Server thread/INFO]: Xautral issued server command: /effect give fafafaxdfa minecraft:saturation 25 25 false
-[17:52:33] [Server thread/INFO]: [Xautral: Applied effect Saturation to [Flame Horde] fafafaxdfa]
-[17:52:50] [Async Chat Thread - #22/INFO]: [Not Secure] <Xautral> tienen la músiac mute?
-[17:52:54] [Async Chat Thread - #23/INFO]: [Not Secure] <volcon2> si
-[17:52:59] [Async Chat Thread - #23/INFO]: [Not Secure] <Xautral> oc
-[17:53:15] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:custom.ultimatum master Xautral ~ ~ ~ 0.8 1 1
-[17:53:15] [Server thread/INFO]: [Xautral: Played sound minecraft:custom.ultimatum to Xautral]
-[17:54:14] [Server thread/INFO]: Xautral issued server command: /tellraw Xautral [{"text":"<Xautral> "},{"text":" i truly became a monster?"}]
-[17:54:28] [Server thread/INFO]: Xautral issued server command: /tellraw Xautral [{"text":"<Xautral> "},{"text":"i truly became a monster?","color":"dark_red"}]
-[17:54:32] [Server thread/INFO]: Xautral issued server command: /tellraw @a [{"text":"<Xautral> "},{"text":"i truly became a monster?","color":"dark_red"}]
-[17:54:35] [Async Chat Thread - #25/INFO]: [Not Secure] <volcon2> no
-[17:54:45] [Server thread/INFO]: Xautral issued server command: /tellraw @a [{"text":"<Xautral> "},{"text":"ok","color":"gold"}]
-[17:55:56] [Async Chat Thread - #27/INFO]: [Not Secure] <volcon2> escucho combis
-[17:56:02] [Async Chat Thread - #27/INFO]: [Not Secure] <fafafaxdfa> combis?
-[17:56:02] [Async Chat Thread - #26/INFO]: [Not Secure] <volcon2> los zetas
-[17:56:02] [Async Chat Thread - #26/INFO]: [Not Secure] <Xautral> adjaqjb qd1 101 010 10 10
-[17:56:09] [Server thread/INFO]: Xautral issued server command: /summon tnt
-[17:56:09] [Server thread/INFO]: [Xautral: Summoned new Primed TNT]
-[17:56:18] [Async Chat Thread - #26/INFO]: [Not Secure] <fafafaxdfa> YAAAAAAAA
-[17:56:22] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> ¿?
-[17:56:45] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder master @a ~ ~ ~ 1 2 1
-[17:56:45] [Server thread/INFO]: [Xautral: Played sound minecraft:item.trident.thunder to 2 players]
-[17:56:49] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder master @a ~ ~ ~ 1 2 1
-[17:56:49] [Server thread/INFO]: [Xautral: Played sound minecraft:item.trident.thunder to 2 players]
-[17:57:13] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder master @a ~ ~ ~ 1 2 1
-[17:57:13] [Server thread/INFO]: [Xautral: Played sound minecraft:item.trident.thunder to 2 players]
-[17:57:15] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder master @a ~ ~ ~ 1 2 1
-[17:57:15] [Server thread/INFO]: [Xautral: Played sound minecraft:item.trident.thunder to 2 players]
-[17:57:17] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder master @a ~ ~ ~ 1 2 1
-[17:57:17] [Server thread/INFO]: [Xautral: Played sound minecraft:item.trident.thunder to 2 players]
-[17:57:18] [Server thread/INFO]: Xautral issued server command: /playsound minecraft:item.trident.thunder master @a ~ ~ ~ 1 2 1
-[17:57:18] [Server thread/INFO]: [Xautral: Played sound minecraft:item.trident.thunder to 2 players]
-[17:57:20] [Async Chat Thread - #27/INFO]: [Not Secure] <fafafaxdfa> Q HACEN
-[17:57:23] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> nada
-[17:57:26] [Async Chat Thread - #26/INFO]: [Not Secure] <Xautral> pero saben?
-[17:57:37] [Async Chat Thread - #27/INFO]: [Not Secure] <fafafaxdfa> BASTION
-[17:57:44] [Server thread/INFO]: [Flame Horde] fafafaxdfa has made the advancement [Those Were the Days]
-[17:57:44] [Server thread/INFO]: Xautral has made the advancement [Those Were the Days]
-[17:57:45] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> ahorita la opeo papito no te preocu
-[17:57:54] [Async Chat Thread - #27/INFO]: [Not Secure] <fafafaxdfa> NOOOOOOO
-[17:57:58] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> no no es cierto
-[17:58:01] [Async Chat Thread - #27/INFO]: [Not Secure] <fafafaxdfa> a
-[17:58:16] [Async Chat Thread - #27/INFO]: [Not Secure] <fafafaxdfa> 2 BASTIONSSSSSSSSSSSSS
-[17:58:37] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> habe
-[17:58:42] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> wtfffff
-[17:58:50] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> ahi si te las voy a opaer
-[17:59:08] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> por cierto el ender_Dragon es imune a end crysta
-[17:59:14] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> y a las explosiones
-[17:59:17] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> y a la radiacón
-[17:59:20] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> y al cambio de guión
-[17:59:36] [Async Chat Thread - #27/INFO]: [Not Secure] <Xautral> volcon2 te estoy viendo w
-[17:59:50] [Async Chat Thread - #27/INFO]: [Not Secure] <volcon2> ok
-[17:59:51] [Server thread/INFO]: Xautral issued server command: /summon tnt
-[17:59:51] [Server thread/INFO]: [Xautral: Summoned new Primed TNT]
-[18:00:07] [Async Chat Thread - #27/INFO]: [Not Secure] <volcon2> wey estaba cambianmdo s muica
-[18:00:11] [Async Chat Thread - #27/INFO]: [Not Secure] <volcon2> y escuche una explosion
-[18:01:32] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> Xautral}
-[18:01:33] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> ven
-[18:01:35] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> goy
-[18:01:40] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> voy a salirt
-[18:01:49] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> ok
-[18:01:50] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> pendejo
-[18:01:56] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> hay afuera de aca coasas?
-[18:01:59] [Async Chat Thread - #28/INFO]: [Not Secure] <Xautral> si
-[18:02:11] [Async Chat Thread - #28/INFO]: [Not Secure] <fafafaxdfa> no hay ni mrd
-[18:02:14] [Async Chat Thread - #28/INFO]: [Not Secure] <volcon2> pos que we?
+[00:00:11] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[00:00:48] [Server thread/INFO]: Xautral issued server command: /fill ~15 ~15 ~15 ~-15 ~-15 ~-15 air replace water
+[00:00:48] [Server thread/INFO]: [Xautral: Successfully filled 1681 block(s)]
+[00:00:50] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[00:00:53] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[00:01:09] [Async Chat Thread - #169/INFO]: [Not Secure] <Xautral> te recomendaría hacer una granja de cultivos
+[00:01:13] [Async Chat Thread - #169/INFO]: [Not Secure] <Xautral> así no deberás salir por comid
+[00:01:19] [Async Chat Thread - #169/INFO]: [Not Secure] <Xautral> o tener un aldeano granjero
+[00:01:25] [Async Chat Thread - #169/INFO]: [Not Secure] <Xautral> o teener una granja de arboles para el flechero
+[00:01:36] [Async Chat Thread - #169/INFO]: [Not Secure] <volcon2> pero
+[00:01:42] [Async Chat Thread - #169/INFO]: [Not Secure] <volcon2> a los cultivos no les debe dar el sol?
+[00:01:45] [Async Chat Thread - #169/INFO]: [Not Secure] <Xautral> no
+[00:01:46] [Async Chat Thread - #169/INFO]: [Not Secure] <volcon2> o con que les de el agua
+[00:01:48] [Async Chat Thread - #169/INFO]: [Not Secure] <Xautral> solo iluminacion
+[00:01:50] [Async Chat Thread - #169/INFO]: [Not Secure] <Xautral> y agua
+[00:02:02] [Async Chat Thread - #169/INFO]: [Not Secure] <Xautral> wey he tenido millones de bases subterraneas
+[00:02:12] [Async Chat Thread - #169/INFO]: [Not Secure] <Xautral> cuando mi papá todavia quería jugar conmigo siempre hacia bases así con el
+[00:02:25] [Async Chat Thread - #169/INFO]: [Not Secure] <volcon2> subterraneas?
+[00:02:28] [Async Chat Thread - #169/INFO]: [Not Secure] <Xautral> y de cuevas
+[00:02:57] [Async Chat Thread - #169/INFO]: [Not Secure] <volcon2> ese seria todo el espacio creo
+[00:04:02] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> solo me alcanzo para 3 aldeanos
+[00:04:18] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> reparacion
+[00:04:20] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> proteccion
+[00:04:22] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> y filo
+[00:04:28] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> y faltaria imrrompibilidad
+[00:04:48] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> parece de perro JAJA
+[00:05:03] [Async Chat Thread - #171/INFO]: [Not Secure] <Xautral> me recuerda a esas casas donde guardan a la guadalupe en los barrios
+[00:05:08] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> JAJA
+[00:05:20] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> deja hago 1 mas de aldeano
+[00:05:26] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> para tener inrrompibilidad
+[00:05:27] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> filo
+[00:05:30] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> proteccion
+[00:05:31] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> y
+[00:05:33] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> reparacion
+[00:06:12] [Async Chat Thread - #171/INFO]: [Not Secure] <Xautral> jajaja ya me imagino a la guadalupe acá
+[00:06:34] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> puedes poner 4 aldeanos profa?
+[00:06:37] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> en cada unp
+[00:06:55] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> no mames
+[00:07:11] [Async Chat Thread - #171/INFO]: [Not Secure] <volcon2> ah nd mas es caña de azucar pa hojas
+[00:08:14] [Async Chat Thread - #173/INFO]: [Not Secure] <volcon2> WEY
+[00:08:17] [Async Chat Thread - #173/INFO]: [Not Secure] <Xautral> que
+[00:08:19] [Async Chat Thread - #173/INFO]: [Not Secure] <volcon2> justo una aldea cerca
+[00:08:20] [Async Chat Thread - #173/INFO]: [Not Secure] <volcon2> woow
+[00:08:31] [Async Chat Thread - #174/INFO]: [Not Secure] <Xautral> cabron con suerte
+[00:08:53] [Async Chat Thread - #174/INFO]: [Not Secure] <volcon2> esta es mi
+[00:08:57] [Async Chat Thread - #174/INFO]: [Not Secure] <volcon2> fachada
+[00:09:01] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[00:09:01] [Server thread/INFO]: [Xautral: Teleported Xautral to [Volcanos] volcon2]
+[00:10:03] [Server thread/INFO]: Xautral issued server command: /fillbiome -18902 67 4524
+[00:10:08] [Server thread/INFO]: Xautral issued server command: /fillbiome -18902 67 4524 -18905 67 4522 minecraft:jungle
+[00:10:08] [Server thread/INFO]: [Xautral: 4 biome entry/entries set between -18908, 64, 4520 and -18904, 64, 4524]
+[00:10:08] [Async Chat Thread - #175/INFO]: [Not Secure] <volcon2> vine por caña de azucar y encontre aldea
+[00:10:16] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[00:10:19] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[00:10:20] [Async Chat Thread - #175/INFO]: [Not Secure] <Xautral> que
+[00:10:57] [Server thread/INFO]: Xautral issued server command: /tp volcon2
+[00:10:57] [Server thread/INFO]: [Xautral: Teleported Xautral to [Volcanos] volcon2]
+[00:11:09] [Server thread/INFO]: Villager Villager['Villager'/672441, uuid='5f07cbed-a3a6-4b5b-87c1-182f06589bb9', l='ServerLevel[world]', x=-18959.72, y=72.00, z=4549.38, cpos=[-1185, 284], tl=2359, v=true] died, message: 'Villager was slain by Zombie'
+[00:11:16] [Server thread/INFO]: Villager Villager['Villager'/672587, uuid='8110d95e-d1eb-4555-9ad0-6fadee7ef1e0', l='ServerLevel[world]', x=-18975.71, y=72.00, z=4572.30, cpos=[-1186, 285], tl=1971, v=true] died, message: 'Villager was slain by Zombie'
+[00:11:20] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[00:11:20] [Server thread/INFO]: [Xautral: Teleported Xautral to 0.500000, 0.000000, 0.500000]
+[00:12:34] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^ ^5 1 1 1 0 15
+[00:12:34] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:12:36] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^ ^5 1 1 1 0 15
+[00:12:36] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:12:37] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^ ^5 1 1 1 0 1
+[00:12:37] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:12:41] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^ ^3 1 1 1 0 1
+[00:12:41] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:12:42] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^ ^3 1 1 1 0 1
+[00:12:42] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:12:43] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^ ^3 1 1 1 0 1
+[00:12:43] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:12:46] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^ ^2 1 1 1 0 1
+[00:12:46] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:12:48] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^ ^2 1 1 1 0 1
+[00:12:48] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:12:48] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^ ^2 1 1 1 0 1
+[00:12:48] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:12:49] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^ ^2 1 1 1 0 1
+[00:12:49] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:12:51] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^2 ^2 1 1 1 0 1
+[00:12:51] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:13:01] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives add Attack Dummy
+[00:13:03] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives add Attack dummy
+[00:13:03] [Server thread/INFO]: [Xautral: Created new objective [Attack]]
+[00:14:28] [Async Chat Thread - #177/INFO]: [Not Secure] <volcon2> igual creo qeu ya me voy
+[00:14:32] [Async Chat Thread - #177/INFO]: [Not Secure] <volcon2> y mañana sigo
+[00:14:38] [Async Chat Thread - #177/INFO]: [Not Secure] <volcon2> avance mucho por hoy
+[00:14:41] [Async Chat Thread - #177/INFO]: [Not Secure] <Xautral> ok
+[00:14:45] [Async Chat Thread - #177/INFO]: [Not Secure] <volcon2> cuidate xau
+[00:14:48] [Async Chat Thread - #177/INFO]: [Not Secure] <volcon2> pasatela bien
+[00:14:57] [Server thread/INFO]: volcon2 lost connection: Disconnected
+[00:14:57] [Server thread/INFO]: [Volcanos] volcon2 left the game
+[00:14:57] [Async Chat Thread - #177/INFO]: [Not Secure] <Xautral> agauanta
+[00:15:18] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives setdisplay sidebar Attack
+[00:15:18] [Server thread/INFO]: [Xautral: Set display slot sidebar to show objective Attack]
+[00:17:04] [Async Chat Thread - #180/INFO]: [Not Secure] <Xautral> particle minecraft:sweep_attack ^ ^2 ^2 1 1 1 0 1
+[00:17:06] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^2 ^2 1 1 1 0 1
+[00:17:06] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:17:08] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^2 ^2 1 1 1 0 1
+[00:17:08] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:17:12] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^2 ^2 1 1 1 0 1
+[00:17:12] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:17:13] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^2 ^2 1 1 1 0 1
+[00:17:13] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:17:15] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^2 ^2 1 1 1 0 1t
+[00:17:42] [Server thread/INFO]: Xautral issued server command: /particle minecraft:dripping_lava ^ ^2 ^2 0 0 0 1 3333 normal
+[00:17:42] [Server thread/INFO]: [Xautral: Displaying particle minecraft:dripping_lava]
+[00:17:45] [Server thread/INFO]: Xautral issued server command: /particle minecraft:dripping_lava ^ ^2 ^2 0 0 0 1 3333 normal
+[00:17:45] [Server thread/INFO]: [Xautral: Displaying particle minecraft:dripping_lava]
+[00:17:53] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^2 ^2 0 0 0 1 3 normal
+[00:17:53] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:17:56] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^2 ^2 0 0 0 1 3 normal
+[00:17:56] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:17:57] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^2 ^2 0 0 0 1 3 normal
+[00:17:57] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:17:59] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^2 ^2 0 0 0 1 3 normal
+[00:17:59] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:18:08] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^2 ^2 0 0 0 1 1 normal
+[00:18:08] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:18:09] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^2 ^2 0 0 0 1 1 normal
+[00:18:09] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:18:10] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^2 ^2 0 0 0 1 1 normal
+[00:18:10] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:18:11] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^2 ^2 0 0 0 1 1 normal
+[00:18:11] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:18:12] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^2 ^2 0 0 0 1 1 normal
+[00:18:12] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:18:29] [Server thread/INFO]: Xautral issued server command: /locate structure #minecraft:on_taiga_village_maps
+[00:18:29] [Server thread/INFO]: Locating element #minecraft:on_taiga_village_maps (minecraft:village_taiga) took 0 ms
+[00:18:30] [Server thread/INFO]: Xautral issued server command: /tp @s 400 ~ 304
+[00:18:30] [Server thread/INFO]: [Xautral: Teleported Xautral to 400.500000, -13.757224, 304.500000]
+[00:18:37] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[00:18:41] [Server thread/INFO]: Xautral issued server command: /tp ~ ~50 ~
+[00:18:41] [Server thread/INFO]: [Xautral: Teleported Xautral to 400.400000, 47.487108, 304.400000]
+[00:18:44] [Server thread/INFO]: Villager Villager['Villager'/674710, uuid='a392ea2a-6dca-4acf-950f-e2e0e11f0f72', l='ServerLevel[world]', x=408.63, y=73.00, z=314.28, cpos=[25, 19], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[00:18:47] [Server thread/INFO]: Xautral issued server command: /scoreboard objectives setdisplay sidebar
+[00:18:47] [Server thread/INFO]: [Xautral: Cleared any objectives in display slot sidebar]
+[00:18:49] [Server thread/INFO]: Xautral issued server command: /tp ~ ~50 ~
+[00:18:49] [Server thread/INFO]: [Xautral: Teleported Xautral to 400.400000, 97.487108, 304.400000]
+[00:18:50] [Server thread/INFO]: [Xautral: Set own game mode to Creative Mode]
+[00:18:55] [Server thread/INFO]: Xautral issued server command: /weather clear
+[00:18:55] [Server thread/INFO]: [Xautral: Set the weather to clear]
+[00:19:01] [Server thread/INFO]: Xautral issued server command: /time set minecraft:night
+[00:19:01] [Server thread/INFO]: [Xautral: Set minecraft:overworld to time marker minecraft:night]
+[00:19:24] [Server thread/INFO]: Villager Villager['Villager'/674736, uuid='74a79e8a-aa45-49d0-8508-eadc4ac8c774', l='ServerLevel[world]', x=408.09, y=72.00, z=319.71, cpos=[25, 19], tl=936, v=true] died, message: 'Villager was slain by Zombie'
+[00:19:28] [Server thread/INFO]: Xautral issued server command: /tp 0 0 0
+[00:19:28] [Server thread/INFO]: [Xautral: Teleported Xautral to 0.500000, 0.000000, 0.500000]
+[00:20:35] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 1 normal
+[00:20:35] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:37] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 1 normal
+[00:20:37] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:38] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 1 normal
+[00:20:38] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:38] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 1 normal
+[00:20:38] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:39] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 1 normal
+[00:20:39] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:40] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 1 normal
+[00:20:40] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:40] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 1 normal
+[00:20:40] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:41] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 1 normal
+[00:20:41] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:42] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 1 normal
+[00:20:42] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:43] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 1 normal
+[00:20:43] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:46] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 1 force
+[00:20:46] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:47] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 1 force
+[00:20:47] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:47] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 1 force
+[00:20:47] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:48] [Async Chat Thread - #181/INFO]: [Not Secure] <Xautral> t
+[00:20:52] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 55
+[00:20:52] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:54] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 0
+[00:20:54] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:55] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 0
+[00:20:55] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:57] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 0
+[00:20:57] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:57] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 0
+[00:20:57] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:58] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 0
+[00:20:58] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:20:58] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 0
+[00:20:58] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:21:03] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0
+[00:21:05] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 0
+[00:21:07] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 5
+[00:21:10] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 1 0
+[00:21:10] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:21:12] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 0 0
+[00:21:12] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:21:13] [Server thread/INFO]: Xautral issued server command: /particle minecraft:sweep_attack ^ ^1 ^1 0 0 0 0 0
+[00:21:13] [Server thread/INFO]: [Xautral: Displaying particle minecraft:sweep_attack]
+[00:21:46] [User Authenticator #19/INFO]: UUID of player iNyvz is 673854df-b050-3723-8654-246c57eeea67
+[00:21:50] [Server thread/INFO]: [Xautral: Set own game mode to Spectator Mode]
+[00:22:57] [Server thread/INFO]: iNyvz joined the game
+[00:22:57] [Server thread/INFO]: iNyvz[/127.91.244.246:59309] logged in with entity id 675821 at ([minecraft:overworld]8.5, 68.0, 0.5)
+[00:23:13] [Async Chat Thread - #183/INFO]: [Not Secure] <iNyvz> pero
+[00:23:18] [Async Chat Thread - #183/INFO]: [Not Secure] <iNyvz> xau
+[00:23:22] [Async Chat Thread - #183/INFO]: [Not Secure] <iNyvz> y mis cosas?ç
+[00:23:26] [Async Chat Thread - #183/INFO]: [Not Secure] <Xautral> no viste el discord
